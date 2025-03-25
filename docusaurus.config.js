@@ -1,6 +1,5 @@
 // @ts-nocheck
 const { themes: prismThemes } = require('prism-react-renderer');
-
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "John Potter's Portfolio",

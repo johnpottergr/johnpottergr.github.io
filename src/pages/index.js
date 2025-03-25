@@ -10,6 +10,7 @@ export default function Home() {
         {/* Left Column */}
         <div style={{ flex: '0 0 30%', textAlign: 'center', padding: '0', borderRadius: '8px', color: '#222222' }}>
           {/* Top Half with No Background */}
+
           <div
             style={{
               backgroundColor: '#FFF5E1', // Light cream background
