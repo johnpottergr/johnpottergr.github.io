@@ -104,8 +104,10 @@ export default function Home() {
           <p></p>
 
           <p>
-            <Link to="/docs/intro">Explore my full portfolio</Link>
-          </p>
+           <Link to="/portfolio">
+             Explore my full portfolio
+             </Link>
+              </p>
 
           {/* Documentation Skills */}
           <h3>Documentation Skills</h3>
