@@ -39,6 +39,7 @@ const config = {
         { to: '/portfolio', label: 'Portfolio', position: 'left' },
         { to: '/blog', label: 'Blog', position: 'left' }, // Reverted
         { href: 'https://github.com/johnpottergr', label: 'GitHub', position: 'left' }
+        // Force redeploy to clear cache
       ],
     },
     footer: {
