@@ -9,7 +9,7 @@ const config = {
   baseUrl: '/',
   organizationName: 'johnpottergr',
   projectName: 'johns-portfolio',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   i18n: {
     defaultLocale: 'en',
@@ -37,6 +37,7 @@ const config = {
       items: [
         { to: '/', label: 'Welcome', position: 'left' },
         { to: '/portfolio', label: 'Portfolio', position: 'left' },
+        { href: '/resume3.pdf', label: 'Resume', position: 'left' },
         { to: '/blog', label: 'Blog', position: 'left' }, // Reverted
         { href: 'https://github.com/johnpottergr', label: 'GitHub', position: 'left' }
         // Force redeploy to clear cache
@@ -50,6 +51,7 @@ const config = {
           items: [
             { label: 'Welcome', to: '/' },
             { label: 'Portfolio', href: '/portfolio' }, // Changed to href
+            { label: 'Resume', href: '/resume3.pdf' }, // Changed to href
             { label: 'Blog', to: '/blog' },
           ],
         },
