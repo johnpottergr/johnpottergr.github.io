@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>John Potter's Portfolio Blog</title>
+        <link>https://johnpottergr.github.io/blog</link>
+        <description>John Potter's Portfolio Blog</description>
+        <lastBuildDate>Wed, 26 Mar 2025 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[My First Blog Post]]></title>
+            <link>https://johnpottergr.github.io/blog/first-post</link>
+            <guid>https://johnpottergr.github.io/blog/first-post</guid>
+            <pubDate>Wed, 26 Mar 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[This is a preview of my first blog post on my Docusaurus site!]]></description>
+            <content:encoded><![CDATA[<p>This is a preview of my first blog post on my Docusaurus site!</p>
+<p>This is the rest of the post that will only show on the full post page.</p>]]></content:encoded>
+        </item>
+    </channel>
+</rss>

@@ -24,6 +24,13 @@ const config = {
         docs: {
           sidebarPath: './sidebars.js',
         },
+        blog: {
+          showReadingTime: true,
+          blogSidebarTitle: 'All Posts',
+          blogSidebarCount: 'ALL',
+          onUntruncatedBlogPosts: 'ignore', // Already added for the previous warning
+          onInlineAuthors: 'ignore', // Add this line
+        },
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -37,6 +44,7 @@ const config = {
         { to: '/', label: 'Welcome', position: 'left' },
         { to: '/portfolio', label: 'Portfolio', position: 'left' },
         { href: 'https://johnpottergr.github.io/resume3.pdf', label: 'Resume', position: 'left', external: true },
+        { to: '/blog', label: 'Blog', position: 'left' }, // reverted
         { href: 'https://github.com/johnpottergr', label: 'GitHub', position: 'left' },
       ],
     },
@@ -49,6 +57,7 @@ const config = {
             { label: 'Welcome', to: '/' },
             { label: 'Portfolio', href: '/portfolio' },
             { label: 'Resume', href: 'https://johnpottergr.github.io/resume3.pdf' },
+            { label: 'Blog', to: '/blog' },
           ],
         },
       ],

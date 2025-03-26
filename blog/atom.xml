@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://johnpottergr.github.io/blog</id>
+    <title>John Potter's Portfolio Blog</title>
+    <updated>2025-03-26T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://johnpottergr.github.io/blog"/>
+    <subtitle>John Potter's Portfolio Blog</subtitle>
+    <icon>https://johnpottergr.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[My First Blog Post]]></title>
+        <id>https://johnpottergr.github.io/blog/first-post</id>
+        <link href="https://johnpottergr.github.io/blog/first-post"/>
+        <updated>2025-03-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This is a preview of my first blog post on my Docusaurus site!]]></summary>
+        <content type="html"><![CDATA[<p>This is a preview of my first blog post on my Docusaurus site!</p>
+<p>This is the rest of the post that will only show on the full post page.</p>]]></content>
+        <author>
+            <name>John Potter</name>
+        </author>
+    </entry>
+</feed>
