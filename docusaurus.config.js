@@ -1,13 +1,9 @@
 // @ts-nocheck
-module.exports = {
-  staticDirectories: ['static'],
-  title: 'John Potter',
-  tagline: 'My Portfolio Site',
-  // ... other config
-};
 const { themes: prismThemes } = require('prism-react-renderer');
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
+  staticDirectories: ['static'], // Moved here
   title: "John Potter's Portfolio",
   tagline: 'Technical Writing for Fintech, Blockchain, and More',
   favicon: 'img/favicon.ico',
@@ -41,8 +37,7 @@ const config = {
         { to: '/', label: 'Welcome', position: 'left' },
         { to: '/portfolio', label: 'Portfolio', position: 'left' },
         { href: 'https://johnpottergr.github.io/static/resume3.pdf', label: 'Resume', position: 'left', external: true },
-        { href: 'https://github.com/johnpottergr', label: 'GitHub', position: 'left' }
-        // Force redeploy to clear cache
+        { href: 'https://github.com/johnpottergr', label: 'GitHub', position: 'left' },
       ],
     },
     footer: {
@@ -52,9 +47,8 @@ const config = {
           title: 'Pages',
           items: [
             { label: 'Welcome', to: '/' },
-            { label: 'Portfolio', href: '/portfolio' }, // Changed to href
-            { label: 'Resume', href: 'https://johnpottergr.github.io/static/resume3.pdf' }, // Changed to href
-
+            { label: 'Portfolio', href: '/portfolio' },
+            { label: 'Resume', href: 'https://johnpottergr.github.io/static/resume3.pdf' },
           ],
         },
       ],
