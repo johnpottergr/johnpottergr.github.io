@@ -4,6 +4,9 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
+  "staticDirectories": [
+    "static"
+  ],
   "title": "John Potter's Portfolio",
   "tagline": "Technical Writing for Fintech, Blockchain, and More",
   "favicon": "img/favicon.ico",
@@ -330,9 +333,6 @@ export default {
   },
   "onBrokenAnchors": "warn",
   "onDuplicateRoutes": "warn",
-  "staticDirectories": [
-    "static"
-  ],
   "customFields": {},
   "plugins": [],
   "themes": [],
