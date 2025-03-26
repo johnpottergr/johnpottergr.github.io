@@ -1,4 +1,10 @@
 // @ts-nocheck
+module.exports = {
+  staticDirectories: ['static'],
+  title: 'John Potter',
+  tagline: 'My Portfolio Site',
+  // ... other config
+};
 const { themes: prismThemes } = require('prism-react-renderer');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
