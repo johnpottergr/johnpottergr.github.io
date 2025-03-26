@@ -52,7 +52,7 @@ export default {
           "position": "left"
         },
         {
-          "href": "https://johnpottergr.github.io/static/resume3.pdf",
+          "href": "https://johnpottergr.github.io/resume3.pdf",
           "label": "Resume",
           "position": "left",
           "external": true
@@ -81,7 +81,7 @@ export default {
             },
             {
               "label": "Resume",
-              "href": "https://johnpottergr.github.io/static/resume3.pdf"
+              "href": "https://johnpottergr.github.io/resume3.pdf"
             }
           ]
         }
