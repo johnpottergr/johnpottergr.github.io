@@ -37,7 +37,7 @@ const config = {
       items: [
         { to: '/', label: 'Welcome', position: 'left' },
         { to: '/portfolio', label: 'Portfolio', position: 'left' },
-        { href: '/resume3.pdf', label: 'Resume', position: 'left' },
+        { href: '/resume3.pdf', label: 'Resume', position: 'left', external: true },
         { to: '/blog', label: 'Blog', position: 'left' }, // Reverted
         { href: 'https://github.com/johnpottergr', label: 'GitHub', position: 'left' }
         // Force redeploy to clear cache
