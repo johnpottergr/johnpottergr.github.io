@@ -28,9 +28,6 @@ export default {
         "docs": {
           "sidebarPath": "./sidebars.js"
         },
-        "blog": {
-          "showReadingTime": true
-        },
         "theme": {
           "customCss": "./src/css/custom.css"
         }
@@ -52,15 +49,10 @@ export default {
           "position": "left"
         },
         {
-          "href": "/resume3.pdf",
+          "href": "https://johnpottergr.github.io/static/resume3.pdf",
           "label": "Resume",
           "position": "left",
           "external": true
-        },
-        {
-          "to": "/blog",
-          "label": "Blog",
-          "position": "left"
         },
         {
           "href": "https://github.com/johnpottergr",
@@ -86,11 +78,7 @@ export default {
             },
             {
               "label": "Resume",
-              "href": "/resume3.pdf"
-            },
-            {
-              "label": "Blog",
-              "to": "/blog"
+              "href": "https://johnpottergr.github.io/static/resume3.pdf"
             }
           ]
         }
