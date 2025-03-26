@@ -36,7 +36,7 @@ const config = {
       items: [
         { to: '/', label: 'Welcome', position: 'left' },
         { to: '/portfolio', label: 'Portfolio', position: 'left' },
-        { href: 'https://johnpottergr.github.io/static/resume3.pdf', label: 'Resume', position: 'left', external: true },
+        { href: 'https://johnpottergr.github.io/resume3.pdf', label: 'Resume', position: 'left', external: true },
         { href: 'https://github.com/johnpottergr', label: 'GitHub', position: 'left' },
       ],
     },
@@ -48,7 +48,7 @@ const config = {
           items: [
             { label: 'Welcome', to: '/' },
             { label: 'Portfolio', href: '/portfolio' },
-            { label: 'Resume', href: 'https://johnpottergr.github.io/static/resume3.pdf' },
+            { label: 'Resume', href: 'https://johnpottergr.github.io/resume3.pdf' },
           ],
         },
       ],
