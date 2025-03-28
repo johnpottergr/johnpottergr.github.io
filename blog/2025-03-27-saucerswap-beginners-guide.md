@@ -1,10 +1,10 @@
 ---
-title: Getting Started with SaucerSwap
+title: Getting Started with SaucerSwap-Beginner's Guide
 slug: saucerswap-beginners-guide
 date: 2025-03-28
 ---
 SaucerSwap is a top-tier decentralized exchange (DEX) built on the [Hedera network](https://hedera.com/). It’s a platform where you can trade cryptocurrencies like HBAR and other Hedera Token Service (HTS) tokens quickly, securely, and with fees that won’t break the bank. Whether you’re looking to swap tokens, provide liquidity, or stake your assets,  this guide will help you take your first steps. No middlemen, no hassle—just you and your crypto!
-<!-- truncate -->
+
 ## What You’ll Need Before You Begin
 To get started, you’ll need a few essentials:
 
@@ -40,14 +40,18 @@ Alternatively, SaucerSwap offers a Coinbase Onramp, allowing you to buy and tran
 - **Adjust Slippage (Optional):** Click the gear icon to tweak slippage tolerance (e.g., 0.5%) if you’re worried about price changes during the transaction—it’s the max price shift you’ll accept to protect against losses from market moves. For volatile tokens, bump it to 1–3%.” Adds practical advice without jargon overload.
 
 - **Swap It:** Click “Swap,” review the details, and confirm the transaction in your wallet. In seconds, your new tokens will appear!
+
 ![Swap](/img/image2.jpg)
 
 ## Step 4: Explore More Features
 - **Add Liquidity:** If you want to earn fees, go to the “Liquidity” tab, pick a token pair (e.g., HBAR/USDC), and supply equal values of both tokens to a pool. You’ll get LP tokens representing your share—think of them as a receipt. These earn a cut of trading fees (check the pool’s APR on the site), which you can claim later by removing liquidity.
+
 ![Liquidity](/img/image3.jpg)
 
 - **Stake SAUCE:** If you own SAUCE tokens, you can stake them to earn rewards. Head to the “Stake” section, deposit them into the Infinity Pool, and earn xSAUCE, which grows in value over time as a reward.
+
 ![Reward](/img/image4.jpg)
+
 - **Check Your Progress:** Use Hedera explorers like [https://hashscan.io/](https://hashscan.io/) to track your transactions and balances.
 
 ## Tips for Beginners
