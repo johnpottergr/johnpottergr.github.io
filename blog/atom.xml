@@ -2,11 +2,114 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://johnpottergr.github.io/blog</id>
     <title>John Potter's Portfolio Blog</title>
-    <updated>2025-03-26T00:00:00.000Z</updated>
+    <updated>2025-03-28T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://johnpottergr.github.io/blog"/>
     <subtitle>John Potter's Portfolio Blog</subtitle>
     <icon>https://johnpottergr.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Getting Started with SaucerSwap]]></title>
+        <id>https://johnpottergr.github.io/blog/saucerswap-beginners-guide</id>
+        <link href="https://johnpottergr.github.io/blog/saucerswap-beginners-guide"/>
+        <updated>2025-03-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[SaucerSwap is a top-tier decentralized exchange (DEX) built on the Hedera network. It’s a platform where you can trade cryptocurrencies like HBAR and other Hedera Token Service (HTS) tokens quickly, securely, and with fees that won’t break the bank. Whether you’re looking to swap tokens, provide liquidity, or stake your assets,  this guide will help you take your first steps. No middlemen, no hassle—just you and your crypto!]]></summary>
+        <content type="html"><![CDATA[<p>SaucerSwap is a top-tier decentralized exchange (DEX) built on the <a href="https://hedera.com/" target="_blank" rel="noopener noreferrer">Hedera network</a>. It’s a platform where you can trade cryptocurrencies like HBAR and other Hedera Token Service (HTS) tokens quickly, securely, and with fees that won’t break the bank. Whether you’re looking to swap tokens, provide liquidity, or stake your assets,  this guide will help you take your first steps. No middlemen, no hassle—just you and your crypto!</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-youll-need-before-you-begin">What You’ll Need Before You Begin<a href="https://johnpottergr.github.io/blog/saucerswap-beginners-guide#what-youll-need-before-you-begin" class="hash-link" aria-label="Direct link to What You’ll Need Before You Begin" title="Direct link to What You’ll Need Before You Begin">​</a></h2>
+<p>To get started, you’ll need a few essentials:</p>
+<ul>
+<li>
+<p><strong>A Hedera Wallet:</strong> SaucerSwap works with wallets compatible with the Hedera network, such as HashPack or Blade. These wallets store your <a href="https://hedera.com/hbar" target="_blank" rel="noopener noreferrer">HBAR</a> and tokens securely.</p>
+</li>
+<li>
+<p><strong>HBAR:</strong> The native cryptocurrency of Hedera, HBAR is required to pay for transaction fees on SaucerSwap. You can purchase HBAR on exchanges like Binance, Coinbase, or KuCoin and transfer it to your wallet.
+Alternatively, SaucerSwap offers a Coinbase Onramp, allowing you to buy and transfer HBAR directly within the platform. Simply navigate to the <a href="https://www.saucerswap.finance/swap" target="_blank" rel="noopener noreferrer">Swap page</a> and select the Buy tab next to Swap to get started.</p>
+</li>
+<li>
+<p><strong>A Web Browser:</strong> Access SaucerSwap through a browser like Chrome or Firefox by visiting <a href="https://www.saucerswap.finance/swap" target="_blank" rel="noopener noreferrer">https://www.saucerswap.finance/</a>.</p>
+</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="step-1-set-up-your-hedera-wallet">Step 1: Set Up Your Hedera Wallet<a href="https://johnpottergr.github.io/blog/saucerswap-beginners-guide#step-1-set-up-your-hedera-wallet" class="hash-link" aria-label="Direct link to Step 1: Set Up Your Hedera Wallet" title="Direct link to Step 1: Set Up Your Hedera Wallet">​</a></h2>
+<ul>
+<li>
+<p><strong>Download a Wallet:</strong> Visit the <a href="https://hashpack.app/" target="_blank" rel="noopener noreferrer">Hashpack App</a> or <a href="https://bladewallet.io/" target="_blank" rel="noopener noreferrer">Blade Wallet</a> and follow the instructions to install the wallet as a browser extension or mobile app.</p>
+</li>
+<li>
+<p><strong>Create Your Wallet:</strong> Open the app, click “Create Wallet,” and follow the prompts. You’ll get a seed phrase—a 12- or 24-word sequence. Write it down and store it somewhere safe (never share it!).</p>
+</li>
+<li>
+<p><strong>Add HBAR:</strong> Send HBAR from an exchange to your wallet’s Hedera account ID (looks like 0.0.xxxxxx)—grab it from your wallet app. Double-check the address, as mistakes are permanent. Expect it to arrive in minutes!</p>
+</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="step-2-connect-to-saucerswap">Step 2: Connect to SaucerSwap<a href="https://johnpottergr.github.io/blog/saucerswap-beginners-guide#step-2-connect-to-saucerswap" class="hash-link" aria-label="Direct link to Step 2: Connect to SaucerSwap" title="Direct link to Step 2: Connect to SaucerSwap">​</a></h2>
+<ul>
+<li>
+<p><strong>Visit the Site:</strong> Go to <a href="https://www.saucerswap.finance/" target="_blank" rel="noopener noreferrer">https://www.saucerswap.finance/</a></p>
+</li>
+<li>
+<p><strong>Connect Your Wallet:</strong> Click “Connect Wallet” in the top-right corner. Select your wallet (e.g., HashPack or Blade) from the options. Approve the connection in your wallet app when prompted.</p>
+</li>
+</ul>
+<p><img decoding="async" loading="lazy" alt="Connect wallet" src="https://johnpottergr.github.io/assets/images/image1-a68f24308927d2ee92108d474575b624.jpg" width="1040" height="636" class="img_ev3q"></p>
+<ul>
+<li><strong>Verify Connection:</strong> Once connected, you’ll see your wallet’s HBAR balance displayed on the SaucerSwap interface.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="step-3-start-swapping-tokens">Step 3: Start Swapping Tokens<a href="https://johnpottergr.github.io/blog/saucerswap-beginners-guide#step-3-start-swapping-tokens" class="hash-link" aria-label="Direct link to Step 3: Start Swapping Tokens" title="Direct link to Step 3: Start Swapping Tokens">​</a></h2>
+<ul>
+<li>
+<p><strong>Navigate to Swap:</strong> On the homepage, find the “Swap” section (it’s front and center!).</p>
+</li>
+<li>
+<p><strong>Choose Tokens:</strong> Select the token you want to swap from (e.g., HBAR) and the token you want to receive (e.g., SAUCE or USDC). If you don’t see a token, you may need to add it manually using its token ID (available on Hedera explorers like HashScan).</p>
+</li>
+<li>
+<p><strong>Enter Amount:</strong> Input how much you want to swap. SaucerSwap will calculate the amount you’ll receive, factoring in a small fee (denominated in USD, paid in HBAR).</p>
+</li>
+<li>
+<p><strong>Adjust Slippage (Optional):</strong> Click the gear icon to tweak slippage tolerance (e.g., 0.5%) if you’re worried about price changes during the transaction—it’s the max price shift you’ll accept to protect against losses from market moves. For volatile tokens, bump it to 1–3%.” Adds practical advice without jargon overload.</p>
+</li>
+<li>
+<p><strong>Swap It:</strong> Click “Swap,” review the details, and confirm the transaction in your wallet. In seconds, your new tokens will appear!
+<img decoding="async" loading="lazy" alt="Swap" src="https://johnpottergr.github.io/assets/images/image2-e3ea0086d29265b3cfffef1739f67634.jpg" width="712" height="814" class="img_ev3q"></p>
+</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="step-4-explore-more-features">Step 4: Explore More Features<a href="https://johnpottergr.github.io/blog/saucerswap-beginners-guide#step-4-explore-more-features" class="hash-link" aria-label="Direct link to Step 4: Explore More Features" title="Direct link to Step 4: Explore More Features">​</a></h2>
+<ul>
+<li>
+<p><strong>Add Liquidity:</strong> If you want to earn fees, go to the “Liquidity” tab, pick a token pair (e.g., HBAR/USDC), and supply equal values of both tokens to a pool. You’ll get LP tokens representing your share—think of them as a receipt. These earn a cut of trading fees (check the pool’s APR on the site), which you can claim later by removing liquidity.
+<img decoding="async" loading="lazy" alt="Liquidity" src="https://johnpottergr.github.io/assets/images/image3-4d6dfd53ef77a56ed105cbc43edf0d90.jpg" width="1156" height="360" class="img_ev3q"></p>
+</li>
+<li>
+<p><strong>Stake SAUCE:</strong> If you own SAUCE tokens, you can stake them to earn rewards. Head to the “Stake” section, deposit them into the Infinity Pool, and earn xSAUCE, which grows in value over time as a reward.
+<img decoding="async" loading="lazy" alt="Reward" src="https://johnpottergr.github.io/assets/images/image4-bfbc333922b1b52be546459e2877c025.jpg" width="610" height="522" class="img_ev3q"></p>
+</li>
+<li>
+<p><strong>Check Your Progress:</strong> Use Hedera explorers like <a href="https://hashscan.io/" target="_blank" rel="noopener noreferrer">https://hashscan.io/</a> to track your transactions and balances.</p>
+</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="tips-for-beginners">Tips for Beginners<a href="https://johnpottergr.github.io/blog/saucerswap-beginners-guide#tips-for-beginners" class="hash-link" aria-label="Direct link to Tips for Beginners" title="Direct link to Tips for Beginners">​</a></h2>
+<ul>
+<li><strong>Start Small:</strong> Test with a small amount of HBAR or tokens to get comfortable.</li>
+<li><strong>Watch Fees:</strong> SaucerSwap fees are low and in USD (paid in HBAR), but ensure you have enough HBAR for transactions.</li>
+<li><strong>Stay Safe:</strong> Never share your seed phrase or private keys. SaucerSwap is self-custody, meaning you control your assets—no one else.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="troubleshooting">Troubleshooting<a href="https://johnpottergr.github.io/blog/saucerswap-beginners-guide#troubleshooting" class="hash-link" aria-label="Direct link to Troubleshooting" title="Direct link to Troubleshooting">​</a></h2>
+<ul>
+<li>Stuck? If a swap fails, check your HBAR balance for fees (a few cents usually does it).</li>
+<li>Wallet not connecting? Refresh the page or reinstall the extension.</li>
+<li>Still lost? Hit up the Discord! Or visit our <a href="https://docs.saucerswap.finance/get-started/saucerswap-tutorials" target="_blank" rel="noopener noreferrer">Tutorials page</a>.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="why-saucerswap">Why SaucerSwap?<a href="https://johnpottergr.github.io/blog/saucerswap-beginners-guide#why-saucerswap" class="hash-link" aria-label="Direct link to Why SaucerSwap?" title="Direct link to Why SaucerSwap?">​</a></h2>
+<ul>
+<li>SaucerSwap stands out with Hedera’s fast transaction speeds, fair pricing (no MEV attacks like on Ethereum), and a user-friendly design. Whether you’re trading, staking, or providing liquidity, it’s a secure gateway to decentralized finance (DeFi).</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="need-help">Need Help?<a href="https://johnpottergr.github.io/blog/saucerswap-beginners-guide#need-help" class="hash-link" aria-label="Direct link to Need Help?" title="Direct link to Need Help?">​</a></h2>
+<p>Join the SaucerSwap community for support:</p>
+<ul>
+<li><strong>Discord:</strong> <a href="https://discord.com/invite/saucerswap" target="_blank" rel="noopener noreferrer">https://discord.com/invite/saucerswap</a></li>
+<li><strong>Twitter:</strong> <a href="https://x.com/SaucerSwapLabs" target="_blank" rel="noopener noreferrer">https://X.com/SaucerSwapLabs</a></li>
+<li><strong>Docs:</strong> <a href="https://docs.saucerswap.finance/" target="_blank" rel="noopener noreferrer">https://docs.saucerswap.finance</a></li>
+</ul>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[My First Blog Post]]></title>
         <id>https://johnpottergr.github.io/blog/first-post</id>

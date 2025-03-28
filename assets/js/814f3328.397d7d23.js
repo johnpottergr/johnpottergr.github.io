@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkjohns_portfolio=self.webpackChunkjohns_portfolio||[]).push([[472],{5513:s=>{s.exports=JSON.parse('{"title":"All Posts","items":[{"title":"My First Blog Post","permalink":"/blog/first-post","unlisted":false,"date":"2025-03-26T00:00:00.000Z"}]}')}}]);
