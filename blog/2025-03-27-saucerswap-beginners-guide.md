@@ -24,7 +24,7 @@ Alternatively, SaucerSwap offers a Coinbase Onramp, allowing you to buy and tran
 
 ## Step 2: Connect to SaucerSwap
 - **Visit the Site:** Go to [https://www.saucerswap.finance/](https://www.saucerswap.finance)
-<br>
+
 - **Connect Your Wallet:** Click “Connect Wallet” in the top-right corner. Select your wallet (e.g., HashPack or Blade) from the options. Approve the connection in your wallet app when prompted.
 
 ![Connect wallet](/img/image1.jpg)
