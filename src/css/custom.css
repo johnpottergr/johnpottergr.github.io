@@ -6,6 +6,7 @@
 
 /* You can override the default Infima variables here. */
 :root {
+    scroll-padding-top: 80px; /* Adjust based on your navbar height */
   --ifm-color-primary: #2e8555;
   --ifm-color-primary-dark: #29784c;
   --ifm-color-primary-darker: #277148;
