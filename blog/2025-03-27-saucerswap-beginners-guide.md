@@ -1,17 +1,16 @@
 ---
-title: Getting Started with SaucerSwap-Beginner's Guide
+title: Getting Started with SaucerSwap
 slug: saucerswap-beginners-guide
 date: 2025-03-28
+tags: [hedera, defi, saucerswap]
+description: A step-by-step beginner's guide to using SaucerSwap on Hedera.
 ---
-SaucerSwap is a top-tier decentralized exchange (DEX) built on the [Hedera network](https://hedera.com/). It’s a platform where you can trade cryptocurrencies like HBAR and other Hedera Token Service (HTS) tokens quickly, securely, and with fees that won’t break the bank. Whether you’re looking to swap tokens, provide liquidity, or stake your assets,  this guide will help you take your first steps. No middlemen, no hassle—just you and your crypto!
-
 ## What You’ll Need Before You Begin
 To get started, you’ll need a few essentials:
 
-- **A Hedera Wallet:** SaucerSwap works with wallets compatible with the Hedera network, such as HashPack or Blade. These wallets store your [HBAR](https://hedera.com/hbar) and tokens securely.
+- **A Hedera Wallet:** SaucerSwap works with wallets compatible with the Hedera network, such as HashPack or Blade. These wallets store your HBAR and tokens securely.
 
-- **HBAR:** The native cryptocurrency of Hedera, HBAR is required to pay for transaction fees on SaucerSwap. You can purchase HBAR on exchanges like Binance, Coinbase, or KuCoin and transfer it to your wallet.
-Alternatively, SaucerSwap offers a Coinbase Onramp, allowing you to buy and transfer HBAR directly within the platform. Simply navigate to the [Swap page](https://www.saucerswap.finance/swap) and select the Buy tab next to Swap to get started.
+- **HBAR:** The native cryptocurrency of Hedera, HBAR is required to pay for transaction fees on SaucerSwap. You can purchase HBAR on exchanges like Binance, Coinbase, or KuCoin and transfer it to your wallet. Alternatively, SaucerSwap offers a Coinbase Onramp, allowing you to buy and transfer HBAR directly within the platform. Simply navigate to the [Swap page](https://www.saucerswap.finance/swap) and select the Buy tab next to Swap to get started.
 
 - **A Web Browser:** Access SaucerSwap through a browser like Chrome or Firefox by visiting [https://www.saucerswap.finance/](https://www.saucerswap.finance/swap).
 
