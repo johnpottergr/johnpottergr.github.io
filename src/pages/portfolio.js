@@ -74,7 +74,7 @@ export default function Portfolio() {
         </ul>
 
         {/* AI / Machine Learning Section */}
-        <h3 style={{ color: '#4A2C2A', marginTop: '20px' }}>AI / Machine Learning</h3>
+        <h3 id ="ai--machine-learning" style={{ color: '#4A2C2A', marginTop: '20px' }}>AI / Machine Learning</h3>
         <ul style={{ lineHeight: '1.6' }}>
           <li>
             <a href="https://revelate.co/blog/machine-learning-data-catalogs-enhance-data-discoverability/" style={{ color: '#2E7D32', textDecoration: 'underline' }}>
@@ -104,7 +104,7 @@ export default function Portfolio() {
           </li>
         </ul>
         {/* Business Operations Section */}
-        <h3 style={{ color: '#4A2C2A', marginTop: '20px' }}>Business Operations</h3>
+        <h3 id="business-operations" style={{ color: '#4A2C2A', marginTop: '20px' }}>Business Operations</h3>
         <ul style={{ lineHeight: '1.6' }}>
           <li>
             <a href="https://www.gocanvas.com/blog/mastering-inspection-dispatch-scheduling-technology" style={{ color: '#2E7D32', textDecoration: 'underline' }}>
@@ -134,7 +134,7 @@ export default function Portfolio() {
         </ul>
 
         {/* Coding Section */}
-        <h3 style={{ color: '#4A2C2A', marginTop: '20px' }}>Coding</h3>
+        <h3 id="coding" style={{ color: '#4A2C2A', marginTop: '20px' }}>Coding</h3>
         <ul style={{ lineHeight: '1.6' }}>
           <li>
             <a href="https://www.coderabbit.ai/blog/maximizing-efficiency-pairing-code-generators-with-ai-code-reviewers" style={{ color: '#2E7D32', textDecoration: 'underline' }}>
@@ -164,7 +164,7 @@ export default function Portfolio() {
         </ul>
 
         {/* Cryptocurrency Section */}
-        <h3 style={{ color: '#4A2C2A', marginTop: '20px' }}>Cryptocurrency</h3>
+        <h3 id="cryptocurrency" style={{ color: '#4A2C2A', marginTop: '20px' }}>Cryptocurrency</h3>
         <ul style={{ lineHeight: '1.6' }}>
           <li>
             <a href="https://www.benzinga.com/markets/cryptocurrency/21/09/22864242/how-can-value-investors-profit-in-the-crypto-ecosystem" style={{ color: '#2E7D32', textDecoration: 'underline' }}>
@@ -189,7 +189,7 @@ export default function Portfolio() {
         </ul>
 
         {/* Cryptography Section */}
-        <h3 style={{ color: '#4A2C2A', marginTop: '20px' }}>Cryptography</h3>
+        <h3 id="cryptography" style={{ color: '#4A2C2A', marginTop: '20px' }}>Cryptography</h3>
         <ul style={{ lineHeight: '1.6' }}>
           <li>
             <a href="https://www.insidequantumtechnology.com/news-archive/quantum-computing-the-cause-of-the-next-crypto-crash/" style={{ color: '#2E7D32', textDecoration: 'underline' }}>
@@ -224,7 +224,7 @@ export default function Portfolio() {
         </ul>
 
         {/* Data Engineering Section */}
-        <h3 style={{ color: '#4A2C2A', marginTop: '20px' }}>Data Engineering</h3>
+        <h3 id="data-engineering" style={{ color: '#4A2C2A', marginTop: '20px' }}>Data Engineering</h3>
         <ul style={{ lineHeight: '1.6' }}>
           <li>
             <a href="https://www.fivetran.com/blog/what-is-the-modern-data-stack" style={{ color: '#2E7D32', textDecoration: 'underline' }}>
@@ -254,7 +254,7 @@ export default function Portfolio() {
         </ul>
 
         {/* Kubernetes Section */}
-        <h3 style={{ color: '#4A2C2A', marginTop: '20px' }}>Kubernetes</h3>
+        <h3 id="kubernetes" style={{ color: '#4A2C2A', marginTop: '20px' }}>Kubernetes</h3>
         <ul style={{ lineHeight: '1.6' }}>
           <li>
             <a href="https://www.compliancecow.com/compliance/kubernetes-compliance-with-iso-27001-a-strategic-imperative/" style={{ color: '#2E7D32', textDecoration: 'underline' }}>
@@ -273,18 +273,8 @@ export default function Portfolio() {
           </li>
         </ul>
 
-        {/* Markdown Section */}
-        <h3 style={{ color: '#4A2C2A', marginTop: '20px' }}>Markdown</h3>
-        <ul style={{ lineHeight: '1.6' }}>
-          <li>
-            <a href="https://github.com/EdifyContent" style={{ color: '#2E7D32', textDecoration: 'underline' }}>
-              See my GitHub work
-            </a>, <em>Gruntwork.io</em>, 2025
-          </li>
-        </ul>
-
         {/* Marketing Section */}
-        <h3 style={{ color: '#4A2C2A', marginTop: '20px' }}>Marketing</h3>
+        <h3 id="marketing" style={{ color: '#4A2C2A', marginTop: '20px' }}>Marketing</h3>
         <ul style={{ lineHeight: '1.6' }}>
           <li>
             <a href="https://postie.com/blog/unlock-success-with-incrementality-testing-techniques/" style={{ color: '#2E7D32', textDecoration: 'underline' }}>
@@ -314,7 +304,7 @@ export default function Portfolio() {
         </ul>
 
         {/* Quantum Computing Section */}
-        <h3 style={{ color: '#4A2C2A', marginTop: '20px' }}>Quantum Computing</h3>
+        <h3 id="quantum-computing" style={{ color: '#4A2C2A', marginTop: '20px' }}>Quantum Computing</h3>
         <ul style={{ lineHeight: '1.6' }}>
           <li>
             <a href="https://www.iotworldtoday.com/quantum/nord-quantique-unveils-new-technique-for-scalable-qubit-error-correction" style={{ color: '#2E7D32', textDecoration: 'underline' }}>
@@ -344,7 +334,7 @@ export default function Portfolio() {
         </ul>
 
         {/* Security Section */}
-        <h3 style={{ color: '#4A2C2A', marginTop: '20px' }}>Security</h3>
+        <h3 id="security" style={{ color: '#4A2C2A', marginTop: '20px' }}>Security</h3>
         <ul style={{ lineHeight: '1.6' }}>
           <li>
             <a href="https://www.compliancecow.com/compliance/security-assurance/" style={{ color: '#2E7D32', textDecoration: 'underline' }}>
@@ -374,7 +364,7 @@ export default function Portfolio() {
         </ul>
 
         {/* Stock Analysis Section */}
-        <h3 style={{ color: '#4A2C2A', marginTop: '20px' }}>Stock Analysis</h3>
+        <h3 id="stock-analysis" style={{ color: '#4A2C2A', marginTop: '20px' }}>Stock Analysis</h3>
         <ul style={{ lineHeight: '1.6' }}>
           <li>
             <a href="https://www.tipranks.com/news/can-digitalocean-nasdaqdocn-keep-up-its-high-growth" style={{ color: '#2E7D32', textDecoration: 'underline' }}>
