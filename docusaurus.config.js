@@ -10,7 +10,7 @@ const config = {
   url: 'https://johnpottergr.github.io',
   baseUrl: '/',
   organizationName: 'johnpottergr',
-  projectName: 'johns-portfolio',
+  projectName: 'johnpottergr.github.io',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   i18n: {
