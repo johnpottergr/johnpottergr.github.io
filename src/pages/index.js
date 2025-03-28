@@ -115,20 +115,18 @@ export default function Home() {
           <ul>
             <li>
             Rewrote and enhanced Gruntwork.io’s documentation in Markdown, delivering over <a href= "https://github.com/johnpottergr/Technical-Article-Portfolio/blob/main/Gruntwork%20Revised%20Docs.pdf">100+
-            sections, guides, and tutorials</a> on DevOps foundations, IaC best practices, and pipelines—collaborated
-            with the client to improve clarity and usability for developers. <a href="https://github.com/EdifyContent">Explore my work</a> on Gruntwork Docs
+            sections, guides, and tutorials</a> on DevOps foundations, IaC best practices, and pipelines—and collaborated
+            with the client to improve clarity and usability for developers. <a href="https://github.com/EdifyContent">Explore my work</a> on Gruntwork Docs.
             </li>
             <li>
-            Authored the <a href="/django.pdf">Django App</a> and <a href="/NodeJS.pdf">NodeJS Deploy Guides</a>
-            for an Edify client, providing clear deployment instructions for developers (drafts available, final versions modified by the client).
+            Authored the <a href="/django.pdf">Django App</a> and <a href="/NodeJS.pdf">NodeJS Deploy Guides </a>
+             for an Edify client, providing clear deployment instructions for developers (drafts available, final versions modified by the client).
             </li>
-            <li>Currently developing API documentation samples, to be hosted in my
-              <a href= "https://github.com/johnpottergr/API-Documentation">GitHub repository</a>.
-            </li>
+
             <li>
             Samples include <a href="/Release.pdf">QuickSwap Release Notes</a> and
-            <a href="/Proposal.pdf">Program Proposal</a>
-            (<a href="https://technicalwriterhq.com/technical-writing-certification-courses/">TechnicalWritingHQ certification
+            <a href="/Proposal.pdf"> Program Proposal </a>
+             (<a href="https://technicalwriterhq.com/technical-writing-certification-courses/">TechnicalWritingHQ certification
             coursework</a>) and a volunteer <a href="/Guide.pdf">SaucerSwap Beginner's Guide</a> for new DeFi users.
             </li>
           </ul>
@@ -136,18 +134,21 @@ export default function Home() {
           {/* Current Projects */}
           <h3>Current Projects</h3>
           <ul>
+             <li>Developing API documentation samples for my
+              <a href= "https://github.com/johnpottergr/API-Documentation"> GitHub repository</a>.
+            </li>
             <li>
               <a href="https://johnpottergr.substack.com/">Fintech Pulse: Stocks to Watch</a>—A blog
               analyzing trending stocks (currently on hold).
             </li>
             <li>
             Weekly guest blogger for <a href="https://www.saucerswap.finance/">SaucerSwap Labs</a>,
-            writing about decentralized finance for a DEX on the Hedera Blockchain——read my posts on my blog as part of this collaboration.
+            writing about decentralized finance for a DEX on the Hedera Blockchain—and posting on my blog as part of this collaboration.
             </li>
             <li>
             Learning
-              <a href="https://support.microsoft.com/en-us/office/sharepoint-video-training-cb8ef501-84db-4427-ac77-ec2009fb8e23">SharePoint</a>,
-              <a href="https://swagger.io/">Swagger</a>, and <a href="https://www.postman.com/">Postman</a>—exploring
+              <a href="https://support.microsoft.com/en-us/office/sharepoint-video-training-cb8ef501-84db-4427-ac77-ec2009fb8e23"> SharePoint</a>,
+              <a href="https://swagger.io/"> Swagger</a>, and <a href="https://www.postman.com/">Postman</a>—exploring
               resources like <a href="https://learn.microsoft.com/en-us/sharepoint/">SharePoint Documentation</a>, <a href="https://swagger.io/docs/">Swagger Docs</a>, <a href="https://learning.postman.com/">Postman Learning Center</a>.
             </li>
             </ul>
