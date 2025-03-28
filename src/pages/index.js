@@ -114,15 +114,22 @@ export default function Home() {
           <h3>Documentation Skills</h3>
           <ul>
             <li>
-              Markdown: <a href="https://github.com/EdifyContent">Explore my GitHub contributions at Edify</a>. Over 35+ documentation commits
+            Rewrote and enhanced Gruntwork.io’s documentation in Markdown, delivering over <a href= "https://github.com/johnpottergr/Technical-Article-Portfolio/blob/main/Gruntwork%20Revised%20Docs.pdf">100+
+            sections, guides, and tutorials</a> on DevOps foundations, IaC best practices, and pipelines—collaborated
+            with the client to improve clarity and usability for developers. <a href="https://github.com/EdifyContent">Explore my work</a> on Gruntwork Docs
             </li>
             <li>
-              Software: Authored the <a href="/django.pdf">Django App</a> and <a href="/NodeJS.pdf">NodeJS Deploy Guide</a> for an Edify client
+            Authored the <a href="/django.pdf">Django App</a> and <a href="/NodeJS.pdf">NodeJS Deploy Guides</a>
+            for an Edify client, providing clear deployment instructions for developers (drafts available, final versions modified by the client).
             </li>
-            <li>API: Currently working on API documentation</li>
+            <li>Currently developing API documentation samples, to be hosted in my
+              <a href= "https://github.com/johnpottergr/API-Documentation">GitHub repository</a>.
+            </li>
             <li>
-              Samples: <a href="/Release.pdf">QuickSwap Release Notes</a>, <a href="/Proposal.pdf">Program Proposal</a>,{' '}
-              <a href="/Guide.pdf">SaucerSwap Beginner's Guide</a>
+            Samples include <a href="/Release.pdf">QuickSwap Release Notes</a> and
+            <a href="/Proposal.pdf">Program Proposal</a>
+            (<a href="https://technicalwriterhq.com/technical-writing-certification-courses/">TechnicalWritingHQ certification
+            coursework</a>) and a volunteer <a href="/Guide.pdf">SaucerSwap Beginner's Guide</a> for new DeFi users.
             </li>
           </ul>
 
@@ -130,16 +137,29 @@ export default function Home() {
           <h3>Current Projects</h3>
           <ul>
             <li>
-              <a href="https://johnpottergr.substack.com/">Fintech Pulse: Stocks to Watch</a>: A blog where I analyze trending stocks (currently on hold)
+              <a href="https://johnpottergr.substack.com/">Fintech Pulse: Stocks to Watch</a>—A blog
+              analyzing trending stocks (currently on hold).
             </li>
             <li>
-              <a href="https://medium.com/@SaucerSwap">Weekly guest blogger for SaucerSwap Labs</a>: I write about decentralized finance for a DEX on the Hedera Blockchain
+            Weekly guest blogger for <a href="https://www.saucerswap.finance/">SaucerSwap Labs</a>,
+            writing about decentralized finance for a DEX on the Hedera Blockchain——read my posts on my blog as part of this collaboration.
             </li>
             <li>
-              <a href="https://support.microsoft.com/en-us/office/sharepoint-video-training-cb8ef501-84db-4427-ac77-ec2009fb8e23">Learning SharePoint</a>,{' '}
-              <a href="https://www.tableau.com/learn/training">Tableau</a>, and{' '}
-              <a href="https://learn.microsoft.com/en-us/training/browse/?products=power-bi">PowerBI</a>: Great resources!
+            Learning
+              <a href="https://support.microsoft.com/en-us/office/sharepoint-video-training-cb8ef501-84db-4427-ac77-ec2009fb8e23">SharePoint</a>,
+              <a href="https://swagger.io/">Swagger</a>, and <a href="https://www.postman.com/">Postman</a>—exploring
+              resources like <a href="https://learn.microsoft.com/en-us/sharepoint/">SharePoint Documentation</a>, <a href="https://swagger.io/docs/">Swagger Docs</a>, <a href="https://learning.postman.com/">Postman Learning Center</a>.
             </li>
+            </ul>
+
+          {/* About this Site */}
+          <h3>About This Site</h3>
+          <ul>
+            <li>
+            I created this portfolio using <a href="https://docusaurus.io/docs">Docusaurus</a>, a static site generator,
+            to present my technical writing and documentation projects in a clean, user-friendly format.
+            </li>
+
           </ul>
         </div>
       </main>
