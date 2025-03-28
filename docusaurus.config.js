@@ -11,6 +11,7 @@ const config = {
   baseUrl: '/',
   organizationName: 'johnpottergr',
   projectName: 'johnpottergr.github.io',
+  deploymentBranch: 'gh-pages',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   i18n: {
