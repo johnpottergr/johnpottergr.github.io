@@ -42,11 +42,6 @@ export default function Portfolio() {
             </a>
           </li>
           <li>
-            <a href="https://github.com/johnpottergr#data-engineering" style={{ color: '#2E7D32', textDecoration: 'underline' }}>
-              Data Engineering
-            </a>
-          </li>
-          <li>
           <a href="/portfolio#kubernetes" style={{ color: '#2E7D32', textDecoration: 'underline' }}>
           Kubernetes
             </a>
