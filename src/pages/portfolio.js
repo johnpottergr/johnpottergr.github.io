@@ -16,29 +16,29 @@ export default function Portfolio() {
         </p>
         <ul style={{ lineHeight: '1.6' }}>
           <li>
-            <a href="https://github.com/johnpottergr#ai--machine-learning" style={{ color: '#2E7D32', textDecoration: 'underline' }}>
+              <a href="/portfolio#ai--machine-learning" style={{ color: '#2E7D32', textDecoration: 'underline' }}>
               AI/Machine Learning
             </a>
           </li>
 
           <li>
-            <a href="https://github.com/johnpottergr#business-operations" style={{ color: '#2E7D32', textDecoration: 'underline' }}>
-              Business Operations
+          <a href="/portfolio#business-operations" style={{ color: '#2E7D32', textDecoration: 'underline' }}>
+          Business Operations
             </a>
           </li>
           <li>
-            <a href="https://github.com/johnpottergr#coding" style={{ color: '#2E7D32', textDecoration: 'underline' }}>
-              Coding
+          <a href="/portfolio#coding" style={{ color: '#2E7D32', textDecoration: 'underline' }}>
+           Coding
             </a>
           </li>
           <li>
-            <a href="https://github.com/johnpottergr#cryptocurrency" style={{ color: '#2E7D32', textDecoration: 'underline' }}>
-              Cryptocurrency
+          <a href="/portfolio#cryptocurrency" style={{ color: '#2E7D32', textDecoration: 'underline' }}>
+             Cryptocurrency
             </a>
           </li>
           <li>
-            <a href="https://github.com/johnpottergr#cryptography" style={{ color: '#2E7D32', textDecoration: 'underline' }}>
-              Cryptography
+          <a href="/portfolio#data-engineering" style={{ color: '#2E7D32', textDecoration: 'underline' }}>
+          Data Engineering
             </a>
           </li>
           <li>
@@ -47,28 +47,28 @@ export default function Portfolio() {
             </a>
           </li>
           <li>
-            <a href="https://github.com/johnpottergr#kubernetes" style={{ color: '#2E7D32', textDecoration: 'underline' }}>
-              Kubernetes
+          <a href="/portfolio#kubernetes" style={{ color: '#2E7D32', textDecoration: 'underline' }}>
+          Kubernetes
             </a>
           </li>
           <li>
-            <a href="https://github.com/johnpottergr#marketing" style={{ color: '#2E7D32', textDecoration: 'underline' }}>
-              Marketing
+          <a href="/portfolio#marketing" style={{ color: '#2E7D32', textDecoration: 'underline' }}>
+          Marketing
             </a>
           </li>
           <li>
-            <a href="https://github.com/johnpottergr#quantum-computing" style={{ color: '#2E7D32', textDecoration: 'underline' }}>
-              Quantum Computing
+          <a href="/portfolio#quantum-computing" style={{ color: '#2E7D32', textDecoration: 'underline' }}>
+          Quantum Computing
             </a>
           </li>
           <li>
-            <a href="https://github.com/johnpottergr#security" style={{ color: '#2E7D32', textDecoration: 'underline' }}>
-              Security
+          <a href="/portfolio#security" style={{ color: '#2E7D32', textDecoration: 'underline' }}>
+          Security
             </a>
           </li>
           <li>
-            <a href="https://github.com/johnpottergr#stock-analysis" style={{ color: '#2E7D32', textDecoration: 'underline' }}>
-              Stock Analysis
+          <a href="/portfolio#stock-analysis" style={{ color: '#2E7D32', textDecoration: 'underline' }}>
+          Stock Analysis
             </a>
           </li>
         </ul>
