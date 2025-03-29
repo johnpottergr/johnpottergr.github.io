@@ -94,6 +94,7 @@ export default function Home() {
                 I’ve also contributed to technical documentation and am eager to take on more of it.
 
              </p>
+
             </div>
             <img
               src="/img/me-2.jpeg"
