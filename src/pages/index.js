@@ -90,7 +90,7 @@ export default function Home() {
               <p style={{ margin: '0 0 10px 0' }}>
               Welcome to my portfolio! I’m a technical writer with 7+ years of experience in fintech,
               blockchain, and more. I’ve published 200+ articles on AI, quantum computing, and cryptocurrency.              </p>
-              <p style={{ margin: '0' }}>One project I’m proud of was turning a complex machine learning study into a series of blog posts that made the topic approachable. I enjoy working with clients to create clear, engaging content—whether that’s articles, guides, or documentation—that resonates with users and supports business goals. While most of my work has focused on articles,
+              <p style={{ margin: '0' }}>One project I’m proud of was turning a complex machine learning study into a series of blog posts that made the topic approachable. I enjoy working with clients to create clear, engaging content—whether that’s articles, guides, or documentation—that resonates with users and supports business goals. While I've primarily written articles,
                 I’ve also contributed to technical documentation and am eager to take on more of it.
 
              </p>
