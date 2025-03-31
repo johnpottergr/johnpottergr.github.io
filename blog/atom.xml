@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://johnpottergr.github.io/blog</id>
-    <title>John Potter's Portfolio Blog</title>
+    <title>John Potter | Technical Content Writer Blog</title>
     <updated>2025-03-30T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://johnpottergr.github.io/blog"/>
-    <subtitle>John Potter's Portfolio Blog</subtitle>
+    <subtitle>John Potter | Technical Content Writer Blog</subtitle>
     <icon>https://johnpottergr.github.io/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Why SaucerSwap’s Quietly Winning in DeFi]]></title>
