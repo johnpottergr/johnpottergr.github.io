@@ -83,9 +83,8 @@ export default function Home() {
         </div>
 
         {/* Right Column */}
-        <div style={{ flex: '1', textAlign: 'left' }}>
-          <div style={{ display: 'flex', alignItems: 'flex-start' }}>
-            <div style={{ flex: '1' }}>
+        <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '20px' }}>
+        <div style={{ flex: '1' }}>
               <h1>Welcome to my website!</h1>
               <p>
                 I’m a technical writer with 7+ years of experience in fintech, blockchain, and more. I’ve published 300+ articles on AI, quantum computing, and cryptocurrency.
@@ -97,8 +96,12 @@ export default function Home() {
               <img
                 src="https://johnpottergr.com/me-2.jpg"
                 alt="John M. Potter"
-                style={{ width: '100%',
-                maxWidth: '200px', display: 'block', paddingLeft: '20px',
+                style={{
+                  width: '180px',
+                  height: 'auto',
+                  objectFit: 'cover',
+                  borderRadius: '4px',
+                  flexShrink: 0
                 }}
               />
 
@@ -152,7 +155,6 @@ export default function Home() {
               </ul>
             </div>
           </div>
-        </div>
       </main>
     </Layout>
   );
