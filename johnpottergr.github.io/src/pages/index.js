@@ -91,10 +91,8 @@ export default function Home() {
               <img
                 src="https://johnpottergr.com/me-2.jpg"
                 alt="John M. Potter"
-                style={{
-                  width: '180px',
-                  height: 'auto',
-                  objectFit: 'cover',
+                style={{ width: '100%',
+                maxWidth: '200px', display: 'block', paddingLeft: '20px',
                 }}
               />
 
