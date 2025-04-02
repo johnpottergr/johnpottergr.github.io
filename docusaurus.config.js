@@ -75,13 +75,14 @@
           disableSwitch: true,
         },
         // Replace with your project's social card
+        // Remove logo entirely:
+        // logo: {
+        //   alt: 'John Potter Logo',
+        // }
         image: 'img/docusaurus-social-card.jpg',
         navbar: {
           title: '',
-          logo: {
-            alt: 'John Potter Logo',
 
-          },
           items: [
             { to: '/', label: 'Welcome', position: 'left' }, // Moved to first position
             { to: '/portfolio', label: 'Portfolio', position: 'left' }, // Moved to second position
