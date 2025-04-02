@@ -102,7 +102,13 @@ export default function Home() {
                 objectFit: 'cover',
               }}/>
 
-  <h2>Documentation Skills</h2>
+  <h2
+  style={{
+    borderBottom: '1px solid #e0e0e0',
+    paddingBottom: '6px',
+    marginBottom: '20px',
+  }}>
+    Documentation Skills</h2>
   <ul>
     <li>
       Rewrote and enhanced Gruntwork.io’s documentation in Markdown, delivering over
@@ -117,7 +123,13 @@ export default function Home() {
     </li>
   </ul>
 
-  <h2>Current Projects</h2>
+  <h2
+  style={{
+    borderBottom: '1px solid #e0e0e0',
+    paddingBottom: '6px',
+    marginBottom: '20px',
+  }}>
+    Current Projects</h2>
   <ul>
     <li>Developing API documentation samples for my GitHub repository.</li>
     <li><em>Fintech Pulse: Stocks to Watch</em> — A blog analyzing trending stocks (currently on hold).</li>
