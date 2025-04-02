@@ -9,18 +9,17 @@ export default function Home() {
     <Layout title="John Potter: Technical Writer">
       <main
         style={{
-          display: 'flex',
-          justifyContent: 'center',
-          padding: '40px 20px',
-          maxWidth: '1200px',
-          margin: '0 auto',
-          gap: '40px',
-          flexWrap: 'wrap',
+    display: 'flex',
+    flexWrap: 'wrap',
+    justifyContent: 'center',
+    padding: '40px 20px',
+    maxWidth: '1200px',
+    margin: '0 auto',
+    gap: '40px',
         }}
       >
         {/* Left Column */}
-        <div style={{ flex: '1' , alignItems: 'left'}}>
-        <div style={{ flex: '0 0 280px', color: '#222222' }}>
+        <div style={{ flex: '0 0 280px', maxWidth: '280px', width: '100%' }}>
           <div
             style={{
               backgroundColor: '#FFF5E1',
@@ -82,10 +81,9 @@ export default function Home() {
             </div>
           </div>
         </div>
-        </div>
-        {/* Right Column */}
-        <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '20px' }}>
-        <div style={{ flex: '1' }}>
+         {/* Right Column */}
+        <div style={{ flex: '1 1 0', minWidth: '300px' }}>
+
               <h1>Welcome to my website!</h1>
               <p>
                 I’m a technical writer with 7+ years of experience in fintech, blockchain, and more. I’ve published 300+ articles on AI, quantum computing, and cryptocurrency.
@@ -155,7 +153,7 @@ export default function Home() {
                 </li>
               </ul>
             </div>
-          </div>
+
       </main>
     </Layout>
   );
