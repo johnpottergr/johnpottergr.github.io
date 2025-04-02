@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from '@theme/Layout';
-import FaPlay from 'react-icons/fa/FaPlay'; // ✅ CORRECT for v5
+import { FaPlay } from 'react-icons/fa6'; // ✅ correct for v5+
 
 
 
