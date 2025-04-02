@@ -1,5 +1,7 @@
 import React from 'react';
 import Layout from '@theme/Layout';
+import { FaPlay } from 'react-icons/fa';
+
 
 export default function Home() {
   return (
