@@ -19,6 +19,7 @@ export default function Home() {
         }}
       >
         {/* Left Column */}
+        <div style={{ flex: '1' , alignItems: 'left'}}>
         <div style={{ flex: '0 0 280px', color: '#222222' }}>
           <div
             style={{
@@ -81,7 +82,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-
+        </div>
         {/* Right Column */}
         <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '20px' }}>
         <div style={{ flex: '1' }}>
