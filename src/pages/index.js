@@ -84,7 +84,7 @@ export default function Home() {
          {/* Right Column */}
         <div style={{ flex: '1 1 0', minWidth: '300px' }}>
 
-              <h1><em>Welcome</em></h1>
+              <h1>Welcome</h1>
               <p>
                 I’m a technical writer with 7+ years of experience in fintech, blockchain, and more. I’ve published 300+ articles on AI, quantum computing, and cryptocurrency.
               </p>
@@ -93,7 +93,7 @@ export default function Home() {
                 While I've primarily written articles, I’ve also contributed to technical documentation and am eager to take on more of it.
               </p>
               <img
-                src="https://johnpottergr.com/me-2.jpg"
+                src="https://johnpottergr.com/me-4.jpg"
                 alt="John M. Potter"
                 style={{
                   width: '180px',
