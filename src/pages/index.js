@@ -84,7 +84,7 @@ export default function Home() {
          {/* Right Column */}
         <div style={{ flex: '1 1 0', minWidth: '300px' }}>
 
-              <h1>Welcome to my website!</h1>
+              <h1><i>Welcome</i></h1>
               <p>
                 I’m a technical writer with 7+ years of experience in fintech, blockchain, and more. I’ve published 300+ articles on AI, quantum computing, and cryptocurrency.
               </p>
