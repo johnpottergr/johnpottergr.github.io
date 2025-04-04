@@ -93,7 +93,7 @@ export default function Home() {
                 While I've primarily written articles, I’ve also contributed to technical documentation and am eager to take on more of it.
               </p>
               <img
-                src="https://johnpottergr.com/me-4.jpg"
+                src="img/me-4.jpeg"
                 alt="John M. Potter"
                 style={{
                   width: '180px',
