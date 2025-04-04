@@ -1,7 +1,8 @@
 ---
 title: Why SaucerSwap's Quietly Winning in DeFi
-slug: 3-30-2025-why-saucerswap-is-quietly-winning
-date: 3/30/2025
+date: 2025-03-30
+description: Extensive article explaining SaucerSwap
+tags: [Hedera, hashgraph]
 ---
 
 # Why SaucerSwap’s Quietly Winning in DeFi
