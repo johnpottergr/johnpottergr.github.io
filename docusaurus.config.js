@@ -10,7 +10,7 @@
 
   /** @type {import('@docusaurus/types').Config} */
   const config = {
-    title: 'John Potter: Technical Writer', // Updated title
+    title: 'Technical Content Writer', // Updated title
     tagline: 'Technical Writing for Fintech, Blockchain, and More', // Updated tagline
     favicon: 'img/favicon.ico',
 
@@ -72,29 +72,26 @@
       ({
         colorMode: {
           defaultMode: 'light',
-          disableSwitch: true,
+          disableSwitch: false, // Enable the toggle
+          respectPrefersColorScheme: true, // Optional: sync with user's system theme
         },
         // Replace with your project's social card
         // Remove logo entirely:
         // logo: {
         //   alt: 'John Potter Logo',
         // }
-        image: 'img/docusaurus-social-card.jpg',
+
         navbar: {
-          title: '',
 
           items: [
             { to: '/', label: 'Welcome', position: 'left' }, // Moved to first position
             { to: '/portfolio', label: 'Portfolio', position: 'left' }, // Moved to second position
             { href: '/resume3.pdf', label: 'Resume', position: 'left' },
             { to: '/blog', label: 'Blog', position: 'left' },
-            {
-              href: 'https://github.com/johnpottergr',
-              label: 'GitHub',
-              position: 'right',
-            },
+            { href: 'https://github.com/johnpottergr', label: 'GitHub', position: 'left' },
           ],
         },
+
         footer: {
           style: 'dark',
           links: [
