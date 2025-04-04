@@ -1,7 +1,6 @@
 ---
 title: Getting Started with SaucerSwap -- A Beginner's Guide
 date: 2025-03-27
-description: Extensive article 
 ---
 
 # Getting Started with SaucerSwap -- A Beginner's Guide
