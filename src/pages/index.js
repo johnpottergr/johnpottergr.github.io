@@ -82,8 +82,9 @@ export default function Home() {
           </div>
         </div>
          {/* Right Column */}
-        <div style={{ flex: '1 1 0', minWidth: '300px' }}>
-
+         <div style={{ display: 'flex', gap: '1.5rem', alignItems: 'flex-start', flexWrap: 'wrap' }}>
+          {/* Text block */}
+           <div style={{ flex: '1 1 60ch', minWidth: '280px' }}>
               <h1>Welcome</h1>
               <p>
                 I’m a technical writer with 7+ years of experience in fintech, blockchain, and more. I’ve published 300+ articles on AI, quantum computing, and cryptocurrency.
@@ -92,8 +93,9 @@ export default function Home() {
                 I enjoy working with clients to create clear, engaging content—whether that’s articles, guides, or documentation—that resonates with users and supports business goals.
                 While I've primarily written articles, I’ve also contributed to technical documentation and am eager to take on more of it.
               </p>
+              </div>
               <img
-                src="img/me-4.jpeg"
+                src="/img/me-4.jpeg"
                 alt="John M. Potter"
                 style={{
                   width: '180px',
@@ -103,7 +105,7 @@ export default function Home() {
                   flexShrink: 0
                 }}
               />
-
+              </div>
               <h2
                 style={{
                   borderBottom: '1px solid #e0e0e0',
