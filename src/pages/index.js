@@ -101,9 +101,9 @@ export default function Home() {
       <div style={{ flex: '1', textAlign: 'left' }}>
          <div style={{ display: 'flex', alignItems: 'flex-start' }}>
            <div style={{ flex: '1' }}>
-             <p style={{ margin: '0 0 10px 0' }}>
               <h1>Welcome</h1>
-             Welcome to my website! I’m a technical writer with 7+ years of experience in fintech,
+              <p style={{ margin: '0 0 0px 0' }}>
+            Welcome to my website! I’m a technical writer with 7+ years of experience in fintech,
                blockchain, and more. I’ve published 300+ articles on AI, quantum computing, and cryptocurrency.
              </p>
              <p>I enjoy working with clients to create clear, engaging content—whether that’s articles,
