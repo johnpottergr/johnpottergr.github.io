@@ -102,7 +102,7 @@ export default function Home() {
          <div style={{ display: 'flex', alignItems: 'flex-start' }}>
            <div style={{ flex: '1' }}>
               <h1>Welcome</h1>
-              <p style={{ margin: '0 0 0px 0' }}>
+              <p>
             Welcome to my website! I’m a technical writer with 7+ years of experience in fintech,
                blockchain, and more. I’ve published 300+ articles on AI, quantum computing, and cryptocurrency.
              </p>
