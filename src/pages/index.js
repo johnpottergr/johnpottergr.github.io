@@ -106,9 +106,10 @@ export default function Home() {
              Welcome to my website! I’m a technical writer with 7+ years of experience in fintech,
                blockchain, and more. I’ve published 300+ articles on AI, quantum computing, and cryptocurrency.
              </p>
-             <p style={{ margin: '0' }}>I enjoy working with clients to create clear, engaging content—whether that’s articles,
+             <p>I enjoy working with clients to create clear, engaging content—whether that’s articles,
                guides, or documentation—that resonates with users and supports business goals. While I've primarily
-               written articles, I’ve also contributed to technical documentation and am eager to take on more of it.
+               written articles, I’ve also contributed to technical documentation and am eager to
+               take on more of it.
             </p>
            </div>
            <img
@@ -121,11 +122,11 @@ export default function Home() {
 
 
          {/* Documentation Skills */}
-         <h2 style={{ marginTop: '1.5rem', borderBottom: '1px solid #e0e0e0', paddingBottom: '6px' }}>
+         <h2 style={{ marginTop: '0.5rem', borderBottom: '1px solid #e0e0e0', paddingBottom: '6px' }}>
            Documentation Skills
          </h2>
          <ul>
-           <li>
+         <li style={{ marginBottom: '10px' }}>
              Rewrote and enhanced Gruntwork.io’s documentation in Markdown, delivering over
              <a href="https://github.com/johnpottergr/Technical-Article-Portfolio/blob/main/Gruntwork%20Revised%20Docs.pdf">
                {" "}100+ sections, guides, and tutorials
@@ -133,7 +134,7 @@ export default function Home() {
              Explore my work
              <a href="https://github.com/EdifyContent"> on Gruntwork Docs.</a>
            </li>
-           <li>
+           <li style={{ marginBottom: '10px' }}>
              Authored the <a href="https://johnpottergr.com/django.pdf">Django App</a> and{" "}
              <a href="https://johnpottergr.com/NodeJS.pdf">NodeJS Deploy Guides</a> for an Edify client.
            </li>
@@ -146,26 +147,38 @@ export default function Home() {
            </li>
          </ul>
 
-
-
          {/* Current Projects */}
          <h2 style={{ marginTop: '1.5rem', borderBottom: '1px solid #e0e0e0', paddingBottom: '6px' }}>
            Current Projects
          </h2>
          <ul>
-           <li>Developing API documentation samples for my GitHub repository.</li>
-           <li><em>Fintech Pulse: Stocks to Watch</em> — A blog analyzing trending stocks (currently on hold).</li>
-           <li>
+         <li style={{ marginBottom: '10px' }}>
+            Building Stablecoinage.net, a dedicated platform featuring a stablecoin knowledge base, focused blog, real-time
+            liquidity tracker, and peg stress testing tools.
+           </li>
+           <li style={{ marginBottom: '10px' }}>
              Weekly guest blogger for SaucerSwap Labs, writing about decentralized finance for a DEX on the Hedera Blockchain — and posting on
              <a href="https://johnpottergr.github.io/blog"> my blog</a> as part of this collaboration.
-           </li>
-           <li>
+            </li>
+            <li>
              Learning SharePoint, Swagger, and Postman — exploring resources like{" "}
              <a href="https://learn.microsoft.com/en-us/sharepoint/">SharePoint Documentation</a>,{" "}
              <a href="https://swagger.io/docs/">Swagger Docs</a>, and{" "}
              <a href="https://learning.postman.com/">Postman Learning Center</a>.
            </li>
          </ul>
+          {/* About this site */}
+          <h2 style={{ marginTop: '1.5rem', borderBottom: '1px solid #e0e0e0', paddingBottom: '6px' }}>
+           About This Site
+         </h2>
+         <ul>
+         <li style={{ marginBottom: '10px' }}>
+         I created this portfolio using Docusaurus, a
+         static site generator, to present my technical
+         writing and documentation projects in a clean,
+         user-friendly format.
+           </li>
+           </ul>
        </div>
      </main>
    </Layout>
