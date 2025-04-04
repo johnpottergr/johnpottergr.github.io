@@ -1,7 +1,8 @@
 ---
-title: Top 5 Use Cases for Saucerswap
-slug: 4-02-2025-top-5-use-cases
-date: 4/2/2025
+title: Top 5 Use Cases for Saucerswap 
+date: 2025-04-02
+description: Extensive article explaining SaucerSwap
+tags: [Hedera, token swaps, cross chain liquidity, yield farming, governance, community pool tokens]
 ---
 
 # Top 5 Use Cases for SaucerSwap in 2025
