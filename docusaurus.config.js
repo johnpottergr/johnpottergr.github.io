@@ -83,7 +83,7 @@
         // }
 
         navbar: {
-
+          title: 'JP',
           items: [
             { to: '/', label: 'Welcome', position: 'left' }, // Moved to first position
             { to: '/portfolio', label: 'Portfolio', position: 'left' }, // Moved to second position
