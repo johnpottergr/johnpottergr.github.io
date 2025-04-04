@@ -87,7 +87,7 @@
           items: [
             { to: '/', label: 'Welcome', position: 'left' }, // Moved to first position
             { to: '/portfolio', label: 'Portfolio', position: 'left' }, // Moved to second position
-            { href: '/resume3.pdf', label: 'Resume', position: 'left' },
+            { href: '/resume', label: 'Resume', position: 'left' },
             { to: '/blog', label: 'Blog', position: 'left' },
             { href: 'https://github.com/johnpottergr', label: 'GitHub', position: 'left' },
           ],
