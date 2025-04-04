@@ -49,6 +49,7 @@
           },
           blog: {
             showReadingTime: true,
+            routeBasePath: 'blog', // this makes your blog accessible at /blog
             feedOptions: {
               type: ['rss', 'atom'],
               xslt: true,
