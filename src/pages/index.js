@@ -15,29 +15,34 @@ export default function Home() {
 
          <div
            style={{
-             backgroundColor: '#FFF5E1', // Light cream background
-             padding: '20px',
-             borderRadius: '8px 8px 0 0',
-             borderBottom: '1px solid #ddd',
+             backgroundColor: '#111111', // Light cream background
+             padding: '15px',
+             borderRadius: '12px 12px 0 0',
+             border: '1px solid #f9f7f2',
              display: 'flex',
              flexDirection: 'column',
              justifyContent: 'center',
              alignItems: 'center',
-             minHeight: '150px',
-             boxShadow: '0 2px 4px rgba(0, 0, 0, 0.1)'
+             minHeight: '140px',
+             boxShadow: '0 0px 0px rgba(0, 0, 0, 0.1)'
            }}
          >
-           <h2 style={{ margin: '0' }}>John M. Potter</h2>
-           <div style={{ lineHeight: '1.2', marginTop: '10px' }}>
-             <span>Technical Content Writer</span>
+<h2 style={{ margin: '0', color: '#ffffff' }}>John M. Potter</h2>
+  <div style={{ lineHeight: '1.2', marginTop: '0px', color: '#000' }}>
+
            </div>
          </div>
 
 
          {/* Bottom Half with Original White Background */}
-         <div style={{ backgroundColor: '#ffffff', padding: '20px', borderRadius: '0 0 8px 8px' }}>
+         <div style={{ backgroundColor: '#f9f7f2', border: '1px solid #f9f7f2',padding: '20px', borderRadius: '0 0 8px 8px' }}>
            {/* Connect Section */}
-           <div style={{ marginTop: '0px' }}>
+           <div style={{ marginTop: '0px', fontSize: '0.95rem',
+lineHeight: '1.5',
+opacity: 0.9
+
+
+           }}>
 <p><em>John is one of the few writers that I've met online
   who is dedicated and smart. He accepts feedback
   really well, internalizes it, and acts on it.
@@ -77,12 +82,11 @@ export default function Home() {
                }}
              >
                <FaPlay style={{ marginRight: '8px', fontSize: '0.9rem' }} />
-               The Best Recommendation You'll Ever See
+               The Best Recommendation You'll Ever Hear
              </a>
            </div>
                    {/* Connect Section */}
-                   <div style={{ marginTop: '30px' }}>
-             <h4 style={{ margin: '0 0 10px', fontSize: '1.1rem' }}>Connect</h4>
+                   <div style={{ marginTop: '50px' }}>
              <h5 style={{ margin: '10px 0 5px' }}>
                <a href="mailto:johnpottergr@gmail.com" style={{ color: '#222222', textDecoration: 'none' }}>johnpottergr@gmail.com</a>
              </h5>
@@ -135,15 +139,15 @@ export default function Home() {
              <a href="https://github.com/EdifyContent"> on Gruntwork Docs.</a>
            </li>
            <li style={{ marginBottom: '10px' }}>
-             Authored the <a href="https://johnpottergr.com/django.pdf">Django App</a> and{" "}
-             <a href="https://johnpottergr.com/NodeJS.pdf">NodeJS Deploy Guides</a> for an Edify client.
+             Authored the <a href="https://github.com/johnpottergr/Software-Dev-Data-Migration-Guides/blob/main/django.pdf">Django App</a> and{" "}
+             <a href="https://github.com/johnpottergr/Software-Dev-Data-Migration-Guides/blob/main/nodeJS.pdf">NodeJS Deploy Guides</a> for an Edify client.
            </li>
            <li>
              Samples include{" "}
-             <a href="https://johnpottergr.com/Release.pdf">QuickSwap Release Notes</a>,{" "}
-             <a href="https://johnpottergr.com/Proposal.pdf">Program Proposal</a>, and{" "}
-             <a href="https://johnpottergr.com/uxportfolio.pdf">UX Portfolio</a>. I also created a{" "}
-             <a href="https://johnpottergr.com/Guide.pdf">SaucerSwap Beginner's Guide</a> for new DeFi users.
+             <a href="https://github.com/johnpottergr/Software-Dev-Data-Migration-Guides/blob/main/release.pdf">QuickSwap Release Notes</a>,{" "}
+             <a href="https://github.com/johnpottergr/TechnicalWritingHQ.com-Samples/blob/main/proposal.pdf">Program Proposal</a>, and{" "}
+             <a href="https://github.com/johnpottergr/TechnicalWritingHQ.com-Samples/blob/main/uxportfolio.pdf">UX Portfolio</a>. I also created a{" "}
+             <a href="https://github.com/johnpottergr/Software-Dev-Data-Migration-Guides/blob/main/saucerswap.pdf">SaucerSwap Beginner's Guide</a> for new DeFi users.
            </li>
          </ul>
 
@@ -153,7 +157,7 @@ export default function Home() {
          </h2>
          <ul>
          <li style={{ marginBottom: '10px' }}>
-            Building Stablecoinage.net, a dedicated platform featuring a stablecoin knowledge base, focused blog, real-time
+            Building Stablecraft.io, a dedicated platform featuring a stablecoin knowledge base, focused blog, real-time
             liquidity tracker, and peg stress testing tools.
            </li>
            <li style={{ marginBottom: '10px' }}>
