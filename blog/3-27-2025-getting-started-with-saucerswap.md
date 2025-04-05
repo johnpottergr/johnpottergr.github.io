@@ -32,7 +32,7 @@ To get started, you’ll need a few essentials:
 1. **Visit the Site**: Go to [https://www.saucerswap.finance/](https://www.saucerswap.finance/).
 2. **Connect Your Wallet**: Click “Connect Wallet” in the top-right corner. Select your wallet (e.g., HashPack or Blade) from the options. Approve the connection in your wallet app when prompted.
 
-![A wallet screen](/static/img/connect-your-wallet.jpg)
+![A wallet screen](/img/connect-your-wallet.jpg)
 
 4. **Verify Connection**: Once connected, you’ll see your wallet’s HBAR balance displayed on the SaucerSwap interface.
 
@@ -45,17 +45,17 @@ To get started, you’ll need a few essentials:
 4. **Adjust Slippage (Optional)**: Click the gear icon to tweak slippage tolerance (e.g., 0.5%) if you’re worried about price changes during the transaction—it’s the max price shift you’ll accept to protect against losses from market moves. For volatile tokens, bump it to 1–3%.
 5. **Swap It**: Click “Swap,” review the details, and confirm the transaction in your wallet. In seconds, your new tokens will appear!
    
-![A swap-it screen](/static/img/swap-it.jpg)
+![A swap-it screen](/img/swap-it.jpg)
 
 ## Step 4: Explore More Features
 
 - **Add Liquidity**: If you want to earn fees, go to the “Liquidity” tab, pick a token pair (e.g., HBAR/USDC), and supply equal values of both tokens to a pool. You’ll get LP tokens representing your share—think of them as a receipt. These earn a cut of trading fees (check the pool’s APR on the site), which you can claim later by removing liquidity.
 
- ![A add liquidity screen](/static/img/add-liquidity.jpg)
+ ![A add liquidity screen](/img/add-liquidity.jpg)
  
 - **Stake SAUCE**: If you own SAUCE tokens, you can stake them to earn rewards. Head to the “Stake” section, deposit them into the Infinity Pool, and earn xSAUCE, which grows in value over time as a reward.
 
-  ![A stake SAUCE screen](/static/img/stake-sauce.jpg)
+  ![A stake SAUCE screen](/img/stake-sauce.jpg)
   
 - **Check Your Progress**: Use Hedera explorers like [https://hashscan.io/](https://hashscan.io/) to track your transactions and balances.
 
