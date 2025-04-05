@@ -72,9 +72,9 @@
       /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
       ({
         colorMode: {
-          defaultMode: 'light',
-          disableSwitch: false, // Enable the toggle
-          respectPrefersColorScheme: true, // Optional: sync with user's system theme
+          defaultMode: 'dark',
+          disableSwitch: true, // Enable the toggle
+          respectPrefersColorScheme: false, // Optional: sync with user's system theme
         },
         // Replace with your project's social card
         // Remove logo entirely:
