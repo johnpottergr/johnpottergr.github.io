@@ -1,3 +1,8 @@
 build/
 node_modules/
 backup-main-branch.zip
+# macOS system files
+.DS_Store
+
+# Docusaurus build cache
+.docusaurus/
