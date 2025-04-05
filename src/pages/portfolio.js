@@ -175,6 +175,11 @@ export default function Portfolio() {
             </a>, <em>Benzinga</em>, 2021
           </li>
           <li>
+            <a href="https://blog.comdex.one/comdex-integrates-cosmwasm-e819b4502deb" style={{ color: '#5ED1A5', textDecoration: 'none' }}>
+              Comdex integrates CosmWasm
+            </a>, <em>Comdex</em>, 2022
+          </li>
+          <li>
             <a href="https://www.pressreader.com/uk/crypto-magazine/20230629/282419878686631" style={{ color: '#5ED1A5', textDecoration: 'none' }}>
               Memechainds Take Meme Coins to the Next Level
             </a>, <em>Crypto Magazine</em>, 2024
