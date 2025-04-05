@@ -43,11 +43,11 @@ opacity: 0.9
 
 
            }}>
-<p><em>John is one of the few writers that I've met online
+<p>"John is one of the few writers that I've met online
   who is dedicated and smart. He accepts feedback
   really well, internalizes it, and acts on it.
   He's dependable and embodies a lot of great characteristics that are
-  hard to find in technical writers.</em></p>
+  hard to find in technical writers."</p>
   <p>-Anthony Garone, Edify Content</p>
            </div>
            {/* Recommendation Video Link */}
