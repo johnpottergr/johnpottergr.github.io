@@ -9,6 +9,7 @@ Using a DEX can feel way harder than it needs to be. One minute you’re making 
 
 SaucerSwap isn’t trying to reinvent the wheel. It’s just quietly building a faster, cleaner, less painful way to trade—staking, farming, and all. And if you’re tired of friction every time you try to move a few tokens, it might be worth a look. Let’s explore what makes SaucerSwap different—and why it could be one of the more interesting DEXs to watch.
 
+<!--truncate-->
 
 ## Hedera Power: The Secret Behind SaucerSwap
 
