@@ -132,7 +132,7 @@ opacity: 0.9
          <ul>
          <li style={{ marginBottom: '10px' }}>
              Rewrote and enhanced Gruntwork.io’s documentation in Markdown, delivering over
-             <a href="https://johnpottergr.github.io/Gruntwork%20Revised%20Docs.pdf">
+             <a href="https://johnpottergr.github.io/gruntwork-docs.pdf">
                {" "}100+ sections, guides, and tutorials
              </a>{" "}on DevOps foundations, IaC best practices, and pipelines — and collaborated with the client to improve clarity.
              Explore my work
