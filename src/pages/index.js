@@ -140,7 +140,7 @@ opacity: 0.9
            </li>
            <li style={{ marginBottom: '10px' }}>
              Authored the <a href="https://johnpottergr.github.io/django.pdf">Django App</a> and{" "}
-             <a href="https://johnpottergr.github.io/NodeJS.pdf">NodeJS Deploy Guides</a> for an Edify client.
+             <a href="https://johnpottergr.github.io/nodejs.pdf">NodeJS Deploy Guides</a> for an Edify client.
            </li>
            <li>
              Samples include{" "}
