@@ -14,7 +14,7 @@ export default function Portfolio() {
         <p>
           Compiling this list was a trip down memory lane, revisiting the many different articles I’ve written. Most dive into data engineering, quantum computing breakthroughs, or cryptocurrency trends. But it's far from comprehensive.
           Over time, the quality improved, thanks to guidance from Anthony Garone at Edify Content.
-          Explore all my articles <a href="https://johnpottergr.github.io/article-by-industry.md">here</a>, or jump straight to a curated list of data migration guides <a href="https://johnpottergr.github.io/Data-Migration-Guides.md">here</a>.
+          Explore all my articles <a href="/article-by-industry.md" target="_blank" rel="noopener noreferrer">here</a>, or jump straight to a curated list of data migration guides <a href="/Data-Migration-Guides.md" target="_blank" rel="noopener noreferrer">here</a>.
         </p>
         <ul style={{ lineHeight: '1.6' }}>
           <li>
