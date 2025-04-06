@@ -9,6 +9,7 @@ While most platforms are still chasing faster, cheaper crypto trading, [SaucerSw
 
 If you’ve been wondering why SaucerSwap keeps popping up in DeFi circles, these five use cases make it clear: it’s not just hype.
 
+<!--truncate-->
 
 ## 1: Seamless Token Swaps
 
