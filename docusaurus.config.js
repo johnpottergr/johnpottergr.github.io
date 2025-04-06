@@ -102,10 +102,7 @@
                   label: 'Welcome',
                   to: '/',
                 },
-                {
-                  label: 'Resume',
-                  href: '/resume3.pdf',
-                },
+
                 {
                   label: 'Portfolio',
                   to: '/portfolio',
