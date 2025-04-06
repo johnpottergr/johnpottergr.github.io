@@ -9,6 +9,7 @@ date: 2025-03-27
 
 [SaucerSwap](https://www.saucerswap.finance/) is a top-tier decentralized exchange (DEX) built on the [Hedera](https://hedera.com/) network. It’s a platform where you can trade cryptocurrencies like HBAR and other Hedera Token Service (HTS) tokens quickly, securely, and with fees that won’t break the bank. Whether you’re looking to swap tokens, provide liquidity, or stake your assets, this guide will help you take your first steps. No middlemen, no hassle—just you and your crypto!
 
+<!--truncate-->
 
 ## What You’ll Need Before You Begin
 
