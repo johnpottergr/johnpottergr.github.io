@@ -1,0 +1,19 @@
+{
+  "id": "placeholder",
+  "title": "Placeholder",
+  "description": "This is a placeholder doc to keep Docusaurus happy. I’ll add real content here later.",
+  "source": "@site/docs/placeholder.md",
+  "sourceDirName": ".",
+  "slug": "/placeholder",
+  "permalink": "/docs/placeholder",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/johnpottergr/docs/placeholder.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "placeholder",
+    "title": "Placeholder"
+  },
+  "sidebar": "tutorialSidebar"
+}
