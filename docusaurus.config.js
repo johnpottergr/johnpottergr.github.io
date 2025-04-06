@@ -24,6 +24,7 @@
     // If you aren't using GitHub pages, you don't need these.
     organizationName: 'johnpottergr', // Updated to your GitHub username
     projectName: 'johnpottergr.github.io', // Updated to your repo name
+    deploymentBranch: 'gh-pages',
     trailingSlash: false, // Recommended for GitHub Pages
 
     onBrokenLinks: 'throw',
