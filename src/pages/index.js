@@ -144,7 +144,7 @@ opacity: 0.9
            </li>
            <li>
              Samples include{" "}
-             <a href="https://johnpottergr.github.io/release.pdf">QuickSwap Release Notes</a>,{" "}
+             <a href="https://johnpottergr.github.io/Release.pdf">QuickSwap Release Notes</a>,{" "}
              <a href="https://johnpottergr.github.io/proposal.pdf">Program Proposal</a>, and{" "}
              <a href="https://johnpottergr.github.io/uxportfolio.pdf">UX Portfolio</a>. I also created a{" "}
              <a href="https://johnpottergr.github.io/saucerswap.pdf">SaucerSwap Beginner's Guide</a> for new DeFi users.
