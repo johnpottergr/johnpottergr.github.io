@@ -132,22 +132,22 @@ opacity: 0.9
          <ul>
          <li style={{ marginBottom: '10px' }}>
              Rewrote and enhanced Gruntwork.io’s documentation in Markdown, delivering over
-             <a href="https://github.com/johnpottergr/Technical-Article-Portfolio/blob/main/Gruntwork%20Revised%20Docs.pdf">
+             <a href="https://johnpottergr.github.io/Gruntwork%20Revised%20Docs.pdf">
                {" "}100+ sections, guides, and tutorials
              </a>{" "}on DevOps foundations, IaC best practices, and pipelines — and collaborated with the client to improve clarity.
              Explore my work
              <a href="https://github.com/EdifyContent"> on Gruntwork Docs.</a>
            </li>
            <li style={{ marginBottom: '10px' }}>
-             Authored the <a href="https://github.com/johnpottergr/Software-Dev-Data-Migration-Guides/blob/main/django.pdf">Django App</a> and{" "}
-             <a href="https://github.com/johnpottergr/Software-Dev-Data-Migration-Guides/blob/main/nodeJS.pdf">NodeJS Deploy Guides</a> for an Edify client.
+             Authored the <a href="https://johnpottergr.github.io/django.pdf">Django App</a> and{" "}
+             <a href="https://johnpottergr.github.io/nodeJS.pdf">NodeJS Deploy Guides</a> for an Edify client.
            </li>
            <li>
              Samples include{" "}
-             <a href="https://github.com/johnpottergr/Software-Dev-Data-Migration-Guides/blob/main/release.pdf">QuickSwap Release Notes</a>,{" "}
-             <a href="https://github.com/johnpottergr/TechnicalWritingHQ.com-Samples/blob/main/proposal.pdf">Program Proposal</a>, and{" "}
-             <a href="https://github.com/johnpottergr/TechnicalWritingHQ.com-Samples/blob/main/uxportfolio.pdf">UX Portfolio</a>. I also created a{" "}
-             <a href="https://github.com/johnpottergr/Software-Dev-Data-Migration-Guides/blob/main/saucerswap.pdf">SaucerSwap Beginner's Guide</a> for new DeFi users.
+             <a href="https://johnpottergr.github.io/release.pdf">QuickSwap Release Notes</a>,{" "}
+             <a href="https://johnpottergr.github.io/proposal.pdf">Program Proposal</a>, and{" "}
+             <a href="https://johnpottergr.github.io/uxportfolio.pdf">UX Portfolio</a>. I also created a{" "}
+             <a href="https://johnpottergr.github.io/saucerswap.pdf">SaucerSwap Beginner's Guide</a> for new DeFi users.
            </li>
          </ul>
 
