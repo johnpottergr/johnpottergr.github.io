@@ -76,7 +76,7 @@ export default function Portfolio() {
         </ul>
 
         {/* AI / Machine Learning Section */}
-        <h3 id="ai--machine-learning" style={{ color: '#F5F5F5', marginTop: '20px' }}>AI / Machine Learning</h3>
+        <h3 id="ai--machine-learning" style={{ color: '#F5F5F5', marginTop: '100px' }}>AI / Machine Learning</h3>
         <ul style={{ lineHeight: '1.6' }}>
         <li>
             <a href="https://www.coderabbit.ai/blog/maximizing-efficiency-pairing-code-generators-with-ai-code-reviewers" style={{ color: '#5ED1A5', textDecoration: 'none' }}>
@@ -111,7 +111,7 @@ export default function Portfolio() {
           </li>
         </ul>
         {/* Business Operations Section */}
-        <h3  id="business-operations" style={{ color: '#F5F5F5', marginTop: '20px' }}>Business Operations</h3>
+        <h3  id="business-operations" style={{ color: '#F5F5F5', marginTop: '100px', scrollMarginTop: '100px'  }}>Business Operations</h3>
         <ul style={{ lineHeight: '1.6' }}>
           <li>
             <a href="https://www.gocanvas.com/blog/mastering-inspection-dispatch-scheduling-technology" style={{ color: '#5ED1A5', textDecoration: 'none' }}>
@@ -141,7 +141,7 @@ export default function Portfolio() {
         </ul>
 
         {/* Coding Section */}
-        <h3 id="coding" style={{ color: '#F5F5F5', marginTop: '20px' }}>Coding</h3>
+        <h3 id="coding" style={{ color: '#F5F5F5', marginTop: '100px', scrollMarginTop: '100px'  }}>Coding</h3>
         <ul style={{ lineHeight: '1.6' }}>
 
           <li>
@@ -167,7 +167,7 @@ export default function Portfolio() {
         </ul>
 
         {/* Cryptocurrency Section */}
-        <h3 id="cryptocurrency" style={{ color: '#F5F5F5', marginTop: '20px' }}>Cryptocurrency</h3>
+        <h3 id="cryptocurrency" style={{ color: '#F5F5F5', marginTop: '100px', scrollMarginTop: '100px' }}>Cryptocurrency</h3>
         <ul style={{ lineHeight: '1.6' }}>
           <li>
             <a href="https://www.benzinga.com/markets/cryptocurrency/21/09/22864242/how-can-value-investors-profit-in-the-crypto-ecosystem" style={{ color: '#5ED1A5', textDecoration: 'none' }}>
@@ -197,7 +197,7 @@ export default function Portfolio() {
         </ul>
 
         {/* Cryptography Section */}
-        <h3  id="cryptography" style={{ color: '#F5F5F5', marginTop: '20px' }}>Cryptography</h3>
+        <h3  id="cryptography" style={{ color: '#F5F5F5', marginTop: '100px', scrollMarginTop: '100px' }}>Cryptography</h3>
         <ul style={{ lineHeight: '1.6' }}>
           <li>
             <a href="https://www.insidequantumtechnology.com/news-archive/quantum-computing-the-cause-of-the-next-crypto-crash/" style={{ color: '#5ED1A5', textDecoration: 'none' }}>
@@ -232,7 +232,7 @@ export default function Portfolio() {
         </ul>
 
         {/* Data Engineering Section */}
-        <h3  id="data-engineering" style={{ color: '#F5F5F5', marginTop: '20px' }}>Data Engineering</h3>
+        <h3  id="data-engineering" style={{ color: '#F5F5F5', marginTop: '100px', scrollMarginTop: '100px' }}>Data Engineering</h3>
         <ul style={{ lineHeight: '1.6' }}>
           <li>
             <a href="https://www.fivetran.com/blog/what-is-the-modern-data-stack" style={{ color: '#5ED1A5', textDecoration: 'none' }}>
@@ -262,7 +262,7 @@ export default function Portfolio() {
         </ul>
 
         {/* Kubernetes Section */}
-        <h3 id="kubernetes" style={{ color: '#F5F5F5', marginTop: '20px' }}>Kubernetes</h3>
+        <h3 id="kubernetes" style={{ color: '#F5F5F5', marginTop: '100px', scrollMarginTop: '100px' }}>Kubernetes</h3>
         <ul style={{ lineHeight: '1.6' }}>
           <li>
             <a href="https://www.compliancecow.com/compliance/kubernetes-compliance-with-iso-27001-a-strategic-imperative/" style={{ color: '#5ED1A5', textDecoration: 'none' }}>
@@ -282,7 +282,7 @@ export default function Portfolio() {
         </ul>
 
         {/* Markdown Section */}
-        <h3 style={{ color: '#F5F5F5', marginTop: '20px' }}>Markdown</h3>
+        <h3 style={{ color: '#F5F5F5', marginTop: '100px', scrollMarginTop: '100px' }}>Markdown</h3>
         <ul style={{ lineHeight: '1.6' }}>
           <li>
             <a href="https://github.com/EdifyContent" style={{ color: '#5ED1A5', textDecoration: 'none' }}>
@@ -292,7 +292,7 @@ export default function Portfolio() {
         </ul>
 
         {/* Marketing Section */}
-        <h3  id="marketing" style={{ color: '#F5F5F5', marginTop: '20px' }}>Marketing</h3>
+        <h3  id="marketing" style={{ color: '#F5F5F5', marginTop: '100px', scrollMarginTop: '100px' }}>Marketing</h3>
         <ul style={{ lineHeight: '1.6' }}>
           <li>
             <a href="https://postie.com/blog/unlock-success-with-incrementality-testing-techniques/" style={{ color: '#5ED1A5', textDecoration: 'none' }}>
@@ -322,7 +322,7 @@ export default function Portfolio() {
         </ul>
 
         {/* Quantum Computing Section */}
-        <h3 id="quantum-computing" style={{ color: '#F5F5F5', marginTop: '20px' }}>Quantum Computing</h3>
+        <h3 id="quantum-computing" style={{ color: '#F5F5F5', marginTop: '100px', scrollMarginTop: '100px'}}>Quantum Computing</h3>
         <ul style={{ lineHeight: '1.6' }}>
           <li>
             <a href="https://www.iotworldtoday.com/quantum/nord-quantique-unveils-new-technique-for-scalable-qubit-error-correction" style={{ color: '#5ED1A5', textDecoration: 'none' }}>
@@ -352,7 +352,7 @@ export default function Portfolio() {
         </ul>
 
         {/* Security Section */}
-        <h3 id="security" style={{ color: '#F5F5F5', marginTop: '20px' }}>Security</h3>
+        <h3 id="security" style={{ color: '#F5F5F5', marginTop: '100px', scrollMarginTop: '100px' }}>Security</h3>
         <ul style={{ lineHeight: '1.6' }}>
           <li>
             <a href="https://www.compliancecow.com/compliance/security-assurance/" style={{ color: '#5ED1A5', textDecoration: 'none' }}>
@@ -382,7 +382,7 @@ export default function Portfolio() {
         </ul>
 
         {/* Stock Analysis Section */}
-        <h3 id="stock-analysis" style={{ color: '#F5F5F5', marginTop: '20px' }}>Stock Analysis</h3>
+        <h3 id="stock-analysis" style={{ color: '#F5F5F5', marginTop: '100px', scrollMarginTop: '100px'}}>Stock Analysis</h3>
         <ul style={{ lineHeight: '1.6' }}>
           <li>
             <a href="https://www.tipranks.com/news/can-digitalocean-nasdaqdocn-keep-up-its-high-growth" style={{ color: '#5ED1A5', textDecoration: 'none' }}>
