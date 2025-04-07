@@ -131,8 +131,8 @@ opacity: 0.9
          </h2>
          <ul>
          <li style={{ marginBottom: '10px' }}>
-             Rewrote and enhanced Gruntwork.io’s documentation in Markdown, delivering over
-             <a href="https://johnpottergr.github.io/Gruntwork-Docs.pdf" target="_blank" rel="noopener noreferrer">
+             Rewrote and enhanced Gruntwork.io’s documentation in Markdown, delivering
+             over <a href="https://johnpottergr.github.io/Gruntwork-Docs.pdf" target="_blank" rel="noopener noreferrer">
                100+ sections, guides, and tutorials </a>
              on DevOps foundations, IaC best practices, and pipelines — and collaborated with the client to improve clarity.
              Explore my work

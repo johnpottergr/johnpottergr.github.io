@@ -4,8 +4,8 @@ import Layout from '@theme/Layout';
 export default function Portfolio() {
   return (
     <Layout title="Portfolio">
-      <div style={{ padding: '20px', maxWidth: '1000px', margin: '0 auto', color: '#F5F5F5' }}>
-        <h1 style={{ color: '#F5F5F5' }}>Portfolio</h1>
+      <div style={{ padding: '20px', maxWidth: '800px', margin: '0 auto', color: '#F5F5F5' }}>
+        <h1 style={{ color: '#F5F5F5' }}>My Portfolio</h1>
 
         {/* Featured Articles Section */}
         <h2 style={{ color: '#F5F5F5', borderBottom: '2px solid #F5F5F5', paddingBottom: '5px' }}>
@@ -181,8 +181,8 @@ export default function Portfolio() {
           </li>
           <li>
             <a href="https://www.pressreader.com/uk/crypto-magazine/20230629/282419878686631" style={{ color: '#5ED1A5', textDecoration: 'none' }}>
-              Memechainds Take Meme Coins to the Next Level
-            </a>, <em>Crypto Magazine</em>, 2024
+              Meme Chains Take Meme Coins to the Next Level
+            </a>, <em>Crypto Magazine</em>, 2023
           </li>
           <li>
             <a href="https://blog.dogechain.dog/2022/08/04/polygon-edge-providing-blockchain-sovereignty-to-dogechain/" style={{ color: '#5ED1A5', textDecoration: 'none' }}>

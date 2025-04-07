@@ -1,5 +1,5 @@
 ---
-title: Top 5 Use Cases for Saucerswap 
+title: Top 5 Use Cases for Saucerswap
 date: 2025-04-02
 ---
 
@@ -22,7 +22,7 @@ Swapping HBAR for USDC or newer HTS tokens feels smooth, and with SaucerSwap V2�
 
 The process to provide liquidity on SaucerSwap is simple: pick a token pair, deposit both tokens into a pool, and get LP tokens in return. In return, you earn 0.25% of every swap made in that pool. It’s passive, steady, and a big draw for yield-focused users.
 
-In 2025, SaucerSwap raised the bar with the Liquidity-Aligned Reward Initiative, or LARI. It adds dual rewards—HBAR and SAUCE—to the mix. It also gives users more incentive to stick around. Once you possess LP tokens, you can stake them using the Masterchef contract. Your tokens stay in the pool, earning fees and rewards while you do nothing.
+SaucerSwap has raised the bar with its Liquidity-Aligned Reward Initiative, or LARI. The program offers dual rewards—HBAR and SAUCE—for users who provide liquidity in its V2 concentrated liquidity pools. Instead of traditional LP tokens, your position is represented by an NFT. That NFT can then be staked using the Masterchef contract, allowing you to earn fees and rewards while your liquidity stays active in the pool.
 
 The desire for passive income has attracted long-term investors looking beyond quick gains. It has also added real depth and stability to SaucerSwap’s liquidity. The result is a trading platform where traders can park their assets and earn over time. Growing user commitment is turning it into a central hub for DeFi activity on [Hedera](https://hedera.com/).
 
