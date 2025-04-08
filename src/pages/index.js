@@ -107,13 +107,18 @@ opacity: 0.9
            <div style={{ flex: '1' }}>
               <h1>Welcome</h1>
               <p>
-            Welcome to my website! I’m a technical content writer with 7+ years of experience in fintech,
-               blockchain, and more. I’ve published 300+ articles on AI, quantum computing, and cryptocurrency.
-             </p>
-             <p>I enjoy working with clients to create clear, engaging content—whether that’s articles,
-               guides, or documentation—that resonates with users and supports business goals. While I've primarily
-               written articles, I’ve also contributed to technical documentation and am eager to
-               take on more of it.
+              Welcome to my website. I’m a technical writer
+              with 7+ years of experience creating clear,
+              engaging content across AI, blockchain,
+              and other complex topics. I’ve published over
+              300 articles and also contributed to technical
+              documentation—working closely with clients to
+              develop content that supports business goals.
+              While most of my work has been article-based,
+              I’m eager to take on more documentation projects
+              as well.
+
+
             </p>
            </div>
            <img
