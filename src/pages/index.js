@@ -109,7 +109,7 @@ opacity: 0.9
               <p>
               Welcome to my website. I’m a technical content writer
               with 7+ years of experience creating clear,
-              engaging content across AI, blockchain,
+              engaging material across AI, blockchain,
               and other complex topics. I’ve published over
               300 articles and also contributed to technical
               documentation—working closely with clients to
