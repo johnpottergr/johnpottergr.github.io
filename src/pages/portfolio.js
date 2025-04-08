@@ -281,12 +281,13 @@ export default function Portfolio() {
           </li>
         </ul>
 
-        {/* Markdown Section */}
-        <h3 style={{ color: '#F5F5F5', marginTop: '40px', scrollMarginTop: '100px' }}>Markdown</h3>
+        {/* IT Infrastructure Section */}
+        <h3 style={{ color: '#F5F5F5', marginTop: '40px', scrollMarginTop: '100px' }}>IT Infrastructure</h3>
         <ul style={{ lineHeight: '1.6' }}>
           <li>
-            <a href="https://github.com/EdifyContent" style={{ color: '#5ED1A5', textDecoration: 'none' }}>
-              See my GitHub work
+            <a href="https://docs.gruntwork.io/" style={{ color: '#5ED1A5', textDecoration: 'none' }}>Gruntwork Docs</a>
+            Also, <a href="https://github.com/EdifyContent" style={{ color: '#5ED1A5', textDecoration: 'none' }}>
+              see my GitHub work
             </a>, <em>Gruntwork.io</em>, 2025
           </li>
         </ul>
