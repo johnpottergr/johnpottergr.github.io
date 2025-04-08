@@ -107,7 +107,7 @@ opacity: 0.9
            <div style={{ flex: '1' }}>
               <h1>Welcome</h1>
               <p>
-              Welcome to my website. I’m a technical writer
+              Welcome to my website. I’m a technical content writer
               with 7+ years of experience creating clear,
               engaging content across AI, blockchain,
               and other complex topics. I’ve published over
