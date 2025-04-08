@@ -4,7 +4,7 @@ import Layout from '@theme/Layout';
 export default function Portfolio() {
   return (
     <Layout title="Portfolio">
-      <div style={{ padding: '20px', maxWidth: '800px', margin: '0 auto', color: '#F5F5F5' }}>
+      <div style={{ padding: '20px', maxWidth: '830px', margin: '0 auto', color: '#F5F5F5' }}>
         <h1 style={{ color: '#F5F5F5' }}>My Portfolio</h1>
 
         {/* Featured Articles Section */}
@@ -12,9 +12,9 @@ export default function Portfolio() {
           Featured Articles
         </h2>
         <p>
-          Compiling this list was a trip down memory lane, revisiting the many different articles I’ve written. Most dive into data engineering, quantum computing breakthroughs, or cryptocurrency trends. But it's far from comprehensive.
-          Over time, the quality improved, thanks to guidance from Anthony Garone at Edify Content.
-          Explore all my articles <a href="/article%20by%20industry.pdf" target="_blank" rel="noopener noreferrer">here</a>, or jump straight to a curated list of data migration guides <a href="/Data%20Migration%20Guides.pdf" target="_blank" rel="noopener noreferrer">here</a>.
+          While many of my articles focus on data engineering, I've also written about quantum computing, marketing, and cryptocurrency.
+          The quality has improved over time, thanks to guidance from Anthony Garone at Edify Content.
+          You can browse all my articles <a href="/article%20by%20industry.pdf" target="_blank" rel="noopener noreferrer">here</a>, or jump straight to a curated list of data migration guides <a href="/Data%20Migration%20Guides.pdf" target="_blank" rel="noopener noreferrer">here</a>.
         </p>
         <ul style={{ lineHeight: '1.6' }}>
           <li>
@@ -241,16 +241,6 @@ export default function Portfolio() {
         <h3 id="security" style={{ color: '#F5F5F5', marginTop: '40px', scrollMarginTop: '100px' }}>Security</h3>
         <ul style={{ lineHeight: '1.6' }}>
           <li>
-            <a href="https://www.compliancecow.com/compliance/security-assurance/" style={{ color: '#5ED1A5', textDecoration: 'none' }}>
-              Mastering Security Assurance through Hardening, Testing, and Vulnerability Management
-            </a>, <em>ComplianceCow</em>, 2024
-          </li>
-          <li>
-            <a href="https://www.compliancecow.com/compliance/security-audit/" style={{ color: '#5ED1A5', textDecoration: 'none' }}>
-              Revolutionizing Security Audits: Streamlining Evidence Collection for Efficiency and Cost-Effectiveness
-            </a>, <em>ComplianceCow</em>, 2024
-          </li>
-          <li>
             <a href="https://www.compliancecow.com/compliance/navigating-cmmc-certification-a-guide-for-dod-contractors" style={{ color: '#5ED1A5', textDecoration: 'none' }}>
               Navigating CMMC Certification: A Guide for DoD Contractors
             </a>, <em>ComplianceCow</em>, 2024
@@ -263,6 +253,16 @@ export default function Portfolio() {
           <li>
             <a href="https://www.compliancecow.com/compliance/vulnerability-cve-epss/" style={{ color: '#5ED1A5', textDecoration: 'none' }}>
               Mastering Vulnerability Management: A Guide to CVE and EPSS
+            </a>, <em>ComplianceCow</em>, 2024
+          </li>
+          <li>
+            <a href="https://www.compliancecow.com/compliance/security-assurance/" style={{ color: '#5ED1A5', textDecoration: 'none' }}>
+              Mastering Security Assurance through Hardening, Testing, and Vulnerability Management
+            </a>, <em>ComplianceCow</em>, 2024
+          </li>
+          <li>
+            <a href="https://www.compliancecow.com/compliance/security-audit/" style={{ color: '#5ED1A5', textDecoration: 'none' }}>
+              Revolutionizing Security Audits: Streamlining Evidence Collection for Efficiency and Cost-Effectiveness
             </a>, <em>ComplianceCow</em>, 2024
           </li>
         </ul>
