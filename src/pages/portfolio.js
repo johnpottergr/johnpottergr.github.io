@@ -44,8 +44,18 @@ export default function Portfolio() {
             </a>
           </li>
           <li>
+            <a href="https://johnpottergr.com/portfolio#cybersecurity" style={{ color: '#5ED1A5', textDecoration: 'none' }}>
+              Cybersecurity
+            </a>
+          </li>
+          <li>
             <a href="https://johnpottergr.com/portfolio#data-engineering" style={{ color: '#5ED1A5', textDecoration: 'none' }}>
               Data Engineering
+            </a>
+          </li>
+          <li>
+            <a href="https://johnpottergr.com/portfolio#it-infrastructure" style={{ color: '#5ED1A5', textDecoration: 'none' }}>
+              IT Infrastructure
             </a>
           </li>
           <li>
@@ -63,11 +73,7 @@ export default function Portfolio() {
               Quantum Computing
             </a>
           </li>
-          <li>
-            <a href="https://johnpottergr.com/portfolio#security" style={{ color: '#5ED1A5', textDecoration: 'none' }}>
-              Security
-            </a>
-          </li>
+
           <li>
             <a href="https://johnpottergr.com/portfolio#stock-analysis" style={{ color: '#5ED1A5', textDecoration: 'none' }}>
               Stock Analysis
@@ -231,6 +237,36 @@ export default function Portfolio() {
           </li>
         </ul>
 
+        {/* Cybersecurity Section */}
+        <h3 id="security" style={{ color: '#F5F5F5', marginTop: '40px', scrollMarginTop: '100px' }}>Security</h3>
+        <ul style={{ lineHeight: '1.6' }}>
+          <li>
+            <a href="https://www.compliancecow.com/compliance/security-assurance/" style={{ color: '#5ED1A5', textDecoration: 'none' }}>
+              Mastering Security Assurance through Hardening, Testing, and Vulnerability Management
+            </a>, <em>ComplianceCow</em>, 2024
+          </li>
+          <li>
+            <a href="https://www.compliancecow.com/compliance/security-audit/" style={{ color: '#5ED1A5', textDecoration: 'none' }}>
+              Revolutionizing Security Audits: Streamlining Evidence Collection for Efficiency and Cost-Effectiveness
+            </a>, <em>ComplianceCow</em>, 2024
+          </li>
+          <li>
+            <a href="https://www.compliancecow.com/compliance/navigating-cmmc-certification-a-guide-for-dod-contractors" style={{ color: '#5ED1A5', textDecoration: 'none' }}>
+              Navigating CMMC Certification: A Guide for DoD Contractors
+            </a>, <em>ComplianceCow</em>, 2024
+          </li>
+          <li>
+            <a href="https://docs.google.com/document/d/1q88yiuHj2-vtJudOGhDxCB6nrgycRTKztyt0An301zU/edit?usp=sharing" style={{ color: '#5ED1A5', textDecoration: 'none' }}>
+              Zero Trust Security: The New Standard for Robust Cyber Protection
+            </a>, <em>Unpublished</em>, 2024
+          </li>
+          <li>
+            <a href="https://www.compliancecow.com/compliance/vulnerability-cve-epss/" style={{ color: '#5ED1A5', textDecoration: 'none' }}>
+              Mastering Vulnerability Management: A Guide to CVE and EPSS
+            </a>, <em>ComplianceCow</em>, 2024
+          </li>
+        </ul>
+
         {/* Data Engineering Section */}
         <h3  id="data-engineering" style={{ color: '#F5F5F5', marginTop: '40px', scrollMarginTop: '100px' }}>Data Engineering</h3>
         <ul style={{ lineHeight: '1.6' }}>
@@ -261,6 +297,17 @@ export default function Portfolio() {
           </li>
         </ul>
 
+ {/* IT Infrastructure Section */}
+ <h3 style={{ color: '#F5F5F5', marginTop: '40px', scrollMarginTop: '100px' }}>IT Infrastructure</h3>
+        <ul style={{ lineHeight: '1.6' }}>
+          <li>
+            <a href="https://docs.gruntwork.io/" style={{ color: '#5ED1A5', textDecoration: 'none' }}>Gruntwork Docs,</a>
+            <a href="https://github.com/EdifyContent" style={{ color: '#5ED1A5', textDecoration: 'none' }}>
+              (see my GitHub work)
+            </a>, <em>Gruntwork.io</em>, 2025
+          </li>
+        </ul>
+
         {/* Kubernetes Section */}
         <h3 id="kubernetes" style={{ color: '#F5F5F5', marginTop: '40px', scrollMarginTop: '100px' }}>Kubernetes</h3>
         <ul style={{ lineHeight: '1.6' }}>
@@ -278,17 +325,6 @@ export default function Portfolio() {
             <a href="https://dev.to/johnpottergr/kubernetes-for-machine-learning-how-to-build-your-first-ml-pipeline-2040" style={{ color: '#5ED1A5', textDecoration: 'none' }}>
               Kubernetes for Machine Learning: How to Build Your First ML Pipeline
             </a>, <em>Self-Published</em>, 2024
-          </li>
-        </ul>
-
-        {/* IT Infrastructure Section */}
-        <h3 style={{ color: '#F5F5F5', marginTop: '40px', scrollMarginTop: '100px' }}>IT Infrastructure</h3>
-        <ul style={{ lineHeight: '1.6' }}>
-          <li>
-            <a href="https://docs.gruntwork.io/" style={{ color: '#5ED1A5', textDecoration: 'none' }}>Gruntwork Docs</a>
-            Also, <a href="https://github.com/EdifyContent" style={{ color: '#5ED1A5', textDecoration: 'none' }}>
-              see my GitHub work
-            </a>, <em>Gruntwork.io</em>, 2025
           </li>
         </ul>
 
@@ -349,36 +385,6 @@ export default function Portfolio() {
             <a href="https://thequantuminsider.com/2023/05/16/4-countries-that-began-funding-quantum-initiatives-in-2022/" style={{ color: '#5ED1A5', textDecoration: 'none' }}>
               4 Countries That Began Funding Quantum Initiatives in 2022
             </a>, <em>The Quantum Insider</em>, 2023
-          </li>
-        </ul>
-
-        {/* Security Section */}
-        <h3 id="security" style={{ color: '#F5F5F5', marginTop: '40px', scrollMarginTop: '100px' }}>Security</h3>
-        <ul style={{ lineHeight: '1.6' }}>
-          <li>
-            <a href="https://www.compliancecow.com/compliance/security-assurance/" style={{ color: '#5ED1A5', textDecoration: 'none' }}>
-              Mastering Security Assurance through Hardening, Testing, and Vulnerability Management
-            </a>, <em>ComplianceCow</em>, 2024
-          </li>
-          <li>
-            <a href="https://www.compliancecow.com/compliance/security-audit/" style={{ color: '#5ED1A5', textDecoration: 'none' }}>
-              Revolutionizing Security Audits: Streamlining Evidence Collection for Efficiency and Cost-Effectiveness
-            </a>, <em>ComplianceCow</em>, 2024
-          </li>
-          <li>
-            <a href="https://www.compliancecow.com/compliance/navigating-cmmc-certification-a-guide-for-dod-contractors" style={{ color: '#5ED1A5', textDecoration: 'none' }}>
-              Navigating CMMC Certification: A Guide for DoD Contractors
-            </a>, <em>ComplianceCow</em>, 2024
-          </li>
-          <li>
-            <a href="https://docs.google.com/document/d/1q88yiuHj2-vtJudOGhDxCB6nrgycRTKztyt0An301zU/edit?usp=sharing" style={{ color: '#5ED1A5', textDecoration: 'none' }}>
-              Zero Trust Security: The New Standard for Robust Cyber Protection
-            </a>, <em>Unpublished</em>, 2024
-          </li>
-          <li>
-            <a href="https://www.compliancecow.com/compliance/vulnerability-cve-epss/" style={{ color: '#5ED1A5', textDecoration: 'none' }}>
-              Mastering Vulnerability Management: A Guide to CVE and EPSS
-            </a>, <em>ComplianceCow</em>, 2024
           </li>
         </ul>
 
