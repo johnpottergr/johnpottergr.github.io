@@ -107,7 +107,7 @@ opacity: 0.9
            <div style={{ flex: '1' }}>
               <h1>Welcome</h1>
               <p>
-            Welcome to my website! I’m a technical writer with 7+ years of experience in fintech,
+            Welcome to my website! I’m a technical content writer with 7+ years of experience in fintech,
                blockchain, and more. I’ve published 300+ articles on AI, quantum computing, and cryptocurrency.
              </p>
              <p>I enjoy working with clients to create clear, engaging content—whether that’s articles,
