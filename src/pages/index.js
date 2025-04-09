@@ -137,9 +137,9 @@ opacity: 0.9
              Rewrote and enhanced Gruntwork.io’s documentation in Markdown, delivering
              over <a href="https://johnpottergr.github.io/Gruntwork-Docs.pdf" target="_blank" rel="noopener noreferrer">
                100+ sections, guides, and tutorials </a>
-             on DevOps foundations, IaC best practices, and pipelines — and collaborated with the client to improve clarity.
-             Explore my work
-             <a href="https://github.com/EdifyContent"> on Gruntwork Docs.</a>
+             on DevOps foundations, IaC best practices, and pipelines.
+             Worked closely with the client via GitHub to improve clarity and structure.
+             View <a href="https://github.com/EdifyContent">commit history</a> to see contribution details.
            </li>
            <li style={{ marginBottom: '10px' }}>
              Authored the <a href="https://johnpottergr.github.io/django.pdf">Django App</a> and{" "}
