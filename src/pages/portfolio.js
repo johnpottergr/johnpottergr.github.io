@@ -29,11 +29,6 @@ export default function Portfolio() {
             </a>
           </li>
           <li>
-            <a href="https://johnpottergr.com/portfolio#coding" style={{ color: '#5ED1A5', textDecoration: 'none' }}>
-              Coding
-            </a>
-          </li>
-          <li>
             <a href="https://johnpottergr.com/portfolio#cryptocurrency" style={{ color: '#5ED1A5', textDecoration: 'none' }}>
               Cryptocurrency
             </a>
@@ -95,11 +90,6 @@ export default function Portfolio() {
             </a>
           </li>
           <li>
-            <a href="https://docs.google.com/document/d/1eu7KduzGpK_DeEPWAafbzCvxkPbJc146Q1tlz17uHbs/edit?usp=sharing" style={{ color: '##5ED1A5', textDecoration: 'none' }}>
-              The Commodification of LLMs
-            </a>
-          </li>
-          <li>
             <a href="htts://revelate.co/blog/how-ai-is-revolutionizing-data-collaboration/#:~:text=Think%20of%20AI%20in%20data,AI%20breaks%20down%20those%20barriers." style={{ color: '#5ED1A5', textDecoration: 'none' }}>
               How AI is Revolutionizing Data Collaboration
             </a>
@@ -109,10 +99,14 @@ export default function Portfolio() {
               Data for AI: The Fuel that Supercharges Machine Learning
             </a>
           </li>
-
           <li>
-            <a href="https://www.linkedin.com/pulse/how-generative-adversarial-networks-work-simulate-facial-potter/" style={{ color: '#5ED1A5', textDecoration: 'none' }}>
-              How Generative Adversarial Networks Work to Simulate Facial Aging
+            <a href="https://www.coderabbit.ai/blog/top-5-ai-code-generation-tools" style={{ color: '#5ED1A5', textDecoration: 'none' }}>
+              Top 5 AI Code Generation Tools
+            </a>
+          </li>
+          <li>
+            <a href="https://www.coderabbit.ai/blog/static-code-analyzers-vs-ai-code-reviewers-which-is-best" style={{ color: '#5ED1A5', textDecoration: 'none' }}>
+              Static Code Analyzers vs AI Code Reviewers: Which is Best?
             </a>
           </li>
         </ul>
@@ -142,32 +136,6 @@ export default function Portfolio() {
           <li>
             <a href="https://www.gocanvas.com/blog/the-evolution-of-work-orders-and-maintenance-management" style={{ color: '#5ED1A5', textDecoration: 'none' }}>
               The Evolution of Work Orders and Maintenance Management
-            </a>
-          </li>
-        </ul>
-
-        {/* Coding Section */}
-        <h3 id="coding" style={{ color: '#F5F5F5', marginTop: '40px', scrollMarginTop: '100px'  }}>Coding</h3>
-        <ul style={{ lineHeight: '1.6' }}>
-
-          <li>
-            <a href="https://www.coderabbit.ai/blog/optimize-issue-management-with-coderabbit" style={{ color: '#5ED1A5', textDecoration: 'none' }}>
-              Optimize Issue Management with CodeRabbit
-            </a>
-          </li>
-          <li>
-            <a href="https://www.coderabbit.ai/blog/top-5-ai-code-generation-tools" style={{ color: '#5ED1A5', textDecoration: 'none' }}>
-              Top 5 AI Code Generation Tools
-            </a>
-          </li>
-          <li>
-            <a href="https://www.coderabbit.ai/blog/static-code-analyzers-vs-ai-code-reviewers-which-is-best" style={{ color: '#5ED1A5', textDecoration: 'none' }}>
-              Static Code Analyzers vs AI Code Reviewers: Which is Best?
-            </a>
-          </li>
-          <li>
-            <a href="https://docs.google.com/document/d/1Uw0cGjeiALqZ5dYrXxcwiEcwBhgSKC8jMDEH-BN_iz0/edit?usp=sharing" style={{ color: '#5ED1A5', textDecoration: 'none' }}>
-              How CodeRabbit Learnings Work
             </a>
           </li>
         </ul>
