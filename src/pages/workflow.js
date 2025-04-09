@@ -20,8 +20,7 @@ export default function Workflow() {
     <strong style={{ color: '#5ED1A5' }}>Start with the goal in mind:</strong> I clarify what the piece needs to achieve. If it’s tied to an SEO keyword, I review competing content to identify gaps. That way, we’re offering something useful—not just repeating what’s already out there.
   </li>
   <li style={{ marginBottom: '1.5rem' }}>
-    <strong style={{ color: '#5ED1A5' }}>Sketch a structure that flows:</strong>
-     Before writing, I organize the piece around a logical path—breaking it into clear sections that guide the reader step by step. Each header serves a purpose, making the content easy to follow from start to finish.
+    <strong style={{ color: '#5ED1A5' }}>Sketch a structure that flows:</strong> Before writing, I organize the piece around a logical path—breaking it into clear sections that guide the reader step by step. Each header serves a purpose, making the content easy to follow from start to finish.
   </li>
   <li style={{ marginBottom: '1.5rem' }}>
   <strong style={{ color: '#5ED1A5' }}>Write with clarity and tone:</strong> I focus on clear, approachable language—cutting fluff and writing with purpose. The aim is to give your audience something helpful and easy to digest, not something that sounds like a lecture.
