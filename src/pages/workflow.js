@@ -8,7 +8,9 @@ export default function Workflow() {
         <h1 style={{ color: '#F5F5F5' }}>My Writing Process</h1>
 
         {/* Workflow Section */}
-        <h2 style={{ color: '#F5F5F5', borderBottom: '2px solid #F5F5F5', paddingTop: '10px', paddingBottom: '5px' }}>
+        <h2 style={{ color: '#F5F5F5',
+  fontWeight: 400,
+borderBottom: '2px solid #5ED1A5', paddingTop: '10px', paddingBottom: '5px' }}>
         Clear and audience-focused        </h2>
 
         <p>

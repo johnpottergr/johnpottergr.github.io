@@ -8,7 +8,7 @@ export default function Portfolio() {
         <h1 style={{ color: '#F5F5F5' }}>My Portfolio</h1>
 
         {/* Featured Articles Section */}
-        <h2 style={{ color: '#F5F5F5', borderBottom: '2px solid #F5F5F5', paddingBottom: '5px' }}>
+        <h2 style={{ color: '#F5F5F5', borderBottom: '2px solid #5ED1A5',  fontWeight: 400, paddingBottom: '5px' }}>
           Featured Articles
         </h2>
         <p>
