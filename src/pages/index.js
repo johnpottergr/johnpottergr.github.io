@@ -107,7 +107,7 @@ opacity: 0.9
            <div style={{ flex: '1' }}>
               <h1>Welcome</h1>
               <p>
-              Welcome to my website. I’m a technical content writer
+              I’m a technical content writer
               with 7+ years of experience creating clear,
               engaging material across AI, blockchain,
               and other complex topics. I’ve published over
@@ -117,8 +117,6 @@ opacity: 0.9
               While most of my work has been article-based,
               I’m eager to take on more documentation projects
               as well.
-
-
             </p>
            </div>
            <img
@@ -170,10 +168,8 @@ opacity: 0.9
              <a href="https://johnpottergr.github.io/blog"> my blog</a> as part of this collaboration.
             </li>
             <li>
-             Learning SharePoint, Swagger, and Postman — exploring resources like{" "}
-             <a href="https://learn.microsoft.com/en-us/sharepoint/">SharePoint Documentation</a>,{" "}
-             <a href="https://swagger.io/docs/">Swagger Docs</a>, and{" "}
-             <a href="https://learning.postman.com/">Postman Learning Center</a>.
+             Learning SharePoint, Swagger, and Postman — exploring resources like SharePoint Documentation
+             Swagger Docs, and Postman Learning Center.
            </li>
          </ul>
           {/* About this site */}
