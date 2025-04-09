@@ -206,7 +206,7 @@ export default function Portfolio() {
         </ul>
 
         {/* Cybersecurity Section */}
-        <h3 id="security" style={{ color: '#F5F5F5', marginTop: '40px', scrollMarginTop: '100px' }}>Security</h3>
+        <h3 id="cybersecurity" style={{ color: '#F5F5F5', marginTop: '40px', scrollMarginTop: '100px' }}>Cybersecurity</h3>
         <ul style={{ lineHeight: '1.6' }}>
           <li>
             <a href="https://www.compliancecow.com/compliance/navigating-cmmc-certification-a-guide-for-dod-contractors" style={{ color: '#5ED1A5', textDecoration: 'none' }}>
