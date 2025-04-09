@@ -21,7 +21,7 @@ export default function Workflow() {
   </li>
   <li style={{ marginBottom: '1.5rem' }}>
     <strong style={{ color: '#5ED1A5' }}>Sketch a structure that flows:</strong>
-    Before writing, I organize the piece around a logical path—breaking it into clear sections that guide the reader step by step. Each header serves a purpose, making the content easy to follow from start to finish.
+     Before writing, I organize the piece around a logical path—breaking it into clear sections that guide the reader step by step. Each header serves a purpose, making the content easy to follow from start to finish.
   </li>
   <li style={{ marginBottom: '1.5rem' }}>
   <strong style={{ color: '#5ED1A5' }}>Write with clarity and tone:</strong> I focus on clear, approachable language—cutting fluff and writing with purpose. The aim is to give your audience something helpful and easy to digest, not something that sounds like a lecture.
