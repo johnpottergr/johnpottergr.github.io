@@ -14,7 +14,7 @@ Hedera’s Hashgraph works differently. Instead of blocks, it uses a [directed a
 
 <!--truncate-->
 
-<img src="/static/img/hashgraph.jpg" width="600">
+<img src="/static/img/hashgraph.jpg" width="600" />
 
 The way Hashgraph handles consensus is key. Every transaction comes with a timestamp, and the network uses a virtual voting mechanism to agree on the order of events. That’s how it moves so fast—thousands of transactions per second, and everything settles in seconds instead of minutes.
 
