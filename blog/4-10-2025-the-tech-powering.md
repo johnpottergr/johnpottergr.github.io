@@ -3,7 +3,7 @@ title: The Tech Powering SauceerSwap
 date: 2025-04-10
 ---
 
-# Behind the Scenes: The Tech Powering SauceerSwap
+# Behind the Scenes: The Tech Powering SaucerSwap
 
 If you’ve ever wondered what’s going on under the hood of SaucerSwap, here’s the quick version: it’s a decentralized exchange (DEX) built on Hedera—and that choice isn’t just for show. Hedera runs on a technology called Hashgraph, which flips the script on how most blockchains work. The difference has real consequences for how fast, cheap, and reliable a platform like SaucerSwap can be.
 
@@ -12,7 +12,7 @@ Let’s back up for a second. Most DEXs reside on Ethereum or similar chains. Th
 
 Hedera’s Hashgraph works differently. Instead of blocks, it uses a [directed acyclic graph (DAG)](https://hazelcast.com/foundations/distributed-computing/directed-acyclic-graph/)—a data structure where transactions aren’t stacked linearly, but spread out and recorded in parallel. Techies use a [gossip-about-gossip protocol](https://docs.hedera.com/hedera/core-concepts/hashgraph-consensus-algorithms/gossip-about-gossip) here, which means every node quickly shares info with random others. Over time, the whole network has a complete picture of what happened and when, with no mining, leader, or lag.
 
-![A diagram](/img/hashgraph.jpg)
+<img src="/static/img/hashgraph.jpg" width="600">
 
 The way Hashgraph handles consensus is key. Every transaction comes with a timestamp, and the network uses a virtual voting mechanism to agree on the order of events. That’s how it moves so fast—thousands of transactions per second, and everything settles in seconds instead of minutes.
 
