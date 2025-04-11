@@ -14,14 +14,14 @@ Hedera’s Hashgraph works differently. Instead of blocks, it uses a [directed a
 
 The way Hashgraph handles consensus is key. Every transaction comes with a timestamp, and the network uses a virtual voting mechanism to agree on the order of events. That’s how it moves so fast—thousands of transactions per second, and everything settles in seconds instead of minutes.
 
-## Real-Time Settlement, Low Fees
+## Real-time settlement, low fees
 For a DEX like SaucerSwap, the Hashgraph technology makes a big difference. Trades get confirmed almost instantly. [Slippage](https://www.investopedia.com/terms/s/slippage.asp) is much lower. Bots that exploit delay windows don’t get as much room to maneuver. The entire trading experience feels snappier and more predictable, even when the market’s moving fast.
 
 The tech also leads to lower costs. Because no miners compete for block space, gas fees on SaucerSwap are low and predictable. Think in terms of fractions of a cent. The hashgraph tech opens the door for microtransactions and lower-volume activity that would be priced out on other platforms. You don’t have to think twice about trying a swap just to see how a token behaves. And all fees are fixed and denominated in USD-equivalent HBAR.
 
 Predictable performance is another upside. Since Hashgraph isn’t battling network congestion in the same way as other chains, you don’t get stuck waiting for a transaction to go through during peak times. The throughput is consistent, and that predictability is worth a lot in a trading environment.
 
-## Native Token Support via HTS
+## Native token support via HTS
 SaucerSwap is tightly integrated with [Hedera Token Service (HTS)](https://hedera.com/token-service), which handles the basics—creating tokens, transferring them, freezing or wiping them—without the need for smart contracts. It’s native, fast, and cheap. So, for most token operations, SaucerSwap can skip the overhead of smart contracts and rely on HTS to do the heavy lifting.
 
 But when it comes to more complex functionality—things like routing trades across multiple pools, setting custom logic for incentives, or interacting with other DeFi protocols—SaucerSwap taps into Hedera’s Smart Contract Service. This service is EVM-compatible, meaning developers can write in Solidity and build the kinds of applications they’re used to building on Ethereum. 
