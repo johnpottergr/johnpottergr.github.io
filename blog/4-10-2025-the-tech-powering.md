@@ -1,5 +1,5 @@
 ---
-title: The Tech Powering SauceerSwap
+title: The Tech Powering SaucerSwap
 date: 2025-04-10
 ---
 
@@ -19,7 +19,7 @@ Hedera’s Hashgraph works differently. Instead of blocks, it uses a [directed a
 The way Hashgraph handles consensus is key. Every transaction comes with a timestamp, and the network uses a virtual voting mechanism to agree on the order of events. That’s how it moves so fast—thousands of transactions per second, and everything settles in seconds instead of minutes.
 
 ## Real-time settlement, low fees
-For a DEX like SaucerSwap, the Hashgraph technology makes a big difference. Trades get confirmed almost instantly. [Slippage](https://www.investopedia.com/terms/s/slippage.asp) is much lower. Bots that exploit delay windows don’t get as much room to maneuver. The entire trading experience feels snappier and more predictable, even when the market’s moving fast.
+For a DEX like SaucerSwap, the Hashgraph technology makes a big difference. Trades get confirmed almost instantly. While [slippage](https://www.investopedia.com/terms/s/slippage.asp) is still largely a factor of liquidity and trading volume, it's much lower. And it's practically impossible for bots to exploit transaction delay windows. The entire trading experience feels snappier and more predictable, even when the market’s moving fast.
 
 The tech also leads to lower costs. Because no miners compete for block space, gas fees on SaucerSwap are low and predictable. Think in terms of fractions of a cent. The hashgraph tech opens the door for microtransactions and lower-volume activity that would be priced out on other platforms. You don’t have to think twice about trying a swap just to see how a token behaves. And all fees are fixed and denominated in USD-equivalent HBAR.
 
