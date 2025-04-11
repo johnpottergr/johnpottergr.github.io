@@ -14,7 +14,7 @@ Let’s back up for a second. Most DEXs reside on Ethereum or similar chains. Th
 
 Hedera’s Hashgraph works differently. Instead of blocks, it uses a [directed acyclic graph (DAG)](https://hazelcast.com/foundations/distributed-computing/directed-acyclic-graph/)—a data structure where transactions aren’t stacked linearly, but spread out and recorded in parallel. Techies use a [gossip-about-gossip protocol](https://docs.hedera.com/hedera/core-concepts/hashgraph-consensus-algorithms/gossip-about-gossip) here, which means every node quickly shares info with random others. Over time, the whole network has a complete picture of what happened and when, with no mining, leader, or lag.
 
-<img src="/static/img/hashgraph.jpg" width="600" />
+<img src="/img/hashgraph.jpg" width="600" />
 
 The way Hashgraph handles consensus is key. Every transaction comes with a timestamp, and the network uses a virtual voting mechanism to agree on the order of events. That’s how it moves so fast—thousands of transactions per second, and everything settles in seconds instead of minutes.
 
