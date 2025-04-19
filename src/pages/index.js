@@ -198,8 +198,10 @@ opacity: 0.9
          </h2>
          <ul>
          <li style={{ marginBottom: '10px' }}>
-            Building Stablecraft.io, a dedicated platform featuring a stablecoin knowledge base, focused blog, real-time
-            liquidity tracker, and peg stress testing tools.
+            Building <a href="https://stablecraft.io" style={{
+    color: '#94e2c2',
+  }}>Stablecraft.io</a>, a dedicated platform featuring a stablecoin knowledge base, focused blog, real-time
+            liquidity tracker, peg stress testing tools, and risk manager.
            </li>
            <li style={{ marginBottom: '10px' }}>
              Weekly guest blogger for SaucerSwap Labs, writing about decentralized finance for a DEX on the Hedera Blockchain — and posting
@@ -208,8 +210,8 @@ opacity: 0.9
   }}>my blog</a> as part of this collaboration.
             </li>
             <li>
-             Learning SharePoint, Swagger, and Postman — exploring resources like SharePoint Documentation
-             Swagger Docs, and Postman Learning Center.
+             Learning Swagger and Postman — exploring resources like
+             Swagger Docs and Postman Learning Center.
            </li>
          </ul>
           {/* About this site */}
