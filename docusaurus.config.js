@@ -89,8 +89,9 @@
             { to: '/', label: 'Welcome', position: 'left' }, // Moved to first position
             { to: '/portfolio', label: 'Portfolio', position: 'left' }, // Moved to second position
             { to: '/workflow', label: 'Writing Process', position: 'left', },
-            { href: 'https://johnpottergr.github.io/resume3.pdf', label: 'Resume', position: 'left', external: true },            { to: '/blog', label: 'Blog', position: 'left' },
-            { href: 'https://github.com/johnpottergr', label: 'GitHub', position: 'left' },
+            { href: 'https://johnpottergr.github.io/resume3.pdf', label: 'Resume', position: 'left', external: true },
+            { href: 'https://stablecraft.io', label: "What I'm Working On", position: 'left' },
+            { to: '/blog', label: 'Blog', position: 'left' },
           ],
         },
 
