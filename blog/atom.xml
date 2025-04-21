@@ -2,11 +2,41 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://johnpottergr.com/blog</id>
     <title>Technical Content Writer Blog</title>
-    <updated>2025-04-10T00:00:00.000Z</updated>
+    <updated>2025-04-20T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://johnpottergr.com/blog"/>
     <subtitle>Technical Content Writer Blog</subtitle>
     <icon>https://johnpottergr.com/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[How Mintlify is Changing API Documentation]]></title>
+        <id>https://johnpottergr.com/blog/4-20-2025-mintlify-is-changing-api-docs</id>
+        <link href="https://johnpottergr.com/blog/4-20-2025-mintlify-is-changing-api-docs"/>
+        <updated>2025-04-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[For years, API documentation has lived in a strange place—necessary but neglected, important but often out of sync with the product it describes. Developers need docs to build, but maintaining them has traditionally meant choosing between clunky static pages, auto-generated markdown dumps, or overengineered CMS tools that feel more like publishing software than developer platforms.]]></summary>
+        <content type="html"><![CDATA[<p>For years, API documentation has lived in a strange place—necessary but neglected, important but often out of sync with the product it describes. Developers need docs to build, but maintaining them has traditionally meant choosing between clunky static pages, auto-generated markdown dumps, or overengineered CMS tools that feel more like publishing software than developer platforms.</p>
+<p>Mintlify is trying to flip that on its head, and with the introduction of <strong>Mintlify MCP (Maintainer Control Panel)</strong>, they’re making a strong case for what modern API docs should look like—and how they should be managed.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-is-mintlify-mcp">What Is Mintlify MCP?<a href="https://johnpottergr.com/blog/4-20-2025-mintlify-is-changing-api-docs#what-is-mintlify-mcp" class="hash-link" aria-label="Direct link to What Is Mintlify MCP?" title="Direct link to What Is Mintlify MCP?">​</a></h2>
+<p>Mintlify MCP isn’t just a documentation editor. It’s a centralized control panel that sits on top of your existing codebase and documentation, giving you visibility, version control integration, and collaboration tools all in one place.</p>
+<p>Think of it like this: if your dev team is already keeping docs close to code, MCP makes sure those docs stay accurate, up-to-date, and consistent—without pulling anyone into a separate platform. You can flag outdated endpoints, monitor what’s being used (or ignored), and get insights into how your docs are performing.</p>
+<p><strong>Some standout features include:</strong></p>
+<ul>
+<li><strong>Live feedback from users</strong> (right in the docs)</li>
+<li><strong>GitHub-native change management</strong> (suggest edits, review in PRs)</li>
+<li><strong>Versioned docs tied to deployments</strong></li>
+<li><strong>Analytics on engagement and usage</strong></li>
+</ul>
+<p>It's API documentation with an actual feedback loop—something most dev teams haven’t had before.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="why-this-matters">Why this matters<a href="https://johnpottergr.com/blog/4-20-2025-mintlify-is-changing-api-docs#why-this-matters" class="hash-link" aria-label="Direct link to Why this matters" title="Direct link to Why this matters">​</a></h2>
+<p>API documentation often becomes stale the moment it’s written. Products move fast. Endpoints change. Teams ship new features weekly. Unless you have a dedicated tech writer or a very disciplined team, your docs are probably wrong somewhere—and no one wants to be the engineer who stops coding to update docs.</p>
+<p>Mintlify MCP brings automation and accountability into the process. It treats docs like code (with diffs, versioning, and reviews), while also giving maintainers tools to monitor what actually gets read and where people get stuck. That turns documentation from a static reference into a living part of the development cycle.</p>
+<p>For API-first products and fast-growing dev tools, this can be a serious unlock. Clean, accurate, and well-managed docs aren’t just nicer—they reduce support tickets, shorten onboarding time, and build trust with external devs.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="docs-are-no-longer-an-afterthought">Docs are no longer an afterthought<a href="https://johnpottergr.com/blog/4-20-2025-mintlify-is-changing-api-docs#docs-are-no-longer-an-afterthought" class="hash-link" aria-label="Direct link to Docs are no longer an afterthought" title="Direct link to Docs are no longer an afterthought">​</a></h2>
+<p>The rise of tools like Mintlify MCP is part of a bigger shift: documentation is becoming infrastructure. It’s not just something you publish once—it’s something you maintain like a product. And if your product <em>is</em> an API, then the docs are the front door.</p>
+<p>With the Maintainer Control Panel, Mintlify is pushing for a future where dev teams aren’t just writing better documentation—they’re actually empowered to keep it alive.</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The Tech Powering SaucerSwap]]></title>
         <id>https://johnpottergr.com/blog/4-10-2025-the-tech-powering</id>
