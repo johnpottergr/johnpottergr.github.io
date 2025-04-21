@@ -22,17 +22,22 @@ export default function Portfolio() {
               AI/Machine Learning
             </a>
           </li>
-
+          <li>
+            <a href="https://johnpottergr.com/portfolio#cryptocurrency" style={{ color: '#5ED1A5', textDecoration: 'none' }}>
+              Blockchain Technology
+            </a>
+          </li>
+          <li>
+            <a href="https://johnpottergr.com/portfolio#business-compliance" style={{ color: '#5ED1A5', textDecoration: 'none' }}>
+              Business Compliance
+            </a>
+          </li>
           <li>
             <a href="https://johnpottergr.com/portfolio#business-operations" style={{ color: '#5ED1A5', textDecoration: 'none' }}>
               Business Operations
             </a>
           </li>
-          <li>
-            <a href="https://johnpottergr.com/portfolio#cryptocurrency" style={{ color: '#5ED1A5', textDecoration: 'none' }}>
-              Cryptocurrency
-            </a>
-          </li>
+
           <li>
             <a href="https://johnpottergr.com/portfolio#cryptography" style={{ color: '#5ED1A5', textDecoration: 'none' }}>
               Cryptography
@@ -110,6 +115,61 @@ export default function Portfolio() {
             </a>
           </li>
         </ul>
+        {/* Blockchain Technology Section */}
+        <h3 id="blockchain-technology" style={{ color: '#F5F5F5', marginTop: '40px', scrollMarginTop: '100px' }}>Blockchain Technology</h3>
+        <ul style={{ lineHeight: '1.6' }}>
+          <li>
+            <a href="https://blog.comdex.one/comdex-integrates-cosmwasm-e819b4502deb" style={{ color: '#5ED1A5', textDecoration: 'none' }}>
+              Comdex integrates CosmWasm
+            </a>
+          </li>
+          <li>
+            <a href="https://www.pressreader.com/uk/crypto-magazine/20230629/282419878686631" style={{ color: '#5ED1A5', textDecoration: 'none' }}>
+              Meme Chains Take Meme Coins to the Next Level
+            </a>
+          </li>
+          <li>
+            <a href="https://blog.dogechain.dog/2022/08/04/polygon-edge-providing-blockchain-sovereignty-to-dogechain/" style={{ color: '#5ED1A5', textDecoration: 'none' }}>
+              Polygon Edge: Providing Blockchain Sovereignty To Dogechain
+            </a>
+          </li>
+          <li>
+            <a href="https://blog.dogechain.dog/2022/07/12/the-power-of-cross-chain-bridges/" style={{ color: '#5ED1A5', textDecoration: 'none' }}>
+              The Power of Cross-Chain Bridges
+            </a>
+          </li>
+          <li>
+            <a href="https://www.benzinga.com/markets/cryptocurrency/21/09/22864242/how-can-value-investors-profit-in-the-crypto-ecosystem" style={{ color: '#5ED1A5', textDecoration: 'none' }}>
+              How Can Value Investors Profit in the Crypto Ecosystem?
+            </a>
+          </li>
+        </ul>
+
+         {/* Business Compliance Section */}
+         <h3  id="business-compliance" style={{ color: '#F5F5F5', marginTop: '40px', scrollMarginTop: '100px'  }}>Business Compliance</h3>
+        <ul style={{ lineHeight: '1.6' }}>
+          <li>
+            <a href="https://www.compliancecow.com/compliance/sarbanes-oxley-it/" style={{ color: '#5ED1A5', textDecoration: 'none' }}>
+            Navigating Sarbanes-Oxley: A Guide to IT Compliance Essentials
+            </a>
+          </li>
+          <li>
+            <a href="https://www.compliancecow.com/compliance/the-8-rights-of-the-ccpa-what-are-they/" style={{ color: '#5ED1A5', textDecoration: 'none' }}>
+            The 8 Rights of the CCPA: What are they?
+            </a>
+          </li>
+          <li>
+            <a href="https://www.compliancecow.com/compliance/understanding-the-7-core-principles-of-gdpr/" style={{ color: '#5ED1A5', textDecoration: 'none' }}>
+            Understanding the 7 Core Principles of GDPR
+            </a>
+          </li>
+          <li>
+            <a href="https://www.compliancecow.com/compliance/corporate-compliance-test-of-design-vs-test-of-effectiveness-in-internal-controls/" style={{ color: '#5ED1A5', textDecoration: 'none' }}>
+            Corporate Compliance: Test of Design vs. Test of Effectiveness in Internal Controls
+            </a>
+          </li>
+        </ul>
+
         {/* Business Operations Section */}
         <h3  id="business-operations" style={{ color: '#F5F5F5', marginTop: '40px', scrollMarginTop: '100px'  }}>Business Operations</h3>
         <ul style={{ lineHeight: '1.6' }}>
@@ -140,35 +200,7 @@ export default function Portfolio() {
           </li>
         </ul>
 
-        {/* Cryptocurrency Section */}
-        <h3 id="cryptocurrency" style={{ color: '#F5F5F5', marginTop: '40px', scrollMarginTop: '100px' }}>Cryptocurrency</h3>
-        <ul style={{ lineHeight: '1.6' }}>
-          <li>
-            <a href="https://www.benzinga.com/markets/cryptocurrency/21/09/22864242/how-can-value-investors-profit-in-the-crypto-ecosystem" style={{ color: '#5ED1A5', textDecoration: 'none' }}>
-              How Can Value Investors Profit in the Crypto Ecosystem?
-            </a>
-          </li>
-          <li>
-            <a href="https://blog.comdex.one/comdex-integrates-cosmwasm-e819b4502deb" style={{ color: '#5ED1A5', textDecoration: 'none' }}>
-              Comdex integrates CosmWasm
-            </a>
-          </li>
-          <li>
-            <a href="https://www.pressreader.com/uk/crypto-magazine/20230629/282419878686631" style={{ color: '#5ED1A5', textDecoration: 'none' }}>
-              Meme Chains Take Meme Coins to the Next Level
-            </a>
-          </li>
-          <li>
-            <a href="https://blog.dogechain.dog/2022/08/04/polygon-edge-providing-blockchain-sovereignty-to-dogechain/" style={{ color: '#5ED1A5', textDecoration: 'none' }}>
-              Polygon Edge: Providing Blockchain Sovereignty To Dogechain
-            </a>
-          </li>
-          <li>
-            <a href="https://blog.dogechain.dog/2022/07/12/the-power-of-cross-chain-bridges/" style={{ color: '#5ED1A5', textDecoration: 'none' }}>
-              The Power of Cross-Chain Bridges
-            </a>
-          </li>
-        </ul>
+
 
         {/* Cryptography Section */}
         <h3  id="cryptography" style={{ color: '#F5F5F5', marginTop: '40px', scrollMarginTop: '100px' }}>Cryptography</h3>
@@ -239,8 +271,8 @@ export default function Portfolio() {
         <h3  id="data-engineering" style={{ color: '#F5F5F5', marginTop: '40px', scrollMarginTop: '100px' }}>Data Engineering</h3>
         <ul style={{ lineHeight: '1.6' }}>
           <li>
-            <a href="https://www.fivetran.com/blog/what-is-the-modern-data-stack" style={{ color: '#5ED1A5', textDecoration: 'none' }}>
-              What Is The Modern Data Stack?
+            <a href="https://www.fivetran.com/learn/postgres-to-snowflake" style={{ color: '#5ED1A5', textDecoration: 'none' }}>
+            Postgres to Snowflake: A Definitive Guide
             </a>
           </li>
           <li>
@@ -290,6 +322,11 @@ export default function Portfolio() {
             </a>
           </li>
           <li>
+            <a href="https://dev.to/johnpottergr/kubernetes-on-bare-metal-how-and-why-to-run-kubernetes-without-virtualization-p77" style={{ color: '#5ED1A5', textDecoration: 'none' }}>
+            Kubernetes on Bare Metal: How and why to Run Kubernetes without Virtualization
+             </a>
+          </li>
+          <li>
             <a href="https://dev.to/johnpottergr/kubernetes-for-machine-learning-how-to-build-your-first-ml-pipeline-2040" style={{ color: '#5ED1A5', textDecoration: 'none' }}>
               Kubernetes for Machine Learning: How to Build Your First ML Pipeline
             </a>
@@ -307,6 +344,11 @@ export default function Portfolio() {
           <li>
             <a href="https://postie.com/blog/level-up-your-lookalike-audiences/" style={{ color: '#5ED1A5', textDecoration: 'none' }}>
               Level Up Your Lookalike Audiences
+            </a>
+          </li>
+          <li>
+            <a href="https://postie.com/blog/why-personalized-direct-mail-boosts-customer-engagement/" style={{ color: '#5ED1A5', textDecoration: 'none' }}>
+            Why Personalized Direct Mail Boosts Customer Engagement
             </a>
           </li>
           <li>
@@ -329,6 +371,11 @@ export default function Portfolio() {
         {/* Quantum Computing Section */}
         <h3 id="quantum-computing" style={{ color: '#F5F5F5', marginTop: '40px', scrollMarginTop: '100px'}}>Quantum Computing</h3>
         <ul style={{ lineHeight: '1.6' }}>
+        <li>
+            <a href="            https://www.iotworldtoday.com/transportation-logistics/nvidia-rolls-royce-classiq-tap-quantum-for-jet-engine-design" style={{ color: '#5ED1A5', textDecoration: 'none' }}>
+            Nvidia, Rolls-Royce, Classiq Tap Quantum for Jet Engine Design
+            </a>
+          </li>
           <li>
             <a href="https://www.iotworldtoday.com/quantum/nord-quantique-unveils-new-technique-for-scalable-qubit-error-correction" style={{ color: '#5ED1A5', textDecoration: 'none' }}>
               Nord Quantique Unveils New Technique for Scalable Qubit Error Correction
