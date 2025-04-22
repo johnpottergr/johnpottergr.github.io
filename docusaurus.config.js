@@ -10,12 +10,12 @@
 
   /** @type {import('@docusaurus/types').Config} */
   const config = {
-    title: 'Technical Content Writer', // Updated title
-    tagline: 'Technical Writing for Fintech, Blockchain, and More', // Updated tagline
+    title: 'StableCraft LLC', // Updated title
+    tagline: 'Payment solutions for stablecoins', // Updated tagline
     favicon: 'img/favicon.ico',
 
     // Set the production url of your site here
-    url: 'https://johnpottergr.com', // Update this to your actual domain
+    url: 'https://stablecraft.io', // Update this to your actual domain
     // Set the /<baseUrl>/ pathname under which your site is served
     // For GitHub pages deployment, it is often '/<projectName>/'
     baseUrl: '/',
@@ -23,7 +23,7 @@
     // GitHub pages deployment config.
     // If you aren't using GitHub pages, you don't need these.
     organizationName: 'johnpottergr', // Updated to your GitHub username
-    projectName: 'johnpottergr.github.io', // Updated to your repo name
+    projectName: 'stablecraft.io', // Updated to your repo name
     deploymentBranch: 'gh-pages',
     trailingSlash: false, // Recommended for GitHub Pages
 
@@ -56,7 +56,7 @@
               xslt: true,
             },
             // Update this to your repo
-            editUrl: 'https://github.com/johnpottergr.github.io',
+            editUrl: 'https://github.com/johnpottergr/stablecraft.io',
             // Useful options to enforce blogging best practices
             onInlineTags: 'warn',
             onInlineAuthors: 'warn',
@@ -80,18 +80,17 @@
         // Replace with your project's social card
         // Remove logo entirely:
         // logo: {
-        //   alt: 'John Potter Logo',
+        //   alt: 'StableCraft Logo',
         // }
 
         navbar: {
-          title: 'JP',
+          title: 'SC',
           items: [
             { to: '/', label: 'Welcome', position: 'left' }, // Moved to first position
             { to: '/portfolio', label: 'Portfolio', position: 'left' }, // Moved to second position
             { to: '/workflow', label: 'Writing Process', position: 'left', },
-            { href: 'https://johnpottergr.github.io/resume3.pdf', label: 'Resume', position: 'left', external: true },
-            { href: 'https://stablecraft.io', label: "What I'm Working On", position: 'left' },
-            { to: '/blog', label: 'Blog', position: 'left' },
+            { href: 'https://johnpottergr.github.io/resume3.pdf', label: 'Resume', position: 'left', external: true },            { to: '/blog', label: 'Blog', position: 'left' },
+            { href: 'https://github.com/johnpottergr', label: 'GitHub', position: 'left' },
           ],
         },
 
@@ -107,7 +106,7 @@
                 },
 
                 {
-                  label: 'Portfolio',
+                  label: 'Services',
                   to: '/portfolio',
                 },
                 {
@@ -134,7 +133,7 @@
                   to: '/blog',
                 },
                 {
-                  label: 'GitHub',
+                  label: 'Stress Test',
                   href: 'https://github.com/johnpottergr', // Update this to your GitHub URL
                 },
               ],
