@@ -10,12 +10,12 @@
 
   /** @type {import('@docusaurus/types').Config} */
   const config = {
-    title: 'StableCraft LLC', // Updated title
-    tagline: 'Payment solutions for stablecoins', // Updated tagline
+    title: 'John Potters Professional Website', // Updated title
+    tagline: 'John Potter Professional Website', // Updated tagline
     favicon: 'img/favicon.ico',
 
     // Set the production url of your site here
-    url: 'https://stablecraft.io', // Update this to your actual domain
+    url: 'https://johnpottergr.com', // Update this to your actual domain
     // Set the /<baseUrl>/ pathname under which your site is served
     // For GitHub pages deployment, it is often '/<projectName>/'
     baseUrl: '/',
@@ -23,7 +23,7 @@
     // GitHub pages deployment config.
     // If you aren't using GitHub pages, you don't need these.
     organizationName: 'johnpottergr', // Updated to your GitHub username
-    projectName: 'stablecraft.io', // Updated to your repo name
+    projectName: 'johnpottergr', // Updated to your repo name
     deploymentBranch: 'gh-pages',
     trailingSlash: false, // Recommended for GitHub Pages
 
@@ -56,7 +56,7 @@
               xslt: true,
             },
             // Update this to your repo
-            editUrl: 'https://github.com/johnpottergr/stablecraft.io',
+            editUrl: 'https://github.com/johnpottergr/johnpottergr.github.io',
             // Useful options to enforce blogging best practices
             onInlineTags: 'warn',
             onInlineAuthors: 'warn',
