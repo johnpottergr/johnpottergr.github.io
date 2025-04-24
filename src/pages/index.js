@@ -166,29 +166,32 @@ opacity: 0.9
             }}>commit history</a> to see contribution details.
            </li>
            <li style={{ marginBottom: '10px' }}>
-             Authored the <a href="https://johnpottergr.github.io/django.pdf" style={{
+           Wrote articles on <a href="https://revelate.co/blog/how-to-build-data-products-that-work/" style={{
+    color: '#94e2c2',
+  }}
+           >data productization</a>, <a href="https://www.datafold.com/blog/data-quality-checks" style={{
+            color: '#94e2c2',
+          }}
+                   >data transformation</a>, and <a href="https://johnpottergr.com/article%20by%20industry.pdf" style={{
+                    color: '#94e2c2',
+                  }}
+                           >other data engineering topics</a>, along with step-by-step <a href="https://johnpottergr.com/Data%20Migration%20Guides.pdf" style={{
+    color: '#94e2c2',
+  }}
+           >data migration guides</a>.
+           Also contributed technical writing for Edify Content, including <a href="https://johnpottergr.github.io/django.pdf" style={{
     color: '#94e2c2',
   }}
            >Django App</a> and{" "}
              <a href="https://johnpottergr.github.io/nodejs.pdf" style={{
     color: '#94e2c2',
   }}
-           >NodeJS Deploy Guides</a> for an Edify client.
+           >NodeJS</a> deployment guides.
            </li>
-           <li>
-             Samples include{" "}
-             <a href="https://johnpottergr.github.io/Release.pdf" style={{
-    color: '#94e2c2',
-  }}  >QuickSwap Release Notes</a>,{" "}
-             <a href="https://johnpottergr.github.io/Proposal.pdf" style={{
-    color: '#94e2c2',
-  }}  >Program Proposal</a>, and {" "}
-             <a href="https://johnpottergr.github.io/uxportfolio.pdf" style={{
-    color: '#94e2c2',
-  }}>UX Portfolio</a>. I also created a{" "}
-             <a href="https://johnpottergr.github.io/Guide.pdf" style={{
-    color: '#94e2c2',
-  }}>SaucerSwap Beginner's Guide</a> for new DeFi users.
+           <li>Built <a href="https://docs.stablecraft.io" style={{
+            color: '#94e2c2',
+          }}
+                   >comprehensive API docs</a> for a public payment platform using Mintlify and OpenAPI, with support for interactive testing and versioning.
            </li>
          </ul>
 
@@ -204,15 +207,9 @@ opacity: 0.9
             liquidity tracker, peg stress testing tools, and risk manager.
            </li>
            <li style={{ marginBottom: '10px' }}>
-             Weekly guest blogger for SaucerSwap Labs, writing about decentralized finance for a DEX on the Hedera Blockchain — and posting
-             on <a href="https://johnpottergr.github.io/blog" style={{
-    color: '#94e2c2',
-  }}>my blog</a> as part of this collaboration.
+             Initiating Doclify, a service to deliver AI-driven documentation solutions using Mintlify’s Model Context Protocol (MCP) for businesses.
             </li>
-            <li>
-             Learning Swagger and Postman — exploring resources like
-             Swagger Docs and Postman Learning Center.
-           </li>
+
          </ul>
           {/* About this site */}
           <h2 style={{ marginTop: '1.5rem', borderBottom: '1px solid #e0e0e0', paddingBottom: '6px' }}>
