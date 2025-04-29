@@ -73,7 +73,7 @@
       /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
       ({
         colorMode: {
-          defaultMode: 'dark',
+          defaultMode: 'light',
           disableSwitch: true, // Enable the toggle
           respectPrefersColorScheme: false, // Optional: sync with user's system theme
         },

@@ -35,7 +35,7 @@ export default function Home() {
 
 
          {/* Bottom Half with Original White Background */}
-         <div style={{ backgroundColor: '#f9f7f2', border: '1px solid #f9f7f2',padding: '20px', borderRadius: '0 0 8px 8px' }}>
+         <div style={{ backgroundColor: '#f9f7f2', border: '1px solid #9A9C99',padding: '20px', borderRadius: '0 0 8px 8px' }}>
            {/* Connect Section */}
            <div style={{ marginTop: '0px', fontSize: '0.95rem',
 lineHeight: '1.5',
@@ -111,7 +111,7 @@ opacity: 0.9
   borderBottom: '2px solid #5ED1A5',
   paddingBottom: '6px',
   marginBottom: '1rem',
-  color: '#F5F5F5',
+  color: '#1A202C',
 }}>Welcome</h1>
               <p>
               I’m a technical content writer with 7+ years of experience
@@ -148,48 +148,48 @@ opacity: 0.9
 
 
          {/* Documentation Skills */}
-         <h2 style={{ marginTop: '0.5rem', borderBottom: '1px solid #94e2c2', paddingBottom: '6px' }}>
+         <h2 style={{ marginTop: '0.5rem', borderBottom: '1px solid #5ED1A5', paddingBottom: '6px' }}>
            Documentation Skills
          </h2>
          <ul>
          <li style={{ marginBottom: '10px' }}>
              Rewrote and enhanced Gruntwork.io’s documentation in Markdown, delivering
              over <a href="https://johnpottergr.github.io/Gruntwork-Docs.pdf" target="_blank" rel="noopener noreferrer" style={{
-    color: '#94e2c2',
+    color: '#2E7D32', fontWeight: '500',
   }}
 >
                100+ sections, guides, and tutorials </a>
              on DevOps foundations, IaC best practices, and pipelines.
              Worked closely with the client via GitHub to improve clarity and structure.
              View <a href="https://github.com/EdifyContent" style={{
-             color: '#94e2c2',
+             color: '#2E7D32', fontWeight: '500',
             }}>commit history</a> to see contribution details.
            </li>
            <li style={{ marginBottom: '10px' }}>
            Wrote articles on <a href="https://revelate.co/blog/how-to-build-data-products-that-work/" style={{
-    color: '#94e2c2',
+    color: '#2E7D32', fontWeight: '500',
   }}
            >data productization</a>, <a href="https://www.datafold.com/blog/data-quality-checks" style={{
-            color: '#94e2c2',
+            color: '#2E7D32', fontWeight: '500',
           }}
                    >data transformation</a>, and <a href="https://johnpottergr.com/article%20by%20industry.pdf" style={{
-                    color: '#94e2c2',
+                    color: '#2E7D32', fontWeight: '500',
                   }}
                            >other data engineering topics</a>, along with step-by-step <a href="https://johnpottergr.com/Data%20Migration%20Guides.pdf" style={{
-    color: '#94e2c2',
+    color: '#2E7D32', fontWeight: '500',
   }}
            >data migration guides</a>.
            Also contributed technical writing for Edify Content, including <a href="https://johnpottergr.github.io/django.pdf" style={{
-    color: '#94e2c2',
+    color: '#2E7D32', fontWeight: '500',
   }}
            >Django App</a> and{" "}
              <a href="https://johnpottergr.github.io/nodejs.pdf" style={{
-    color: '#94e2c2',
+    color: '#2E7D32', fontWeight: '500',
   }}
            >NodeJS</a> deployment guides.
            </li>
            <li>Built <a href="https://docs.stablecraft.io" style={{
-            color: '#94e2c2',
+            color: '#2E7D32', fontWeight: '500',
           }}
                    >comprehensive API docs</a> for a public payment platform using Mintlify and OpenAPI, with support for interactive testing and versioning.
            </li>
@@ -202,7 +202,7 @@ opacity: 0.9
          <ul>
          <li style={{ marginBottom: '10px' }}>
             Building <a href="https://stablecraft.io" style={{
-    color: '#94e2c2',
+    color: '#5ED1A5', fontWeight: '500',
   }}>Stablecraft.io</a>, a dedicated platform featuring a stablecoin knowledge base, focused blog, real-time
             liquidity tracker, peg stress testing tools, and risk manager.
            </li>
