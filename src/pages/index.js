@@ -18,7 +18,7 @@ export default function Home() {
              backgroundColor: '#111111', // Light cream background
              padding: '15px',
              borderRadius: '12px 12px 0 0',
-             border: '1px solid #f9f7f2',
+             border: '1px solid #222',
              display: 'flex',
              flexDirection: 'column',
              justifyContent: 'center',
