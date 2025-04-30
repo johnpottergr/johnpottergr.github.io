@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://johnpottergr.com/blog</id>
-    <title>John Potters Professional Website Blog</title>
+    <title>My Professional Website Blog</title>
     <updated>2025-04-29T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://johnpottergr.com/blog"/>
-    <subtitle>John Potters Professional Website Blog</subtitle>
+    <subtitle>My Professional Website Blog</subtitle>
     <icon>https://johnpottergr.com/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[How Komment.ai Might Change the Way We Write API Documentation]]></title>
