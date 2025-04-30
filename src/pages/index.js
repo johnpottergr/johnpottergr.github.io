@@ -111,7 +111,7 @@ opacity: 0.9
   borderBottom: '2px solid #5ED1A5',
   paddingBottom: '6px',
   marginBottom: '1rem',
-  color: '#1A202C',
+  color: '#1A202C', fontStyle: 'italic'
 }}>Welcome</h1>
               <p>
               I’m a technical content writer with 7+ years of experience
