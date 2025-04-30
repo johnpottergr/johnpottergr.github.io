@@ -191,7 +191,7 @@ opacity: 0.9
            <li>Built <a href="https://docs.stablecraft.io" style={{
             color: '#2E7D32', fontWeight: '500',
           }}
-                   >comprehensive API docs</a> for a public payment platform using Mintlify and OpenAPI, with support for interactive testing and versioning.
+                   >comprehensive API docs</a> for a mock payment services company using Mintlify and OpenAPI, with support for interactive testing and versioning.
            </li>
          </ul>
 
@@ -202,7 +202,7 @@ opacity: 0.9
          <ul>
          <li style={{ marginBottom: '10px' }}>
             Building <a href="https://stablecraft.io" style={{
-    color: '#5ED1A5', fontWeight: '500',
+    color: '#2E7D32', fontWeight: '500',
   }}>Stablecraft.io</a>, a dedicated platform featuring a stablecoin knowledge base, focused blog, real-time
             liquidity tracker, peg stress testing tools, and risk manager.
            </li>
