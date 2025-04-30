@@ -6,7 +6,7 @@ import { FaPlay } from 'react-icons/fa'; // Import the FaPlay icon
 
 export default function Home() {
  return (
-   <Layout title="John Potter">
+   <Layout title="John M Potter">
      <main style={{ padding: '20px', display: 'flex', gap: '40px', maxWidth: '1200px', margin: '0 auto' }}>
        {/* Left Column */}
        <div style={{ flex: '0 0 30%', textAlign: 'center', padding: '0', borderRadius: '8px', color: '#222222' }}>
