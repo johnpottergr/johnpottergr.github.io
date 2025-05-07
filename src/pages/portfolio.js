@@ -23,7 +23,7 @@ export default function Portfolio() {
             </a>
           </li>
           <li>
-            <a href="https://johnpottergr.com/portfolio#cryptocurrency" style={{ color: '#008000', fontWeight: '400',  textDecoration: 'none' }}>
+            <a href="https://johnpottergr.com/portfolio#blockchain-technology" style={{ color: '#008000', fontWeight: '400',  textDecoration: 'none' }}>
               Blockchain Technology
             </a>
           </li>
