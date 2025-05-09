@@ -56,7 +56,7 @@ helped deliver content that aligned with audience intent and search engine expec
           Elsewhere
         </h2>
         <p>
-        As Executive Director of a business-related nonprofit, I led email marketing campaigns for lunch-and-learn events and other initiatives, managing a 10,000-subscriber list. This involved segmenting audiences and running A/B tests to improve engagement and drive attendance. I also produced daily, targeted content optimized around the keyword phrase “business networking,” which helped the nonprofit’s website steadily climb in local search rankings.
+        As Executive Director of a business-related nonprofit, I led email marketing campaigns for lunch-and-learn events and other initiatives, managing a 10,000-member subscriber list. This involved segmenting audiences and running A/B tests to improve engagement and drive attendance. I also produced daily, targeted content optimized around the keyword phrase “business networking,” which helped the nonprofit’s website steadily climb in local search rankings.
         </p>
         <p>
         Separately, I supported a friend's small business by managing outreach via HubSpot, eventually earning certification in outbound marketing.
