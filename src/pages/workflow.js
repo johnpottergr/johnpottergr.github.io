@@ -5,7 +5,7 @@ export default function Workflow() {
   return (
     <Layout title="Workflow">
       <div style={{ padding: '20px', maxWidth: '830px', margin: '0 auto', color: '#222' }}>
-        <h1 style={{ color: '#222' }}>SEO Skills</h1>
+        <h1 style={{ color: '#222' }}>Marketing & SEO Skills</h1>
 
        {/* Workflow Section */}
        <div style={{ position: 'relative', paddingTop: '10px' }}>
