@@ -2,7 +2,7 @@
 title: AI Agents Raise Bar on Technical Marketing
 date: 2025-05-09
 ---
-Technical content often resides in the background, dense and fragmented. But it's not typically an optional feature for engineering firms for engineering companies and others in industrial manufacturing. CAD drawings, part specifications, safety bulletins, and installation manuals are the kinds of things that make up technical content.
+Technical content often resides in the background, dense and fragmented. But it's not typically an optional feature for engineering companies and others in industrial manufacturing. CAD drawings, part specifications, safety bulletins, and installation manuals are the kinds of things that make up technical content.
 
 Marketing content has traditionally meant making PDFs "findable," tightening up the metadata, and then trusting that Google understands what engineers search for. Now, a new era of technical marketing is coming, and it’s being shaped not by spreadsheets or blog calendars—but by AI agents.
 
