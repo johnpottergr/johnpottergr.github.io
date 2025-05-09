@@ -61,7 +61,8 @@ helped deliver content that matched what users were searching for.
   }}
 />
 <p style={{ maxWidth: '680px'  }}>
-        At <a href="https://corpconversions.com">Corporate Conversions</a>, a local SEO firm, I focused on analytics-driven SEO reporting.
+I gained extensive hands-on experience with SEO at <a href="https://corpconversions.com">Corporate Conversions</a>, with
+ a strong focus on analytics-driven SEO reporting.
         Using Google Analytics, I created reports tying keyword performance to revenue over time. These reports
         uncovered trends in organic vs. paid traffic, tracked backlink quality, and compared SERP
         visibility across competitors—insights that helped clients adjust their content strategies and budget allocations.
