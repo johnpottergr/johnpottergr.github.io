@@ -20,7 +20,7 @@ export default function Workflow() {
 </p>
 <p>When clients didn’t have SEO direction, I employed SEMrush and related SEO tools to
 identify low-competition, high-relevance keywords. This keyword strategy
-helped deliver content that aligned with audience intent and search engine expectations.
+helped deliver content that matched what users were searching for.
         </p>
 
 
