@@ -2,9 +2,9 @@
 title: AI Agents Raise Bar on Technical Marketing
 date: 2025-05-09
 ---
-Technical content often resides in the background, dense and fragmented. But it's not typically an optional feature for engineering firms for engineering companies and others in industrial manufacturing. CAD drawings, part specifications, safety bulletins, and installation manuals are the kinds of things that make up technical content. Marketing content has traditionally meant making PDFs "findable," tightening up the metadata, and then trusting that Google understands what engineers search for.
+Technical content often resides in the background, dense and fragmented. But it's not typically an optional feature for engineering firms for engineering companies and others in industrial manufacturing. CAD drawings, part specifications, safety bulletins, and installation manuals are the kinds of things that make up technical content.
 
-Now, a new era of technical marketing is coming, and it’s being shaped not by spreadsheets or blog calendars—but by AI agents.
+Marketing content has traditionally meant making PDFs "findable," tightening up the metadata, and then trusting that Google understands what engineers search for. Now, a new era of technical marketing is coming, and it’s being shaped not by spreadsheets or blog calendars—but by AI agents.
 
 ## The problem With static SEO
 
@@ -28,7 +28,10 @@ For example, imagine a prospect browsing a library of technical bulletins or ins
 
 “Which models meet the updated safety standard for high-pressure environments?”
 
-An AI agent could pull the answer from internal specifications, cite its source, and guide the user to the appropriate product page within seconds..
+An AI agent could pull the answer from internal specifications, cite its source, and guide the user to the appropriate product page within seconds.
+
+<img src="/img/bot.gif" />
+
 
 ## Why this matters for engineering firms
 Engineering buyers are not leisurely shoppers; they seek definitive responses to specific inquiries and demand them promptly. AI agents bridge the divide between:
