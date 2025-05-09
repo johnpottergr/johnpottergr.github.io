@@ -8,11 +8,33 @@ export default function Workflow() {
         <h1 style={{ color: '#222' }}>SEO Skills</h1>
 
        {/* Workflow Section */}
-       <h2 style={{ color: '#222', fontWeight: 400, borderBottom: '2px solid #5ED1A5', paddingTop: '10px', paddingBottom: '5px' }}>
-          At Edify Content
-        </h2>
-        <p>
-        At Edify Content,
+       <div style={{ position: 'relative', paddingTop: '10px' }}>
+
+{/* Heading with underline */}
+<h2 style={{
+  color: '#222',
+  fontWeight: 400,
+  borderBottom: '2px solid #5ED1A5',
+  paddingBottom: '5px',
+  marginBottom: '20px'
+}}>
+  At Edify Content
+</h2>
+
+{/* Logo absolutely positioned under the green line */}
+<img
+  src="/img/edify.png"
+  alt="Edify Logo"
+  style={{
+    position: 'absolute',
+    top: '65px',     // tweak this to adjust vertical placement
+    right: '0px',
+    paddingLeft: '10px',
+    height: '60px'
+  }}
+/>
+        <p style={{ maxWidth: '680px'  }}>
+        At <a href="https://edifycontent.com">Edify Content</a>,
         I produced around 15 long-form technical articles per month,
         typically targeting B2B, software, and data engineering audiences.
         Content followed SEO best practices such as internal linking, optimized headers,
@@ -24,16 +46,28 @@ helped deliver content that matched what users were searching for.
         </p>
 
 
-        <h2 style={{ color: '#222', fontWeight: 400, borderBottom: '2px solid #5ED1A5', paddingTop: '10px', paddingBottom: '5px' }}>
+        <h2 style={{ color: '#222', fontWeight: 400, borderBottom: '2px solid #5ED1A5', paddingTop: '10px', paddingBottom: '5px',  marginBottom: '20px' }}>
           At Corporate Conversions
         </h2>
-
+        <img
+  src="/img/me-4.jpeg"
+  alt="Edify Logo"
+  style={{
+    position: 'absolute',
+    top: '265px',     // tweak this to adjust vertical placement
+    right: '0px',
+    paddingLeft: '10px',
+    height: '60px'
+  }}
+/>
         <p>
-        At Corporate Conversions, a local SEO firm, I focused on analytics-driven SEO reporting.
+        At <a href="https://corpconversions.com">Corporate Conversions</a>, a local SEO firm, I focused on analytics-driven SEO reporting.
         Using Google Analytics, I created reports tying keyword performance to revenue over time. These reports
         uncovered trends in organic vs. paid traffic, tracked backlink quality, and compared SERP
         visibility across competitors—insights that helped clients adjust their content strategies and budget allocations.
         </p>
+        </div>
+
 
         <p style={{
   background: '#ececec',
