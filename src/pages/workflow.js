@@ -82,7 +82,7 @@ I gained extensive hands-on experience with SEO at <a href="https://corpconversi
  time windows.
 </p>
         <p>
-        I was originally brought on to build a WordPress site, but the role quickly expanded into full-site SEO ownership. Along the way, I became comfortable with assessing plugins, customizing themes, and improving site performance with tools like Cloudflare and WP Super Cache. I also used the Yoast plugin to run technical SEO audits and identify on-page improvements.</p>
+        Offering to build a WordPress site for the company’s founder opened the door to broader web management responsibilities. Along the way, I became comfortable with assessing plugins, customizing themes, and improving site performance with tools like Cloudflare and WP Super Cache. I also used the Yoast plugin to run technical SEO audits and identify on-page improvements.</p>
         <p>
         That experience proved valuable when I was later asked to maintain product descriptions for a local industrial equipment company. Working hands-on gave me the confidence to troubleshoot most issues independently without relying on developers, which is a skill I still draw on today.
         </p>
