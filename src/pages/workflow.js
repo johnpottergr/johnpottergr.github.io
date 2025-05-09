@@ -50,17 +50,17 @@ helped deliver content that matched what users were searching for.
           At Corporate Conversions
         </h2>
         <img
-  src="/img/me-4.jpeg"
+  src="/img/corpconv.png"
   alt="Edify Logo"
   style={{
     position: 'absolute',
-    top: '265px',     // tweak this to adjust vertical placement
+    top: '365px',     // tweak this to adjust vertical placement
     right: '0px',
     paddingLeft: '10px',
-    height: '60px'
+    height: '90px'
   }}
 />
-        <p>
+<p style={{ maxWidth: '680px'  }}>
         At <a href="https://corpconversions.com">Corporate Conversions</a>, a local SEO firm, I focused on analytics-driven SEO reporting.
         Using Google Analytics, I created reports tying keyword performance to revenue over time. These reports
         uncovered trends in organic vs. paid traffic, tracked backlink quality, and compared SERP
