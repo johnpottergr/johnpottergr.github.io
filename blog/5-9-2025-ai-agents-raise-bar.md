@@ -6,7 +6,7 @@ Technical content often resides in the background, dense and fragmented. But it'
 
 Marketing content has traditionally meant making PDFs "findable," tightening up the metadata, and then trusting that Google understands what engineers search for. Now, a new era of technical marketing is coming, and it’s being shaped not by spreadsheets or blog calendars—but by AI agents.
 
-## The problem With static SEO
+## The problem with static SEO
 
 Right now, many industrial firms center their SEO strategies on making static content more visible. They have case studies, compressor manuals, and application bulletins—all of which are relegated to dropdown libraries or buried three clicks deep on a product page. Their current workflow is focused on:
 
