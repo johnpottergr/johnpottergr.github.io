@@ -30,7 +30,7 @@ For example, imagine a prospect browsing a library of technical bulletins or ins
 
 An AI agent could pull the answer from internal specifications, cite its source, and guide the user to the appropriate product page within seconds.
 
-<img src="/img/bot.gif" />
+<img src="/img/bot.gif" height="150px" />
 
 
 ## Why this matters for engineering firms
