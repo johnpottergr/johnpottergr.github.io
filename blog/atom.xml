@@ -2,11 +2,74 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://johnpottergr.com/blog</id>
     <title>My Professional Website Blog</title>
-    <updated>2025-04-29T00:00:00.000Z</updated>
+    <updated>2025-05-09T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://johnpottergr.com/blog"/>
     <subtitle>My Professional Website Blog</subtitle>
     <icon>https://johnpottergr.com/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[AI Agents Raise Bar on Technical Marketing]]></title>
+        <id>https://johnpottergr.com/blog/5-9-2025-ai-agents-raise-bar</id>
+        <link href="https://johnpottergr.com/blog/5-9-2025-ai-agents-raise-bar"/>
+        <updated>2025-05-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Technical content often resides in the background, dense and fragmented. But it's not typically an optional feature for engineering firms for engineering companies and others in industrial manufacturing. CAD drawings, part specifications, safety bulletins, and installation manuals are the kinds of things that make up technical content. Marketing content has traditionally meant making PDFs "findable," tightening up the metadata, and then trusting that Google understands what engineers search for.]]></summary>
+        <content type="html"><![CDATA[<p>Technical content often resides in the background, dense and fragmented. But it's not typically an optional feature for engineering firms for engineering companies and others in industrial manufacturing. CAD drawings, part specifications, safety bulletins, and installation manuals are the kinds of things that make up technical content. Marketing content has traditionally meant making PDFs "findable," tightening up the metadata, and then trusting that Google understands what engineers search for.</p>
+<p>Now, a new era of technical marketing is coming, and it’s being shaped not by spreadsheets or blog calendars—but by AI agents.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-problem-with-static-seo">The problem With static SEO<a href="https://johnpottergr.com/blog/5-9-2025-ai-agents-raise-bar#the-problem-with-static-seo" class="hash-link" aria-label="Direct link to The problem With static SEO" title="Direct link to The problem With static SEO">​</a></h2>
+<p>Right now, many industrial firms center their SEO strategies on making static content more visible. They have case studies, compressor manuals, and application bulletins—all of which are relegated to dropdown libraries or buried three clicks deep on a product page. Their current workflow is focused on:</p>
+<ul>
+<li>Finding low competition keywords</li>
+<li>Optimizing page titles, headers, and internal links</li>
+<li>Building "resource hubs" for high intent queries</li>
+</ul>
+<p>While this is a smart strategy- its also somewhat slow. In industries where product specs change at the drop of a hat, new materials are constantly being introduced, and customers demand answers instantly, relying on static SEO alone could easily become a disadvantage.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-ai-agents-can-do">What AI Agents can do<a href="https://johnpottergr.com/blog/5-9-2025-ai-agents-raise-bar#what-ai-agents-can-do" class="hash-link" aria-label="Direct link to What AI Agents can do" title="Direct link to What AI Agents can do">​</a></h2>
+<p>AI agents are more than just "smarter chatbots." They're autonomous systems capable of:</p>
+<ul>
+<li>Ingesting technical documents like installation guides</li>
+<li>Summarizing and interpreting that information to answer user questions</li>
+<li>Providing detailed information through various interfaces, like search bars, product configurators, and customer support dashboards</li>
+</ul>
+<p>For example, imagine a prospect browsing a library of technical bulletins or installation guides. Instead of opening multiple PDFs, they could ask:</p>
+<p>“Which models meet the updated safety standard for high-pressure environments?”</p>
+<p>An AI agent could pull the answer from internal specifications, cite its source, and guide the user to the appropriate product page within seconds..</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="why-this-matters-for-engineering-firms">Why this matters for engineering firms<a href="https://johnpottergr.com/blog/5-9-2025-ai-agents-raise-bar#why-this-matters-for-engineering-firms" class="hash-link" aria-label="Direct link to Why this matters for engineering firms" title="Direct link to Why this matters for engineering firms">​</a></h2>
+<p>Engineering buyers are not leisurely shoppers; they seek definitive responses to specific inquiries and demand them promptly. AI agents bridge the divide between:</p>
+<ul>
+<li>What content companies make available</li>
+<li>What content potential customers seek to locate</li>
+</ul>
+<p>Success here goes beyond marketing effectiveness. It directly impacts competitiveness. Companies that are able to call up the correct spec sheet, regulatory document, or training video on demand will:</p>
+<ul>
+<li>Turn prospects into customers at a faster rate</li>
+<li>Save their sales reps from having to engage in time consuming dialogues</li>
+<li>Free their marketing teams from having to constantly reformat or rewrite content for different use cases</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="seo-isnt-going-away-its-getting-smarter">SEO isn't going away, it's getting smarter<a href="https://johnpottergr.com/blog/5-9-2025-ai-agents-raise-bar#seo-isnt-going-away-its-getting-smarter" class="hash-link" aria-label="Direct link to SEO isn't going away, it's getting smarter" title="Direct link to SEO isn't going away, it's getting smarter">​</a></h2>
+<p>AI agents won't replace traditional SEO, they'll augment it. In fact, They actually excel in clean, well-structured ecosystems:</p>
+<ul>
+<li>Clear navigation menus</li>
+<li>Properly tagged documents</li>
+<li>Descriptive filenames and alt text</li>
+<li>Well-defined product categories and naming conventions</li>
+</ul>
+<p>In other words, the better your SEO practices, the more effective your AI driven systems will be in the future.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-forward-thinking-firms-should-do-now">What forward-thinking firms should do now<a href="https://johnpottergr.com/blog/5-9-2025-ai-agents-raise-bar#what-forward-thinking-firms-should-do-now" class="hash-link" aria-label="Direct link to What forward-thinking firms should do now" title="Direct link to What forward-thinking firms should do now">​</a></h2>
+<p>Technical marketers should consider taking the following actions, if they haven't done so already.</p>
+<ol>
+<li>
+<p>Thoroughly audit your technical content so you know what you have and where you have it. Make sure everything is findable and nothing important is buried or made inaccessible by poor tagging.</p>
+</li>
+<li>
+<p>Tag all your assets in a consistent manner wherever</p>
+</li>
+<li>
+<p>Work with your SEO team to make sure all content is structured for machine readablity.</p>
+</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="final-thought">Final thought<a href="https://johnpottergr.com/blog/5-9-2025-ai-agents-raise-bar#final-thought" class="hash-link" aria-label="Direct link to Final thought" title="Direct link to Final thought">​</a></h2>
+<p>If you already have large quantities of high quality technical literature on hand, the next phase of AI will demand this content be usable at any moment, and in any place. The companies that accomplish this first will achieve superior search rankings and improve their reputation.</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[How Komment.ai Might Change the Way We Write API Documentation]]></title>
         <id>https://johnpottergr.com/blog/4-29-2025-komment-change-api-docs</id>
