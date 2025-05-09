@@ -61,7 +61,7 @@ Technical marketers should consider taking the following actions, if they haven'
 
 1. Thoroughly audit your technical content so you know what you have and where you have it. Make sure everything is findable and nothing important is buried or made inaccessible by poor tagging.
 
-2. Tag all your assets in a consistent manner wherever
+2. Tag your assets in a consistent manner in your download library, support documents, and sales materials
 
 3. Work with your SEO team to make sure all content is structured for machine readablity.
 
