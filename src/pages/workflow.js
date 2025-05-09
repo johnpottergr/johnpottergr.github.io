@@ -42,14 +42,12 @@ helped deliver content that aligned with audience intent and search engine expec
   margin: '1.5rem 0',
   borderRadius: '6px',
 }}>
- <a href="sample">Sample Report</a> (PDF): Breakdown report
- showcasing multi-channel traffic and keyword revenue impact across
+ 🔍 <a href="https://johnpottergr.github.io/analyticsexample.pdf">Sample Report</a> (PDF): Breakdown of
+ multi-channel traffic and keyword revenue impact across
  time windows.
-
 </p>
-
         <p>
-        was originally brought on to build a WordPress site, but the role quickly expanded into full-site SEO ownership. Along the way, I got comfortable auditing plugins, customizing themes, and improving site performance with tools like Cloudflare and WP Super Cache. I also used the Yoast plugin to run technical SEO audits and identify on-page improvements.</p>
+        I was originally brought on to build a WordPress site, but the role quickly expanded into full-site SEO ownership. Along the way, I became comfortable with assessing plugins, customizing themes, and improving site performance with tools like Cloudflare and WP Super Cache. I also used the Yoast plugin to run technical SEO audits and identify on-page improvements.</p>
         <p>
         That experience proved valuable when I was later asked to maintain product descriptions for a local industrial equipment company. Working hands-on gave me the confidence to troubleshoot most issues independently without relying on developers, which is a skill I still draw on today.
         </p>
@@ -58,8 +56,7 @@ helped deliver content that aligned with audience intent and search engine expec
           Elsewhere
         </h2>
         <p>
-        As Executive Director of a business-focused nonprofit, I led email marketing for lunch-and-learn events and campaigns,
-        managing a 10,000-member subscriber list. This included segmentation and A/B testing to drive attendance and engagement.
+        As Executive Director of a business-related nonprofit, I led email marketing campaigns for lunch-and-learn events and other initiatives, managing a 10,000-subscriber list. This involved segmenting audiences and running A/B tests to improve engagement and drive attendance. I also produced daily, targeted content optimized around the keyword phrase “business networking,” which helped the nonprofit’s website steadily climb in local search rankings.
         </p>
         <p>
         Separately, I supported a friend's small business by managing outreach via HubSpot, eventually earning certification in outbound marketing.
