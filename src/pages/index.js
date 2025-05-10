@@ -207,7 +207,9 @@ opacity: 0.9
             liquidity tracker, peg stress testing tools, and risk manager.
            </li>
            <li style={{ marginBottom: '10px' }}>
-             Initiating Doclify, a service to deliver AI-driven documentation solutions using Mintlify’s Model Context Protocol (MCP) for businesses.
+             Initiating <a href="https://doclify.solutions" style={{
+    color: '#2E7D32', fontWeight: '500'
+  }}>Doclify</a>, a service to deliver AI-driven documentation solutions using Mintlify’s Model Context Protocol (MCP) for businesses.
             </li>
 
          </ul>
