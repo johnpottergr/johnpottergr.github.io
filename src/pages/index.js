@@ -201,10 +201,9 @@ opacity: 0.9
          </h2>
          <ul>
          <li style={{ marginBottom: '10px' }}>
-            Building <a href="https://stablecraft.io" style={{
+            Building <a href="https://johnpottergr.com/blog/5-21-2025-vibe-coding-democratizes-creativity" style={{
     color: '#2E7D32', fontWeight: '500',
-  }}>Stablecraft.io</a>, a dedicated platform featuring a stablecoin knowledge base, focused blog, real-time
-            liquidity tracker, peg stress testing tools, and risk manager.
+  }}>Signals</a>, a Conversion Rate Optimizaation app that relies on LLM and MCP (Model Context Protocol) to improve websites.
            </li>
            <li style={{ marginBottom: '10px' }}>
              Initiating <a href="https://doclify.solutions" style={{
