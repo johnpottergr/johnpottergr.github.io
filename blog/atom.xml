@@ -2,11 +2,28 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://johnpottergr.com/blog</id>
     <title>My Professional Website Blog</title>
-    <updated>2025-05-09T00:00:00.000Z</updated>
+    <updated>2025-05-21T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://johnpottergr.com/blog"/>
     <subtitle>My Professional Website Blog</subtitle>
     <icon>https://johnpottergr.com/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Vibe Coding Is A New Way to Build]]></title>
+        <id>https://johnpottergr.com/blog/5-21-2025-vibe-coding-democratizes-creativity</id>
+        <link href="https://johnpottergr.com/blog/5-21-2025-vibe-coding-democratizes-creativity"/>
+        <updated>2025-05-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[“Vibe coding” sounds like a throwaway phrase. You could be forgiven for not taking it seriously. But for many would-be developers, vibe coding offers genuine creative freedom. In short, the ability to code is no longer a barrier to software development. LLMs now handle most of the intricate construction details.]]></summary>
+        <content type="html"><![CDATA[<p>“Vibe coding” sounds like a throwaway phrase. You could be forgiven for not taking it seriously. But for many would-be developers, vibe coding offers genuine creative freedom. In short, the ability to code is no longer a barrier to software development. LLMs now handle most of the intricate construction details.</p>
+<p>What’s happening here is a democratization of access. The vibe these new AI tools give off is one of permissiveness: you don’t need coding expertise to create, you just need the impulse to do so. If you don’t know JavaScript, Cursor or another LLM can handle it. There’s no mystique here; just initiative and a willingness to experiment.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="my-foray-into-vibe-coding">My Foray Into Vibe Coding<a href="https://johnpottergr.com/blog/5-21-2025-vibe-coding-democratizes-creativity#my-foray-into-vibe-coding" class="hash-link" aria-label="Direct link to My Foray Into Vibe Coding" title="Direct link to My Foray Into Vibe Coding">​</a></h2>
+<p>My own experience speaks to this. When I had to collaborate with a client on GitHub a few months back, I quickly became acquainted with Visual Studio Code’s integrated terminal. Shortly afterward, I began using Docusaurus to build a professional website. It was surprisingly intuitive to understand what was needed. As Lucille Ball once remarked, “the more things you do, the more you can do”</p>
+<p>Not being able to write React code from scratch was hardly a problem. With LLMs guiding me, I could follow the structure and purpose of each file, even if I couldn’t explain every line. My foray into vibe coding might have ended there if I hadn’t stumbled across an article about assembling tools into a full-stack AI-agentic app. It was intriguing enough that I decided to try it myself, with vibe coding as my go-to.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="going-the-extra-mile">Going the Extra Mile<a href="https://johnpottergr.com/blog/5-21-2025-vibe-coding-democratizes-creativity#going-the-extra-mile" class="hash-link" aria-label="Direct link to Going the Extra Mile" title="Direct link to Going the Extra Mile">​</a></h2>
+<p>Creating a website through GitHub is one thing. Building an IT stack that functions as a full application is something else entirely. Think of it as wiring together a series of virtual components using code.</p>
+<p>I suddenly realized the possibilities for connection were endless. Since my ability to modify proprietary software was limited, I started by exploring open-source projects to jumpstart the process. I set up an Amazon S3 account to store future clickstream data in the cloud. Tools I had only heard about, like FastAPI, Render, ngrok, suddenly had a place in my workflow. A whole new world opened up. Without an LLM, wiring all these compnents together would’ve taken months.</p>
+<p>But it wasn’t the coding that posed the biggest challenge (Render logs and ChatGPT eliminated that issue). The harder part was thinking through UI decisions. But even here, I'm reviewing whether to rely on Cursor to provide feedback.</p>
+<p>The excitement is just beginning: LLMs that pair with Model Context Protocol (MCP) promise to reshape software. Adding MCP capabilities to softwre isn't just an upgrade, it requires a complete rethinking of what software can do. That realization pushed me to explore how I could use these technologies in my own work. I began lying awake at night, thinking through the possibilities of AI-agentic systems and just how far they might go.</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[AI Agents Raise Bar on Technical Marketing]]></title>
         <id>https://johnpottergr.com/blog/5-9-2025-ai-agents-raise-bar</id>
