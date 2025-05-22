@@ -8,7 +8,7 @@ What’s happening here is a democratization of access. You don’t need coding 
 
 ## My Foray Into Vibe Coding
 
-My own experience speaks to this. When I had to collaborate with a client on GitHub a few months back, I quickly became acquainted with Visual Studio Code’s integrated terminal. Shortly afterward, I began using Docusaurus to build a professional website. It was surprisingly intuitive to understand what was needed. As Lucille Ball once remarked, “the more things you do, the more you can do”
+My own experience speaks to this. When I had to collaborate with a client on GitHub a few months back, I quickly became acquainted with Visual Studio Code’s integrated terminal. Shortly afterward, I began using Docusaurus to build a professional website. It was surprisingly intuitive to understand what was needed. And with time, I became more adventurous and willing to overcome coding obstacles. Lucille Ball was right, “the more things you do, the more you can do”
 
 Not being able to write React code from scratch was hardly a problem. With LLMs guiding me, I could follow the structure and purpose of each file, even if I couldn’t explain every line. My foray into vibe coding might have ended there if I hadn’t stumbled across an article about assembling tools into a full-stack AI-agentic app. It was intriguing enough that I decided to try it myself, with vibe coding as my go-to.
 
