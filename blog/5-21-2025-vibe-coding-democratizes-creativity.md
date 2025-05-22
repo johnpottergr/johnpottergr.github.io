@@ -2,9 +2,9 @@
 title: Vibe Coding Is A New Way to Build
 date: 2025-05-21
 ---
-“Vibe coding” sounds like a throwaway phrase. You could be forgiven for not taking it seriously. But for many would-be developers, vibe coding offers genuine creative freedom. In short, the ability to code is no longer a barrier to software development. LLMs now handle most of the intricate construction details.
+“Vibe coding” sounds like a throwaway phrase. You could be forgiven for not taking it seriously. But for many would-be developers, vibe coding offers genuine creative freedom. With vibe coding, the ability to code is no longer a barrier to software development. LLMs now handle most of the intricate construction details.
 
-What’s happening here is a democratization of access. The vibe these new AI tools give off is one of permissiveness: you don’t need coding expertise to create, you just need the impulse to do so. If you don’t know JavaScript, Cursor or another LLM can handle it. There’s no mystique here; just initiative and a willingness to experiment.
+What’s happening here is a democratization of access. You don’t need coding expertise to create; you need the impulse to do so. If you don’t know JavaScript, Cursor, or another programming language, an LLM can handle it. There’s no mystique here; just initiative and a willingness to experiment.
 
 ## My Foray Into Vibe Coding
 
