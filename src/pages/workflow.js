@@ -64,7 +64,7 @@ helped deliver content that matched what users were searching for.
 As a startup, <a href="https://corpconversions.com">Corporate Conversions</a> required only a few
 highly-skilled contractors to help it get off the ground. At the founder's request, I created
 Competitive Prospects LLC to participate in this process. My role gave me
-extensive hands-on experience with SEO with a strong focus on analytics-driven SEO reporting.</p>
+extensive hands-on experience with analytics-driven SEO reporting.</p>
         <p>Using Google Analytics, I created reports tying keyword performance to revenue over time. These reports
         uncovered trends in organic vs. paid traffic, tracked backlink quality, and compared SERP
         visibility across competitors—insights that helped clients adjust their content strategies and budget allocations.
