@@ -117,7 +117,7 @@ embodies a lot of great characteristics that are hard to find in technical write
            I provide CRO suggestions that align with search intent to boost both conversions and
            SEO performance. Using AI vision models, I analyze pages visually and incorporate
            detailed funnel and audience context to surface clear improvements.
-           I also developed <a href="https://crosignals.com">CRO Signals</a>, a custom tool that
+           I also developed <a href="https://crosignals.com">CRO Signals</a> (under revision), a custom tool that
            analyzes historical traffic to uncover patterns that
            drive higher conversion outcomes.
            </p>
