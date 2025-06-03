@@ -4,15 +4,20 @@ import Layout from '@theme/Layout';
 export default function Portfolio() {
   return (
     <Layout title="Portfolio">
-      <div style={{ padding: '20px', maxWidth: '830px', margin: '0 auto', color: '#222' }}>
-        <h1 style={{ color: '#222' }}>My Portfolio</h1>
+      <div style={{ padding: '20px', maxWidth: '900px', margin: '0 auto', color: '#222' }}>
+        <h1 style={{
+             fontWeight: 600,
+             fontSize: '2rem',
+             borderBottom: '2px solid #5ED1A5',
+             paddingBottom: '16px',
+             marginBottom: '1.5rem',
+             color: '#1A202C',
+             textAlign: 'center',
+        }}>My Portfolio</h1>
 
         {/* Featured Articles Section */}
-        <h2 style={{ color: '#222', borderBottom: '2px solid #5ED1A5',  fontWeight: 400, paddingBottom: '5px' }}>
-          Featured Articles
-        </h2>
         <p>
-          While many of my articles focus on data engineering, I've also written about quantum computing, marketing, and cryptocurrency.
+          My published articles primarily focus on data engineering, quantum computing, marketing, and cryptocurrency.
           The quality has improved over time, thanks to guidance from Anthony Garone at Edify Content.
           You can browse all my articles <a href="/technical-articles-by-industry.pdf" target="_blank" rel="noopener noreferrer">here</a>, or jump straight to a curated list of data migration guides <a href="/Data%20Migration%20Guides.pdf" target="_blank" rel="noopener noreferrer">here</a>.
         </p>
@@ -28,54 +33,54 @@ export default function Portfolio() {
             </a>
           </li>
           <li>
-            <a href="https://johnpottergr.com/portfolio#business-compliance" style={{ color: '#008000', textDecoration: 'none' }}>
+            <a href="https://johnpottergr.com/portfolio#business-compliance" style={{ color: '#008000', fontWeight: '400',  textDecoration: 'none' }}>
               Business Compliance
             </a>
           </li>
           <li>
-            <a href="https://johnpottergr.com/portfolio#business-operations" style={{ color: '#008000', textDecoration: 'none' }}>
+            <a href="https://johnpottergr.com/portfolio#business-operations" style={{ color: '#008000', fontWeight: '400',  textDecoration: 'none' }}>
               Business Operations
             </a>
           </li>
 
           <li>
-            <a href="https://johnpottergr.com/portfolio#cryptography" style={{ color: '#008000', textDecoration: 'none' }}>
+            <a href="https://johnpottergr.com/portfolio#cryptography" style={{ color: '#008000', fontWeight: '400',  textDecoration: 'none' }}>
               Cryptography
             </a>
           </li>
           <li>
-            <a href="https://johnpottergr.com/portfolio#cybersecurity" style={{ color: '#008000', textDecoration: 'none' }}>
+            <a href="https://johnpottergr.com/portfolio#cybersecurity" style={{ color: '#008000', fontWeight: '400',  textDecoration: 'none' }}>
               Cybersecurity
             </a>
           </li>
           <li>
-            <a href="https://johnpottergr.com/portfolio#data-engineering" style={{ color: '#008000', textDecoration: 'none' }}>
+            <a href="https://johnpottergr.com/portfolio#data-engineering" style={{ color: '#008000', fontWeight: '400',  textDecoration: 'none' }}>
               Data Engineering
             </a>
           </li>
           <li>
-            <a href="https://johnpottergr.com/portfolio#it-infrastructure" style={{ color: '#008000', textDecoration: 'none' }}>
+            <a href="https://johnpottergr.com/portfolio#it-infrastructure" style={{ color: '#008000', fontWeight: '400',  textDecoration: 'none' }}>
               IT Infrastructure
             </a>
           </li>
           <li>
-            <a href="https://johnpottergr.com/portfolio#kubernetes" style={{ color: '#008000', textDecoration: 'none' }}>
+            <a href="https://johnpottergr.com/portfolio#kubernetes" style={{ color: '#008000', fontWeight: '400',  textDecoration: 'none' }}>
               Kubernetes
             </a>
           </li>
           <li>
-            <a href="https://johnpottergr.com/portfolio#marketing" style={{ color: '#008000', textDecoration: 'none' }}>
+            <a href="https://johnpottergr.com/portfolio#marketing" style={{ color: '#008000', fontWeight: '400',  textDecoration: 'none' }}>
               Marketing
             </a>
           </li>
           <li>
-            <a href="https://johnpottergr.com/portfolio#quantum-computing" style={{ color: '#008000', textDecoration: 'none' }}>
+            <a href="https://johnpottergr.com/portfolio#quantum-computing" style={{ color: '#008000', fontWeight: '400',  textDecoration: 'none' }}>
               Quantum Computing
             </a>
           </li>
 
           <li>
-            <a href="https://johnpottergr.com/portfolio#stock-analysis" style={{ color: '#008000', textDecoration: 'none' }}>
+            <a href="https://johnpottergr.com/portfolio#stock-analysis" style={{ color: '#008000', fontWeight: '400',  textDecoration: 'none' }}>
               Stock Analysis
             </a>
           </li>

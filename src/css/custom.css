@@ -31,4 +31,10 @@
 /* Add spacing above the blog post title */
 article .markdown h1 {
   margin-top: 2rem; /* Adjust as needed */
+  font-weight: 600;        /* Use kebab-case */
+  font-size: 2rem;         /* No quotes */
 }
+  a {
+      font-weight: bold;
+      text-decoration: none;
+  }

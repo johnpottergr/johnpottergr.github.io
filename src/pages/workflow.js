@@ -5,7 +5,15 @@ export default function Workflow() {
   return (
     <Layout title="Workflow">
       <div style={{ padding: '20px', maxWidth: '830px', margin: '0 auto', color: '#222' }}>
-        <h1 style={{ color: '#222' }}>Marketing & SEO Skills</h1>
+        <h1 style={{
+             fontWeight: 600,
+             fontSize: '2rem',
+             borderBottom: '2px solid #5ED1A5',
+             paddingBottom: '16px',
+             marginBottom: '1.5rem',
+             color: '#1A202C',
+             textAlign: 'center',
+        }}>My Marketing & SEO Skills</h1>
 
        {/* Workflow Section */}
        <div style={{ position: 'relative', paddingTop: '10px' }}>
@@ -14,9 +22,8 @@ export default function Workflow() {
 <h2 style={{
   color: '#222',
   fontWeight: 400,
-  borderBottom: '2px solid #5ED1A5',
   paddingBottom: '5px',
-  marginBottom: '20px'
+  marginBottom: '10px'
 }}>
   At Edify Content
 </h2>
@@ -46,7 +53,7 @@ helped deliver content that matched what users were searching for.
         </p>
 
 
-        <h2 style={{ color: '#222', fontWeight: 400, borderBottom: '2px solid #5ED1A5', paddingTop: '10px', paddingBottom: '5px',  marginBottom: '20px' }}>
+        <h2 style={{ color: '#222', fontWeight: 400,  paddingTop: '10px',  marginBottom: '10px' }}>
           At Corporate Conversions
         </h2>
         <img
@@ -89,7 +96,8 @@ extensive hands-on experience with analytics-driven SEO reporting.</p>
         That experience proved valuable when I was later asked to maintain product descriptions for a local industrial equipment company. Working hands-on gave me the confidence to troubleshoot most issues independently without relying on developers, which is a skill I still draw on today.
         </p>
 
-        <h2 style={{ color: '#222', fontWeight: 400, borderBottom: '2px solid #5ED1A5', paddingTop: '10px', paddingBottom: '5px' }}>
+
+        <h2 style={{ color: '#222', fontWeight: 400,  paddingTop: '10px',  marginBottom: '10px' }}>
           Freelance & Self-Directed Work
         </h2>
         <p>
@@ -99,8 +107,8 @@ extensive hands-on experience with analytics-driven SEO reporting.</p>
         Separately, I supported a friend's small business by managing outreach through HubSpot, eventually earning a certification in outbound marketing. That experience deepened my understanding of CRM-driven campaign flows and sales enablement via automation. I also became familiar with Shopify’s CMS while running an anime-themed product business, primarily handling email communication and managing storefront content.
 </p>
 
-            <h2 style={{ color: '#222', fontWeight: 400, borderBottom: '2px solid #5ED1A5', paddingTop: '10px', paddingBottom: '5px' }}>
-            Preparing for the AI-Driven Future of SEO
+         <h2 style={{ color: '#222', fontWeight: 400,  paddingTop: '10px',  marginBottom: '10px' }}>
+          Preparing for the AI-Driven Future of SEO
         </h2>
         <p>
         I’m especially interested in how AI agents and large language models are
