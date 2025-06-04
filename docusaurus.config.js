@@ -84,9 +84,9 @@
         // }
 
         navbar: {
-          title: 'John M. Potter',
+          title: 'John M Potter:',
           items: [
-            { to: '/', label: 'Welcome', position: 'left' }, // Moved to first position
+            { to: '/', label: 'Home', position: 'left' }, // Moved to first position
             { to: '/portfolio', label: 'Portfolio', position: 'left' }, // Moved to second position
             { to: '/workflow', label: 'SEO Skills', position: 'left', },
             { href: 'https://johnpottergr.com/resume3a.pdf', label: 'Resume', position: 'left', external: true },

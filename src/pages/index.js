@@ -9,7 +9,7 @@ export default function Home() {
 <Layout title="John M Potter">
   <main
     style={{
-      padding: '20px',
+      padding: '25px',
       maxWidth: '900px',
       margin: '0 auto',
       textAlign: 'center',
@@ -49,13 +49,22 @@ export default function Home() {
       writing is my foundation, I’m also focused on building advanced skills in SEO strategy,
       CRO, and data-driven performance analysis.
     </p>
-<p style={{  textAlign: 'left', fontStyle: 'italic' }}>
-"John accepts feedback really well, internalizes it, and acts on it. He's dependable and
-embodies a lot of great characteristics that are hard to find in technical writers."
---Anhony Garone, Edify Content
-</p>
+    <div style={{ textAlign: 'center' }}>
+      <a
+      href="mailto:johnpottergr@gmail.com"
+      className="cta-button"
+      style={{
+        display: 'inline-block',
+        width: '615px',
+        align: 'center',
+        textDecoration: 'none'
+      }} >
 
+      Lets Rank!
+    </a>
+   </div>
   </div>
+
 
   {/* Right column: image */}
   <div style={{ flex: '0 0 200px' }}>
@@ -70,33 +79,15 @@ embodies a lot of great characteristics that are hard to find in technical write
       }}
     />
   </div>
-
+  
 </div>
-  <div style={{ textAlign: 'center'}}>
-
-      <a
-      href="mailto:johnpottergr@gmail.com"
-      style={{
-        display: 'inline-block',
-        marginTop: '0rem',
-        padding: '10px 20px',
-        backgroundColor: '#5ED1A5',
-        color: '#1A202C',
-        fontWeight: 'bold',
-        borderRadius: '6px',
-        textDecoration: 'none'
-      }}
-    >
-      Hire Me
-    </a>
-  </div>
-
 
 
          {/* Documentation Skills */}
+
          <div>
          <h1 style={{ marginTop: '3.5rem', borderBottom: '2px solid #5ED1A5',
-          paddingBottom: '6px', fontWeight: 600, fontSize: '2rem' }}>
+          paddingBottom: '16px', fontWeight: 600, fontSize: '2rem' }}>
            What I Offer
          </h1>
          <h2 style={{ marginTop: '1.5rem', textAlign: 'center', fontWeight: 400 }}>
@@ -129,7 +120,7 @@ embodies a lot of great characteristics that are hard to find in technical write
            BigQuery, ChatGPT, and custom ML models (e.g. regression models
            for CTA conversion likelihood and clustering models for audience segmentation) to forecast
            which content will rank, which users may bounce, and which CTAs are likely to convert. I’m also exploring tools like
-           CanIRank and Dashword to supplement traditional analytics with AI-based performance
+           <a href="https://www.canirank.com/">CanIRank</a> and <a href="https://www.dashword.com/">Dashword</a> to supplement traditional analytics with AI-based performance
            modeling.
            </p>
            <h2 style={{textAlign: 'center', fontWeight: 400 }}>
