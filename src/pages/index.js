@@ -79,7 +79,7 @@ export default function Home() {
       }}
     />
   </div>
-  
+
 </div>
 
 
@@ -119,8 +119,8 @@ export default function Home() {
            Google Analytics tells you what happened. I go further using tools like <a href="https://plausible.io/">Plausible</a>,
            BigQuery, ChatGPT, and custom ML models (e.g. regression models
            for CTA conversion likelihood and clustering models for audience segmentation) to forecast
-           which content will rank, which users may bounce, and which CTAs are likely to convert. I’m also exploring tools like
-           <a href="https://www.canirank.com/">CanIRank</a> and <a href="https://www.dashword.com/">Dashword</a> to supplement traditional analytics with AI-based performance
+           which content will rank, which users may bounce, and which CTAs are likely to convert. I’m also exploring tools
+           like <a href="https://www.canirank.com/">CanIRank</a> and <a href="https://www.dashword.com/">Dashword</a> to supplement traditional analytics with AI-based performance
            modeling.
            </p>
            <h2 style={{textAlign: 'center', fontWeight: 400 }}>
