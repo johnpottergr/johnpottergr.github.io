@@ -91,15 +91,29 @@ export default function Home() {
            What I Offer
          </h1>
          <h2 style={{ marginTop: '1.5rem', textAlign: 'center', fontWeight: 400 }}>
-           AI-based SEO
+           Content Optimization
          </h2>
          <p style={{ marginBottom: '35px', textAlign: 'left' }}>
-
-            I use tools like <a href="https://marketmuse.com/">MarketMuse</a> for predictive content planning, <a href="https://surferseo.com/ai/">Surfer AI</a> for SERP-informed
-            optimization, and <a href="https://alsoasked.com/">AlsoAsked</a> for layered search intent mapping. These go beyond
-            traditional platforms like Ahrefs and SEMrush, helping me build content that ranks and
-            resonates. I believe you should always be looking for a competitive edge in online marketing. You can see how I evaluate these tools and others on my <a href="https://johnpottergr.com/blog">
-            blog</a>.
+          I use tools like <a href="https://marketmuse.com">MarketMuse</a> for
+          predictive content planning and <a href="https://alsoasked.com">AlsoAsked</a> for layered
+          search intent mapping. While Surfer AI excels at SERP-informed optimization, its content
+          generation doesn't match my standards. To address that, I’m building a Surfer AI-style
+          tool that analyzes top-ranking search results, summarizes key themes using GPT, and
+          produces content briefs with suggested headings, target questions, and relevant
+          NLP-driven topics (similar to what Clearscope offers).
+           </p>
+               <h2 style={{textAlign: 'center', fontWeight: 400 }}>
+           Technical Site Audits
+         </h2>
+           <p style={{ marginBottom: '35px', textAlign: 'left' }}>
+           For technical audits, I combine tools based on what’s required. Google Search Console
+           provides me with high-level visibility into site performance,
+           while <a href="https://www.screamingfrog.co.uk/seo-spider/">Screaming Frog</a>
+           allows me to drill down into structural issues, such as broken links, duplicate content,
+           redirect chains, and crawl depth. I’ll use Sitebulb if I need a more visual and
+           explanatory report, as it provides me with intuitive audit scoring and crawl maps that
+           make patterns easy to interpret. But its extensibility is more
+           limited.
            </p>
            <h2 style={{textAlign: 'center', fontWeight: 400 }}>
            Conversion Rate Optimization (CRO)
@@ -133,16 +147,6 @@ export default function Home() {
            study emerging strategies for ranking higher in ChatGPT and keep tabs on how
            AI-driven <a href="https://agenticbrand.ai/p/old-vs-new-finding-influencers-with-traditional-search-vs-semantic-ai-vibe-match">influencer campaigns</a> might reshape search marketing.
            </p>
-              <h2 style={{textAlign: 'center', fontWeight: 400 }}>
-           Collaborative capabilities
-         </h2>
-          <p style={{ marginBottom: '35px', textAlign: 'left' }}>
-           I collaborate easily in developer environments using Git and Markdown. One example:
-           I rewrote and enhanced over <a href="https://johnpottergr.github.io/Gruntwork-Docs.pdf">100 documentation pages</a> for <a href="https://gruntwork.io">Gruntwork.io</a>, improving clarity
-           and structure across DevOps tutorials, IaC best practices, and data pipeline guides.
-           You can <a href="https://github.com/EdifyContent">commit history</a> to explore my contributions in detail.
-           </p>
-
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7DYhiD3IuxE?si=F3y8zcWtsqVwiwPs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
