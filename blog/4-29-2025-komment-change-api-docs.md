@@ -2,9 +2,11 @@
 title: How Komment.ai Might Change the Way We Write API Documentation
 date: 2025-04-29
 ---
-Writing API docs is usually a grind. You flip between code, notes, product specs, and that tiny voice in the back of your head that says, "Did I explain that clearly enough?" It’s one of those tasks that’s important but exhausting — and that's where Komment.ai comes in.
+Writing API docs is usually a grind. You flip between code, notes, product specs, and that tiny voice in the back of your head that says, "Did I explain that clearly enough?" It’s one of those tasks that’s important but exhausting. That's where Komment.ai comes in.
 
 Komment.ai takes a swing at the old documentation process by making it more interactive, collaborative, and, frankly, a lot less painful. Instead of bouncing between different tools, Komment.ai lets you layer comments, suggestions, and questions directly on top of the docs or codebase you’re working with. It's almost like sticky notes — but smart ones — that stay tied to specific sections of the text.
+
+<!--truncate-->
 
 If you've ever used Google Docs and loved how people can leave comments right where edits are needed, Komment.ai feels like the natural next step. But it’s built with technical teams in mind. Reviewers can ask questions, suggest changes, or flag confusing parts right alongside the actual content, without needing to send 12 back-and-forth emails or schedule another review meeting.
 

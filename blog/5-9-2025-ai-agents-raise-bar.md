@@ -6,6 +6,8 @@ Technical content often sits in the background—dense, scattered, and easy to o
 
 Despite its operational importance, technical content has long been treated as an afterthought in marketing. The focus was often on making PDFs “findable,” cleaning up metadata, and hoping Google understood what engineers were actually searching for. But that’s changing. A new era is taking shape, one led by AI agents.
 
+<!--truncate-->
+
 ## The problem with static SEO
 
 Right now, many industrial firms center their SEO strategies on making static content more visible. They have case studies, compressor manuals, and application bulletins, all of which are relegated to dropdown libraries or buried three clicks deep. Their current workflow is focused on:
@@ -16,7 +18,7 @@ Right now, many industrial firms center their SEO strategies on making static co
 
 While this is a smart strategy- its also somewhat slow. In industries where product specs change at the drop of a hat, new materials are constantly being introduced, and customers demand answers instantly, relying on static SEO alone could easily become a disadvantage.
 
-## What AI Agents can do
+## What AI agents can do
 
 AI agents are more than just "smarter chatbots." They're autonomous systems capable of:
 
@@ -34,6 +36,7 @@ An AI agent could pull the answer from internal specifications, cite its source,
 
 
 ## Why this matters for engineering firms
+
 Engineering buyers are not leisurely shoppers; they seek definitive responses to specific inquiries and demand them promptly. AI agents bridge the divide between:
 
 - What content companies make available
@@ -46,6 +49,7 @@ Success here goes beyond marketing effectiveness. It directly impacts competitiv
 - Free their marketing teams from having to constantly reformat or rewrite content for different use cases
 
 ## SEO isn't going away, it's getting smarter
+
 AI agents won't replace traditional SEO, they'll augment it. In fact, They actually excel in clean, well-structured ecosystems:
 
 - Clear navigation menus

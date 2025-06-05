@@ -6,13 +6,15 @@ date: 2025-05-21
 
 What’s happening here is a democratization of access. You don’t need coding expertise to create; you need the impulse to do so. If you don’t know JavaScript, Cursor, or another programming language, an LLM can handle it. There’s no mystique here; just initiative and a willingness to experiment.
 
-## My Foray Into Vibe Coding
+<!--truncate-->
+
+## My foray into vibe doding
 
 My own experience speaks to this. When I had to collaborate with a client on GitHub a few months back, I quickly became acquainted with Visual Studio Code’s integrated terminal. Shortly afterward, I began using Docusaurus to build a professional website. It was surprisingly intuitive to understand what was needed. And with time, I became more adventurous and willing to overcome coding obstacles. Lucille Ball was right, “the more things you do, the more you can do”
 
 Not being able to write React code from scratch was hardly a problem. With LLMs guiding me, I could follow the structure and purpose of each file, even if I couldn’t explain every line. My foray into vibe coding might have ended there if I hadn’t stumbled across an article about assembling tools into a full-stack AI-agentic app. It was intriguing enough that I decided to try it myself, with vibe coding as my go-to.
 
-## Going the Extra Mile
+## Going the extra mile
 
 Creating a website through GitHub is one thing. Building an IT stack that functions as a full application is something else entirely. Think of it as wiring together a series of virtual components using code.
 

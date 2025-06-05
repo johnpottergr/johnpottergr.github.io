@@ -4,6 +4,8 @@ date: 2025-06-04
 ---
 Not long ago, Surfer SEO emerged as a leading AI content tool, gaining momentum on ChatGPT. Unlike all-purpose models, it was specifically built to combine writing with on-page SEO optimization. Users were drawn to its promise of a streamlined workflow. Aimed at marketers, SEOs, and content teams, it produces SERP-aligned articles with little manual effort. Its ability to deliver content that’s actually useful and rank-worthy is questionable though. Here’s my experience with it.
 
+<!--truncate-->
+
 ## How Surfer stacks up in AI content generation
 
 In terms of content generation, ChatGPT remains a formidable competitor. Several LLMs come close, particularly Google’s Gemini (it's so straightforward!). At Edify Content, the content team relied on Surfer SEO until early 2024. The biggest problem we encountered was its slowness: a 2,000-word article would take up to 20 minutes to generate. More troubling was the predictability of the output and its occasional errors.
