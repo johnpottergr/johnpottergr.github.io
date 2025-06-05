@@ -83,7 +83,7 @@ export default function Home() {
 </div>
 
 
-         {/* Documentation Skills */}
+         {/* SEO Skills */}
 
          <div>
          <h1 style={{ marginTop: '3.5rem', borderBottom: '2px solid #5ED1A5',
@@ -91,16 +91,15 @@ export default function Home() {
            What I Offer
          </h1>
          <h2 style={{ marginTop: '1.5rem', textAlign: 'center', fontWeight: 400 }}>
-           Content Optimization
+           Content Strategy & Brief Generation
          </h2>
          <p style={{ marginBottom: '35px', textAlign: 'left' }}>
-          I use tools like <a href="https://marketmuse.com">MarketMuse</a> for
-          predictive content planning and <a href="https://alsoasked.com">AlsoAsked</a> for layered
-          search intent mapping. While Surfer AI excels at SERP-informed optimization, its content
-          generation doesn't match my standards. To address that, I’m building a Surfer AI-style
-          tool that analyzes top-ranking search results, summarizes key themes using GPT, and
-          produces content briefs with suggested headings, target questions, and relevant
-          NLP-driven topics (similar to what Clearscope offers).
+          I offer content planning services that blend predictive analysis with SERP-driven
+          insights. I use tools like <a href="https://marketmuse.com">MarketMuse</a> to identify topics with strong ranking potential
+          and <a href="https://alsoasked.com">AlsoAsked</a> to uncover layered search intent. For SERP analysis, I’m building a
+          Clearscope-style system that summarizes top-ranking pages using GPT and generates
+          detailed content briefs. It also generates These content briefs with suggested headings,
+          target questions, and NLP-informed topics to help guide content teams.
            </p>
                <h2 style={{textAlign: 'center', fontWeight: 400 }}>
            Technical Site Audits
@@ -108,45 +107,59 @@ export default function Home() {
            <p style={{ marginBottom: '35px', textAlign: 'left' }}>
            For technical audits, I combine tools based on what’s required. Google Search Console
            provides me with high-level visibility into site performance,
-           while <a href="https://www.screamingfrog.co.uk/seo-spider/">Screaming Frog</a>
-           allows me to drill down into structural issues, such as broken links, duplicate content,
-           redirect chains, and crawl depth. I’ll use Sitebulb if I need a more visual and
+           while <a href="https://www.screamingfrog.co.uk/seo-spider/">Screaming Frog</a> allows
+           me to drill down into structural issues, such as broken links, duplicate content,
+           redirect chains, and crawl depth. I’ll use <a href="https://sitebulb.com">Sitebulb</a>. if I need a more visual and
            explanatory report, as it provides me with intuitive audit scoring and crawl maps that
-           make patterns easy to interpret. But its extensibility is more
-           limited.
+           make patterns easy to interpret. But its extensibility is more limited.
            </p>
-           <h2 style={{textAlign: 'center', fontWeight: 400 }}>
-           Conversion Rate Optimization (CRO)
+            <h2 style={{textAlign: 'center', fontWeight: 400 }}>
+           Link-Building
          </h2>
            <p style={{ marginBottom: '35px', textAlign: 'left' }}>
-           I provide CRO suggestions that align with search intent to boost both conversions and
-           SEO performance. Using AI vision models, I analyze pages visually and incorporate
-           detailed funnel and audience context to surface clear improvements.
-           I also developed <a href="https://crosignals.com">CRO Signals</a> (under revision), a custom tool that
-           analyzes historical traffic to uncover patterns that
-           drive higher conversion outcomes.
+          Link building helps increase your website’s visibility
+          and authority by getting other reputable sites to link back to yours. It's a great way to
+          improve search engine rankings and drive targeted traffic. But link-building is a slow process. Tools like
+          Tools like Postaga and Respona accelerate this task but they're expensive. I've built my own, which
+          consists of connecting <a href="https://hunter.io/">Hunter.io to</a> google sheets + <a href="https://www.gmass.co/">gmass</a>
+          I can customize this outreach system to run campaigns targeted to market niches or
+          specific content opportunities that align with your brand.
            </p>
            <h2 style={{textAlign: 'center', fontWeight: 400 }}>
-           Predictive analytics
+           Diagnostic Analytics
          </h2>
            <p style={{ marginBottom: '35px', textAlign: 'left' }}>
-           Google Analytics tells you what happened. I go further using tools like <a href="https://plausible.io/">Plausible</a>,
-           BigQuery, ChatGPT, and custom ML models (e.g. regression models
-           for CTA conversion likelihood and clustering models for audience segmentation) to forecast
-           which content will rank, which users may bounce, and which CTAs are likely to convert. I’m also exploring tools
-           like <a href="https://www.canirank.com/">CanIRank</a> and <a href="https://www.dashword.com/">Dashword</a> to supplement traditional analytics with AI-based performance
-           modeling.
+           As an SEO consultant, I started by
+           building <a href="https://johnpottergr.github.io/analyticsexample.pdf">Google Analytics reports</a> for enterprise
+           clients, so I understand what decision-makers need to see. But GA4’s complexity often
+           gets in the way. That’s why I’ve built a custom reporting tool that combines Screaming
+           Frog, GA4, and <a href="https://streamlit.io/">Streamlit</a> to deliver focused SEO insights. It lets me highlight technical
+           issues and engagement metrics in a single view, uncover which content underperforms and
+           why, and deliver easy-to-understand reports without the all the data clutter.
+           </p>
+            <h2 style={{textAlign: 'center', fontWeight: 400 }}>
+          SEO Data Automation
+         </h2>
+           <p style={{ marginBottom: '35px', textAlign: 'left' }}>
+           I build backend workflows that automate the repetitive parts of SEO, from nightly
+           site crawls to syncing GA4 and content data into a central warehouse using Python and
+           cloud tools. This reduces delays, eliminates manual cleanup, and surfaces technical
+           issues before they affect rankings. These systems are designed to scale across large or
+           multi-site portfolios, freeing up agency time for strategy and allowing teams to deliver
+           more consistent, data-informed recommendations at speed.
            </p>
            <h2 style={{textAlign: 'center', fontWeight: 400 }}>
-           Cutting-edge marketing knowledge
+          Why My Workflow Matters
          </h2>
            <p style={{ marginBottom: '35px', textAlign: 'left' }}>
-           Staying current with technical developments is not only my job, it’s what I genuinely
-           enjoy. I’m especially interested in <a href="https://www.anthropic.com/news/model-context-protocol">Model Context Protocol</a>, a new AI protocol that’s
-           poised to to make the eCommerce experience more personalized and context-aware. I also
-           study emerging strategies for ranking higher in ChatGPT and keep tabs on how
-           AI-driven <a href="https://agenticbrand.ai/p/old-vs-new-finding-influencers-with-traditional-search-vs-semantic-ai-vibe-match">influencer campaigns</a> might reshape search marketing.
+          I’ve developed light engineering skills that let me move beyond off-the-shelf SEO tools.
+          With Python libraries like pandas and <a href="https://pypi.org/project/beautifulsoup4/">BeautifulSoup</a>, I can clean keyword data, analyze
+          crawl outputs, and scrape SERP insights to uncover SEO opportunities others might
+          overlook. This makes it easier to automate routine audits, build custom datasets, and
+          shape workflows around the problem at hand rather than forcing the problem to fit a tool.
            </p>
+
+
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7DYhiD3IuxE?si=F3y8zcWtsqVwiwPs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
