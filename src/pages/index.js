@@ -145,7 +145,7 @@ export default function Home() {
           I've built light engineering skills that let me go beyond off-the-shelf SEO tools.
           With Python libraries like pandas and <a href="https://pypi.org/project/beautifulsoup4/">BeautifulSoup</a>,
           I clean keyword data, analyze crawl outputs, and pull SERP insights others might miss.
-          On the backend, I’ve automated the repetitive parts of SEO—nightly crawls, syncing GA4
+          On the backend, I’ve automated the repetitive parts of SEO, like nightly crawls and syncing GA4
           and content metrics into a central warehouse. This setup reduces delays and helps catch
           issues before they impact rankings.
            </p>
