@@ -119,9 +119,8 @@ export default function Home() {
            <p style={{ marginBottom: '35px', textAlign: 'left' }}>
           Link building helps increase your website’s visibility
           and authority by getting other reputable sites to link back to yours. It's a great way to
-          improve search engine rankings and drive targeted traffic. But link-building is a slow process. Tools like
-          Tools like Postaga and Respona accelerate this task but they're expensive.
-          I've built my own system, which adds valuable details from <a href="https://hunter.io/">Hunter.io</a>
+          improve search engine rankings and drive targeted traffic. But link-building is a slow process.
+          So I've built my own outreach system, which adds valuable details from <a href="https://hunter.io/">Hunter.io</a>
           to my leads in Google Sheets. I then use <a href="https://www.gmass.co/">GMass</a> to
           run personalized campaigns that target specific market niches.
            </p>
