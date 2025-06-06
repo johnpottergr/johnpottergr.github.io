@@ -137,26 +137,19 @@ export default function Home() {
            issues and engagement metrics in a single view, uncover which content underperforms and
            why, and deliver easy-to-understand reports without the all the data clutter.
            </p>
-            <h2 style={{textAlign: 'center', fontWeight: 400 }}>
-          SEO Data Automation
-         </h2>
-           <p style={{ marginBottom: '35px', textAlign: 'left' }}>
-           I build backend workflows that automate the repetitive parts of SEO, from nightly
-           site crawls to syncing GA4 and content data into a central warehouse using Python and
-           cloud tools. This reduces delays, eliminates manual cleanup, and surfaces technical
-           issues before they affect rankings. These systems are designed to scale across large or
-           multi-site portfolios, freeing up agency time for strategy and allowing teams to deliver
-           more consistent, data-informed recommendations at speed.
-           </p>
+
            <h2 style={{textAlign: 'center', fontWeight: 400 }}>
           Why My Workflow Matters
          </h2>
            <p style={{ marginBottom: '35px', textAlign: 'left' }}>
-          I’ve developed light engineering skills that let me move beyond off-the-shelf SEO tools.
-          With Python libraries like pandas and <a href="https://pypi.org/project/beautifulsoup4/">BeautifulSoup</a>, I can clean keyword data, analyze
-          crawl outputs, and scrape SERP insights to uncover SEO opportunities others might
-          overlook. This makes it easier to automate routine audits, build custom datasets, and
-          shape workflows around the problem at hand rather than forcing the problem to fit a tool.
+          I've developed light engineering skills that help me move beyond standard SEO tools.
+          With Python libraries like pandas and <a href="https://pypi.org/project/beautifulsoup4/">BeautifulSoup</a>, I'm
+          able to clean keyword data, analyze
+          crawl outputs, and pull SERP insights that others might miss. On the backend, I’ve
+          built workflows that automate the repetitive parts of SEO, like
+          nightly site crawls and syncing GA4 and content performance data into a
+          central warehouse. This reduces delays and reveals technical issues
+          before they affect rankings.​​
            </p>
 
 
