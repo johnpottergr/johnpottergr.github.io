@@ -117,9 +117,9 @@ export default function Home() {
            Link-Building
          </h2>
            <p style={{ marginBottom: '35px', textAlign: 'left' }}>
-          Link building helps increase your website’s visibility
-          and authority by getting other reputable sites to link back to yours. It's a great way to
-          improve search engine rankings and drive targeted traffic. But link-building is a slow process.
+          Link building boosts your site’s authority and visibility by earning backlinks
+          from reputable websites, helping improve rankings and attract targeted traffic.
+          But link-building is a slow process.
           So I've built my own outreach system, which adds valuable details from <a href="https://hunter.io/">Hunter.io</a>
           to my leads in Google Sheets. I then use <a href="https://www.gmass.co/">GMass</a> to
           run personalized campaigns that target specific market niches.
@@ -132,9 +132,9 @@ export default function Home() {
            building <a href="https://johnpottergr.github.io/analyticsexample.pdf">Google Analytics reports</a> for enterprise
            clients, so I understand what decision-makers need to see. But GA4’s complexity often
            gets in the way. That’s why I’ve built a custom reporting tool that combines Screaming
-           Frog, GA4, and <a href="https://streamlit.io/">Streamlit</a> to deliver focused SEO insights. It lets me highlight technical
-           issues and engagement metrics in a single view, uncover which content underperforms and
-           why, and deliver easy-to-understand reports without the all the data clutter.
+           Frog, GA4, and <a href="https://streamlit.io/">Streamlit</a> to deliver focused SEO insights. It
+           It highlights technical and engagement issues at a glance, flags weak content, and delivers clear
+           reports without all the data clutter.
            </p>
 
            <h2 style={{textAlign: 'center', fontWeight: 400 }}>
