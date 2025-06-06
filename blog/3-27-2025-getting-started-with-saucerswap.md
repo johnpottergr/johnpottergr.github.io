@@ -16,7 +16,7 @@ date: 2025-03-27
 To get started, you’ll need a few essentials:
 
 - **A Hedera Wallet**: SaucerSwap works with wallets compatible with the Hedera network, such as [HashPack](https://hashpack.app/) or [Blade](https://bladewallet.io/). These wallets store your HBAR and tokens securely.
-- **HBAR**: The native cryptocurrency of Hedera, HBAR is required to pay for transaction fees on SaucerSwap. You can purchase HBAR on exchanges like [Binance](https://www.binance.com/), [Coinbase](https://www.coinbase.com/), or [KuCoin](https://www.kucoin.com/) and transfer it to your wallet.  
+- **HBAR**: The native cryptocurrency of Hedera, HBAR is required to pay for transaction fees on SaucerSwap. You can purchase HBAR on exchanges like [Binance](https://www.binance.com/), [Coinbase](https://www.coinbase.com/), or [KuCoin](https://www.kucoin.com/) and transfer it to your wallet.
   Alternatively, SaucerSwap offers a Coinbase Onramp, allowing you to buy and transfer HBAR directly within the platform. Simply navigate to the *Swap* page and select the *Buy* tab next to *Swap* to get started.
 - **A Web Browser**: Access SaucerSwap through a browser like [Chrome](https://www.google.com/chrome/) or [Firefox](https://www.mozilla.org/firefox/) by visiting [https://www.saucerswap.finance/](https://www.saucerswap.finance/).
 
@@ -45,7 +45,7 @@ To get started, you’ll need a few essentials:
 3. **Enter Amount**: Input how much you want to swap. SaucerSwap will calculate the amount you’ll receive, factoring in a small fee (denominated in USD, paid in HBAR).
 4. **Adjust Slippage (Optional)**: Click the gear icon to tweak slippage tolerance (e.g., 0.5%) if you’re worried about price changes during the transaction—it’s the max price shift you’ll accept to protect against losses from market moves. For volatile tokens, bump it to 1–3%.
 5. **Swap It**: Click “Swap,” review the details, and confirm the transaction in your wallet. In seconds, your new tokens will appear!
-   
+
 ![A swap-it screen](/img/swap-it.jpg)
 
 ## Step 4: Explore More Features
@@ -53,11 +53,11 @@ To get started, you’ll need a few essentials:
 - **Add Liquidity**: If you want to earn fees, go to the “Liquidity” tab, pick a token pair (e.g., HBAR/USDC), and supply equal values of both tokens to a pool. You’ll get LP tokens representing your share—think of them as a receipt. These earn a cut of trading fees (check the pool’s APR on the site), which you can claim later by removing liquidity.
 
  ![A add liquidity screen](/img/add-liquidity.jpg)
- 
+
 - **Stake SAUCE**: If you own SAUCE tokens, you can stake them to earn rewards. Head to the “Stake” section, deposit them into the Infinity Pool, and earn xSAUCE, which grows in value over time as a reward.
 
-  ![A stake SAUCE screen](/img/stake-sauce.jpg)
-  
+
+
 - **Check Your Progress**: Use Hedera explorers like [https://hashscan.io/](https://hashscan.io/) to track your transactions and balances.
 
 
