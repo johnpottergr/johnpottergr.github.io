@@ -109,10 +109,7 @@ export default function Home() {
            gives me with a solid high-level view of site performance,
            while <a href="https://www.screamingfrog.co.uk/seo-spider/">Screaming Frog</a> helps
            me drill down into structural issues, such as broken links, duplicate content,
-           redirect chains, and crawl depth. If I need a more visual report, I'll
-           use <a href="https://sitebulb.com">Sitebulb</a>, which excels at intuitive scoring
-           and crawl maps that
-           make patterns easy to spot.
+           redirect chains, and crawl depth. Screaming Frog also helps me build out my own reporting and analysis tools.
            </p>
             <h2 style={{textAlign: 'center', fontWeight: 400 }}>
            Link-Building
