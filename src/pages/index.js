@@ -105,11 +105,13 @@ export default function Home() {
            Technical Site Audits
          </h2>
            <p style={{ marginBottom: '35px', textAlign: 'left' }}>
-           For technical audits, I combine tools based on what’s needed. Google Search Console
+           For technical audits, I choose tools based on what’s needed. Google Search Console
            gives me with a solid high-level view of site performance,
            while <a href="https://www.screamingfrog.co.uk/seo-spider/">Screaming Frog</a> helps
-           me drill down into structural issues, such as broken links, duplicate content,
-           redirect chains, and crawl depth. Screaming Frog also helps me build out my own reporting and analysis tools.
+           uncover structural issues, such as broken links, duplicate content,
+           redirect chains, and crawl depth. If a client values more
+           visual reporting, I’ll use <a href="https://sitebulb.com">Sitebulb</a>, which offers intuitive
+           scoring and crawl maps that make patterns easier to interpret.
            </p>
             <h2 style={{textAlign: 'center', fontWeight: 400 }}>
            Link-Building
