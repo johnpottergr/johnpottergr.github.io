@@ -121,7 +121,9 @@ export default function Home() {
           But link-building is a slow process.
           So I’ve developed an outreach system that enriches leads in Google Sheets with data from <a href="https://hunter.io/">Hunter.io</a>,
           then uses <a href="https://www.gmass.co/">GMass</a> to
-          run personalized campaigns targeting specific market segments.
+          run personalized campaigns targeting specific market segments. Next,
+          I plan to add an <a href="https://hatchworks.com/blog/ai-agents/no-code-workflow-automation-with-n8n/">n8n workflow</a> that enriches each lead with recent social
+          activity, making outreach more relevant without sacrificing scale.
            </p>
            <h2 style={{textAlign: 'center', fontWeight: 400 }}>
            Diagnostic Analytics
