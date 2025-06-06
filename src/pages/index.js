@@ -94,61 +94,58 @@ export default function Home() {
            Content Strategy & Brief Generation
          </h2>
          <p style={{ marginBottom: '35px', textAlign: 'left' }}>
-          I offer content planning services that blend predictive analysis with SERP-driven
+          I offer content planning services that combine predictive analysis with SERP-driven
           insights. I use tools like <a href="https://marketmuse.com">MarketMuse</a> to identify topics with strong ranking potential
-          and <a href="https://alsoasked.com">AlsoAsked</a> to uncover layered search intent.
-          For SERP analysis, I’m building a Clearscope-style system that summarizes
-          top-ranking pages using GPT and produces detailed content briefs with suggested
-          headings, target questions, and relevant NLP-driven topics.
+          and <a href="https://alsoasked.com">AlsoAsked</a> to map layered search intent.
+          I’m also building a Clearscope-style tool that summarizes
+          top-ranking pages using GPT and generates detailed briefs with suggested
+          headings, target questions, and relevant NLP-informed topics.
            </p>
                <h2 style={{textAlign: 'center', fontWeight: 400 }}>
            Technical Site Audits
          </h2>
            <p style={{ marginBottom: '35px', textAlign: 'left' }}>
            For technical audits, I choose tools based on what’s needed. Google Search Console
-           gives me with a solid high-level view of site performance,
+           gives me a high-level view of site performance,
            while <a href="https://www.screamingfrog.co.uk/seo-spider/">Screaming Frog</a> helps
-           uncover structural issues, such as broken links, duplicate content,
-           redirect chains, and crawl depth. If a client values more
-           visual reporting, I’ll use <a href="https://sitebulb.com">Sitebulb</a>, which offers intuitive
-           scoring and crawl maps that make patterns easier to interpret.
+           uncover structural issues like broken links, duplicate content,
+           redirect chains, and crawl depth. If visual reporting is preferred, I use <a href="https://sitebulb.com">Sitebulb</a> for
+           its intuitive and crawl maps that make technical issues easier to interpret.
            </p>
             <h2 style={{textAlign: 'center', fontWeight: 400 }}>
            Link-Building
          </h2>
            <p style={{ marginBottom: '35px', textAlign: 'left' }}>
           Link building boosts your site’s authority and visibility by earning backlinks
-          from reputable websites, helping improve rankings and attract targeted traffic.
+          from trusted websites. , helping improve rankings and attract targeted traffic.
           But link-building is a slow process.
-          So I've built my own outreach system, which adds valuable details from <a href="https://hunter.io/">Hunter.io</a>
-          to my leads in Google Sheets. I then use <a href="https://www.gmass.co/">GMass</a> to
-          run personalized campaigns that target specific market niches.
+          So I’ve developed an outreach system that enriches leads in Google Sheets with data from <a href="https://hunter.io/">Hunter.io</a>,
+          then uses <a href="https://www.gmass.co/">GMass</a> to
+          run personalized campaigns targeting specific market segments.
            </p>
            <h2 style={{textAlign: 'center', fontWeight: 400 }}>
            Diagnostic Analytics
          </h2>
            <p style={{ marginBottom: '35px', textAlign: 'left' }}>
-           As an SEO consultant, I started by
+           I began as an SEO consultant
            building <a href="https://johnpottergr.github.io/analyticsexample.pdf">Google Analytics reports</a> for enterprise
-           clients, so I understand what decision-makers need to see. But GA4’s complexity often
-           gets in the way. That’s why I’ve built a custom reporting tool that combines Screaming
-           Frog, GA4, and <a href="https://streamlit.io/">Streamlit</a> to deliver focused SEO insights. It
-           It highlights technical and engagement issues at a glance, flags weak content, and delivers clear
-           reports without all the data clutter.
+           clients, so I understand what decision-makers need. But GA4’s complexity often
+           gets in the way. That’s why I built a custom reporting tool using Screaming
+           Frog, GA4, and <a href="https://streamlit.io/">Streamlit</a>. It
+           highlights technical and engagement issues, flags underperforming content, and delivers clean,
+           focused reports.
            </p>
 
            <h2 style={{textAlign: 'center', fontWeight: 400 }}>
           Why My Workflow Matters
          </h2>
            <p style={{ marginBottom: '35px', textAlign: 'left' }}>
-          I've developed light engineering skills that help me move beyond standard SEO tools.
-          With Python libraries like pandas and <a href="https://pypi.org/project/beautifulsoup4/">BeautifulSoup</a>, I'm
-          able to clean keyword data, analyze
-          crawl outputs, and pull SERP insights that others might miss. On the backend, I’ve
-          built workflows that automate the repetitive parts of SEO, like
-          nightly site crawls and syncing GA4 and content performance data into a
-          central warehouse. This reduces delays and reveals technical issues
-          before they affect rankings.​​
+          I've built light engineering skills that let me go beyond off-the-shelf SEO tools.
+          With Python libraries like pandas and <a href="https://pypi.org/project/beautifulsoup4/">BeautifulSoup</a>,
+          I clean keyword data, analyze crawl outputs, and pull SERP insights others might miss.
+          On the backend, I’ve automated the repetitive parts of SEO—nightly crawls, syncing GA4
+          and content metrics into a central warehouse. This setup reduces delays and helps catch
+          issues before they impact rankings.
            </p>
 
 
