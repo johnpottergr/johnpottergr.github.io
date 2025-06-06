@@ -96,10 +96,10 @@ export default function Home() {
          <p style={{ marginBottom: '35px', textAlign: 'left' }}>
           I offer content planning services that blend predictive analysis with SERP-driven
           insights. I use tools like <a href="https://marketmuse.com">MarketMuse</a> to identify topics with strong ranking potential
-          and <a href="https://alsoasked.com">AlsoAsked</a> to uncover layered search intent. For SERP analysis, I’m building a
-          Clearscope-style system that summarizes top-ranking pages using GPT and generates
-          detailed content briefs. It also generates These content briefs with suggested headings,
-          target questions, and NLP-informed topics to help guide content teams.
+          and <a href="https://alsoasked.com">AlsoAsked</a> to uncover layered search intent.
+          For SERP analysis, I’m building a Clearscope-style system that summarizes
+          top-ranking pages using GPT and produces content briefs with suggested
+          headings, target questions, and relevant NLP-driven topics.
            </p>
                <h2 style={{textAlign: 'center', fontWeight: 400 }}>
            Technical Site Audits
