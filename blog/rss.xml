@@ -33,6 +33,26 @@ The Surfer SEO tool has continued to evolve. You now have the capability to set 
 <p>For now, Surfer SEO remains a leading AI-powered SEO tool for generating SEO content. Several newer players have entered this space, however. Many offer similar functionality at a lower cost or even for free. So I am not convinced that Surfer’s pricing structure makes it a worthwhile tool. At least not for those of us who like to take the initiative and combine tools.</p>]]></content:encoded>
         </item>
         <item>
+            <title><![CDATA[Link Building Without Breaking the Bank]]></title>
+            <link>https://johnpottergr.com/blog/6-5-2025-link-building-without-breaking-bank</link>
+            <guid>https://johnpottergr.com/blog/6-5-2025-link-building-without-breaking-bank</guid>
+            <pubDate>Wed, 04 Jun 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Link building is one of those SEO topics many professionals prefer to avoid. It’s less about analysis and insights and more about outreach. And for that, you need leads.]]></description>
+            <content:encoded><![CDATA[<p>Link building is one of those SEO topics many professionals prefer to avoid. It’s less about analysis and insights and more about outreach. And for that, you need leads.</p>
+<p>But buying leads is expensive. Subscribing to tools like Postega or Respona can be even worse, running $99 to $199 per month. So what’s a fledgling SEO pro to do? Connect a few solid tools together, of course.</p>
+<p>The solution starts with <a href="https://hunter.io/" target="_blank" rel="noopener noreferrer">Hunter.io</a>, a lightweight email outreach tool that supplements basic lead info. It also generates niche lead lists through dropdown filters. The next step is to connect it to google sheets and a gmass browser extension.</p>
+<p>Here’s a short video that walks through Hunter.io basics.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VkO5y9Zyhd8?si=2GtD1wlw9TlZsNEh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+<p>Once you obtain the leads you want, you can download them as a CSV and upload the data to a Google Sheet.</p>
+<p>I haven’t tried this yet, but you could probably build a lightweight MCP agent to fetch relevant personalization data. Advanced MCP setups can use AI to enrich leads and even generate content or campaign suggestions. For an ambitious example, check out <a href="https://dev.to/bashirk/revolutionizing-outbound-sales-why-i-built-a-natural-language-lead-generation-mcp-server-1i7i" target="_blank" rel="noopener noreferrer">“Revolutionizing Outbound Sales: Why I Built a Natural Language Lead Generation MCP Server”</a>.</p>
+<p>Some setups even use <a href="https://zapier.com/mcp" target="_blank" rel="noopener noreferrer">Zapier MCP agents</a> and <a href="https://apify.com/apify/web-scraper" target="_blank" rel="noopener noreferrer">Apify scrapers</a> to send lead data directly to HubSpot or other CRMs. But I digress.
+Here is <a href="https://www.linkedin.com/posts/joshwhitfieldai_model-context-protocol-mcp-is-the-biggest-activity-7325489572904095744--U-x/" target="_blank" rel="noopener noreferrer">another example</a></p>
+<p>Back to my project: once I’ve cleaned up the data in Google Sheets, I use the <a href="https://www.gmass.co/" target="_blank" rel="noopener noreferrer">GMass browser extension</a> to run a mail merge campaign. It allows me to send personalized emails to everyone on my list, all at once, complete with merge fields for names, companies, and custom introductions. (See images below.).</p>
+<img src="https://johnpottergr.com/blog/gmass.png" alt="Select Sheet" width="560">
+<img src="https://johnpottergr.com/blog/sendtest.png" alt="Send Test" width="560">
+<p>This setup is still pretty basic, but it saves me a ton of money. Once i start rolling, I’ll probably add in MCP capabilities if they substantially help.</p>]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[Vibe Coding Is A New Way to Build]]></title>
             <link>https://johnpottergr.com/blog/5-21-2025-vibe-coding-democratizes-creativity</link>
             <guid>https://johnpottergr.com/blog/5-21-2025-vibe-coding-democratizes-creativity</guid>
@@ -252,8 +272,8 @@ The Surfer SEO tool has continued to evolve. You now have the capability to set 
 <p>To get started, you’ll need a few essentials:</p>
 <ul>
 <li><strong>A Hedera Wallet</strong>: SaucerSwap works with wallets compatible with the Hedera network, such as <a href="https://hashpack.app/" target="_blank" rel="noopener noreferrer">HashPack</a> or <a href="https://bladewallet.io/" target="_blank" rel="noopener noreferrer">Blade</a>. These wallets store your HBAR and tokens securely.</li>
-<li><strong>HBAR</strong>: The native cryptocurrency of Hedera, HBAR is required to pay for transaction fees on SaucerSwap. You can purchase HBAR on exchanges like <a href="https://www.binance.com/" target="_blank" rel="noopener noreferrer">Binance</a>, <a href="https://www.coinbase.com/" target="_blank" rel="noopener noreferrer">Coinbase</a>, or <a href="https://www.kucoin.com/" target="_blank" rel="noopener noreferrer">KuCoin</a> and transfer it to your wallet.<br>
-<!-- -->Alternatively, SaucerSwap offers a Coinbase Onramp, allowing you to buy and transfer HBAR directly within the platform. Simply navigate to the <em>Swap</em> page and select the <em>Buy</em> tab next to <em>Swap</em> to get started.</li>
+<li><strong>HBAR</strong>: The native cryptocurrency of Hedera, HBAR is required to pay for transaction fees on SaucerSwap. You can purchase HBAR on exchanges like <a href="https://www.binance.com/" target="_blank" rel="noopener noreferrer">Binance</a>, <a href="https://www.coinbase.com/" target="_blank" rel="noopener noreferrer">Coinbase</a>, or <a href="https://www.kucoin.com/" target="_blank" rel="noopener noreferrer">KuCoin</a> and transfer it to your wallet.
+Alternatively, SaucerSwap offers a Coinbase Onramp, allowing you to buy and transfer HBAR directly within the platform. Simply navigate to the <em>Swap</em> page and select the <em>Buy</em> tab next to <em>Swap</em> to get started.</li>
 <li><strong>A Web Browser</strong>: Access SaucerSwap through a browser like <a href="https://www.google.com/chrome/" target="_blank" rel="noopener noreferrer">Chrome</a> or <a href="https://www.mozilla.org/firefox/" target="_blank" rel="noopener noreferrer">Firefox</a> by visiting <a href="https://www.saucerswap.finance/" target="_blank" rel="noopener noreferrer">https://www.saucerswap.finance/</a>.</li>
 </ul>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="step-1-set-up-your-hedera-wallet">Step 1: Set Up Your Hedera Wallet<a href="https://johnpottergr.com/blog/3-27-2025-getting-started-with-saucerswap#step-1-set-up-your-hedera-wallet" class="hash-link" aria-label="Direct link to Step 1: Set Up Your Hedera Wallet" title="Direct link to Step 1: Set Up Your Hedera Wallet">​</a></h2>
@@ -288,7 +308,6 @@ The Surfer SEO tool has continued to evolve. You now have the capability to set 
 <ul>
 <li>
 <p><strong>Stake SAUCE</strong>: If you own SAUCE tokens, you can stake them to earn rewards. Head to the “Stake” section, deposit them into the Infinity Pool, and earn xSAUCE, which grows in value over time as a reward.</p>
-<p><img decoding="async" loading="lazy" alt="A stake SAUCE screen" src="https://johnpottergr.com/assets/images/stake-sauce-f5436b7b676a5ba873efb25887edb82d.jpg" width="1224" height="1012" class="img_ev3q"></p>
 </li>
 <li>
 <p><strong>Check Your Progress</strong>: Use Hedera explorers like <a href="https://hashscan.io/" target="_blank" rel="noopener noreferrer">https://hashscan.io/</a> to track your transactions and balances.</p>
