@@ -98,20 +98,21 @@ export default function Home() {
           insights. I use tools like <a href="https://marketmuse.com">MarketMuse</a> to identify topics with strong ranking potential
           and <a href="https://alsoasked.com">AlsoAsked</a> to uncover layered search intent.
           For SERP analysis, I’m building a Clearscope-style system that summarizes
-          top-ranking pages using GPT and produces content briefs with suggested
+          top-ranking pages using GPT and produces detailed content briefs with suggested
           headings, target questions, and relevant NLP-driven topics.
            </p>
                <h2 style={{textAlign: 'center', fontWeight: 400 }}>
            Technical Site Audits
          </h2>
            <p style={{ marginBottom: '35px', textAlign: 'left' }}>
-           For technical audits, I combine tools based on what’s required. Google Search Console
-           provides me with high-level visibility into site performance,
-           while <a href="https://www.screamingfrog.co.uk/seo-spider/">Screaming Frog</a> allows
-           me to drill down into structural issues, such as broken links, duplicate content,
-           redirect chains, and crawl depth. I’ll use <a href="https://sitebulb.com">Sitebulb</a>. if I need a more visual and
-           explanatory report, as it provides me with intuitive audit scoring and crawl maps that
-           make patterns easy to interpret. But its extensibility is more limited.
+           For technical audits, I combine tools based on what’s needed. Google Search Console
+           gives me with a solid high-level view of site performance,
+           while <a href="https://www.screamingfrog.co.uk/seo-spider/">Screaming Frog</a> helps
+           me drill down into structural issues, such as broken links, duplicate content,
+           redirect chains, and crawl depth. If I need a more visual report, I'll
+           use <a href="https://sitebulb.com">Sitebulb</a>, which excels at intuitive scoring
+           and crawl maps that
+           make patterns easy to spot.
            </p>
             <h2 style={{textAlign: 'center', fontWeight: 400 }}>
            Link-Building
