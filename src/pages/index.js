@@ -120,10 +120,10 @@ export default function Home() {
           Link building helps increase your website’s visibility
           and authority by getting other reputable sites to link back to yours. It's a great way to
           improve search engine rankings and drive targeted traffic. But link-building is a slow process. Tools like
-          Tools like Postaga and Respona accelerate this task but they're expensive. I've built my own, which
-          consists of connecting <a href="https://hunter.io/">Hunter.io to</a> google sheets + <a href="https://www.gmass.co/">gmass</a>
-          I can customize this outreach system to run campaigns targeted to market niches or
-          specific content opportunities that align with your brand.
+          Tools like Postaga and Respona accelerate this task but they're expensive.
+          I've built my own system, which adds valuable details from <a href="https://hunter.io/">Hunter.io</a>
+          to my leads in Google Sheets. I then use <a href="https://www.gmass.co/">GMass</a> to
+          run personalized campaigns that target specific market niches.
            </p>
            <h2 style={{textAlign: 'center', fontWeight: 400 }}>
            Diagnostic Analytics
