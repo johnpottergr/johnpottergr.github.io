@@ -29,7 +29,7 @@ Once you obtain the leads you want, you can download them as a CSV and upload th
 
 I haven’t tried this yet, but you could probably build a lightweight MCP agent to fetch relevant personalization data. Advanced MCP setups can use AI to enrich leads and even generate content or campaign suggestions. For an ambitious example, check out [“Revolutionizing Outbound Sales: Why I Built a Natural Language Lead Generation MCP Server”](https://dev.to/bashirk/revolutionizing-outbound-sales-why-i-built-a-natural-language-lead-generation-mcp-server-1i7i).
 
-Some setups even use [Zapier MCP agents](​​https://zapier.com/mcp) and [Apify scrapers](https://apify.com/apify/web-scraper) to send lead data directly to HubSpot or other CRMs. But I digress.
+Some setups even use [Zapier MCP agents](https://zapier.com/mcp) and [Apify scrapers](https://apify.com/apify/web-scraper) to send lead data directly to HubSpot or other CRMs. But I digress.
 Here is [another example](https://www.linkedin.com/posts/joshwhitfieldai_model-context-protocol-mcp-is-the-biggest-activity-7325489572904095744--U-x/)
 
 Back to my project: once I’ve cleaned up the data in Google Sheets, I use the [GMass browser extension](https://www.gmass.co/) to run a mail merge campaign. It allows me to send personalized emails to everyone on my list, all at once, complete with merge fields for names, companies, and custom introductions. (See images below.).
