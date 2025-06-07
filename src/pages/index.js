@@ -97,7 +97,7 @@ export default function Home() {
           I offer content planning services that combine predictive analysis with SERP-driven
           insights. I use tools like <a href="https://marketmuse.com">MarketMuse</a> to identify topics with strong ranking potential
           and <a href="https://alsoasked.com">AlsoAsked</a> to map layered search intent.
-          I’ve also built a Clearscope-style tool that summarizes
+          I’ve also built a Clearscope-style tool that automatically summarizes
           top-ranking pages using GPT and generates detailed briefs with suggested
           headings, target questions, and relevant NLP-informed topics.
            </p>
