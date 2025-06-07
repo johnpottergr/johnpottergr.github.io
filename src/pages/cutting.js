@@ -45,28 +45,28 @@ export default function CuttingEdge() {
           {/* Text Column */}
           <div style={{ flex: '1 1 60%' }}>
             <p style={{ marginBottom: '35px', textAlign: 'left' }}>
-              I provide CRO suggestions that align with search intent to boost both conversions and
-              SEO performance. Using{' '}
+              I provide CRO suggestions that align with search intent to boost site conversions. Using{' '}
               <a href="http://johnpottergr.com/blog/6-6-2025-use-GPT4o-vision-capabilities">
                 AI vision models
               </a>, I analyze pages visually and incorporate
-              detailed funnel and audience context to promote clear improvements.
+              detailed funnel and audience context to promote site improvements.
               To fortify these insights, I developed{' '}
-              <a href="https://crosignals.com">CRO Signals</a>, a custom tool that analyzes
-              historical traffic to uncover patterns that drive higher conversion outcomes.
+              <a href="https://crosignals.com">CRO Signals</a>, a custom
+              tool that analyzes past traffic to find high-converting behavior patterns.
             </p>
           </div>
 
           {/* Image Column */}
           <div style={{ flex: '0 0 200px' }}>
             <img
-              src="/img/signals2.png"
+              src="/img/signals3.png"
               alt="CRO Signals"
               style={{
                 width: '100%',
                 maxWidth: '200px',
                 height: 'auto',
-                marginTop: '15px',
+                marginTop: '10px',
+                paddingLeft: '10px',
                 display: 'block',
               }}
             />
@@ -78,10 +78,10 @@ export default function CuttingEdge() {
           Predictive Analytics
         </h2>
         <p style={{ marginBottom: '35px', textAlign: 'left' }}>
-          Google Analytics tells you what happened. I can go further by combining tools like{' '}
-          <a href="https://plausible.io/">Plausible</a>, BigQuery, ChatGPT, and custom ML models
-          (e.g. regression models for CTA conversion likelihood and clustering models for audience
-          segmentation) to forecast which content will rank, which users may bounce, and which CTAs
+          Google Analytics tells you what happened, I focus on what’s likely to happen next.
+          I combine tools like{' '}
+          <a href="https://plausible.io/">Plausible</a>, BigQuery, ChatGPT, and custom machine learning models
+          to forecast which content will rank, which users may bounce, and which CTAs
           are likely to convert. I’m also exploring tools like{' '}
           <a href="https://www.canirank.com/">CanIRank</a> to supplement traditional analytics with
           AI-based performance modeling.
