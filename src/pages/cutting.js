@@ -42,7 +42,7 @@ export default function Cutting() {
          </h2>
            <p style={{ marginBottom: '35px', textAlign: 'left' }}>
            I provide CRO suggestions that align with search intent to boost both conversions and
-           SEO performance. Using <a href="https://johnpottergr.com/blog/6-6-2025-ai-vision-models">AI vision models</a>,
+           SEO performance. Using <a href="http://johnpottergr.com/blog/6-6-2025-use-GPT4o-vision-capabilities">AI vision models</a>,
            I analyze pages visually and incorporate
            detailed funnel and audience context to promote clear improvements.
            To fortify these insights, I developed <a href="https://crosignals.com">CRO Signals</a>,
