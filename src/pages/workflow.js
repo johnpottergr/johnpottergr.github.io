@@ -13,7 +13,7 @@ export default function Workflow() {
              marginBottom: '1.5rem',
              color: '#1A202C',
              textAlign: 'center',
-        }}>My Marketing & SEO Skills</h1>
+        }}>My Marketing Background</h1>
 
        {/* Workflow Section */}
        <div style={{ position: 'relative', paddingTop: '10px' }}>

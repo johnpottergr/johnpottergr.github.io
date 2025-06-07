@@ -87,8 +87,9 @@
           title: 'John M Potter:',
           items: [
             { to: '/', label: 'Home', position: 'left' }, // Moved to first position
+            { to: '/cutting', label: 'Extras', position: 'left', },
             { to: '/portfolio', label: 'Portfolio', position: 'left' }, // Moved to second position
-            { to: '/workflow', label: 'SEO Skills', position: 'left', },
+            { to: '/workflow', label: 'Career', position: 'left', },
             { href: 'https://johnpottergr.com/resume3a.pdf', label: 'Resume', position: 'left', external: true },
             { to: '/blog', label: 'Blog', position: 'left' },
           ],

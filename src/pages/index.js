@@ -113,7 +113,7 @@ export default function Home() {
            its intuitive and crawl maps that make technical issues easier to interpret.
            </p>
             <h2 style={{textAlign: 'center', fontWeight: 400 }}>
-           Link-Building
+           Link Building
          </h2>
            <p style={{ marginBottom: '35px', textAlign: 'left' }}>
           Link building boosts your site’s authority and visibility by earning backlinks
@@ -122,8 +122,8 @@ export default function Home() {
           So I’ve developed an outreach system that enriches leads in Google Sheets with data from <a href="https://hunter.io/">Hunter.io</a>,
           then uses <a href="https://www.gmass.co/">GMass</a> to
           run personalized campaigns targeting specific market segments. Next,
-          I plan to add an <a href="https://hatchworks.com/blog/ai-agents/no-code-workflow-automation-with-n8n/">n8n workflow</a> that enriches each lead with recent content or social
-          activity, making them more relevant.
+          I'm adding an n8n agentic AI that enriches leads with recent
+          content or social posts.
            </p>
            <h2 style={{textAlign: 'center', fontWeight: 400 }}>
            Diagnostic Analytics

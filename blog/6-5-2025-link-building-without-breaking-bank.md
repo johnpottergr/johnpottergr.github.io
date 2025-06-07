@@ -1,6 +1,6 @@
 ---
 title: Link Building Without Breaking the Bank
-date: 2025-06-04
+date: 2025-06-05
 ---
 
 Link building is one of those SEO topics many professionals prefer to avoid. It’s less about analysis and insights and more about outreach. And for that, you need leads.
@@ -34,9 +34,11 @@ Here is [another example](https://www.linkedin.com/posts/joshwhitfieldai_model-c
 
 Back to my project: once I’ve cleaned up the data in Google Sheets, I use the [GMass browser extension](https://www.gmass.co/) to run a mail merge campaign. It allows me to send personalized emails to everyone on my list, all at once, complete with merge fields for names, companies, and custom introductions. (See images below.).
 
-<img src="gmass.png" alt="Select Sheet" width="560"/>
+Select your Google Sheets leads file using the extension:
+<img src="/img/gmass.png" alt="Select Sheet" width="350"/>
 
-<img src="sendtest.png" alt="Send Test" width="560"/>
+Configure settings before you send off your email. Run tests first.
+<img src="/img/sendtest.png" alt="Send Test" width="350"/>
 
 
 This setup is still pretty basic, but it saves me a ton of money. Once i start rolling, I’ll probably add in MCP capabilities if they substantially help.
