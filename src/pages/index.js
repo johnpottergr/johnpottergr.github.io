@@ -27,7 +27,7 @@ export default function Home() {
     textAlign: 'center',
   }}
 >
-  SEO That Understands Technical Content
+  SEO That Builds Itself
 </h1>
 
 {/* Flex layout for paragraph + image */}
