@@ -4,10 +4,79 @@
         <title>My Professional Website Blog</title>
         <link>https://johnpottergr.com/blog</link>
         <description>My Professional Website Blog</description>
-        <lastBuildDate>Wed, 04 Jun 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 06 Jun 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[How to Use GPT-4o’s Vision Capabilities for CRO]]></title>
+            <link>https://johnpottergr.com/blog/6-6-2025-use-GPT4o-vision-capabilities</link>
+            <guid>https://johnpottergr.com/blog/6-6-2025-use-GPT4o-vision-capabilities</guid>
+            <pubDate>Fri, 06 Jun 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[If you're working on conversion rate optimization for a website, there's a new tool you’ll want to start using: OpenAI’s GPT-4o. Beyond interpreting visuals, it's also very sharp at identifying what’s not working on a webpage and how to improve it.]]></description>
+            <content:encoded><![CDATA[<p>If you're working on conversion rate optimization for a website, there's a new tool you’ll want to start using: OpenAI’s GPT-4o. Beyond interpreting visuals, it's also very sharp at identifying what’s not working on a webpage and how to improve it.</p>
+<p>This article will show you how to leverage this technology for CRO. Using the guide below, you can run several CRO challenges across different B2B SaaS landing pages. It will deliver conversion-focused suggestions that are smart and actionable.
+Let's begin.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="start-with-a-clear-expert-persona">Start with a Clear Expert Persona<a href="https://johnpottergr.com/blog/6-6-2025-use-GPT4o-vision-capabilities#start-with-a-clear-expert-persona" class="hash-link" aria-label="Direct link to Start with a Clear Expert Persona" title="Direct link to Start with a Clear Expert Persona">​</a></h2>
+<p>Before asking 4o to analyze anything, define who it's pretending to be. You’ll get helpful output if you start your prompt by assigning it a role. Stating “conversion expert” won't cut it, you'll need something more detailed.</p>
+<p>For example, you could say:
+“You are a senior CRO specialist with 10+ years of experience improving SaaS landing pages, particularly for startups targeting mid-market buyers. You understand user psychology, design best practices, and messaging frameworks like PAS and AIDA.”</p>
+<p>The more context you give, the more relevant the output will be.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="upload-a-screenshot-not-a-link">Upload a Screenshot, Not a Link<a href="https://johnpottergr.com/blog/6-6-2025-use-GPT4o-vision-capabilities#upload-a-screenshot-not-a-link" class="hash-link" aria-label="Direct link to Upload a Screenshot, Not a Link" title="Direct link to Upload a Screenshot, Not a Link">​</a></h2>
+<p>Don’t paste in a URL and expect a quality output.</p>
+<p>Instead, upload a full-page screenshot. GPT-4o’s Vision model is built to analyze visual layouts directly, and screenshots provide much clearer input than relying on a page fetch or rendering through a link.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="ask-it-to-describe-the-page-first">Ask It to Describe the Page First<a href="https://johnpottergr.com/blog/6-6-2025-use-GPT4o-vision-capabilities#ask-it-to-describe-the-page-first" class="hash-link" aria-label="Direct link to Ask It to Describe the Page First" title="Direct link to Ask It to Describe the Page First">​</a></h2>
+<p>Before jumping into optimization suggestions, ask 4o to describe what it sees. You can include this as the first step of your prompt. This task....</p>
+<ul>
+<li>Allows you to verify that it interprets the page correctly</li>
+<li>Actually improves the quality of its suggestions</li>
+</ul>
+<p>Another smart tip is to ask it to describe everything it sees on the page from top to bottom before it offers suggestions. Sometimes you'll catch weird interpretation issues this way. It also gives the model a stronger starting point.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="give-it-context-like-you-would-a-colleague">Give It Context Like You Would a Colleague<a href="https://johnpottergr.com/blog/6-6-2025-use-GPT4o-vision-capabilities#give-it-context-like-you-would-a-colleague" class="hash-link" aria-label="Direct link to Give It Context Like You Would a Colleague" title="Direct link to Give It Context Like You Would a Colleague">​</a></h2>
+<p>To get genuinely helpful feedback, feed GPT-4o the background a strategist would need. Include:</p>
+<ul>
+<li>What counts as a conversion (demo request? email sign-up?)</li>
+<li>Who the target audience is. Be specific. Are they decision-makers? DIY users?</li>
+<li>How people are landing on the page. Is it from ads, organic search, email?</li>
+<li>Any other context that influences messaging or structure.</li>
+</ul>
+<p>Don't hold back. The more grounded your prompt is in the real-life funnel, the better the suggestions will be.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="guide-the-analysis">Guide the Analysis<a href="https://johnpottergr.com/blog/6-6-2025-use-GPT4o-vision-capabilities#guide-the-analysis" class="hash-link" aria-label="Direct link to Guide the Analysis" title="Direct link to Guide the Analysis">​</a></h2>
+<p>Now you’re ready to ask for a full CRO teardown using its Vision capabilities. Remember to be specific:
+“Use your Vision features to analyze this screenshot and provide conversion-focused suggestions. Don’t use Code Interpreter.”</p>
+<p>You can even direct it to focus on certain areas like CTA placement, headline clarity, hierarchy, or visual flow.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="last-tips-before-prompt">Last Tips Before Prompt<a href="https://johnpottergr.com/blog/6-6-2025-use-GPT4o-vision-capabilities#last-tips-before-prompt" class="hash-link" aria-label="Direct link to Last Tips Before Prompt" title="Direct link to Last Tips Before Prompt">​</a></h2>
+<p>If you want to really get the most from ChatGPT-4o:</p>
+<ul>
+<li>Be precise about what you want from the model.</li>
+<li>Speak to it like you would a collaborator, provide motivation and context.</li>
+<li>Use clear language.</li>
+<li>Use natural language endings, even a thank you adds clarity</li>
+</ul>
+<p>GPT-4o is a valuable CRO tool you can add to your CRO process. While not a replacement for human insight, it can highlight issues, test ideas, and sharpen the details that matter. For a more in-depth view of its capabilities, check out <a href="https://www.v7labs.com/blog/chatgpt-with-vision-guide" target="_blank" rel="noopener noreferrer">https://www.v7labs.com/blog/chatgpt-with-vision-guide</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Link Building Without Breaking the Bank]]></title>
+            <link>https://johnpottergr.com/blog/6-5-2025-link-building-without-breaking-bank</link>
+            <guid>https://johnpottergr.com/blog/6-5-2025-link-building-without-breaking-bank</guid>
+            <pubDate>Thu, 05 Jun 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Link building is one of those SEO topics many professionals prefer to avoid. It’s less about analysis and insights and more about outreach. And for that, you need leads.]]></description>
+            <content:encoded><![CDATA[<p>Link building is one of those SEO topics many professionals prefer to avoid. It’s less about analysis and insights and more about outreach. And for that, you need leads.</p>
+<p>But buying leads is expensive. Subscribing to tools like Postega or Respona can be even worse, running $99 to $199 per month. So what’s a fledgling SEO pro to do? Connect a few solid tools together, of course.</p>
+<p>The solution starts with <a href="https://hunter.io/" target="_blank" rel="noopener noreferrer">Hunter.io</a>, a lightweight email outreach tool that supplements basic lead info. It also generates niche lead lists through dropdown filters. The next step is to connect it to google sheets and a gmass browser extension.</p>
+<p>Here’s a short video that walks through Hunter.io basics.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VkO5y9Zyhd8?si=2GtD1wlw9TlZsNEh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+<p>Once you obtain the leads you want, you can download them as a CSV and upload the data to a Google Sheet.</p>
+<p>I haven’t tried this yet, but you could probably build a lightweight MCP agent to fetch relevant personalization data. Advanced MCP setups can use AI to enrich leads and even generate content or campaign suggestions. For an ambitious example, check out <a href="https://dev.to/bashirk/revolutionizing-outbound-sales-why-i-built-a-natural-language-lead-generation-mcp-server-1i7i" target="_blank" rel="noopener noreferrer">“Revolutionizing Outbound Sales: Why I Built a Natural Language Lead Generation MCP Server”</a>.</p>
+<p>Some setups even use <a href="https://zapier.com/mcp" target="_blank" rel="noopener noreferrer">Zapier MCP agents</a> and <a href="https://apify.com/apify/web-scraper" target="_blank" rel="noopener noreferrer">Apify scrapers</a> to send lead data directly to HubSpot or other CRMs. But I digress.
+Here is <a href="https://www.linkedin.com/posts/joshwhitfieldai_model-context-protocol-mcp-is-the-biggest-activity-7325489572904095744--U-x/" target="_blank" rel="noopener noreferrer">another example</a></p>
+<p>Back to my project: once I’ve cleaned up the data in Google Sheets, I use the <a href="https://www.gmass.co/" target="_blank" rel="noopener noreferrer">GMass browser extension</a> to run a mail merge campaign. It allows me to send personalized emails to everyone on my list, all at once, complete with merge fields for names, companies, and custom introductions. (See images below.).</p>
+<p>Select your Google Sheets leads file using the extension:</p>
+<img src="https://johnpottergr.com/img/gmass.png" alt="Select Sheet" width="350">
+<p>Configure settings before you send off your email. Run tests first.</p>
+<img src="https://johnpottergr.com/img/sendtest.png" alt="Send Test" width="350">
+<p>This setup is still pretty basic, but it saves me a ton of money. Once i start rolling, I’ll probably add in MCP capabilities if they substantially help.</p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Why I Moved On from Surfer SEO (Mostly)]]></title>
             <link>https://johnpottergr.com/blog/6-4-2025-moving-on-from-surfer-seo</link>
@@ -31,26 +100,6 @@ The Surfer SEO tool has continued to evolve. You now have the capability to set 
 <p>​​Using a tool to achieve high SEO scores can sometimes negatively impact content quality or readability. With Surfer SEO, that tradeoff is occasionally apparent, particularly with bottom-of-funnel content that requires detailed information. Another issue is that the content requires a significant amount of manual editing to align it with a brand's tone or voice.</p>
 <p>Surfer recently raised prices rather than lower them. If they're not careful, they'll find themselves in a death spiral, where fewer users incentivizes higher prices to make up the difference.</p>
 <p>For now, Surfer SEO remains a leading AI-powered SEO tool for generating SEO content. Several newer players have entered this space, however. Many offer similar functionality at a lower cost or even for free. So I am not convinced that Surfer’s pricing structure makes it a worthwhile tool. At least not for those of us who like to take the initiative and combine tools.</p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Link Building Without Breaking the Bank]]></title>
-            <link>https://johnpottergr.com/blog/6-5-2025-link-building-without-breaking-bank</link>
-            <guid>https://johnpottergr.com/blog/6-5-2025-link-building-without-breaking-bank</guid>
-            <pubDate>Wed, 04 Jun 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Link building is one of those SEO topics many professionals prefer to avoid. It’s less about analysis and insights and more about outreach. And for that, you need leads.]]></description>
-            <content:encoded><![CDATA[<p>Link building is one of those SEO topics many professionals prefer to avoid. It’s less about analysis and insights and more about outreach. And for that, you need leads.</p>
-<p>But buying leads is expensive. Subscribing to tools like Postega or Respona can be even worse, running $99 to $199 per month. So what’s a fledgling SEO pro to do? Connect a few solid tools together, of course.</p>
-<p>The solution starts with <a href="https://hunter.io/" target="_blank" rel="noopener noreferrer">Hunter.io</a>, a lightweight email outreach tool that supplements basic lead info. It also generates niche lead lists through dropdown filters. The next step is to connect it to google sheets and a gmass browser extension.</p>
-<p>Here’s a short video that walks through Hunter.io basics.</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/VkO5y9Zyhd8?si=2GtD1wlw9TlZsNEh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe>
-<p>Once you obtain the leads you want, you can download them as a CSV and upload the data to a Google Sheet.</p>
-<p>I haven’t tried this yet, but you could probably build a lightweight MCP agent to fetch relevant personalization data. Advanced MCP setups can use AI to enrich leads and even generate content or campaign suggestions. For an ambitious example, check out <a href="https://dev.to/bashirk/revolutionizing-outbound-sales-why-i-built-a-natural-language-lead-generation-mcp-server-1i7i" target="_blank" rel="noopener noreferrer">“Revolutionizing Outbound Sales: Why I Built a Natural Language Lead Generation MCP Server”</a>.</p>
-<p>Some setups even use <a href="https://zapier.com/mcp" target="_blank" rel="noopener noreferrer">Zapier MCP agents</a> and <a href="https://apify.com/apify/web-scraper" target="_blank" rel="noopener noreferrer">Apify scrapers</a> to send lead data directly to HubSpot or other CRMs. But I digress.
-Here is <a href="https://www.linkedin.com/posts/joshwhitfieldai_model-context-protocol-mcp-is-the-biggest-activity-7325489572904095744--U-x/" target="_blank" rel="noopener noreferrer">another example</a></p>
-<p>Back to my project: once I’ve cleaned up the data in Google Sheets, I use the <a href="https://www.gmass.co/" target="_blank" rel="noopener noreferrer">GMass browser extension</a> to run a mail merge campaign. It allows me to send personalized emails to everyone on my list, all at once, complete with merge fields for names, companies, and custom introductions. (See images below.).</p>
-<img src="https://johnpottergr.com/blog/gmass.png" alt="Select Sheet" width="560">
-<img src="https://johnpottergr.com/blog/sendtest.png" alt="Send Test" width="560">
-<p>This setup is still pretty basic, but it saves me a ton of money. Once i start rolling, I’ll probably add in MCP capabilities if they substantially help.</p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Vibe Coding Is A New Way to Build]]></title>
