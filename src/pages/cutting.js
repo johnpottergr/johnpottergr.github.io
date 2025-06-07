@@ -37,7 +37,7 @@ export default function Cutting() {
          >
          {/* SEO Skills */}
          <div style={{ flex: '1 1 60%' }}>
-         <h2 style={{ marginTop: '1.5rem', textAlign: 'center', fontWeight: 400 }}>
+         <h2 style={{ marginTop: '0rem', textAlign: 'center', fontWeight: 400 }}>
            Conversion Rate Optimization (CRO)
          </h2>
            <p style={{ marginBottom: '35px', textAlign: 'left' }}>
@@ -59,7 +59,7 @@ export default function Cutting() {
            width: '100%',
            maxWidth: '200px',
            height: 'auto',
-           marginTop: '80px',
+           marginTop: '60px',
            display: 'block',
           }}
           />
@@ -68,7 +68,7 @@ export default function Cutting() {
            Predictive Analytics
          </h2>
            <p style={{ marginBottom: '35px', textAlign: 'left' }}>
-           Google Analytics tells you what happened. I go further using tools like <a href="https://plausible.io/">Plausible</a>,
+           Google Analytics tells you what happened. I go further by combining tools like <a href="https://plausible.io/">Plausible</a>,
            BigQuery, ChatGPT, and custom ML models (e.g. regression models
            for CTA conversion likelihood and clustering models for audience segmentation) to forecast
            which content will rank, which users may bounce, and which CTAs are likely to convert. I’m also exploring tools
