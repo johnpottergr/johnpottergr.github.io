@@ -107,24 +107,22 @@ export default function Home() {
          </h2>
            <p style={{ marginBottom: '35px', textAlign: 'left' }}>
            For technical audits, I choose tools based on what’s needed. Google Search Console
-           gives me a high-level view of site performance,
-           while <a href="https://www.screamingfrog.co.uk/seo-spider/">Screaming Frog</a> helps
-           uncover structural issues like broken links, duplicate content,
-           redirect chains, and crawl depth. If visual reporting is preferred, I use <a href="https://sitebulb.com">Sitebulb</a> for
-           its intuitive and crawl maps that make technical issues easier to interpret.
+           provides me with a high-level performance overview,
+           while <a href="https://www.screamingfrog.co.uk/seo-spider/">Screaming Frog</a> offers
+           automated crawls that uncover structural issues like broken links, duplicate content,
+           redirect chains, and crawl depth. For visual reporting, <a href="https://sitebulb.com">Sitebulb's</a> automated
+           crawl reports and intuitive maps highlight technical issues in a more client-friendly format.
            </p>
             <h2 style={{textAlign: 'center', fontWeight: 400 }}>
            Link Building
          </h2>
            <p style={{ marginBottom: '35px', textAlign: 'left' }}>
-          Link building boosts your site’s authority and visibility by earning backlinks
-          from trusted websites. , helping improve rankings and attract targeted traffic.
-          But link-building is a slow process.
-          So I’ve developed an outreach system that enriches leads in Google Sheets with data from <a href="https://hunter.io/">Hunter.io</a>,
-          then uses <a href="https://www.gmass.co/">GMass</a> to
-          run personalized campaigns targeting specific market segments. Next,
-          I'm adding an n8n agentic AI that enriches leads with recent
-          content or social posts.
+          Link building boosts your site’s authority and visibility
+          by earning backlinks from trusted websites. It's an
+          effective way to improve rankings and attract targeted
+          traffic. But it’s also a slow process. To speed things up,
+          I've developed a semi-automated outreach system that improves targeting,
+          personalizes messaging, and shortens the time it takes to land quality links.
            </p>
            <h2 style={{textAlign: 'center', fontWeight: 400 }}>
            Diagnostic Analytics
@@ -133,7 +131,7 @@ export default function Home() {
            I began as an SEO consultant
            building <a href="https://johnpottergr.github.io/analyticsexample.pdf">Google Analytics reports</a> for enterprise
            clients, so I understand what decision-makers need. But GA4’s complexity often
-           gets in the way. That’s why I built a custom reporting tool using Screaming
+           gets in the way. That’s why I built an automated reporting tool using Screaming
            Frog, GA4, and <a href="https://streamlit.io/">Streamlit</a>. It
            highlights technical and engagement issues, flags underperforming content, and delivers clean,
            focused reports.
@@ -145,7 +143,7 @@ export default function Home() {
            <p style={{ marginBottom: '35px', textAlign: 'left' }}>
           I've built light engineering skills that let me go beyond off-the-shelf SEO tools.
           With Python libraries like pandas and <a href="https://pypi.org/project/beautifulsoup4/">BeautifulSoup</a>,
-          I clean keyword data, analyze crawl outputs, and pull SERP insights others might miss.
+          I can clean keyword data, analyze crawl outputs, and pull SERP insights others might miss.
           On the backend, I’ve automated the repetitive parts of SEO, like nightly crawls and syncing GA4
           and content metrics into a central warehouse. This setup reduces delays and helps catch
           issues before they impact rankings.
