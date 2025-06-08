@@ -45,9 +45,10 @@ export default function Home() {
     <p style={{ textAlign: 'left' }}>
       I'm a technical content writer with 7+ years of experience translating complex technical
       topics into clear, actionable content. I work closely with clients to create writing that
-      supports business goals, drives organic growth, and improves user understanding. While
-      writing is my foundation, I’m also focused on building advanced skills in SEO strategy,
-      CRO, and data-driven performance analysis.
+      supports business goals, drives organic growth, and improves user understanding.
+      Additionally, I offer a semi-automated SEO pipeline as an
+      add-on service to help clients extend the
+      long-term value of their content.
     </p>
     <div style={{ textAlign: 'center' }}>
       <a
@@ -88,7 +89,7 @@ export default function Home() {
          <div>
          <h1 style={{ marginTop: '3.5rem', borderBottom: '2px solid #5ED1A5',
           paddingBottom: '16px', fontWeight: 600, fontSize: '2rem' }}>
-           What I Offer
+           Here's How
          </h1>
          <h2 style={{ marginTop: '1.5rem', textAlign: 'center', fontWeight: 400 }}>
            Content Strategy & Brief Generation

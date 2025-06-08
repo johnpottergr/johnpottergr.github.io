@@ -78,10 +78,21 @@ export default function Portfolio() {
               Quantum Computing
             </a>
           </li>
+          <li>
+            <a href="https://johnpottergr.com/portfolio#stock-analysis" style={{ color: '#008000', fontWeight: '400',  textDecoration: 'none' }}>
+              Startup Finance
+            </a>
+          </li>
 
           <li>
             <a href="https://johnpottergr.com/portfolio#stock-analysis" style={{ color: '#008000', fontWeight: '400',  textDecoration: 'none' }}>
               Stock Analysis
+            </a>
+          </li>
+
+          <li>
+            <a href="https://johnpottergr.com/portfolio#web-testing" style={{ color: '#008000', fontWeight: '400',  textDecoration: 'none' }}>
+              Web Testing
             </a>
           </li>
         </ul>
@@ -434,6 +445,20 @@ export default function Portfolio() {
           <li>
             <a href="https://www.tipranks.com/news/crowdstrike-stock-nasdaqcrwd-skyrocketing-arr-strategic-alliances-fuel-growth" style={{ color: '#008000', textDecoration: 'none' }}>
               Crowdstrike Stock Skyrocketing ARR, Strategic Alliances Fuel Growth
+            </a>
+          </li>
+        </ul>
+          {/* Web Testing Section */}
+        <h3 id="web-testing" style={{ color: '#222', marginTop: '40px', scrollMarginTop: '100px'}}>Web Testing</h3>
+        <ul style={{ lineHeight: '1.6' }}>
+          <li>
+            <a href="https://wonderproxy.com/blog/overcoming-common-localization-testing-challenges/" style={{ color: '#008000', textDecoration: 'none' }}>
+              Overcoming Common Localization Challenges
+            </a>
+          </li>
+          <li>
+            <a href="https://wonderproxy.com/blog/building-a-multi-platform-testing-strategy/" style={{ color: '#008000', textDecoration: 'none' }}>
+              Building a Multi-Platform Testing Strategy: Tools and Best Practices
             </a>
           </li>
         </ul>
