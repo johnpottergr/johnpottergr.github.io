@@ -97,14 +97,14 @@ export default function Home() {
          <p style={{ marginBottom: '35px', textAlign: 'left' }}>
             I offer content planning services that combine
             predictive analysis with SERP-driven insights.
-            My system pulls data from tools like MarketMuse to
-            identify topics with strong ranking potential
+            My system pulls data from tools like DataForSeo
+            to identify topics with strong ranking potential
             and AlsoAsked to map layered search intent. Then,
             using GPT, it automatically analyzes top-ranking
             pages and generates detailed content briefs with
             suggested headings, target questions, and
             NLP-informed subtopics. The result is content
-            that is based on user intent and positioned to rank higher.
+            based on user intent and positioned to rank higher.
            </p>
                <h2 style={{textAlign: 'center', fontWeight: 400 }}>
            Technical Site Audits
