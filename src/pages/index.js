@@ -137,7 +137,7 @@ export default function Home() {
            clients, so I understand what decision-makers need. But GA4’s complexity often
            gets in the way. That’s why I built an automated reporting tool using Screaming
            Frog, GA4, and <a href="https://streamlit.io/">Streamlit</a>. It
-           highlights technical and engagement issues, flags underperforming content, and delivers clean,
+           highlights engagement issues, flags underperforming content, and delivers clean,
            focused reports.
            </p>
 
