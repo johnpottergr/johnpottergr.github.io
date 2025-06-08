@@ -8,6 +8,8 @@ AI tools like [n8n](https://n8n.io/) connect APIs and triggers in a drag and dro
 
 Let's review what the present reality looks like and where it might go from here.
 
+<!--truncate-->
+
 ## It’s Not All Trading Bots
 
 Many AI fans view trading bots as the prime use case for GPT-powered agents. One could imagine them scanning Twitter, Reddit, and market signals to auto-execute trades faster than any human could react. Some AI power users are undoubtedly pursuing this path. But it’s not where most people will end up.

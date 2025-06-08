@@ -104,7 +104,7 @@ export default function Home() {
             pages and generates detailed content briefs with
             suggested headings, target questions, and
             NLP-informed subtopics. The result is content
-            that is more strategic and easier to produce.
+            that is based on user intent and positioned to rank higher.
            </p>
                <h2 style={{textAlign: 'center', fontWeight: 400 }}>
            Technical Site Audits
@@ -114,8 +114,8 @@ export default function Home() {
            provides me with a high-level performance overview,
            while <a href="https://www.screamingfrog.co.uk/seo-spider/">Screaming Frog</a> offers
            automated crawls that uncover structural issues like broken links, duplicate content,
-           redirect chains, and crawl depth. For visual reporting, <a href="https://sitebulb.com">Sitebulb's</a> automated
-           crawl reports and intuitive maps highlight technical issues in a more client-friendly format.
+           redirect chains, and crawl depth. For visual reporting, I rely on <a href="https://sitebulb.com">Sitebulb's</a> automated
+           crawl reports and intuitive maps to highlight technical issues in a more client-friendly format.
            </p>
             <h2 style={{textAlign: 'center', fontWeight: 400 }}>
            Link Building
