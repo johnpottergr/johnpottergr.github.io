@@ -99,8 +99,8 @@ export default function Home() {
             predictive analysis with SERP-driven insights.
             My system pulls data from tools like DataForSeo
             to identify topics with strong ranking potential
-            and AlsoAsked to map layered search intent. Then,
-            using GPT, it automatically analyzes top-ranking
+            and AlsoAsked to map layered search intent. Then
+            it automatically analyzes top-ranking
             pages and generates detailed content briefs with
             suggested headings, target questions, and
             NLP-informed subtopics. The result is content
