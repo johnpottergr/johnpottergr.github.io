@@ -29,15 +29,28 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 /* Add spacing above the blog post title */
-article .markdown h1 {
+.blog-wrapper h2 {
   margin-top: 2rem; /* Adjust as needed */
-  font-weight: 600;        /* Use kebab-case */
-  font-size: 2rem;         /* No quotes */
+  font-weight: 800;        /* Use kebab-case */
+  text-decoration: none;
+
 }
+
   a {
       font-weight: bold;
-      text-decoration: none;
+      text-decoration: underline;
   }
+.navbar a {
+text-decoration: none;
+}
+article h2 a {
+text-decoration: none;
+}
+aside a {
+text-decoration: none;
+}
+
+
   /* Center menu items but keep the title left-aligned */
 .navbar__items {
   margin: 0 auto;
@@ -51,7 +64,7 @@ article .markdown h1 {
   color: #000;  /* Optional: set text color */
 }
 .cta-button {
-  background-color: #fff;
+  background-color: #E8FBF4;
   display: inline-block;
   padding: 10px 20px;
   color: #000;
@@ -64,7 +77,8 @@ article .markdown h1 {
 }
 
 .cta-button:hover {
-  background-color: #E8FBF4;
+  background-color: #c6ccd3;
   color: #000;
+  border: 2px solid #708090;
    cursor: pointer;
 }

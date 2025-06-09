@@ -126,13 +126,12 @@ export default function Home() {
           Link building boosts your site’s authority and visibility
           by earning backlinks from trusted websites. It's an
           effective way to improve rankings and attract targeted
-          traffic. But it’s also a slow process. To speed things up,
+          traffic. But it’s a slow process. To speed things up,
           I've developed a semi-automated outreach system that improves targeting,
           personalizes messaging, and shortens the time it takes to
           land quality links. I’m also
-          integrating <a href="https://n8n.io/">n8n agents</a> to
-          pull in recent social activity, making each outreach
-          message more timely and relevant.
+          using <a href="https://n8n.io/">n8n agents</a> to
+          pull in recent social activity for more relevant outreach.
            </p>
            <h2 style={{textAlign: 'center', fontWeight: 400 }}>
            Diagnostic Analytics
@@ -148,15 +147,17 @@ export default function Home() {
            </p>
 
            <h2 style={{textAlign: 'center', fontWeight: 400 }}>
-          Why My Workflow Matters
+          What You Get Working With Me
          </h2>
            <p style={{ marginBottom: '35px', textAlign: 'left' }}>
-          I've built light engineering skills that let me go beyond off-the-shelf SEO tools.
-          With Python libraries like pandas and <a href="https://pypi.org/project/beautifulsoup4/">BeautifulSoup</a>,
-          I can clean keyword data, analyze crawl outputs, and pull SERP insights others might miss.
-          On the backend, I’ve automated the repetitive parts of SEO, like nightly crawls and syncing GA4
-          and content metrics into a central warehouse. This setup reduces delays and helps catch
-          issues before they impact rankings.
+           I bring a hybrid mindset to every project: part
+           writer, part strategist, and part light technologist.
+           Beyond
+           writing well, I build repeatable systems that support
+           high-performing content long after it’s published.
+           Every piece I work on is built for visibility:
+           grounded in search intent, informed by crawl data,
+           and focused on closing meaningful content gaps.
            </p>
 
 

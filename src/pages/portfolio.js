@@ -19,7 +19,7 @@ export default function Portfolio() {
         <p>
           My published articles primarily focus on data engineering, quantum computing, marketing, and cryptocurrency.
           The quality has improved over time, thanks to guidance from Anthony Garone at Edify Content.
-          You can browse all my articles <a href="/technical-articles-by-industry.pdf" target="_blank" rel="noopener noreferrer">here</a>, or jump straight to a curated list of data migration guides <a href="/Data%20Migration%20Guides.pdf" target="_blank" rel="noopener noreferrer">here</a>.
+          You can browse all 350+ of my published articles <a href="/technical-articles-by-industry.pdf" target="_blank" rel="noopener noreferrer">here</a>.
         </p>
         <ul style={{ lineHeight: '1.6' }}>
           <li>
