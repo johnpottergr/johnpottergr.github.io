@@ -1,6 +1,6 @@
 ---
 title: MarketMuse is Awesome; I Won't Be Using It
-date: 2025-06-07
+date: 2025-06-08
 ---
 <a href="https://marketmuse.com">MarketMuse</a> is great for larger teams that are serious about content planning. I've been enamored of its features. But to get a full picture, I need to review all aspects of this SEO tool.
 
