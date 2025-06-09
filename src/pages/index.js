@@ -99,7 +99,7 @@ export default function Home() {
             predictive analysis with SERP-driven insights.
             My system pulls data from <a href="https://dataforseo.com/">DataForSeo</a> to
             tag search intent and highlight topics with strong
-            ranking potential. I integrate that data with a
+            ranking potential. It then auto-integrates that data with a
             custom Clearscope-style tool I built to
             analyze top-ranking pages and generate detailed
             content briefs, complete with
