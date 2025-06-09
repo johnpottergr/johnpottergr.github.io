@@ -97,14 +97,15 @@ export default function Home() {
          <p style={{ marginBottom: '35px', textAlign: 'left' }}>
             I offer content planning services that combine
             predictive analysis with SERP-driven insights.
-            My system pulls data from tools like DataForSeo
-            to identify topics with strong ranking potential
-            and AlsoAsked to map layered search intent. It then
-            analyzes top-ranking
-            pages and generates detailed content briefs with
+            My system pulls data from <a href="https://dataforseo.com/">DataForSeo</a>
+            to tag search intent and highlight topics with strong
+            ranking potential. I integrate that data with a
+            custom Clearscope-style tool I built to
+            analyze top-ranking pages and generate detailed
+            content briefs, complete with
             suggested headings, target questions, and
             NLP-informed subtopics. The result is content
-            based on user intent and positioned to rank higher.
+            that aligns with user intent and is structured to rank higher.
            </p>
                <h2 style={{textAlign: 'center', fontWeight: 400 }}>
            Technical Site Audits
