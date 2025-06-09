@@ -102,10 +102,11 @@ export default function Home() {
             ranking potential. It then auto-integrates that data with a
             custom Clearscope-style tool I built to
             analyze top-ranking pages and generate detailed
-            content briefs, complete with
-            suggested headings, target questions, and
-            NLP-informed subtopics. The result is content
-            that aligns with user intent and is structured to rank higher.
+            content briefs. Each brief includes
+            suggested headings, target questions,
+            and <a href="https://searchengineland.com/nlp-seo-techniques-tools-strategies-437392">NLP-informed subtopics</a>, and is used to produce
+            content that
+            aligns with user intent and is structured to rank higher.
            </p>
                <h2 style={{textAlign: 'center', fontWeight: 400 }}>
            Technical Site Audits
