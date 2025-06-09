@@ -97,8 +97,8 @@ export default function Home() {
          <p style={{ marginBottom: '35px', textAlign: 'left' }}>
             I offer content planning services that combine
             predictive analysis with SERP-driven insights.
-            My system pulls data from <a href="https://dataforseo.com/">DataForSeo</a>
-            to tag search intent and highlight topics with strong
+            My system pulls data from <a href="https://dataforseo.com/">DataForSeo</a> to
+            tag search intent and highlight topics with strong
             ranking potential. I integrate that data with a
             custom Clearscope-style tool I built to
             analyze top-ranking pages and generate detailed
@@ -127,7 +127,10 @@ export default function Home() {
           effective way to improve rankings and attract targeted
           traffic. But it’s also a slow process. To speed things up,
           I've developed a semi-automated outreach system that improves targeting,
-          personalizes messaging, and shortens the time it takes to land quality links.
+          personalizes messaging, and shortens the time it takes to
+          land quality links. I’m also integrating n8n agents to pull in
+          recent social activity, making each outreach message more
+          timely and relevant.
            </p>
            <h2 style={{textAlign: 'center', fontWeight: 400 }}>
            Diagnostic Analytics
