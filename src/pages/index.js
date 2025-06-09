@@ -128,9 +128,10 @@ export default function Home() {
           traffic. But it’s also a slow process. To speed things up,
           I've developed a semi-automated outreach system that improves targeting,
           personalizes messaging, and shortens the time it takes to
-          land quality links. I’m also integrating n8n agents to pull in
-          recent social activity, making each outreach message more
-          timely and relevant.
+          land quality links. I’m also
+          integrating <a href="https://n8n.io/">n8n agents</a> to
+          pull in recent social activity, making each outreach
+          message more timely and relevant.
            </p>
            <h2 style={{textAlign: 'center', fontWeight: 400 }}>
            Diagnostic Analytics
