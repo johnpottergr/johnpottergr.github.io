@@ -127,7 +127,7 @@ export default function Home() {
           by earning backlinks from trusted websites. It's an
           effective way to improve rankings and attract targeted
           traffic. But it’s a slow process. To speed things up,
-          I've developed a semi-automated outreach system that improves targeting,
+          I've developed a <a href="https://johnpottergr.com/blog/6-5-2025-link-building-without-breaking-bank">semi-automated outreach system</a> that improves targeting,
           personalizes messaging, and shortens the time it takes to
           land quality links. I’m also
           using <a href="https://n8n.io/">n8n agents</a> to
