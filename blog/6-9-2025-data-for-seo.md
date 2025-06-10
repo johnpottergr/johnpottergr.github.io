@@ -1,5 +1,5 @@
 ---
-title: DataForSeo: The Low-Cost SerpAPI alternative
+title: DataForSeo, The Low-Cost SerpAPI alternative
 date: 2025-06-09
 ---
 
