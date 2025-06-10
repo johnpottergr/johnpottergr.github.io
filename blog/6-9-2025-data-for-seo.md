@@ -1,6 +1,6 @@
 ---
 title: DataForSeo: The Low-Cost SerpAPI alternative
-date: 2025-06-08
+date: 2025-06-09
 ---
 
 Yesterday, I spent most of my afternoon trying to parse which API tool to use for my semi-automated SEO system. I'll need an SEO-related API tool to send select data to the custom Clearscope-style tool I'm building. The goal here is to "analyze top-ranking pages and generate detailed content briefs."
