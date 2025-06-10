@@ -457,7 +457,7 @@ export default function Portfolio() {
             </a>
           </li>
           <li>
-            <a href="https://wonderproxy.com/blog/building-a-multi-platform-testing-strategy/" style={{ color: '#008000', textDecoration: 'none' }}>
+            <a href="https://wonderproxy.com/blog/building-a-multi-platform-testing-strategy-tools-and-best-practices/" style={{ color: '#008000', textDecoration: 'none' }}>
               Building a Multi-Platform Testing Strategy: Tools and Best Practices
             </a>
           </li>
