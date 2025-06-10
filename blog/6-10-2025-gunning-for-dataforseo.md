@@ -4,7 +4,7 @@ date: 2025-06-10
 ---
 If you are considering DataForSEO for content strategy or brief creation, I have insights to share. Here's what I found.
 
-## DataForSeo handles search intent really well
+## DataForSEO handles search intent really well
 
 Unlike other tools that visualize intent with trees or bubbles, DataForSEO gives you the information straight. The data is raw, structured, and ready for automation. Their Keyword Data API v3 includes an intent field for every keyword.
 
@@ -34,7 +34,7 @@ So you don't have to guess, and you can even spot patterns like:
 
 It's a smart way to match your content format to what Google already rewards.
 
-## Why DataForSeo works well my Clearscope-style analyzer
+## Why DataForSEO works well my Clearscope-style analyzer
 Here is where the rubber meets the road. The info I get from DataForSEO complements what my Clearscope-style analyzer does.
 
 If you take a closer look, you'll see that DataForSEO is great for:
