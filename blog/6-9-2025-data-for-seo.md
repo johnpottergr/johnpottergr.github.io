@@ -2,13 +2,11 @@
 title: DataForSeo, The Low-Cost SerpAPI alternative
 date: 2025-06-09
 ---
+Yesterday, I spent most of the afternoon sorting through API tools for use in my semi-automated SEO system. I need one that can feed select data into the custom Clearscope-style tool I’m building. The goal is to analyze top-ranking pages and generate detailed content briefs.
 
-Yesterday, I spent most of my afternoon trying to parse which API tool to use for my semi-automated SEO system. I'll need an SEO-related API tool to send select data to the custom Clearscope-style tool I'm building. The goal here is to "analyze top-ranking pages and generate detailed content briefs."
+ChatGPT was helpful in narrowing down what factors to consider, but I was still let with plenty of options to pursue. In the end analysis, price was a major factor.
 
-ChatGPT helped out somewhat by distilling all the factors down to what was critical. Still, there was a full selection of choices to sift through. I confess, price was a major factor here.
-
-I had my heart set on SerpAPI. But they won't allow their free verion to be used for commercial purposes. Yeah, I fully understand that. But without steady SEO client income, that's a heavy lift. Trying to get around this rule by thinking of a loophole is just lame. So I started looking elsewhere...
-
+I had my heart set on <a href="https://SerpAPI.com">SerpAPI</a>, but their free version isn’t allowed for commercial use. That's fair, but without steady SEO client income, it's also a heavy lift. Trying to find a workaround felt pointless and kind of lame. So I started looking elsewhere.
 
 ## My brief flirtation with Zenserp
 
@@ -18,7 +16,7 @@ The next SEO-related API tool I came across was <a href="https://zenserp.com">Ze
 
 <a href="https://dataforseo.com">DataForSEO</a> is even more competitive on price ($0.0006 per SERP page). In an effort to compare with Zenserp, I asked ChatGPT to multiply 5000 x $0.0006 per SERP page result. The answer: $3, quite a discount from $23.
 
-"What's the catch?" I asked ChatGPT. Apparently, DataForSEO is "for developers" and not quite as user-friendly. But being a newly-minted "vibe-coder", I know I can handle that. Er, I hope.
+"What's the catch?" I asked ChatGPT. Apparently, DataForSEO is "for developers" and not quite as user-friendly. But being a newly-minted "vibe-coder", I know I can handle that.
 
 ChatGPT notes that "Zenserp has a simpler setup and often includes structured extras like local pack and knowledge panel data", whereas "DataForSEO is more customizable, often preferred by developers building at scale—but it may require more setup work, including batch processing and parsing."
 
@@ -50,6 +48,7 @@ DataForSEO also provides additional APIs for backlinks, keywords, and on-page da
 I'm comfortable working with APIs and parsing JSON, and since I'm building my own GPT-based content brief generator, it's a perfect fit.
 
 ## Not Everything Is A Box of Chocolates
+
 I had planned to use <a href="https://AlsoAsked.com">AlsoAsked</a> to provide me with layed search intent. But again, people want to get paid for their products! (SMH).
 
 I'm going to try approximate this with DataForSEO bur it won't be easy. I'll have to:
