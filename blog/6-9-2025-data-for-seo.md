@@ -4,7 +4,9 @@ date: 2025-06-09
 ---
 Yesterday, I spent most of the afternoon sorting through API tools for use in my semi-automated SEO system. I need one that can feed select data into the custom Clearscope-style tool I’m building. The goal is to analyze top-ranking pages and generate detailed content briefs.
 
-ChatGPT was helpful in narrowing down what factors to consider, but I was still let with plenty of options to pursue. In the end analysis, price was a major factor.
+ChatGPT was helpful in narrowing down what factors to consider, but I was still let with plenty of options to pursue. In the end analysis, price was again a  major factor.
+
+<!--truncate-->
 
 I had my heart set on <a href="https://SerpAPI.com">SerpAPI</a>, but their free version isn’t allowed for commercial use. That's fair, but without steady SEO client income, it's also a heavy lift. Trying to find a workaround felt pointless and kind of lame. So I started looking elsewhere.
 
