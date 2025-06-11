@@ -10,6 +10,8 @@ Unlike other tools that visualize intent with trees or bubbles, DataForSEO gives
 
 You can immediately see whether a keyword is associated with informational, navigational, commercial, or transactional intent. There's is no guesswork and no decoding required.
 
+<!--truncate-->
+
 If you are building something semi-automated like my content brief generator, this is what you need. You can filter keywords by intent, group them into clusters, and even change your prompts to GPT based on the different types of intents (for example: writing prompts for a product page versus a blog post).
 
 ## Related keywords comes WIth clues too
