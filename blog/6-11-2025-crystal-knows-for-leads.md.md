@@ -9,15 +9,13 @@ Some clever marketer figured out how to leverage public data, behavioral models,
 <!--truncate-->
 
 ## Why communication styles are so important
-Crystal Knows is somewhat dependent on the client having taken a DISC assessment. If they have, the software can determine whether a lead prefers bullet points or detailed explanations, formal language or casual tone, quick decisions or thoughtful pacing.
+Crystal Knows is somewhat dependent on the client having taken a DISC assessment. If they have, the software can determine whether a lead prefers bullet points or detailed explanations, formal language or casual tone, quick decisions or thoughtful pacing. It's like getting an inside scoop on someone.
 
-It's like getting an inside scoop on someone. But this isn’t just a nice-to-have, it's what makes the difference between being ignored and being heard.
+But this isn’t just a nice-to-have, it's may make the difference between being ignored and being heard.
 
-It's all based on a simple premise - you should tailor your emails, calls, and outreach strategies to match the communication style of your leads. It's another version of 'matching', a tried and true sales strategy used in in-person meetings.
+It's all based on a simple premise - you should tailor your emails, calls, and outreach strategies to match the communication style of your leads. It's another version of 'matching', a tried and true in-person sales strategy.
 
-Not really an earth-shattering revelation, but seemingly overlooked alot.
-
-Its what marketing personalization is all about. It turns what might otherwise be a generic pitch into something much more meaningful for the recipient.
+Understanding a potential customer is what  personalization is all about. It turns what might otherwise be a generic pitch into something much more meaningful.
 
 ## My experience with using it on LinkedIn
 I'm hardly one to get too excited about marketing tools. But this one was actually fun to use.
@@ -28,7 +26,7 @@ The only thing that kind of shook me was that I took the DISC assessment maybe a
 
 Here is what the full page view of DISC looks like in Crystal Knows:
 
-<img src="/img/disc.png" width="400" />
+<img src="/img/disc.png" width="650" />
 
 In addition to LinkedIn, Crystal Knows also integrates with Salesforce and Gmail, making it easy to write personalized messages where you're already working.
 
