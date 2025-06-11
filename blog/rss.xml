@@ -4,10 +4,141 @@
         <title>My Professional Website Blog</title>
         <link>https://johnpottergr.com/blog</link>
         <description>My Professional Website Blog</description>
-        <lastBuildDate>Sun, 08 Jun 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 11 Jun 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Why Crystal Knows Is a Secret Weapon for Lead Generation]]></title>
+            <link>https://johnpottergr.com/blog/6-11-2025-crystal-knows-for-leads.md</link>
+            <guid>https://johnpottergr.com/blog/6-11-2025-crystal-knows-for-leads.md</guid>
+            <pubDate>Wed, 11 Jun 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Reaching out to cold leads can be a shot in the dark, but Crystal Knows makes it a lot less intimidating.]]></description>
+            <content:encoded><![CDATA[<p>Reaching out to cold leads can be a shot in the dark, but <a href="https://crystalknows.com/">Crystal Knows</a> makes it a lot less intimidating.</p>
+<p>Some clever marketer figured out how to leverage public data, behavioral models, and AI to create a smart leads generation tool. It gives sales and marketing teams a psychological edge by providing them with the <a href="https://www.discprofile.com/what-is-disc">DISC personality assessments</a> of their prospects.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="why-communication-styles-are-so-important">Why communication styles are so important<a href="https://johnpottergr.com/blog/6-11-2025-crystal-knows-for-leads.md#why-communication-styles-are-so-important" class="hash-link" aria-label="Direct link to Why communication styles are so important" title="Direct link to Why communication styles are so important">​</a></h2>
+<p>Crystal Knows is somewhat dependent on the client having taken a DISC assessment. If they have, the software can determine whether a lead prefers bullet points or detailed explanations, formal language or casual tone, quick decisions or thoughtful pacing.</p>
+<p>It's like getting an inside scoop on someone. But this isn’t just a nice-to-have, it's what makes the difference between being ignored and being heard.</p>
+<p>It's all based on a simple premise - you should tailor your emails, calls, and outreach strategies to match the communication style of your leads. It's another version of 'matching', a tried and true sales strategy used in in-person meetings.</p>
+<p>Not really an earth-shattering revelation, but seemingly overlooked alot.</p>
+<p>Its what marketing personalization is all about. It turns what might otherwise be a generic pitch into something much more meaningful for the recipient.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="my-experience-with-using-it-on-linkedin">My experience with using it on LinkedIn<a href="https://johnpottergr.com/blog/6-11-2025-crystal-knows-for-leads.md#my-experience-with-using-it-on-linkedin" class="hash-link" aria-label="Direct link to My experience with using it on LinkedIn" title="Direct link to My experience with using it on LinkedIn">​</a></h2>
+<p>I'm hardly one to get too excited about marketing tools. But this one was actually fun to use.</p>
+<p>To check it out, I used the software's Chrome extension to check out my LinkedIn profile. It gave me a pretty exhaustive about how best to communicate to ...me. And all through a thin side panel on the right side of the LI profile.</p>
+<p>The only thing that kind of shook me was that I took the DISC assessment maybe a decade ago. And here it was being used for marketing purposes. Something tells me all this was in the fine print when I signed off on taking it.</p>
+<p>Here is what the full page view of DISC looks like in Crystal Knows:</p>
+<img src="https://johnpottergr.com/img/disc.png" width="400">
+<p>In addition to LinkedIn, Crystal Knows also integrates with Salesforce and Gmail, making it easy to write personalized messages where you're already working.</p>
+<p>To get a feel for what the Crystal Knows offers, I recommend taking advantage of its free trial.</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Why I Like DataForSEO, Pt. 2]]></title>
+            <link>https://johnpottergr.com/blog/6-10-2025-gunning-for-dataforseo</link>
+            <guid>https://johnpottergr.com/blog/6-10-2025-gunning-for-dataforseo</guid>
+            <pubDate>Tue, 10 Jun 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[If you are considering DataForSEO for content strategy or brief creation, I have insights to share. Here's what I found.]]></description>
+            <content:encoded><![CDATA[<p>If you are considering DataForSEO for content strategy or brief creation, I have insights to share. Here's what I found.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="dataforseo-handles-search-intent-really-well">DataForSEO handles search intent really well<a href="https://johnpottergr.com/blog/6-10-2025-gunning-for-dataforseo#dataforseo-handles-search-intent-really-well" class="hash-link" aria-label="Direct link to DataForSEO handles search intent really well" title="Direct link to DataForSEO handles search intent really well">​</a></h2>
+<p>Unlike other tools that visualize intent with trees or bubbles, DataForSEO gives you the information straight. The data is raw, structured, and ready for automation. Their Keyword Data API v3 includes an intent field for every keyword.</p>
+<p>You can immediately see whether a keyword is associated with informational, navigational, commercial, or transactional intent. There's is no guesswork and no decoding required.</p>
+<p>If you are building something semi-automated like my content brief generator, this is what you need. You can filter keywords by intent, group them into clusters, and even change your prompts to GPT based on the different types of intents (for example: writing prompts for a product page versus a blog post).</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="related-keywords-comes-with-clues-too">Related keywords comes WIth clues too<a href="https://johnpottergr.com/blog/6-10-2025-gunning-for-dataforseo#related-keywords-comes-with-clues-too" class="hash-link" aria-label="Direct link to Related keywords comes WIth clues too" title="Direct link to Related keywords comes WIth clues too">​</a></h2>
+<p>The Related Keywords API provides long tail keywords, items like questions, modifiers, and SERP indicators (such as PAA boxes or featured snippets). You can sort through this content to build layers of intent, especially if you're trying to map out a full funnel.</p>
+<p>Don't dismiss this data as just more keywords. It's key to understanding how people think when they search.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="serp-features-are-also-covered">SERP features are also covered<a href="https://johnpottergr.com/blog/6-10-2025-gunning-for-dataforseo#serp-features-are-also-covered" class="hash-link" aria-label="Direct link to SERP features are also covered" title="Direct link to SERP features are also covered">​</a></h2>
+<p>DataForSEO’s SERP API displays whether a keyword brings up:</p>
+<ul>
+<li>Featured snippets</li>
+<li>People Also Ask</li>
+<li>Shopping results</li>
+<li>Sitelinks</li>
+</ul>
+<p>So you don't have to guess, and you can even spot patterns like:</p>
+<ul>
+<li>
+<p>"How to" plus a featured snippet often reveal strong informational intent</p>
+</li>
+<li>
+<p>Product title + shopping results equal clear transactional intent</p>
+</li>
+</ul>
+<p>It's a smart way to match your content format to what Google already rewards.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="why-dataforseo-works-well-my-clearscope-style-analyzer">Why DataForSEO works well my Clearscope-style analyzer<a href="https://johnpottergr.com/blog/6-10-2025-gunning-for-dataforseo#why-dataforseo-works-well-my-clearscope-style-analyzer" class="hash-link" aria-label="Direct link to Why DataForSEO works well my Clearscope-style analyzer" title="Direct link to Why DataForSEO works well my Clearscope-style analyzer">​</a></h2>
+<p>Here is where the rubber meets the road. The info I get from DataForSEO complements what my Clearscope-style analyzer does.</p>
+<p>If you take a closer look, you'll see that DataForSEO is great for:</p>
+<ul>
+<li>Mapping out keyword intent</li>
+<li>Viewing SERP structure</li>
+<li>Scoring keywords by volume, CPC, difficulty</li>
+</ul>
+<p>Sure, DataForSEO doesn’t tell me how to structure your page. But that’s where my Clearscope-style tool will comes in. It analyzies how the top content perform, which keywords they’re using, how the page is laid out.</p>
+<p>Putting these two tools together gives me a good look at what to write about and why. It tells me how to write the content so it's able to compete in search.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="my-gains-from-merging-the-two">My gains from merging the two<a href="https://johnpottergr.com/blog/6-10-2025-gunning-for-dataforseo#my-gains-from-merging-the-two" class="hash-link" aria-label="Direct link to My gains from merging the two" title="Direct link to My gains from merging the two">​</a></h2>
+<p>Connecting these two tools help me create:</p>
+<ul>
+<li>
+<p><strong>Smarter briefs:</strong> I'm able to pre-load SERP features, keyword intent, and even CPC info into my outlines.</p>
+</li>
+<li>
+<p><strong>Quicker workflowsL</strong> Depending on the keyword clusters, I'm able to auto-trigger outline types for my briefs.</p>
+</li>
+<li>
+<p><strong>Better topic prioritization:</strong> Keyword gaps are not the end-all when it comes to selecting topics. Together, these tools help me rank potential topics based on intent + volume + keyword difficulty.</p>
+</li>
+</ul>
+<p>In the end, this combo helps me move away from simply "here’s a keyword" to "here’s a well-structured brief for the right type of content". And it does so without having to perform manual sorting. Which is a huge timesaver.</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[DataForSeo, The Low-Cost SerpAPI alternative]]></title>
+            <link>https://johnpottergr.com/blog/6-9-2025-data-for-seo</link>
+            <guid>https://johnpottergr.com/blog/6-9-2025-data-for-seo</guid>
+            <pubDate>Mon, 09 Jun 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Yesterday, I spent most of the afternoon sorting through API tools for use in my semi-automated SEO system. I need one that can feed select data into the custom Clearscope-style tool I’m building. The goal is to analyze top-ranking pages and generate detailed content briefs.]]></description>
+            <content:encoded><![CDATA[<p>Yesterday, I spent most of the afternoon sorting through API tools for use in my semi-automated SEO system. I need one that can feed select data into the custom Clearscope-style tool I’m building. The goal is to analyze top-ranking pages and generate detailed content briefs.</p>
+<p>ChatGPT was helpful in narrowing down what factors to consider, but I was still let with plenty of options to pursue. In the end analysis, price was again a  major factor.</p>
+<p>I had my heart set on <a href="https://serpapi.com/">SerpAPI</a>, but their free version isn’t allowed for commercial use. That's fair, but without steady SEO client income, it's also a heavy lift. Trying to find a workaround felt pointless and kind of lame. So I started looking elsewhere.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="my-brief-flirtation-with-zenserp">My brief flirtation with Zenserp<a href="https://johnpottergr.com/blog/6-9-2025-data-for-seo#my-brief-flirtation-with-zenserp" class="hash-link" aria-label="Direct link to My brief flirtation with Zenserp" title="Direct link to My brief flirtation with Zenserp">​</a></h2>
+<p>The next SEO-related API tool I came across was <a href="https://zenserp.com/">Zenserp</a>. Their startup plan runs $23/month for up to 5,000 searches and includes solid NLP-based topic clustering. Not bad. Other tools like Serper, SearchAPI, and ValueSearch also crossed my path. But DataForSEO kept showing up on several recommendation lists, so I decided to take a closer look.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="an-alternative-with-a-big-plus-on-pricing">An Alternative With A Big Plus on Pricing<a href="https://johnpottergr.com/blog/6-9-2025-data-for-seo#an-alternative-with-a-big-plus-on-pricing" class="hash-link" aria-label="Direct link to An Alternative With A Big Plus on Pricing" title="Direct link to An Alternative With A Big Plus on Pricing">​</a></h2>
+<p><a href="https://dataforseo.com/">DataForSEO</a> is even more competitive on price ($0.0006 per SERP page). In an effort to compare with Zenserp, I asked ChatGPT to multiply 5000 x $0.0006 per SERP page result. The answer: $3, quite a discount from $23.</p>
+<p>"What's the catch?" I asked ChatGPT. Apparently, DataForSEO is "for developers" and not quite as user-friendly. But being a newly-minted "vibe-coder", I know I can handle that.</p>
+<p>ChatGPT notes that "Zenserp has a simpler setup and often includes structured extras like local pack and knowledge panel data", whereas "DataForSEO is more customizable, often preferred by developers building at scale—but it may require more setup work, including batch processing and parsing."</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="comprehensive-data">Comprehensive Data!<a href="https://johnpottergr.com/blog/6-9-2025-data-for-seo#comprehensive-data" class="hash-link" aria-label="Direct link to Comprehensive Data!" title="Direct link to Comprehensive Data!">​</a></h2>
+<p>DataForSEO goes full throttle on providing data. Below is a full list of the SERP elements it provides stuctured data for:</p>
+<ul>
+<li><strong>Organic Results</strong>: Standard search listings with titles, URLs, and descriptions.</li>
+<li><strong>Paid Advertisements</strong>: Google Ads data, including ad titles and URLs.</li>
+<li><strong>Featured Snippets</strong>: Highlighted answers appearing at the top of search results.</li>
+<li><strong>Knowledge Panels</strong>: Information boxes summarizing topics.</li>
+<li><strong>Local Packs</strong>: Listings of local businesses with relevant details.</li>
+<li><strong>Image and Video Results</strong>: Multimedia content related to the search query.</li>
+<li><strong>News Results</strong>: Recent articles and headlines.</li>
+<li><strong>Shopping Results</strong>: Product listings with prices and seller information.</li>
+<li><strong>Answer Boxes</strong>: Direct answers to specific queries.</li>
+<li><strong>People Also Ask</strong>: Related questions that users commonly search for.</li>
+<li><strong>Related Searches</strong>: Suggestions for similar searc</li>
+</ul>
+<p>DataForSEO also provides additional APIs for backlinks, keywords, and on-page data.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="api-modules-include">API Modules Include<a href="https://johnpottergr.com/blog/6-9-2025-data-for-seo#api-modules-include" class="hash-link" aria-label="Direct link to API Modules Include" title="Direct link to API Modules Include">​</a></h3>
+<ul>
+<li>Google SERP API (top 100 results for any keyword)</li>
+<li>Keyword Data API (volume, CPC, difficulty)</li>
+<li>On-Page API (crawl and analyze site structure/content)</li>
+<li>Rank Tracking API (track positions over time)</li>
+<li>Labs API (includes NLP-powered features like keyword clustering and content ideas)</li>
+</ul>
+<p>I'm comfortable working with APIs and parsing JSON, and since I'm building my own GPT-based content brief generator, it's a perfect fit.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="not-everything-is-a-box-of-chocolates">Not Everything Is A Box of Chocolates<a href="https://johnpottergr.com/blog/6-9-2025-data-for-seo#not-everything-is-a-box-of-chocolates" class="hash-link" aria-label="Direct link to Not Everything Is A Box of Chocolates" title="Direct link to Not Everything Is A Box of Chocolates">​</a></h2>
+<p>I had planned to use <a href="https://alsoasked.com/">AlsoAsked</a> to provide me with layed search intent. But again, people want to get paid for their products! (SMH).</p>
+<p>I'm going to try approximate this with DataForSEO bur it won't be easy. I'll have to:</p>
+<ul>
+<li>Pull related questions and long-tail keywords</li>
+<li>Use the intent labels and modifiers ("how," "best," "vs," etc.)</li>
+<li>Build my own tree/cluster structure (e.g., using GPT)</li>
+<li>Write logic or use GPT prompting to group those into "awareness → consideration → decision" stages—or feed it into a visualizer. ughh
+<strong>we'll see.</strong></li>
+</ul>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[MarketMuse is Awesome; I Won't Be Using It]]></title>
             <link>https://johnpottergr.com/blog/6-8-2025-moving-on-from-marketmuse</link>
@@ -201,13 +332,17 @@ The Surfer SEO tool has continued to evolve. You now have the capability to set 
             <content:encoded><![CDATA[<p>“Vibe coding” sounds like a throwaway phrase. You could be forgiven for not taking it seriously. But for many would-be developers, vibe coding offers genuine creative freedom. With vibe coding, the ability to code is no longer a barrier to software development. LLMs now handle most of the complex construction details.</p>
 <p>What’s happening here is a democratization of access. You don’t need coding expertise to create; you need the impulse to do so. If you don’t know JavaScript, Cursor, or another programming language, an LLM can handle it. There’s no mystique here; just initiative and a willingness to experiment.</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="my-foray-into-vibe-doding">My foray into vibe doding<a href="https://johnpottergr.com/blog/5-21-2025-vibe-coding-democratizes-creativity#my-foray-into-vibe-doding" class="hash-link" aria-label="Direct link to My foray into vibe doding" title="Direct link to My foray into vibe doding">​</a></h2>
-<p>My own experience speaks to this. When I had to collaborate with a client on GitHub a few months back, I quickly became acquainted with Visual Studio Code’s integrated terminal. Shortly afterward, I began using Docusaurus to build a professional website. It was surprisingly intuitive to understand what was needed. And with time, I became more adventurous and willing to overcome coding obstacles. Lucille Ball was right, “the more things you do, the more you can do”</p>
-<p>Not being able to write React code from scratch was hardly a problem. With LLMs guiding me, I could follow the structure and purpose of each file, even if I couldn’t explain every line. My foray into vibe coding might have ended there if I hadn’t stumbled across an article about assembling tools into a full-stack AI-agentic app. It was intriguing enough that I decided to try it myself, with vibe coding as my go-to.</p>
+<p>My own experience speaks to this. When I had to collaborate with a client on GitHub a few months back, I quickly became acquainted with Visual Studio Code’s integrated terminal.</p>
+<p>Shortly afterward, I began using Docusaurus to build a professional website. It was surprisingly intuitive to understand what was needed. And with time, I became more adventurous and willing to overcome coding obstacles. Lucille Ball was right, “the more things you do, the more you can do”</p>
+<p>Not being able to write React code from scratch was hardly a problem. With LLMs guiding me, I could follow the structure and purpose of each file, even if I couldn’t explain every line.</p>
+<p>My foray into vibe coding might have ended there if I hadn’t stumbled across an article about assembling tools into a full-stack AI-agentic app. It was intriguing enough that I decided to try it myself, with vibe coding as my go-to.</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="going-the-extra-mile">Going the extra mile<a href="https://johnpottergr.com/blog/5-21-2025-vibe-coding-democratizes-creativity#going-the-extra-mile" class="hash-link" aria-label="Direct link to Going the extra mile" title="Direct link to Going the extra mile">​</a></h2>
 <p>Creating a website through GitHub is one thing. Building an IT stack that functions as a full application is something else entirely. Think of it as wiring together a series of virtual components using code.</p>
-<p>I suddenly realized the possibilities for connection were endless. Since my ability to modify proprietary software was limited, I started by exploring open-source projects to jumpstart the process. I set up an Amazon S3 account to store future clickstream data in the cloud. Tools I had only heard about, like FastAPI, Render, ngrok, suddenly had a place in my workflow. A whole new world opened up. Without an LLM, wiring all these compnents together would’ve taken months.</p>
+<p>I suddenly realized the possibilities for connection were endless. Since my ability to modify proprietary software was limited, I started by exploring open-source projects to jumpstart the process. I set up an Amazon S3 account to store future clickstream data in the cloud.</p>
+<p>Tools I had only heard about, like FastAPI, Render, ngrok, suddenly had a place in my workflow. A whole new world opened up. Without an LLM, wiring all these compnents together would’ve taken months.</p>
 <p>But it wasn’t the coding that posed the biggest challenge (Render logs and ChatGPT eliminated that issue). The harder part was thinking through UI decisions. But even here, I'm reviewing whether to rely on Cursor to provide feedback.</p>
-<p>The excitement is just beginning: LLMs that pair with Model Context Protocol (MCP) promise to reshape software. Adding MCP capabilities to softwre isn't just an upgrade, it requires a complete rethinking of what software can do. That realization pushed me to explore how I could use these technologies in my own work. I began lying awake at night, thinking through the possibilities of AI-agentic systems and just how far they might go.</p>]]></content:encoded>
+<p>The excitement is just beginning: LLMs that pair with Model Context Protocol (MCP) promise to reshape software. Adding MCP capabilities to softwre isn't just an upgrade, it requires a complete rethinking of what software can do. That realization pushed me to explore how I could use these technologies in my own work.</p>
+<p>I still lie awake at night, thinking through the possibilities of AI-agentic systems and just how far they might go.</p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[AI Agents Raise Bar on Technical Marketing]]></title>
