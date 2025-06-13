@@ -100,7 +100,7 @@ export default function Home() {
             My system pulls data from <a href="https://dataforseo.com/">DataForSeo</a> to
             tag search intent and highlight topics with strong
             ranking potential. It then auto-integrates that data with a
-            custom Clearscope-style tool I built to
+            custom <a href="https://clearscope-style.streamlit.app/">Clearscope-style tool I built</a> to
             analyze top-ranking pages and generate detailed
             content briefs. Each brief includes
             suggested headings, target questions,
