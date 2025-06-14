@@ -4,7 +4,7 @@ date: 2025-06-14
 ---
 Reddit appears to be evolving from a simple discussion platform to influential content resource for ChatGPT.
 
-That's not conjection. OpenAI's recent partnership with Reddit has triggered a sharp rise in Reddit citations by ChatGPT. They're up an astounding 436% over the past month.
+That's not conjecture. OpenAI's recent partnership with Reddit has triggered a sharp rise in Reddit citations by ChatGPT. They're up an astounding 436% over the past month.
 
 <!--truncate-->
 
