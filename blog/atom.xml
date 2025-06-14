@@ -2,11 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://johnpottergr.com/blog</id>
     <title>My Professional Website Blog</title>
-    <updated>2025-06-13T00:00:00.000Z</updated>
+    <updated>2025-06-14T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://johnpottergr.com/blog"/>
     <subtitle>My Professional Website Blog</subtitle>
     <icon>https://johnpottergr.com/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Posting on Reddit Just Became a Lot More Valuable]]></title>
+        <id>https://johnpottergr.com/blog/6-14-2025-OpenAI-makes-Reddit-posting-worthwhile</id>
+        <link href="https://johnpottergr.com/blog/6-14-2025-OpenAI-makes-Reddit-posting-worthwhile"/>
+        <updated>2025-06-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Reddit appears to be evolving from a simple discussion platform to influential content resource for ChatGPT.]]></summary>
+        <content type="html"><![CDATA[<p>Reddit appears to be evolving from a simple discussion platform to influential content resource for ChatGPT.</p>
+<p>That's not conjecture. OpenAI's recent partnership with Reddit has triggered a sharp rise in Reddit citations by ChatGPT. They're up an astounding 436% over the past month.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="is-reddit-really-chatgpts-bff">Is Reddit really ChatGPT's BFF?<a href="https://johnpottergr.com/blog/6-14-2025-OpenAI-makes-Reddit-posting-worthwhile#is-reddit-really-chatgpts-bff" class="hash-link" aria-label="Direct link to Is Reddit really ChatGPT's BFF?" title="Direct link to Is Reddit really ChatGPT's BFF?">​</a></h2>
+<p>Currently, rougnly 5.9% of all citations in ChatGPT's responses come from Reddit, making it the second most referenced domain after Wikipedia. The percentage is quite a leap considering how long other platforms have been part of ChatGPT's content base.</p>
+<p>While Perplexity and Google's AI Overviews (GAIO) still draw content from Reddit, they have not experienced this same kind of growth in being referenced or cited as sources. It appears this new focus on Reddit is exclusive to ChatGPT.</p>
+<p>The change implies internal changes at OpenAI in how it manages retrieval augmented generation (RAG) and resource prioritization. For those working in content marketing and SEO, this means Reddit has become a much more valuable property. Don't neglect it!</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-bottom-line">The Bottom Line<a href="https://johnpottergr.com/blog/6-14-2025-OpenAI-makes-Reddit-posting-worthwhile#the-bottom-line" class="hash-link" aria-label="Direct link to The Bottom Line" title="Direct link to The Bottom Line">​</a></h2>
+<p>A tactic that once helped brands surface in Perplexity has now been pulled into a much larger arena—where ChatGPT leads the show. All of which means: If your brand or product shows up in Reddit threads, it’s far more likely to show up in ChatGPT results.</p>
+<p>For companies that care - and they should - this shift offers new avenue to expand their reach. Beyond brand awareness, it’s a fresh reason to engage in Reddit conversations, and a strong incentive to make those contributions informative.</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The Limits of OpenAI]]></title>
         <id>https://johnpottergr.com/blog/6-13-2025-limits-of-openai</id>
