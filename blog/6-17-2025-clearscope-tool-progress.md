@@ -4,11 +4,11 @@ date: 2025-06-17
 ---
 So my Clearscope-style tool is workable. I almost had a meltdown from coding frustration but pulled myself together and got it done. Still, its time to compare my original goals with how well it performs now. So I compared my main.py code page with goals and asked ChatGPT for an evaluation.
 
-<img src="/img/recap.png" alt="Select Sheet" width="450"/>
+<img src="/img/recap.png" alt="Select Sheet" width="700"/>
 
 The primary features are satisfied, but I can still add more:
 
-<img src="/img/enhance.png" alt="Select Sheet" width="450"/>
+<img src="/img/enhance.png" alt="Select Sheet" width="700"/>
 
 Some of these features are just nice to have. I asked ChatGPT "Which of the missing features would be most valuable to a content writer?" and why
 
