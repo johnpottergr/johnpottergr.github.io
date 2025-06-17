@@ -24,12 +24,12 @@ export default function CuttingEdge() {
             textAlign: 'center',
           }}
         >
-          Cutting Edge Add-Ons
+          AI-Enhanced Extras
         </h1>
 
 {/* Centered Heading Above Flex Layout */}
 <h2 style={{ textAlign: 'center', fontWeight: 400 }}>
-  Conversion Rate Optimization (CRO)
+  Conversion Optimization for AI Search
 </h2>
 
         {/* FLEX ROW: CRO + IMAGE */}
@@ -45,14 +45,11 @@ export default function CuttingEdge() {
           {/* Text Column */}
           <div style={{ flex: '1 1 60%' }}>
             <p style={{ marginBottom: '35px', textAlign: 'left' }}>
-              I provide CRO suggestions that align with search intent to boost site conversions. Using{' '}
-              <a href="http://johnpottergr.com/blog/6-6-2025-use-GPT4o-vision-capabilities">
-                AI vision models
-              </a>, I analyze pages visually and incorporate
-              detailed funnel and audience context to promote site improvements.
-              To fortify these insights, I developed{' '}
-              <a href="https://crosignals.com">CRO Signals</a>, a custom
-              tool that analyzes past traffic to find high-converting behavior patterns.
+            I offer conversion-focused suggestions rooted in search behavior and audience
+            psychology. My focus is analyzing how users arrive via AI-generated answers or search
+            summaries, I identify friction points and opportunities. I also use               <a href="http://johnpottergr.com/blog/6-6-2025-use-GPT4o-vision-capabilities">AI
+            vision models</a> and a custom tool called <a href="https://crosignals.com">CRO Signals</a> to evaluate layout clarity,
+            page flow, and behavioral patterns from past high-converting sessions.
             </p>
           </div>
 
@@ -75,39 +72,26 @@ export default function CuttingEdge() {
 
         {/* Back to normal layout flow */}
         <h2 style={{ textAlign: 'center', fontWeight: 400 }}>
-          Predictive Analytics
+          Predictive Content Intelligence
         </h2>
         <p style={{ marginBottom: '35px', textAlign: 'left' }}>
-          Google Analytics tells you what happened, I focus on what’s likely to happen next.
-          I combine tools like{' '}
-          <a href="https://plausible.io/">Plausible</a>, BigQuery, ChatGPT, and custom machine learning models
-          to forecast which content will rank, which users may bounce, and which CTAs
-          are likely to convert. I’m also exploring tools like{' '}
-          <a href="https://www.canirank.com/">CanIRank</a> to supplement traditional analytics with
-          AI-based performance modeling.
+          Instead of only looking at what’s already happened, I focus on what’s
+          likely next. Using tools like BigQuery, Plausible, and GPT-based models, I
+          forecast which content will rank, which users might bounce, and which CTAs
+          are likely to perform best. I also experiment with tools like <a href="https://www.canirank.com/">CanIRank</a> to
+          layer traditional performance data with machine-learned predictors.
         </p>
 
         <h2 style={{ textAlign: 'center', fontWeight: 400 }}>
-          Semantic Search
+          Semantic Creator Matching
         </h2>
         <p style={{ marginBottom: '35px', textAlign: 'left' }}>
-          Brands should look for influencer partners who align with their values, not just their
-          keywords. Using AI-powered semantic search, I match your brand’s tone, values, and
-          audience with creators whose content resonates on a deeper level. My approach relies on
-          vector embeddings and GPT-based tools to identify overlooked opportunities, especially
-          among micro-influencers. These models uncover alignment based on sentiment and shared
-          intent.
-        </p>
-
-        <h2 style={{ textAlign: 'center', fontWeight: 400 }}>
-          Answer Engine Optimization (AEO)
-        </h2>
-        <p style={{ marginBottom: '35px', textAlign: 'left' }}>
-          I help brands get discovered in LLMs by focusing on what actually drives rankings:
-          credible third-party reviews and real-time product data. While updating product pages is
-          baseline hygiene, tools like ChatGPT prioritize what others say about your products. I
-          support influencer-driven review campaigns and explore MCP servers to feed fresh product
-          info directly to LLM systems.
+          I help brands find creators who match more than just keywords. Using
+          semantic search powered by vector embeddings and GPT tools, I surface
+          micro-influencers whose tone, audience intent, and brand resonance
+          align deeply with your positioning. It's a smarter way to build
+          partnership pipelines—especially for thought leadership, niche
+          audiences, or brand authenticity campaigns.
         </p>
       </main>
     </Layout>
