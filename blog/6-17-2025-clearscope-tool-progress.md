@@ -1,5 +1,5 @@
 ---
-title: Clearscope-style tool evaluation
+title: ChatGPT evaluates my Clearscope-style tool
 date: 2025-06-17
 ---
 So my Clearscope-style tool is workable. I almost had a meltdown from coding frustration but pulled myself together and got it done. Still, its time to compare my original goals with how well it performs now. So I compared my main.py code page with goals and asked ChatGPT for an evaluation.
