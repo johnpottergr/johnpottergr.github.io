@@ -106,7 +106,7 @@ export default function Home() {
             suggested headings, target questions,
             and <a href="https://searchengineland.com/nlp-seo-techniques-tools-strategies-437392">NLP-informed subtopics</a>, and is used to produce
             content that
-            aligns with user intent and is structured to rank higher.
+            aligns with user intent and is structured to rank higher. I'm <a href="https://johnpottergr.com/blog/6-17-2025-clearscope-tool-progress">expanding its capabilities</a>.
            </p>
                <h2 style={{textAlign: 'center', fontWeight: 400 }}>
            Technical Site Audits
