@@ -12,7 +12,10 @@ For content writers, this shift means your job doesn’t end at publishing what�
 
 Top-of-funnel and middle-of-funnel content is the primary focus here, but bottom-of-funnel content may not be far behind. This blog post is the first one I’ve written with this focus in mind. And it probably won’t be the last.
 
-LLM visibility isn’t just another SEO trend. It’s a big change in how information flows and who receives credit when someone asks an LLM a question.
+### Let Me Be Clear
+The average LLM visitor is worth 4.4x the average traditional organic search visitor. Not only that, but ChatGPT results only overlap with 12% with Google SERP results (<a href="https://speakerdeck.com/joshbly/josh-blyskal-profound-we-analyed-10000-000-ai-search-results-dot-dot-dot">Josh Blyskal, Profound</a>). So LLM visibility isn’t just another SEO trend. It’s a big change in how information flows and who receives credit when someone asks an LLM a question.
+
+<img src="/img/overlap.png" alt="Select Sheet" width="800"/>
 
 ## Content Is Still King
 Sure, the articles, guides, product pages, and snippets you publish are what LLMs are trained to reference. If the goal is to show up in an LLM answer feed, someone still has to write the source material.
