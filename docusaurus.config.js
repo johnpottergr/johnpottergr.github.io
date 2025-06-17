@@ -10,8 +10,8 @@
 
   /** @type {import('@docusaurus/types').Config} */
   const config = {
-    title: 'My Professional Website', // Updated title
-    tagline: 'John Potters Professional Website', // Updated tagline
+    title: 'Content That Shows Up In AI Search', // Updated title
+    tagline: 'Helping brands show up in AI answers and LLMs', // Updated tagline
     favicon: 'img/favicon.ico',
 
     // Set the production url of your site here

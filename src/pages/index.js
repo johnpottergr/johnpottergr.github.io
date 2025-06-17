@@ -27,7 +27,7 @@ export default function Home() {
     textAlign: 'center',
   }}
 >
-  SEO That Builds Itself
+  AI Search Visibility, Built In
 </h1>
 
 {/* Flex layout for paragraph + image */}
@@ -44,11 +44,13 @@ export default function Home() {
   <div style={{ flex: '1 1 60%' }}>
     <p style={{ textAlign: 'left' }}>
       I'm a technical content writer with 7+ years of experience translating complex technical
-      topics into clear, actionable content. I work closely with clients to create writing that
-      supports business goals, drives organic growth, and improves user understanding.
-      Additionally, I offer a semi-automated SEO pipeline as an
-      add-on service to help clients extend the
-      long-term value of their content.
+      topics into actionable content. As search evolves, so has my
+      focus: I now specialize in content that performs in both
+      traditional SEO and AI-driven search experiences like ChatGPT,
+      Claude, and Google’s AI Overviews. The reason is simple: The
+      average LLM visitor is <a href="https://www.semrush.com/blog/ai-search-seo-traffic-study/">
+      worth 4.4x</a> the average traditional organic
+      search visitor.
     </p>
     <div style={{ textAlign: 'center' }}>
       <a
@@ -61,7 +63,7 @@ export default function Home() {
         textDecoration: 'none'
       }} >
 
-      Lets Rank!
+      Lets Get Your Brand Quoted
     </a>
    </div>
   </div>
@@ -89,75 +91,96 @@ export default function Home() {
          <div>
          <h1 style={{ marginTop: '3.5rem', borderBottom: '2px solid #5ED1A5',
           paddingBottom: '16px', fontWeight: 600, fontSize: '2rem' }}>
-           Here's How
+           How I Work WIth Clients
          </h1>
          <h2 style={{ marginTop: '1.5rem', textAlign: 'center', fontWeight: 400 }}>
-           Content Strategy & Brief Generation
+           AI Visibility Strategy & Prompt-Led Planning
          </h2>
          <p style={{ marginBottom: '35px', textAlign: 'left' }}>
-            I offer content planning services that combine
-            predictive analysis with SERP-driven insights.
-            My system pulls data from <a href="https://dataforseo.com/">DataForSeo</a> to
-            tag search intent and highlight topics with strong
-            ranking potential. It then auto-integrates that data with a
-            custom <a href="https://clearscope-style.streamlit.app/">Clearscope-style tool I built</a> to
-            analyze top-ranking pages and generate detailed
-            content briefs. Each brief includes
-            suggested headings, target questions,
-            and <a href="https://searchengineland.com/nlp-seo-techniques-tools-strategies-437392">NLP-informed subtopics</a>, and is used to produce
-            content that
-            aligns with user intent and is structured to rank higher. I'm <a href="https://johnpottergr.com/blog/6-17-2025-clearscope-tool-progress">expanding its capabilities</a>.
+          I develop content strategies designed to surface in AI
+          conversations and prompts. <a href="https://clearscope-style.streamlit.app/">My system</a> pulls
+          high-potential
+          queries from tools like DataForSEO and Gemini, then combines
+          them with prompt simulation outputs to identify where your
+          brand or topic should be showing up, but isn’t yet. Each brief
+          includes suggested phrasing that reflects how LLMs interpret
+          topics, citation targets (e.g., Reddit, Quora, gov, edu),
+          and <a href="https://searchengineland.com/nlp-seo-techniques-tools-strategies-437392">NLP-friendly structuring</a> for
+          maximum quotability.
            </p>
                <h2 style={{textAlign: 'center', fontWeight: 400 }}>
-           Technical Site Audits
+           Content Audits for the AI Era
          </h2>
-           <p style={{ marginBottom: '35px', textAlign: 'left' }}>
-           For technical audits, I choose tools based on what’s needed. Google Search Console
-           provides me with a high-level performance overview,
-           while <a href="https://www.screamingfrog.co.uk/seo-spider/">Screaming Frog</a> offers
-           automated crawls that uncover structural issues like broken links, duplicate content,
-           redirect chains, and crawl depth. For visual reporting, I rely on <a href="https://sitebulb.com">Sitebulb's</a> automated
-           crawl reports and intuitive maps to highlight technical issues in a more client-friendly format.
+           <p style={{ marginBottom: '15px', textAlign: 'left' }}>
+           Beyond title tags and crawl depth, my site audits include:
+           </p>
+            <p style={{ marginBottom: '35px', textAlign: 'left' }}>
+           <ul>
+            <li>
+              <strong>LLM citation scans:</strong> to identify where your brand
+              is being referenced in AI-generated answers across
+              LLM tools, and how often it appears.
+            </li>
+            <li>
+              <strong>Prompt recall tests:</strong> to evaluate how well your content
+              shows up in response to common AI prompts, and whether that content is accurate.
+            </li>
+            <li>
+               <strong>Linkless mention tracking:</strong> to spot brand
+              mentions that appear in forums, summaries, and AI
+              outputs even when there’s no backlink—critical for AI
+              visibility.
+            </li>
+            <li>
+               <strong>Crawlability for AI bots:</strong> to check if your content is accessible to AI-oriented crawlers and isn’t
+               blocked by rendering issues or robots.txt settings.
+            </li>
+           </ul>
+          I still use <a href="https://www.screamingfrog.co.uk/seo-spider/">Screaming Frog</a> and <a href="https://sitebulb.com">Sitebulb</a>, but
+          I also pull in search-generated citations and prompt-level results using browser automations and n8n scripts.
            </p>
             <h2 style={{textAlign: 'center', fontWeight: 400 }}>
-           Link Building
+           Linkless Authority Building
          </h2>
            <p style={{ marginBottom: '35px', textAlign: 'left' }}>
-          Link building boosts your site’s authority and visibility
-          by earning backlinks from trusted websites. It's an
-          effective way to improve rankings and attract targeted
-          traffic. But it’s a slow process. To speed things up,
-          I've developed a <a href="https://johnpottergr.com/blog/6-5-2025-link-building-without-breaking-bank">semi-automated outreach system</a> that improves targeting,
-          personalizes messaging, and shortens the time it takes to
-          land quality links. I’m also
-          using <a href="https://n8n.io/">n8n agents</a> to
-          pull in recent social activity for more relevant outreach.
+          Link building still matters, but AI doesn’t always need a
+          hyperlink to cite you. I help clients earn brand citations
+          across forums, Q&A sites, and high-trust sources that appear in
+          Google AI Overviews and ChatGPT responses. Using <a href="https://johnpottergr.com/blog/6-5-2025-link-building-without-breaking-bank">semi-automated</a> and
+          real-time social signal filtering (<a href="https://n8n.io/">via n8n</a>), I help you show
+          up where it counts, even when there's no blue link
+          .
            </p>
            <h2 style={{textAlign: 'center', fontWeight: 400 }}>
-           Diagnostic Analytics
+           LLM-Aware Content Performance
          </h2>
            <p style={{ marginBottom: '35px', textAlign: 'left' }}>
-           I began as an SEO consultant
-           building <a href="https://johnpottergr.github.io/analyticsexample.pdf">Google Analytics reports</a> for enterprise
-           clients, so I understand what decision-makers need. But GA4’s complexity often
-           gets in the way. That’s why I built an automated reporting tool using Screaming
-           Frog, GA4, and <a href="https://streamlit.io/">Streamlit</a>. It
-           highlights engagement issues, flags underperforming content, and delivers clean,
-           focused reports.
+          Traditional metrics like bounce rate miss what matters in an
+          AI search world. I use custom dashboards built with Streamlit,
+          GA4, and prompt-scraping agents to show:
+          <ul>
+            <li>
+            Where your content appears in AI-generated summaries
+            </li>
+            <li>
+            How prompts are trending vs. your topic map
+            </li>
+            <li>
+            Whether your pages are being paraphrased, ignored, or misquoted by LLMs
+            </li>
+          </ul>
            </p>
 
            <h2 style={{textAlign: 'center', fontWeight: 400 }}>
-          What You Get Working With Me
+          Why Work With Me
          </h2>
            <p style={{ marginBottom: '35px', textAlign: 'left' }}>
-           I bring a hybrid mindset to every project: part
-           writer, part strategist, and part light technologist.
-           Beyond
-           writing well, I build repeatable systems that support
-           high-performing content long after it’s published.
-           Every piece I work on is built for visibility:
-           grounded in search intent, informed by crawl data,
-           and focused on closing meaningful content gaps.
+            I blend writing, strategy, and light automation to
+            create content that resonates with humans and shows up
+            in AI search. My system doesn’t stop at the page,
+            it tracks where your content gets pulled, summarized, and
+            shared by LLMs. Because the next click might not come from
+            Google, it might come from Claude.
            </p>
 
 
