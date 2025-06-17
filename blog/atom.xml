@@ -1,12 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://johnpottergr.com/blog</id>
-    <title>My Professional Website Blog</title>
+    <title>Content That Shows Up In AI Search Blog</title>
     <updated>2025-06-17T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://johnpottergr.com/blog"/>
-    <subtitle>My Professional Website Blog</subtitle>
+    <subtitle>Content That Shows Up In AI Search Blog</subtitle>
     <icon>https://johnpottergr.com/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[The Emergence of the LLM Visibility Specialist]]></title>
+        <id>https://johnpottergr.com/blog/6-17-2025-The LLM-visibility-expert-emerges</id>
+        <link href="https://johnpottergr.com/blog/6-17-2025-The LLM-visibility-expert-emerges"/>
+        <updated>2025-06-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[What Is an LLM Visibility Specialist?]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-is-an-llm-visibility-specialist">What Is an LLM Visibility Specialist?<a href="https://johnpottergr.com/blog/6-17-2025-The%20LLM-visibility-expert-emerges#what-is-an-llm-visibility-specialist" class="hash-link" aria-label="Direct link to What Is an LLM Visibility Specialist?" title="Direct link to What Is an LLM Visibility Specialist?">​</a></h2>
+<p>An LLM Visibility Specialist is someone who helps content get recognized by large language models (LLMs), such as ChatGPT, Claude, and Google AI Overviews. They combine writing, strategy, and lightweight technical tools to improve how frequently a brand is mentioned in AI-generated answers.</p>
+<p>This new role is gradually emerging as search behavior shifts toward LLM platforms. It builds on traditional content writing and SEO but goes a step further by focusing on how to structure content so that AI tools select it as a reliable source.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="why-it-matters-for-content-writers">Why It Matters for Content Writers<a href="https://johnpottergr.com/blog/6-17-2025-The%20LLM-visibility-expert-emerges#why-it-matters-for-content-writers" class="hash-link" aria-label="Direct link to Why It Matters for Content Writers" title="Direct link to Why It Matters for Content Writers">​</a></h2>
+<p>For content writers, this shift means your job doesn’t end at publishing what’s useful. The real opportunity lies in learning how LLMs interpret your content. From there, you’ll have to change how you write, structure, and track performance to fit that behavior. If someone asks ChatGPT about a problem your content solves, your goal is to make sure it’s your content that gets cited.</p>
+<p>Top-of-funnel and middle-of-funnel content is the primary focus here, but bottom-of-funnel content may not be far behind. This blog post is the first one I’ve written with this focus in mind. And it probably won’t be the last.</p>
+<p>LLM visibility isn’t just another SEO trend. It’s a big change in how information flows and who receives credit when someone asks an LLM a question.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="content-is-still-king">Content Is Still King<a href="https://johnpottergr.com/blog/6-17-2025-The%20LLM-visibility-expert-emerges#content-is-still-king" class="hash-link" aria-label="Direct link to Content Is Still King" title="Direct link to Content Is Still King">​</a></h2>
+<p>Sure, the articles, guides, product pages, and snippets you publish are what LLMs are trained to reference. If the goal is to show up in an LLM answer feed, someone still has to write the source material.</p>
+<p>But it’s not about writing more content. It’s primarily about structuring content so LLMs can quote it, interpret it, and trust it.</p>
+<p>This means:</p>
+<ul>
+<li>Writing in “quotable chunks” with clear headers and bullet points</li>
+<li>Anticipating the types of prompts users will enter into AI tools</li>
+<li>Using consistent phrasing and NLP-friendly structures</li>
+<li>Ensuring crawlability not just for a Google bot but for any LLM crawlers</li>
+<li>Creating content that answers real questions</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="where-the-job-starts-to-expand">Where the Job Starts to Expand<a href="https://johnpottergr.com/blog/6-17-2025-The%20LLM-visibility-expert-emerges#where-the-job-starts-to-expand" class="hash-link" aria-label="Direct link to Where the Job Starts to Expand" title="Direct link to Where the Job Starts to Expand">​</a></h2>
+<p>If you stop at publishing helpful content, that’s ok. You’re still in the game, but you’re playing defense. Visibility specialist take the oppositie track by focusing on how to  track, guide, and shape how that content appears in LLM outputs.</p>
+<p>This includes:</p>
+<ul>
+<li><strong>Prompt testing:</strong> Determining whether your content appears when AI is asked key questions</li>
+<li><strong>Citation analysis:</strong> Monitoring which articles get mentioned, and in what context</li>
+<li><strong>Linkless mention tracking:</strong> Surfacing brand or product references that LLMs pull without linking</li>
+<li><strong>Competitive prompt mapping:</strong> Understanding where your content sits next to competitors inside AI outputs</li>
+</ul>
+<p>Your job doesn’t stop with analysis, however. Many visibility specialists are starting to use automation tools, such as n8n, to simulate prompts. They also scrape LLM-generated results and run citation reports across tools like ChatGPT.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="a-role-built-on-writing-but-not-limited-by-it">A Role Built on Writing, But Not Limited by It<a href="https://johnpottergr.com/blog/6-17-2025-The%20LLM-visibility-expert-emerges#a-role-built-on-writing-but-not-limited-by-it" class="hash-link" aria-label="Direct link to A Role Built on Writing, But Not Limited by It" title="Direct link to A Role Built on Writing, But Not Limited by It">​</a></h2>
+<p>Make no mistake, you must still focus on content writing. But it’s writing with a system design behind it. It’s built on a mix of skills: part strategist, part writer, part light technologist. Beyond trying to rank on Google, you’re also trying to be the answer inside an LLM.</p>
+<p>In reality, no one’s hiring explicitly for “LLM Visibility Specialists” yet. But if you understand how content gets cited by AI tools, and you know how to structure, test, and refine what you publish, you’re already doing the job.</p>
+<p>If you’re a writer who likes understanding how to track content performance and build repeatable frameworks, this role might be for you.</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[ChatGPT evaluates my Clearscope-style tool]]></title>
         <id>https://johnpottergr.com/blog/6-17-2025-clearscope-tool-progress</id>
@@ -14,27 +53,27 @@
         <updated>2025-06-17T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[So my Clearscope-style tool is workable. I almost had a meltdown from coding frustration but pulled myself together and got it done. Still, its time to compare my original goals with how well it performs now. So I compared my main.py code page with goals and asked ChatGPT for an evaluation.]]></summary>
         <content type="html"><![CDATA[<p>So my Clearscope-style tool is workable. I almost had a meltdown from coding frustration but pulled myself together and got it done. Still, its time to compare my original goals with how well it performs now. So I compared my main.py code page with goals and asked ChatGPT for an evaluation.</p>
-<img src="https://johnpottergr.com/img/recap.png" alt="Select Sheet" width="700">
+<img src="https://johnpottergr.com/img/recap.png" alt="Select Sheet" width="800">
 <p>The primary features are satisfied, but I can still add more:</p>
-<img src="https://johnpottergr.com/img/enhance.png" alt="Select Sheet" width="700">
+<img src="https://johnpottergr.com/img/enhance.png" alt="Select Sheet" width="800">
 <p>Some of these features are just nice to have. I asked ChatGPT "Which of the missing features would be most valuable to a content writer?" and why</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="my-top-missing-feature">My Top Missing Feature<a href="https://johnpottergr.com/blog/6-17-2025-clearscope-tool-progress#my-top-missing-feature" class="hash-link" aria-label="Direct link to My Top Missing Feature" title="Direct link to My Top Missing Feature">​</a></h2>
-<p>It replied "Cross-Article Theme and Subtopic Aggregation" because...</p>
-<p>Writers don’t just want to know what each individual article says, they want a synthesized overview that answers:</p>
+<p>ChatGPT asserts I should include "Cross-Article Theme and Subtopic Aggregation" within the app. The reasoning is that....</p>
+<p>"Writers don’t just want to know what each individual article says, they want a synthesized overview that answers":</p>
 <ul>
 <li>“What are the recurring angles everyone’s covering?”</li>
 <li>“What terms or entities are showing up the most?”</li>
-<li>“Which subtopics or FAQs should I definitely include to stay competitive?”</li>
+<li>“Which subtopics or FAQs should I definitely include to stay competitive?”
+it's true, answering these questions would help make my article more comprehensive but differentiated.</li>
 </ul>
-<p>Answering these questions would help make my article more comprehensive but differentiated. It would</p>
+<p>In short order, it would...</p>
 <ul>
-<li>automatically extract all subtopics and questions from the summaries.</li>
-<li>count frequency and group similar terms.</li>
-<li>display a ranked list of the most mentioned themes, subtopics, and questions across all top-ranking articles.</li>
+<li>Automatically extract all subtopics and questions from the summaries.</li>
+<li>Count frequency and group similar terms.</li>
+<li>Display a ranked list of the most mentioned themes, subtopics, and questions across all top-ranking articles.</li>
 </ul>
-<p>The problem is, I'm only requesting 10 summaries at a time. I could easily increase that number, but costs are involved.</p>
-<p>I like that ChatGPT automatically reproduces my main.py file with the code to make this happen though.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="getting-down-to-brass-tacks">Getting Down to Brass Tacks<a href="https://johnpottergr.com/blog/6-17-2025-clearscope-tool-progress#getting-down-to-brass-tacks" class="hash-link" aria-label="Direct link to Getting Down to Brass Tacks" title="Direct link to Getting Down to Brass Tacks">​</a></h3>
+<p>For now, I'm only requesting 10 summaries at a time. I could easily increase that number, but costs are involved.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="stating-the-benefits-explicitly">Stating the benefits explicitly<a href="https://johnpottergr.com/blog/6-17-2025-clearscope-tool-progress#stating-the-benefits-explicitly" class="hash-link" aria-label="Direct link to Stating the benefits explicitly" title="Direct link to Stating the benefits explicitly">​</a></h3>
 <p>ChatGPT notes that, rather than having to read through each summary and manually deduce trends, this feature would basically produce a prioritized content map instead.</p>
 <p>And that would save me time, help avoid content gaps, and increase my chances of outperforming competitors in terms of search page results.</p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="bonus-features-i-should-consider">Bonus features I should consider<a href="https://johnpottergr.com/blog/6-17-2025-clearscope-tool-progress#bonus-features-i-should-consider" class="hash-link" aria-label="Direct link to Bonus features I should consider" title="Direct link to Bonus features I should consider">​</a></h3>
@@ -686,32 +725,5 @@ The Surfer SEO tool has continued to evolve. You now have the capability to set 
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="final-thoughts">Final thoughts<a href="https://johnpottergr.com/blog/4-10-2025-the-tech-powering#final-thoughts" class="hash-link" aria-label="Direct link to Final thoughts" title="Direct link to Final thoughts">​</a></h2>
 <p>The entire SaucerSwap setup helps make operations smooth for users and developers. Less friction, fewer surprises. It’s not out to reinvent DeFi, but it shows what DeFi can look like when you build it on something faster and more scalable right from the start.</p>
 <p>So while you could use SaucerSwap without knowing a thing about DAGs, Hashgraph, or the rest of the tech stack, understanding what powers the DEX helps explain why it runs the way it does. Building something yourself on the DEX might make you rethink what kind of infrastructure you want under your project.</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Top 5 Use Cases for Saucerswap]]></title>
-        <id>https://johnpottergr.com/blog/4-02-2025-top-5-use-cases</id>
-        <link href="https://johnpottergr.com/blog/4-02-2025-top-5-use-cases"/>
-        <updated>2025-04-02T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[While most platforms are still chasing faster, cheaper crypto trading, SaucerSwap’s already delivering. As Hedera’s main DEX, it’s gaining real traction—with over $130 million in total value locked as of early 2025. But it’s not just about token swaps anymore. Traders are using it for staking, governance, liquidity rewards—practical features that are actually getting used.]]></summary>
-        <content type="html"><![CDATA[<p>While most platforms are still chasing faster, cheaper crypto trading, <a href="https://www.saucerswap.finance/" target="_blank" rel="noopener noreferrer">SaucerSwap</a>’s already delivering. As Hedera’s main DEX, it’s gaining real traction—with over $130 million in total value locked as of early 2025. But it’s not just about token swaps anymore. Traders are using it for staking, governance, liquidity rewards—practical features that are actually getting used.</p>
-<p>If you’ve been wondering why SaucerSwap keeps popping up in DeFi circles, these five use cases make it clear: it’s not just hype.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="1-seamless-token-swaps">1: Seamless Token Swaps<a href="https://johnpottergr.com/blog/4-02-2025-top-5-use-cases#1-seamless-token-swaps" class="hash-link" aria-label="Direct link to 1: Seamless Token Swaps" title="Direct link to 1: Seamless Token Swaps">​</a></h2>
-<p>SaucerSwap does one thing really well: fast, reliable token swaps. It taps into the <a href="https://hedera.com/token-service" target="_blank" rel="noopener noreferrer">Hedera Token Service (HTS)</a>, which means trades settle in about 3 to 5 seconds—no waiting or surprise gas fees. SaucerSwap also prices transaction costs in USD, which keeps fees low and predictable. That’s a big plus for high-volume traders and anyone fed up with Ethereum’s delays and costs.</p>
-<p>Swapping HBAR for USDC or newer HTS tokens feels smooth, and with SaucerSwap V2’s concentrated liquidity, slippage stays low—even in smaller pools. The smoother experience is helping SaucerSwap pull users away from <a href="https://uniswap.org/" target="_blank" rel="noopener noreferrer">Uniswap</a> and other Ethereum-based DEXs.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="2-liquidity-provision-and-yield-farming">2: Liquidity Provision and Yield Farming<a href="https://johnpottergr.com/blog/4-02-2025-top-5-use-cases#2-liquidity-provision-and-yield-farming" class="hash-link" aria-label="Direct link to 2: Liquidity Provision and Yield Farming" title="Direct link to 2: Liquidity Provision and Yield Farming">​</a></h2>
-<p>The process to provide liquidity on SaucerSwap is simple: pick a token pair, deposit both tokens into a pool, and get LP tokens in return. In return, you earn 0.25% of every swap made in that pool. It’s passive, steady, and a big draw for yield-focused users.</p>
-<p>SaucerSwap has raised the bar with its Liquidity-Aligned Reward Initiative, or LARI. The program offers dual rewards—HBAR and SAUCE—for users who provide liquidity in its V2 concentrated liquidity pools. Instead of traditional LP tokens, your position is represented by an NFT. That NFT can then be staked using the Masterchef contract, allowing you to earn fees and rewards while your liquidity stays active in the pool.</p>
-<p>The desire for passive income has attracted long-term investors looking beyond quick gains. It has also added real depth and stability to SaucerSwap’s liquidity. The result is a trading platform where traders can park their assets and earn over time. Growing user commitment is turning it into a central hub for DeFi activity on <a href="https://hedera.com/" target="_blank" rel="noopener noreferrer">Hedera</a>.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="3-governance-via-sauce-token">3: Governance via SAUCE Token<a href="https://johnpottergr.com/blog/4-02-2025-top-5-use-cases#3-governance-via-sauce-token" class="hash-link" aria-label="Direct link to 3: Governance via SAUCE Token" title="Direct link to 3: Governance via SAUCE Token">​</a></h2>
-<p>The SAUCE token does more than reward users—it opens the door to governance. As SaucerSwap’s decision-making tool, SAUCE gives holders the ability to vote on key protocol updates, including fee structures, liquidity incentives, and reward mechanisms. In 2025, the DAO continues to expand its role, with potential votes on cross-chain integrations like <a href="https://axelar.network/" target="_blank" rel="noopener noreferrer">Axelar</a> outlined in recent roadmaps.</p>
-<p>Governance appeals to users who care about decentralization and want a say in how platforms evolve. As participation grows, SaucerSwap moves further from a top-down model. Community-driven decision-making makes everyday users active stakeholders, giving SaucerSwap an edge no centralized exchange can match—real ownership.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="4-cross-chain-liquidity-hub">4: Cross-Chain Liquidity Hub<a href="https://johnpottergr.com/blog/4-02-2025-top-5-use-cases#4-cross-chain-liquidity-hub" class="hash-link" aria-label="Direct link to 4: Cross-Chain Liquidity Hub" title="Direct link to 4: Cross-Chain Liquidity Hub">​</a></h2>
-<p>SaucerSwap’s plans to integrate with bridge protocols like <a href="https://axelar.network/" target="_blank" rel="noopener noreferrer">Axelar</a> and <a href="https://layerzero.network/" target="_blank" rel="noopener noreferrer">LayerZero</a> will enable seamless asset transfers across chains. In a multi-chain DeFi environment, this partnership helps Hedera connect with ecosystems like Ethereum, Solana, and Avalanche.</p>
-<p>Imagine swapping wrapped BTC from Ethereum directly for HBAR via SaucerSwap at Hedera speeds. The move heralds a major step toward frictionless liquidity. As more users look for efficient, low-fee ways to move assets between chains, SaucerSwap’s cross-chain functionality could make it a go-to hub. It’s bound to lead to a broader user base, deeper liquidity pools, and a more competitive position in the DeFi space.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="5-community-pool-token-launches">5: Community Pool Token Launches<a href="https://johnpottergr.com/blog/4-02-2025-top-5-use-cases#5-community-pool-token-launches" class="hash-link" aria-label="Direct link to 5: Community Pool Token Launches" title="Direct link to 5: Community Pool Token Launches">​</a></h2>
-<p>SaucerSwap’s community pools introduce a new way to launch tokens—placing distribution directly in user hands rather than under centralized control. Unlike a traditional launchpad, this model lets new projects build liquidity pools that directly reward early supporters.</p>
-<p>Community pools continue to gain traction, with token launches tied to staking xSAUCE or holding ecosystem NFTs such as SAUCELINGs. For example, a new DeFi project might distribute tokens to xSAUCE stakers and offer bonus multipliers to SAUCELING holders. The system rewards participants without relying on gatekeepers.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="wrapping-it-up">Wrapping It Up<a href="https://johnpottergr.com/blog/4-02-2025-top-5-use-cases#wrapping-it-up" class="hash-link" aria-label="Direct link to Wrapping It Up" title="Direct link to Wrapping It Up">​</a></h2>
-<p>SaucerSwap has come a long way. Token swaps are smooth. Yield farming feels accessible. Governance works. New projects are launching with real community support. Now, with cross-chain growth on the horizon, it’s starting to feel like more than a DEX. Hedera’s speed and low fees give it a competitive edge, but what really stands out is how involved users have become. If you're interested, try staking SAUCE or checking out a pool launch. Even a single vote in the DAO can show you what this kind of platform is building toward.</p>]]></content>
     </entry>
 </feed>
