@@ -13,6 +13,8 @@ Instead of guessing what to write about, it shows you exactly what real people a
 
 The second part audits your entire website to find pages that don't match your main topic, which sounds boring can be a huge problem. I've found sites where 40% of their content was completely off-topic, basically telling Google they don't know what their business is about.
 
+<img src="/img/toro.png" alt="Select Sheet" width="800"/>
+
 ## Why did you create it?
 I had the idea of building something similar for a long time, but I didn’t quite have the time to sit down and do it properly. That was until I started working with a client who had a massive website, but their blog content was completely messed up topic-wise.
 
