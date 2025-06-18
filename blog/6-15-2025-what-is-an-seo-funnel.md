@@ -10,6 +10,8 @@ Understanding how to target content at each stage of an SEO funnel can be the di
 
 Let's break down this funnel and see how you can make it work for your business.
 
+<!--truncate-->
+
 ## What Is an SEO Funnel?
 The SEO funnel reflects the buyer's journey, segmenting searcher intent into three main stages: TOFU, MOFU, and BOFU.
 

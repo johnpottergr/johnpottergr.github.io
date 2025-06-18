@@ -6,6 +6,8 @@ So my Clearscope-style tool is workable. I almost had a meltdown from coding fru
 
 <img src="/img/recap.png" alt="Select Sheet" width="800"/>
 
+<!--truncate-->
+
 The primary features are satisfied, but I can still add more:
 
 <img src="/img/enhance.png" alt="Select Sheet" width="800"/>

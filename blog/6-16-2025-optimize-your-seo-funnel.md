@@ -15,6 +15,8 @@ WIth BOFU content, make sure you:
 - Optimize your headers and meta descriptions
 - Present compelling calls to action
 
+<!--truncate-->
+
 ### Populate the Funnel with MOFU Content
 With your BOFU content set up, it’s time to work on the middle of the funnel.
 
