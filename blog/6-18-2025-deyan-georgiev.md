@@ -1,6 +1,6 @@
 ---
-title: The Emergence of the LLM Visibility Specialist
-date: 2025-06-17
+title: A New App Makes It Easier to Spot Content Opportunities
+date: 2025-06-18
 ---
 As AI tools become more acccessible, app development has become easier. SEO professionals are starting to apply their expertise to build practical applications. One such professional is <a href="https://www.linkedin.com/in/dgeorgiev87/">Deyan Georgiev</a> from <a href="https://tororank.com">Toro Rank</a>. I recently asked him to discuss an innovative app he built.
 
