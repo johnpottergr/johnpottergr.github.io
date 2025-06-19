@@ -4,10 +4,66 @@
         <title>Content That Shows Up In AI Search Blog</title>
         <link>https://johnpottergr.com/blog</link>
         <description>Content That Shows Up In AI Search Blog</description>
-        <lastBuildDate>Wed, 18 Jun 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 19 Jun 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Citation Score, A New Metric for Brand Visibility in the Age of AI"]]></title>
+            <link>https://johnpottergr.com/blog/6-19-2025-think-like-a-systems engineer</link>
+            <guid>https://johnpottergr.com/blog/6-19-2025-think-like-a-systems engineer</guid>
+            <pubDate>Thu, 19 Jun 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[When someone asks ChatGPT, Perplexity, or Claude a question, where does the answer come from—and how often does it come from you?]]></description>
+            <content:encoded><![CDATA[<p>When someone asks ChatGPT, Perplexity, or Claude a question, where does the answer come from—and how often does it come from you?</p>
+<p>As LLMs replace search engines for top-of-funnel research and product discovery, a new visibility layer is emerging: citations. AI-generated answers increasingly include footnotes, source links, or inline references to websites, articles, and documentation. These citations form a kind of modern backlink—but with different mechanics and consequences.</p>
+<p>And that brings us to a new idea: Citation Score.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-is-citation-score">What Is Citation Score?<a href="https://johnpottergr.com/blog/6-19-2025-think-like-a-systems%20engineer#what-is-citation-score" class="hash-link" aria-label="Direct link to What Is Citation Score?" title="Direct link to What Is Citation Score?">​</a></h2>
+<p>Citation Score is a way to measure how frequently and how prominently your brand, product, or content is cited by LLMs across a set of relevant queries. Think of it like domain authority, but instead of measuring how many other sites link to you, it measures how often LLMs mention or reference your content as part of their synthesized answers.</p>
+<p>A basic version might include:</p>
+<ul>
+<li>
+<p><strong>Citation Frequency:</strong> How many times your content appears across 100 high-intent questions?</p>
+</li>
+<li>
+<p><strong>Citation Position:</strong> Are you the first link? Buried in footnotes? Cited inline?</p>
+</li>
+<li>
+<p><strong>Citation Context:</strong> Are you cited for facts, how-to instructions, product comparisons, or definitions?</p>
+</li>
+</ul>
+<p>Over time, these could be modeled into a visibility index that SEO teams and brand strategists can track.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="why-this-matters">Why This Matters<a href="https://johnpottergr.com/blog/6-19-2025-think-like-a-systems%20engineer#why-this-matters" class="hash-link" aria-label="Direct link to Why This Matters" title="Direct link to Why This Matters">​</a></h2>
+<p>Ranking #1 in search doesn’t mean much if ChatGPT answers the question directly and never cites you. Similarly, showing up in SGE (Google’s Search Generative Experience) summaries or Perplexity citations could drive more indirect influence—even without clicks.</p>
+<p>Citation Score gives marketers a way to quantify this influence. It can also help content teams reverse-engineer what types of assets are likely to be surfaced by LLMs: well-structured docs, clear product explanations, or high-authority third-party coverage.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="lessons-from-academia-and-publishing">Lessons from Academia and Publishing<a href="https://johnpottergr.com/blog/6-19-2025-think-like-a-systems%20engineer#lessons-from-academia-and-publishing" class="hash-link" aria-label="Direct link to Lessons from Academia and Publishing" title="Direct link to Lessons from Academia and Publishing">​</a></h2>
+<p>Interestingly, this kind of modeling has already taken off in other domains. Academic publishing has spent years refining metrics like:</p>
+<ul>
+<li>
+<p>h-index (how often a researcher is cited and how widely their work is distributed),</p>
+</li>
+<li>
+<p>co-citation networks (who gets cited alongside whom), and</p>
+</li>
+<li>
+<p>altmetrics (social and public engagement around citations).</p>
+</li>
+</ul>
+<p>Imagine applying those to LLM visibility:</p>
+<ul>
+<li>
+<p><strong>Co-citation Score:</strong> What brands are consistently cited next to yours? Are you always mentioned alongside competitors—or in a league of your own?</p>
+</li>
+<li>
+<p><strong>Contextual Trust Graphs:</strong> If multiple LLMs cite your docs for a given topic, does that amplify downstream visibility in future model updates?</p>
+</li>
+<li>
+<p><strong>Temporal Citation Maps:</strong> Are you gaining or losing answer share across product categories or technical terms?</p>
+</li>
+</ul>
+<p>These are more than thought experiments—they're prototypes waiting to be built.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="a-new-visibility-layer">A New Visibility Layer<a href="https://johnpottergr.com/blog/6-19-2025-think-like-a-systems%20engineer#a-new-visibility-layer" class="hash-link" aria-label="Direct link to A New Visibility Layer" title="Direct link to A New Visibility Layer">​</a></h2>
+<p>Citation Score won’t replace SEO. But it adds a new lens—focused not on how you perform in search, but on whether you exist in the answer. As AI agents become the default research layer for consumers and professionals alike, that’s a visibility gap too important to ignore.</p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[A New App Makes It Easier to Spot Content Opportunities]]></title>
             <link>https://johnpottergr.com/blog/6-18-2025-deyan-georgiev</link>
@@ -697,36 +753,6 @@ The Surfer SEO tool has continued to evolve. You now have the capability to set 
 <p>Over time, this could shift what API docs even feel like. They might move from static, one-directional manuals to something more alive — more like a conversation between the people building the API and the people using it. When questions, edits, and feedback get baked right into the writing process, the end product usually turns out sharper, more accurate, and a whole lot more helpful.</p>
 <p>Plus, it opens the door for lightweight version control on documentation itself. Instead of treating docs like an afterthought or a separate project, Komment.ai encourages teams to think about them as part of the actual development cycle. You push updates, you improve your docs — same rhythm.</p>
 <p>It’s early, but tools like Komment.ai hint at a bigger shift: making documentation less of a burden and more of a team effort. And when everyone has a hand in shaping the story, the final result usually ends up being something you're proud to ship — not something you rush through at the last minute.</p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[How Mintlify is Changing API Documentation]]></title>
-            <link>https://johnpottergr.com/blog/4-20-2025-mintlify-is-changing-api-docs</link>
-            <guid>https://johnpottergr.com/blog/4-20-2025-mintlify-is-changing-api-docs</guid>
-            <pubDate>Sun, 20 Apr 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[For years, API documentation has lived in a strange place—necessary but neglected, important but often out of sync with the product it describes. Developers need docs to build, but maintaining them has traditionally meant choosing between clunky static pages, auto-generated markdown dumps, or overengineered CMS tools that feel more like publishing software than developer platforms.]]></description>
-            <content:encoded><![CDATA[<p>For years, API documentation has lived in a strange place—necessary but neglected, important but often out of sync with the product it describes. Developers need docs to build, but maintaining them has traditionally meant choosing between clunky static pages, auto-generated markdown dumps, or overengineered CMS tools that feel more like publishing software than developer platforms.</p>
-<p>Mintlify is trying to flip that on its head, and with the introduction of <strong>Mintlify MCP (Maintainer Control Panel)</strong>, they’re making a strong case for what modern API docs should look like—and how they should be managed.</p>
-<hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-is-mintlify-mcp">What Is Mintlify MCP?<a href="https://johnpottergr.com/blog/4-20-2025-mintlify-is-changing-api-docs#what-is-mintlify-mcp" class="hash-link" aria-label="Direct link to What Is Mintlify MCP?" title="Direct link to What Is Mintlify MCP?">​</a></h2>
-<p>Mintlify MCP isn’t just a documentation editor. It’s a centralized control panel that sits on top of your existing codebase and documentation, giving you visibility, version control integration, and collaboration tools all in one place.</p>
-<p>Think of it like this: if your dev team is already keeping docs close to code, MCP makes sure those docs stay accurate, up-to-date, and consistent—without pulling anyone into a separate platform. You can flag outdated endpoints, monitor what’s being used (or ignored), and get insights into how your docs are performing.</p>
-<p><strong>Some standout features include:</strong></p>
-<ul>
-<li><strong>Live feedback from users</strong> (right in the docs)</li>
-<li><strong>GitHub-native change management</strong> (suggest edits, review in PRs)</li>
-<li><strong>Versioned docs tied to deployments</strong></li>
-<li><strong>Analytics on engagement and usage</strong></li>
-</ul>
-<p>It's API documentation with an actual feedback loop—something most dev teams haven’t had before.</p>
-<hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="why-this-matters">Why this matters<a href="https://johnpottergr.com/blog/4-20-2025-mintlify-is-changing-api-docs#why-this-matters" class="hash-link" aria-label="Direct link to Why this matters" title="Direct link to Why this matters">​</a></h2>
-<p>API documentation often becomes stale the moment it’s written. Products move fast. Endpoints change. Teams ship new features weekly. Unless you have a dedicated tech writer or a very disciplined team, your docs are probably wrong somewhere—and no one wants to be the engineer who stops coding to update docs.</p>
-<p>Mintlify MCP brings automation and accountability into the process. It treats docs like code (with diffs, versioning, and reviews), while also giving maintainers tools to monitor what actually gets read and where people get stuck. That turns documentation from a static reference into a living part of the development cycle.</p>
-<p>For API-first products and fast-growing dev tools, this can be a serious unlock. Clean, accurate, and well-managed docs aren’t just nicer—they reduce support tickets, shorten onboarding time, and build trust with external devs.</p>
-<hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="docs-are-no-longer-an-afterthought">Docs are no longer an afterthought<a href="https://johnpottergr.com/blog/4-20-2025-mintlify-is-changing-api-docs#docs-are-no-longer-an-afterthought" class="hash-link" aria-label="Direct link to Docs are no longer an afterthought" title="Direct link to Docs are no longer an afterthought">​</a></h2>
-<p>The rise of tools like Mintlify MCP is part of a bigger shift: documentation is becoming infrastructure. It’s not just something you publish once—it’s something you maintain like a product. And if your product <em>is</em> an API, then the docs are the front door.</p>
-<p>With the Maintainer Control Panel, Mintlify is pushing for a future where dev teams aren’t just writing better documentation—they’re actually empowered to keep it alive.</p>]]></content:encoded>
         </item>
     </channel>
 </rss>
