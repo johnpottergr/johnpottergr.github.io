@@ -21,6 +21,8 @@ A basic version might include:
 
 Over time, these could be modeled into a visibility index that SEO teams and brand strategists can track.
 
+<!--truncate-->
+
 ## Why This Matters
 Ranking #1 in search doesn’t mean much if ChatGPT answers the question directly and never cites you. Similarly, showing up in SGE (Google’s Search Generative Experience) summaries or Perplexity citations could drive more indirect influence—even without clicks.
 
