@@ -2,9 +2,9 @@
 title: Citation Score, A New Metric for Brand Visibility in the Age of AI
 date: 2025-06-19
 ---
-When someone asks ChatGPT, Perplexity, or Claude a question, where does the answer come from—and how often does it come from you?
+When someone asks ChatGPT, Perplexity, or Claude a question, where does the answer come from and how often does it come from you?
 
-As LLMs replace search engines for top-of-funnel research and product discovery, a new visibility layer is emerging: citations. AI-generated answers increasingly include footnotes, source links, or inline references to websites, articles, and documentation. These citations form a kind of modern backlink—but with different mechanics and consequences.
+As LLMs replace search engines for top-of-funnel research and product discovery, a new visibility layer is emerging: citations. AI-generated answers increasingly include footnotes, source links, or inline references to websites, articles, and documentation. These citations form a kind of modern backlink but with different mechanics and consequences.
 
 And that brings us to a new idea: Citation Score.
 
@@ -41,7 +41,7 @@ Interestingly, this kind of modeling has already taken off in other domains. Aca
 
 Imagine applying those to LLM visibility:
 
-- **Co-citation Score:** What brands are consistently cited next to yours? Are you always mentioned alongside competitors—or in a league of your own?
+- **Co-citation Score:** What brands are consistently cited next to yours? Are you always mentioned alongside competitors or in a league of your own?
 
 - **Contextual Trust Graphs:** If multiple LLMs cite your docs for a given topic, does that amplify downstream visibility in future model updates?
 
