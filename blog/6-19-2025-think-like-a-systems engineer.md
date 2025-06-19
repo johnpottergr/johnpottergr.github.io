@@ -37,6 +37,8 @@ Interestingly, this kind of modeling has already taken off in other domains. Aca
 
 - altmetrics (social and public engagement around citations).
 
+<img src="/img/citation.png" alt="Citation Map" width="800"/>
+
 Imagine applying those to LLM visibility:
 
 - **Co-citation Score:** What brands are consistently cited next to yours? Are you always mentioned alongside competitors—or in a league of your own?
