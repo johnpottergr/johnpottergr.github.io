@@ -1,5 +1,5 @@
 ---
-title: Citation Score, A New Metric for Brand Visibility in the Age of AI"
+title: Citation Score, A New Metric for Brand Visibility in the Age of AI
 date: 2025-06-19
 ---
 When someone asks ChatGPT, Perplexity, or Claude a question, where does the answer come from—and how often does it come from you?
