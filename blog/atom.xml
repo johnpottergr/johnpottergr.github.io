@@ -8,6 +8,75 @@
     <subtitle>Content That Shows Up In AI Search Blog</subtitle>
     <icon>https://johnpottergr.com/img/favicon.ico</icon>
     <entry>
+        <title type="html"><![CDATA[GSR - A New Metric for Measuring Brand Visibility in AI-Generated Results]]></title>
+        <id>https://johnpottergr.com/blog/6-19-2025-GSR-a-new-metric</id>
+        <link href="https://johnpottergr.com/blog/6-19-2025-GSR-a-new-metric"/>
+        <updated>2025-06-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Generative Search Ratio (GSR) is a new metric that developer Todd Gray has proposed to assess how discoverable a brand is within environments driven by large language models (LLMs).]]></summary>
+        <content type="html"><![CDATA[<p>The Generative Search Ratio (GSR) is a new metric that <a href="https://www.linkedin.com/in/toddegray/">developer Todd Gray</a> has proposed to assess how discoverable a brand is within environments driven by large language models (LLMs).</p>
+<p>As businesses contend with the shift from traditional search methods to those powered by generative AI, they must now ensure visibility not just in Google rankings but also in the synthesized responses provided by LLM tools like ChatGPT and others.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-is-gsr">What is GSR?<a href="https://johnpottergr.com/blog/6-19-2025-GSR-a-new-metric#what-is-gsr" class="hash-link" aria-label="Direct link to What is GSR?" title="Direct link to What is GSR?">​</a></h2>
+<p>The GSR serves as a way to quantify this new kind of digital presence, helping brands understand their positioning in this emerging search landscape. It basically assesses the relationship between your visibility in large language model (LLM) responses and your performance in traditional SEO.</p>
+<p>The basic formula is: GSR = (GEO Score × Visibility Weight) / SEO Score</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="heres-how-the-components-break-down">Here's how the components break down:<a href="https://johnpottergr.com/blog/6-19-2025-GSR-a-new-metric#heres-how-the-components-break-down" class="hash-link" aria-label="Direct link to Here's how the components break down:" title="Direct link to Here's how the components break down:">​</a></h3>
+<ul>
+<li>
+<p><strong>GEO Score:</strong> The percentage of key prompts where your brand appears in an AI generated response.</p>
+</li>
+<li>
+<p><strong>Visibility Weight:</strong> A modifier that adjusts for how prominent the mention is, based on prompt type.Core prompts (e.g., "best CRM for startups") receive more weight than niche ones (e.g.,"top CRM that works with an internal Postgres database").</p>
+</li>
+<li>
+<p><strong>SEO Score:</strong> How well your brand performs in the keyword rankings you care about—usually pulled from search analytics or third party tools. These two metrics combined give a rough sense of whether your brand is keeping up, falling behind, or pulling ahead in this new era of AI driven search results</p>
+</li>
+</ul>
+<p>Together, these factors produce a single number that helps assess whether your brand’s AI presence is keeping up with—or surpassing—your SEO presence.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="interpreting-gsr">Interpreting GSR<a href="https://johnpottergr.com/blog/6-19-2025-GSR-a-new-metric#interpreting-gsr" class="hash-link" aria-label="Direct link to Interpreting GSR" title="Direct link to Interpreting GSR">​</a></h2>
+<ul>
+<li>
+<p><strong>GSR ≥ 1.0</strong> → Your brand has a strong presence in AI generated content. It appears as though your brand ranks higher in AI answers than it does in traditional organic search results.</p>
+</li>
+<li>
+<p><strong>GSR 0.5 – 1.0</strong> → You are moderately visible to LLMs. Your content is discoverable, but it is not prominent enough in AI responses to ensure that you are being "seen" by these models.</p>
+</li>
+<li>
+<p><strong>GSR &lt; 0.5</strong> → You have good SEO and poor visibility to LLMs. You are not being picked up by the LLMs that generate AI responses, which may necessitate changes in your content structure, clarity, or authoritative signals. (most brands are here?)</p>
+</li>
+<li>
+<p><strong>GSR &gt; 1.0 with low SEO</strong> → You are doing well in AI generated responses but underperforming in traditional search results. It is time to delve into the basics of SEO.</p>
+</li>
+</ul>
+<p><strong>Low GSR and low SEO</strong> → You're essentially invisible on both fronts. It is time for a comprehensive strategy reset to ensure full visibility.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="not-all-prompts-are-equal">Not All Prompts Are Equal<a href="https://johnpottergr.com/blog/6-19-2025-GSR-a-new-metric#not-all-prompts-are-equal" class="hash-link" aria-label="Direct link to Not All Prompts Are Equal" title="Direct link to Not All Prompts Are Equal">​</a></h2>
+<p>One of the most insightful aspects of the GSR metric is how it differentiates between types of prompts. As Todd Gray points out, not all citations generated by LLMs are equally valuable:</p>
+<ul>
+<li>
+<p>Core Prompts (broad, high-intent questions) acarry the most weight.</p>
+</li>
+<li>
+<p>Conditional Prompts (requiring specific parameters) provide real value and are worth tracking, but they are not as impactful as the more general prompts. They're context-dependent.</p>
+</li>
+<li>
+<p>Niche/Web Prompts are less impactful but still worth tracking for completeness.</p>
+</li>
+</ul>
+<p>This granularity helps the GSR account for meaningful discoverability in the real world, not just raw mention counts.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="limitations-and-next-steps">Limitations and Next Steps<a href="https://johnpottergr.com/blog/6-19-2025-GSR-a-new-metric#limitations-and-next-steps" class="hash-link" aria-label="Direct link to Limitations and Next Steps" title="Direct link to Limitations and Next Steps">​</a></h2>
+<p>GSR is still an emerging concept. It requires:</p>
+<ul>
+<li>
+<p>A reliable prompt library across core/niche/conditional types</p>
+</li>
+<li>
+<p>Access to AI-generated responses, from APIs or scraping)</p>
+</li>
+<li>
+<p>Standardized SEO performance benchmarks</p>
+</li>
+</ul>
+<p>LLM Visibility methodology is still being refined, but as we move from links to language, we'll need new metrics that follow. So GSR might be the first of many.</p>]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Citation Score, A New Metric for Brand Visibility in the Age of AI]]></title>
         <id>https://johnpottergr.com/blog/6-19-2025-think-like-a-systems engineer</id>
         <link href="https://johnpottergr.com/blog/6-19-2025-think-like-a-systems engineer"/>
@@ -739,19 +808,5 @@ The Surfer SEO tool has continued to evolve. You now have the capability to set 
 </ol>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="final-thought">Final thought<a href="https://johnpottergr.com/blog/5-9-2025-ai-agents-raise-bar#final-thought" class="hash-link" aria-label="Direct link to Final thought" title="Direct link to Final thought">​</a></h2>
 <p>If you already have large quantities of high quality technical literature on hand, the next phase of AI will demand this content be usable at any moment, and in any place. The companies that accomplish this first will achieve superior search rankings and improve their reputation.</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How Komment.ai Might Change the Way We Write API Documentation]]></title>
-        <id>https://johnpottergr.com/blog/4-29-2025-komment-change-api-docs</id>
-        <link href="https://johnpottergr.com/blog/4-29-2025-komment-change-api-docs"/>
-        <updated>2025-04-29T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Writing API docs is usually a grind. You flip between code, notes, product specs, and that tiny voice in the back of your head that says, "Did I explain that clearly enough?" It’s one of those tasks that’s important but exhausting. That's where Komment.ai comes in.]]></summary>
-        <content type="html"><![CDATA[<p>Writing API docs is usually a grind. You flip between code, notes, product specs, and that tiny voice in the back of your head that says, "Did I explain that clearly enough?" It’s one of those tasks that’s important but exhausting. That's where Komment.ai comes in.</p>
-<p>Komment.ai takes a swing at the old documentation process by making it more interactive, collaborative, and, frankly, a lot less painful. Instead of bouncing between different tools, Komment.ai lets you layer comments, suggestions, and questions directly on top of the docs or codebase you’re working with. It's almost like sticky notes — but smart ones — that stay tied to specific sections of the text.</p>
-<p>If you've ever used Google Docs and loved how people can leave comments right where edits are needed, Komment.ai feels like the natural next step. But it’s built with technical teams in mind. Reviewers can ask questions, suggest changes, or flag confusing parts right alongside the actual content, without needing to send 12 back-and-forth emails or schedule another review meeting.</p>
-<p>Komment.ai is aiming to do for API documentation what GitHub did for coding workflows — make it more open, more collaborative, and faster to improve. Instead of one technical writer trying to chase down developers for answers, you can turn documentation into a live conversation. Developers can jump in, clarify tricky points, suggest better examples, or fix errors themselves — all without breaking the flow.</p>
-<p>Over time, this could shift what API docs even feel like. They might move from static, one-directional manuals to something more alive — more like a conversation between the people building the API and the people using it. When questions, edits, and feedback get baked right into the writing process, the end product usually turns out sharper, more accurate, and a whole lot more helpful.</p>
-<p>Plus, it opens the door for lightweight version control on documentation itself. Instead of treating docs like an afterthought or a separate project, Komment.ai encourages teams to think about them as part of the actual development cycle. You push updates, you improve your docs — same rhythm.</p>
-<p>It’s early, but tools like Komment.ai hint at a bigger shift: making documentation less of a burden and more of a team effort. And when everyone has a hand in shaping the story, the final result usually ends up being something you're proud to ship — not something you rush through at the last minute.</p>]]></content>
     </entry>
 </feed>
