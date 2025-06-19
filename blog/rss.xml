@@ -13,9 +13,9 @@
             <link>https://johnpottergr.com/blog/6-19-2025-think-like-a-systems engineer</link>
             <guid>https://johnpottergr.com/blog/6-19-2025-think-like-a-systems engineer</guid>
             <pubDate>Thu, 19 Jun 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[When someone asks ChatGPT, Perplexity, or Claude a question, where does the answer come from—and how often does it come from you?]]></description>
-            <content:encoded><![CDATA[<p>When someone asks ChatGPT, Perplexity, or Claude a question, where does the answer come from—and how often does it come from you?</p>
-<p>As LLMs replace search engines for top-of-funnel research and product discovery, a new visibility layer is emerging: citations. AI-generated answers increasingly include footnotes, source links, or inline references to websites, articles, and documentation. These citations form a kind of modern backlink—but with different mechanics and consequences.</p>
+            <description><![CDATA[When someone asks ChatGPT, Perplexity, or Claude a question, where does the answer come from and how often does it come from you?]]></description>
+            <content:encoded><![CDATA[<p>When someone asks ChatGPT, Perplexity, or Claude a question, where does the answer come from and how often does it come from you?</p>
+<p>As LLMs replace search engines for top-of-funnel research and product discovery, a new visibility layer is emerging: citations. AI-generated answers increasingly include footnotes, source links, or inline references to websites, articles, and documentation. These citations form a kind of modern backlink but with different mechanics and consequences.</p>
 <p>And that brings us to a new idea: Citation Score.</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-is-citation-score">What Is Citation Score?<a href="https://johnpottergr.com/blog/6-19-2025-think-like-a-systems%20engineer#what-is-citation-score" class="hash-link" aria-label="Direct link to What Is Citation Score?" title="Direct link to What Is Citation Score?">​</a></h2>
 <p>Citation Score is a way to measure how frequently and how prominently your brand, product, or content is cited by LLMs across a set of relevant queries. Think of it like domain authority, but instead of measuring how many other sites link to you, it measures how often LLMs mention or reference your content as part of their synthesized answers.</p>
@@ -52,7 +52,7 @@
 <p>Imagine applying those to LLM visibility:</p>
 <ul>
 <li>
-<p><strong>Co-citation Score:</strong> What brands are consistently cited next to yours? Are you always mentioned alongside competitors—or in a league of your own?</p>
+<p><strong>Co-citation Score:</strong> What brands are consistently cited next to yours? Are you always mentioned alongside competitors or in a league of your own?</p>
 </li>
 <li>
 <p><strong>Contextual Trust Graphs:</strong> If multiple LLMs cite your docs for a given topic, does that amplify downstream visibility in future model updates?</p>
