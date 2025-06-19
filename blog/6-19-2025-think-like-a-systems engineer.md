@@ -24,18 +24,18 @@ Over time, these could be modeled into a visibility index that SEO teams and bra
 <!--truncate-->
 
 ## Why This Matters
-Ranking #1 in search doesn’t mean much if ChatGPT answers the question directly and never cites you. Similarly, showing up in SGE (Google’s Search Generative Experience) summaries or Perplexity citations could drive more indirect influence—even without clicks.
+Ranking #1 in search doesn’t mean much if ChatGPT answers the question directly and never cites you. Similarly, showing up in SGE (Google’s Search Generative Experience) summaries or Perplexity citations could drive more indirect influence, even without clicks.
 
 Citation Score gives marketers a way to quantify this influence. It can also help content teams reverse-engineer what types of assets are likely to be surfaced by LLMs: well-structured docs, clear product explanations, or high-authority third-party coverage.
 
 ## Lessons from Academia and Publishing
 Interestingly, this kind of modeling has already taken off in other domains. Academic publishing has spent years refining metrics like:
 
-- h-index (how often a researcher is cited and how widely their work is distributed),
+- h-index (how often a researcher is cited and how widely their work is distributed)
 
-- co-citation networks (who gets cited alongside whom), and
+- co-citation networks (who gets cited alongside whom)
 
-- altmetrics (social and public engagement around citations).
+- altmetrics (social and public engagement around citations)
 
 <img src="/img/citation.png" alt="Citation Map" width="800"/>
 
@@ -47,7 +47,7 @@ Imagine applying those to LLM visibility:
 
 - **Temporal Citation Maps:** Are you gaining or losing answer share across product categories or technical terms?
 
-These are more than thought experiments—they're prototypes waiting to be built.
+These are more than thought experiments, they're prototypes waiting to be built.
 
 ## A New Visibility Layer
 Citation Score won’t replace SEO. But it adds a new lens—focused not on how you perform in search, but on whether you exist in the answer. As AI agents become the default research layer for consumers and professionals alike, that’s a visibility gap too important to ignore.
