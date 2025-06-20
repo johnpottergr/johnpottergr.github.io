@@ -21,6 +21,8 @@ Test whether your content appears in response to relevant prompts.
 - n8n – For scheduling and orchestrating prompt runs
 - Claude API or OpenAI API – To score results for accuracy and brand inclusion
 
+<!--truncate-->
+
 ### 📎 2. LLM Citation Scans
 Check if your brand is cited in LLM answers and where it’s sourced from.
 
