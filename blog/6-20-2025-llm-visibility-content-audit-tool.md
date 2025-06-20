@@ -1,6 +1,6 @@
 ---
 title: What It Takes To Build An LLM Visibility Content Audit Tool
-date: 2025-06-19
+date: 2025-06-20
 ---
 ## The Goal: Build a Stack That Performs:
 - **LLM citation scans:** to identify where your brand is being referenced in AI-generated answers across LLM tools, and how often it appears.
