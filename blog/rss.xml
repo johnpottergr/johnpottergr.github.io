@@ -4,10 +4,95 @@
         <title>Content That Shows Up In AI Search Blog</title>
         <link>https://johnpottergr.com/blog</link>
         <description>Content That Shows Up In AI Search Blog</description>
-        <lastBuildDate>Thu, 19 Jun 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 20 Jun 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[What It Takes To Build An LLM Visibility Content Audit Tool]]></title>
+            <link>https://johnpottergr.com/blog/6-20-2025-llm-visibility-content-audit-tool</link>
+            <guid>https://johnpottergr.com/blog/6-20-2025-llm-visibility-content-audit-tool</guid>
+            <pubDate>Fri, 20 Jun 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[The Goal]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-goal-build-a-stack-that-performs">The Goal: Build a Stack That Performs:<a href="https://johnpottergr.com/blog/6-20-2025-llm-visibility-content-audit-tool#the-goal-build-a-stack-that-performs" class="hash-link" aria-label="Direct link to The Goal: Build a Stack That Performs:" title="Direct link to The Goal: Build a Stack That Performs:">​</a></h2>
+<ul>
+<li><strong>LLM citation scans:</strong> to identify where your brand is being referenced in AI-generated answers across LLM tools, and how often it appears.</li>
+<li><strong>Prompt recall tests:</strong> to evaluate how well your content shows up in response to common AI prompts, and whether that content is accurate.</li>
+<li><strong>Linkless mention tracking:</strong> to spot brand mentions that appear in forums, summaries, and AI outputs even when there’s no backlink.</li>
+<li><strong>Crawlability for AI bots:</strong> to check if your content is accessible to AI-oriented crawlers and isn’t blocked by rendering issues or robots.txt settings.</li>
+<li><strong>Pull in</strong>: search-generated citations and prompt-level results using browser automations and n8n scripts.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-recipe">The Recipe<a href="https://johnpottergr.com/blog/6-20-2025-llm-visibility-content-audit-tool#the-recipe" class="hash-link" aria-label="Direct link to The Recipe" title="Direct link to The Recipe">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-1-prompt-recall-tests">🧪 1. Prompt Recall Tests<a href="https://johnpottergr.com/blog/6-20-2025-llm-visibility-content-audit-tool#-1-prompt-recall-tests" class="hash-link" aria-label="Direct link to 🧪 1. Prompt Recall Tests" title="Direct link to 🧪 1. Prompt Recall Tests">​</a></h3>
+<p>Test whether your content appears in response to relevant prompts.</p>
+<p><strong>Manual Testing:</strong></p>
+<ul>
+<li>ChatGPT Plus ($20/mo) – GPT-4o for manual recall tests</li>
+</ul>
+<p><strong>Automation (optional):</strong></p>
+<ul>
+<li>Playwright or Puppeteer – Browser automation for simulating prompt entry across tools</li>
+<li>n8n – For scheduling and orchestrating prompt runs</li>
+<li>Claude API or OpenAI API – To score results for accuracy and brand inclusion</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-2-llm-citation-scans">📎 2. LLM Citation Scans<a href="https://johnpottergr.com/blog/6-20-2025-llm-visibility-content-audit-tool#-2-llm-citation-scans" class="hash-link" aria-label="Direct link to 📎 2. LLM Citation Scans" title="Direct link to 📎 2. LLM Citation Scans">​</a></h3>
+<p>Check if your brand is cited in LLM answers and where it’s sourced from.</p>
+<p><strong>Citation-exposing LLMs:</strong></p>
+<ul>
+<li>Perplexity Pro – Shows citations and sources</li>
+<li>You.com – Another citation-enabled tool</li>
+<li>Bing Copilot – Sometimes includes sources</li>
+</ul>
+<p><strong>Scraping tools (for non-API access):</strong></p>
+<ul>
+<li>Playwright/Puppeteer (same as above) – To extract citations from UI</li>
+<li>n8n or Zapier – To automate scraping and logging</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-3-linkless-mention-tracking">🔍 3. Linkless Mention Tracking<a href="https://johnpottergr.com/blog/6-20-2025-llm-visibility-content-audit-tool#-3-linkless-mention-tracking" class="hash-link" aria-label="Direct link to 🔍 3. Linkless Mention Tracking" title="Direct link to 🔍 3. Linkless Mention Tracking">​</a></h3>
+<p>Monitor forums, summaries, and AI outputs for brand mentions without backlinks.</p>
+<p><strong>Tools:</strong></p>
+<ul>
+<li>Mention.com, Brand24, or Talkwalker Alerts – Track unlinked mentions online</li>
+<li>Google Alerts – Free mention tracking</li>
+<li>Reddit API or Pushshift – To pull brand mentions in forums</li>
+<li>Twitter/X API (if needed) – Paid tiers</li>
+<li>Optionally, GPT-4 or Claude – To detect “implied” brand mentions from raw text</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-4-ai-bot-crawlability-checks">🤖 4. AI Bot Crawlability Checks<a href="https://johnpottergr.com/blog/6-20-2025-llm-visibility-content-audit-tool#-4-ai-bot-crawlability-checks" class="hash-link" aria-label="Direct link to 🤖 4. AI Bot Crawlability Checks" title="Direct link to 🤖 4. AI Bot Crawlability Checks">​</a></h3>
+<p>Verify if AI crawlers can access your content and see it rendered correctly.</p>
+<p><strong>Tools:</strong></p>
+<ul>
+<li>Screaming Frog SEO Spider or Sitebulb – Crawlability + render testing</li>
+<li>Manual robots.txt review – Look for blocks on GPTBot, Google-Extended, ClaudeBot, etc.</li>
+<li>Playwright– For rendering and testing dynamic content (JS-heavy pages)</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-5-workflow-automation--logging">🔁 5. Workflow Automation &amp; Logging<a href="https://johnpottergr.com/blog/6-20-2025-llm-visibility-content-audit-tool#-5-workflow-automation--logging" class="hash-link" aria-label="Direct link to 🔁 5. Workflow Automation &amp; Logging" title="Direct link to 🔁 5. Workflow Automation &amp; Logging">​</a></h3>
+<p>Stitch everything together and log results.</p>
+<ul>
+<li>n8n (cloud or desktop) – Workflow automation</li>
+<li>Airtable, Supabase, or [Google Sheets] – Store test results and citations</li>
+<li>Retool or Streamlit – Optional dashboards</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-6-reporting--output-optional">📄 6. Reporting &amp; Output (Optional)<a href="https://johnpottergr.com/blog/6-20-2025-llm-visibility-content-audit-tool#-6-reporting--output-optional" class="hash-link" aria-label="Direct link to 📄 6. Reporting &amp; Output (Optional)" title="Direct link to 📄 6. Reporting &amp; Output (Optional)">​</a></h3>
+<p>Generate audit reports for stakeholders or clients.</p>
+<p><strong>Tools:</strong></p>
+<ul>
+<li>Jinja2 (templating engine for HTML/PDF)</li>
+<li>Pandas – For data processing and report formatting</li>
+<li>WeasyPrint or PDFKit – Turn HTML into PDFs</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="side-note-on-linkless-mentions-per-chatgpt">Side note on Linkless Mentions per ChatGPT<a href="https://johnpottergr.com/blog/6-20-2025-llm-visibility-content-audit-tool#side-note-on-linkless-mentions-per-chatgpt" class="hash-link" aria-label="Direct link to Side note on Linkless Mentions per ChatGPT" title="Direct link to Side note on Linkless Mentions per ChatGPT">​</a></h2>
+<p>Linkless mention tracking is important for LLM visibility because modern language models are trained not just on pages with backlinks but on the full context of language, including brand names mentioned without links. In short: if your brand shows up in the training or inference data—even without a link, it can influence whether you're surfaced in answers.</p>
+<p>Here’s why that matters, in practical terms:</p>
+<p>🧠 1. LLMs Learn from Language Context, Not Just Links
+Unlike Google’s PageRank, LLMs aren’t built on link graphs. They "understand" brands through:</p>
+<ul>
+<li>Raw mentions in text (even without a URL)</li>
+<li>Surrounding context (how people describe you)</li>
+<li>Frequency and tone of mentions</li>
+</ul>
+<p>So a brand mentioned often in AI-generated articles, Reddit comments, or summaries, even without backlinks, gets semantically associated with direct mail, marketing automation, etc. This raises its chances of showing up in relevant LLM responses.</p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[GSR - A New Metric for Measuring Brand Visibility in AI-Generated Results]]></title>
             <link>https://johnpottergr.com/blog/6-19-2025-GSR-a-new-metric</link>
@@ -745,70 +830,6 @@ The Surfer SEO tool has continued to evolve. You now have the capability to set 
 <p>But it wasn’t the coding that posed the biggest challenge (Render logs and ChatGPT eliminated that issue). The harder part was thinking through UI decisions. But even here, I'm reviewing whether to rely on Cursor to provide feedback.</p>
 <p>The excitement is just beginning: LLMs that pair with Model Context Protocol (MCP) promise to reshape software. Adding MCP capabilities to softwre isn't just an upgrade, it requires a complete rethinking of what software can do. That realization pushed me to explore how I could use these technologies in my own work.</p>
 <p>I still lie awake at night, thinking through the possibilities of AI-agentic systems and just how far they might go.</p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[AI Agents Raise Bar on Technical Marketing]]></title>
-            <link>https://johnpottergr.com/blog/5-9-2025-ai-agents-raise-bar</link>
-            <guid>https://johnpottergr.com/blog/5-9-2025-ai-agents-raise-bar</guid>
-            <pubDate>Fri, 09 May 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Technical content often sits in the background—dense, scattered, and easy to overlook. Yet for engineering firms and industrial manufacturers, it’s anything but optional. CAD drawings, part specifications, safety bulletins, and installation manuals aren't just documentation, they’re essential for daily operations.]]></description>
-            <content:encoded><![CDATA[<p>Technical content often sits in the background—dense, scattered, and easy to overlook. Yet for engineering firms and industrial manufacturers, it’s anything but optional. CAD drawings, part specifications, safety bulletins, and installation manuals aren't just documentation, they’re essential for daily operations.</p>
-<p>Despite its operational importance, technical content has long been treated as an afterthought in marketing. The focus was often on making PDFs “findable,” cleaning up metadata, and hoping Google understood what engineers were actually searching for. But that’s changing. A new era is taking shape, one led by AI agents.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-problem-with-static-seo">The problem with static SEO<a href="https://johnpottergr.com/blog/5-9-2025-ai-agents-raise-bar#the-problem-with-static-seo" class="hash-link" aria-label="Direct link to The problem with static SEO" title="Direct link to The problem with static SEO">​</a></h2>
-<p>Right now, many industrial firms center their SEO strategies on making static content more visible. They have case studies, compressor manuals, and application bulletins, all of which are relegated to dropdown libraries or buried three clicks deep. Their current workflow is focused on:</p>
-<ul>
-<li>Finding low competition keywords</li>
-<li>Optimizing page titles, headers, and internal links</li>
-<li>Building "resource hubs" for high intent queries</li>
-</ul>
-<p>While this is a smart strategy- its also somewhat slow. In industries where product specs change at the drop of a hat, new materials are constantly being introduced, and customers demand answers instantly, relying on static SEO alone could easily become a disadvantage.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-ai-agents-can-do">What AI agents can do<a href="https://johnpottergr.com/blog/5-9-2025-ai-agents-raise-bar#what-ai-agents-can-do" class="hash-link" aria-label="Direct link to What AI agents can do" title="Direct link to What AI agents can do">​</a></h2>
-<p>AI agents are more than just "smarter chatbots." They're autonomous systems capable of:</p>
-<ul>
-<li>Ingesting technical documents like installation guides</li>
-<li>Summarizing and interpreting that information to answer user questions</li>
-<li>Providing detailed information through various interfaces, like search bars, product configurators, and customer support dashboards</li>
-</ul>
-<p>For example, imagine a prospect browsing a library of technical bulletins or installation guides. Instead of opening multiple PDFs, they could ask:</p>
-<p>“Which models meet the updated safety standard for high-pressure environments?”</p>
-<p>An AI agent could pull the answer from internal specifications, cite its source, and guide the user to the appropriate product page within seconds.</p>
-<img src="https://johnpottergr.com/img/bot.gif" height="150px">
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="why-this-matters-for-engineering-firms">Why this matters for engineering firms<a href="https://johnpottergr.com/blog/5-9-2025-ai-agents-raise-bar#why-this-matters-for-engineering-firms" class="hash-link" aria-label="Direct link to Why this matters for engineering firms" title="Direct link to Why this matters for engineering firms">​</a></h2>
-<p>Engineering buyers are not leisurely shoppers; they seek definitive responses to specific inquiries and demand them promptly. AI agents bridge the divide between:</p>
-<ul>
-<li>What content companies make available</li>
-<li>What content potential customers seek to locate</li>
-</ul>
-<p>Success here goes beyond marketing effectiveness. It directly impacts competitiveness. Companies that are able to call up the correct spec sheet, regulatory document, or training video on demand will:</p>
-<ul>
-<li>Turn prospects into customers at a faster rate</li>
-<li>Save their sales reps from having to engage in time consuming dialogues</li>
-<li>Free their marketing teams from having to constantly reformat or rewrite content for different use cases</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="seo-isnt-going-away-its-getting-smarter">SEO isn't going away, it's getting smarter<a href="https://johnpottergr.com/blog/5-9-2025-ai-agents-raise-bar#seo-isnt-going-away-its-getting-smarter" class="hash-link" aria-label="Direct link to SEO isn't going away, it's getting smarter" title="Direct link to SEO isn't going away, it's getting smarter">​</a></h2>
-<p>AI agents won't replace traditional SEO, they'll augment it. In fact, They actually excel in clean, well-structured ecosystems:</p>
-<ul>
-<li>Clear navigation menus</li>
-<li>Properly tagged documents</li>
-<li>Descriptive filenames and alt text</li>
-<li>Well-defined product categories and naming conventions</li>
-</ul>
-<p>In other words, the better your SEO practices, the more effective your AI driven systems will be in the future.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-forward-thinking-firms-should-do-now">What forward-thinking firms should do now<a href="https://johnpottergr.com/blog/5-9-2025-ai-agents-raise-bar#what-forward-thinking-firms-should-do-now" class="hash-link" aria-label="Direct link to What forward-thinking firms should do now" title="Direct link to What forward-thinking firms should do now">​</a></h2>
-<p>Technical marketers should consider taking the following actions, if they haven't done so already.</p>
-<ol>
-<li>
-<p>Thoroughly audit your technical content so you know what you have and where you have it. Make sure everything is findable and nothing important is buried or made inaccessible by poor tagging.</p>
-</li>
-<li>
-<p>Tag your assets in a consistent manner in your download library, support documents, and sales materials</p>
-</li>
-<li>
-<p>Work with your SEO team to make sure all content is structured for machine readablity.</p>
-</li>
-</ol>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="final-thought">Final thought<a href="https://johnpottergr.com/blog/5-9-2025-ai-agents-raise-bar#final-thought" class="hash-link" aria-label="Direct link to Final thought" title="Direct link to Final thought">​</a></h2>
-<p>If you already have large quantities of high quality technical literature on hand, the next phase of AI will demand this content be usable at any moment, and in any place. The companies that accomplish this first will achieve superior search rankings and improve their reputation.</p>]]></content:encoded>
         </item>
     </channel>
 </rss>
