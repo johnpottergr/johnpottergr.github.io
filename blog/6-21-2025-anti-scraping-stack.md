@@ -1,6 +1,6 @@
 ---
 title: Why Probabilistic Visibility Is the New Page One
-date: 2025-06-21
+date: 2025-06-20
 ---
 The era of static rankings is coming to an end. If your SEO strategy is still focused on capturing the number one position for a specific keyword, you’re preparing for a bygone era. AI driven search using LLMs is reshaping the landscape.
 
