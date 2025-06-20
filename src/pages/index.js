@@ -128,8 +128,7 @@ export default function Home() {
             <li>
                <strong>Linkless mention tracking:</strong> to spot brand
               mentions that appear in forums, summaries, and AI
-              outputs even when there’s no backlink—critical for AI
-              visibility.
+              outputs even when there’s no backlink.  
             </li>
             <li>
                <strong>Crawlability for AI bots:</strong> to check if your content is accessible to AI-oriented crawlers and isn’t
