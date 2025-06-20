@@ -94,6 +94,29 @@ Unlike Google’s PageRank, LLMs aren’t built on link graphs. They "understand
 <p>So a brand mentioned often in AI-generated articles, Reddit comments, or summaries, even without backlinks, gets semantically associated with direct mail, marketing automation, etc. This raises its chances of showing up in relevant LLM responses.</p>]]></content:encoded>
         </item>
         <item>
+            <title><![CDATA[Why Probabilistic Visibility Is the New Page One]]></title>
+            <link>https://johnpottergr.com/blog/6-20-2025-probabilitic-visibility</link>
+            <guid>https://johnpottergr.com/blog/6-20-2025-probabilitic-visibility</guid>
+            <pubDate>Fri, 20 Jun 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[The era of static rankings is coming to an end. If your SEO strategy is still focused on capturing the number one position for a specific keyword, you’re preparing for a bygone era. AI driven search using LLMs is reshaping the landscape.]]></description>
+            <content:encoded><![CDATA[<p>The era of static rankings is coming to an end. If your SEO strategy is still focused on capturing the number one position for a specific keyword, you’re preparing for a bygone era. AI driven search using LLMs is reshaping the landscape.</p>
+<p>Now, brand visibility in LLMs isn’t a straightforward outcome; it’s a probabilistic one.</p>
+<p>When someone requests a product recommendation from an LLM, the response hinges on much more than just the text of the query.</p>
+<p>User intent, context, and even minor phrasing differences can drastically influence which brands get recommended. This is because there’s no one size fits all answer for something like “What’s the best mattress?” or “What’s the top marketing tool?” Hundreds of different recommendations could come forth based on who is doing the asking, as well as how and when they ask.</p>
+<p>Welcome to what <a href="https://www.linkedin.com/in/garrettsussman/">Garrett Sussman</a> calls Probabilitic Visibility</p>
+<p>The new reality requires a different content and brand strategy. Rather than trying to funnel everything through a single point of entry, you'll need to build resilience across many potential pathways.</p>
+<p>Instead of thinking about optimizing for a keyword here or a page there, think about creating networks of content that interact to lead someone to your desired end point. Being cited means more than just one place and one source. It involves content that can speak to various buyer personas, not just the primary target.</p>
+<p>Personas are all about context - how your brand appears to someone researching for the first time versus someone on the brink of making a purchase.</p>
+<p>So.... each content piece should be considered part of a larger visibility strategy. You should always ask yourself if the page you are creating could serve as a reference for someone down the line. In other words, your content should affirm:</p>
+<ul>
+<li>Can it accommodate various depths of detail?</li>
+<li>Is it straightforward to cite?</li>
+<li>Does it align with the different ways people might ask about the same thing?</li>
+</ul>
+<p>Being visible on multiple sites, in different formats, and through varying tones and entry points gives you a better shot at appearing in LLM generated responses.</p>
+<p>You are not trying to control one narrow channel; you are expanding your presence across the whole field.We are moving into a phase where making content discoverable is fluid and adaptable. To achieve this, we need to think not just like search engine optimizers but more so like systems designers.</p>]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[GSR - A New Metric for Measuring Brand Visibility in AI-Generated Results]]></title>
             <link>https://johnpottergr.com/blog/6-19-2025-GSR-a-new-metric</link>
             <guid>https://johnpottergr.com/blog/6-19-2025-GSR-a-new-metric</guid>
@@ -809,27 +832,6 @@ The Surfer SEO tool has continued to evolve. You now have the capability to set 
 <p>​​Using a tool to achieve high SEO scores can sometimes negatively impact content quality or readability. With Surfer SEO, that tradeoff is occasionally apparent, particularly with bottom-of-funnel content that requires detailed information. Another issue is that the content requires a significant amount of manual editing to align it with a brand's tone or voice.</p>
 <p>Surfer recently raised prices rather than lower them. If they're not careful, they'll find themselves in a death spiral, where fewer users incentivizes higher prices to make up the difference.</p>
 <p>For now, Surfer SEO remains a leading AI-powered SEO tool for generating SEO content. Several newer players have entered this space, however. Many offer similar functionality at a lower cost or even for free. So I am not convinced that Surfer’s pricing structure makes it a worthwhile tool. At least not for those of us who like to take the initiative and combine tools.</p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Vibe Coding Is A New Way to Build]]></title>
-            <link>https://johnpottergr.com/blog/5-21-2025-vibe-coding-democratizes-creativity</link>
-            <guid>https://johnpottergr.com/blog/5-21-2025-vibe-coding-democratizes-creativity</guid>
-            <pubDate>Wed, 21 May 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[“Vibe coding” sounds like a throwaway phrase. You could be forgiven for not taking it seriously. But for many would-be developers, vibe coding offers genuine creative freedom. With vibe coding, the ability to code is no longer a barrier to software development. LLMs now handle most of the complex construction details.]]></description>
-            <content:encoded><![CDATA[<p>“Vibe coding” sounds like a throwaway phrase. You could be forgiven for not taking it seriously. But for many would-be developers, vibe coding offers genuine creative freedom. With vibe coding, the ability to code is no longer a barrier to software development. LLMs now handle most of the complex construction details.</p>
-<p>What’s happening here is a democratization of access. You don’t need coding expertise to create; you need the impulse to do so. If you don’t know JavaScript, Cursor, or another programming language, an LLM can handle it. There’s no mystique here; just initiative and a willingness to experiment.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="my-foray-into-vibe-doding">My foray into vibe doding<a href="https://johnpottergr.com/blog/5-21-2025-vibe-coding-democratizes-creativity#my-foray-into-vibe-doding" class="hash-link" aria-label="Direct link to My foray into vibe doding" title="Direct link to My foray into vibe doding">​</a></h2>
-<p>My own experience speaks to this. When I had to collaborate with a client on GitHub a few months back, I quickly became acquainted with Visual Studio Code’s integrated terminal.</p>
-<p>Shortly afterward, I began using Docusaurus to build a professional website. It was surprisingly intuitive to understand what was needed. And with time, I became more adventurous and willing to overcome coding obstacles. Lucille Ball was right, “the more things you do, the more you can do”</p>
-<p>Not being able to write React code from scratch was hardly a problem. With LLMs guiding me, I could follow the structure and purpose of each file, even if I couldn’t explain every line.</p>
-<p>My foray into vibe coding might have ended there if I hadn’t stumbled across an article about assembling tools into a full-stack AI-agentic app. It was intriguing enough that I decided to try it myself, with vibe coding as my go-to.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="going-the-extra-mile">Going the extra mile<a href="https://johnpottergr.com/blog/5-21-2025-vibe-coding-democratizes-creativity#going-the-extra-mile" class="hash-link" aria-label="Direct link to Going the extra mile" title="Direct link to Going the extra mile">​</a></h2>
-<p>Creating a website through GitHub is one thing. Building an IT stack that functions as a full application is something else entirely. Think of it as wiring together a series of virtual components using code.</p>
-<p>I suddenly realized the possibilities for connection were endless. Since my ability to modify proprietary software was limited, I started by exploring open-source projects to jumpstart the process. I set up an Amazon S3 account to store future clickstream data in the cloud.</p>
-<p>Tools I had only heard about, like FastAPI, Render, ngrok, suddenly had a place in my workflow. A whole new world opened up. Without an LLM, wiring all these compnents together would’ve taken months.</p>
-<p>But it wasn’t the coding that posed the biggest challenge (Render logs and ChatGPT eliminated that issue). The harder part was thinking through UI decisions. But even here, I'm reviewing whether to rely on Cursor to provide feedback.</p>
-<p>The excitement is just beginning: LLMs that pair with Model Context Protocol (MCP) promise to reshape software. Adding MCP capabilities to softwre isn't just an upgrade, it requires a complete rethinking of what software can do. That realization pushed me to explore how I could use these technologies in my own work.</p>
-<p>I still lie awake at night, thinking through the possibilities of AI-agentic systems and just how far they might go.</p>]]></content:encoded>
         </item>
     </channel>
 </rss>
