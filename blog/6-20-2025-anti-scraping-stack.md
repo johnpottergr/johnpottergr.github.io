@@ -10,7 +10,7 @@ When someone requests a product recommendation from an LLM, the response hinges 
 
 User intent, context, and even minor phrasing differences can drastically influence which brands get recommended. This is because there’s no one size fits all answer for something like “What’s the best mattress?” or “What’s the top marketing tool?” Hundreds of different recommendations could come forth based on who is doing the asking, as well as how and when they ask.
 
-Welcome to what <a href="https://www.linkedin.com/in/garrettsussman/">Garrett Sussman</A> calls Probabilitic Visibility
+Welcome to what <a href="https://www.linkedin.com/in/garrettsussman/">Garrett Sussman</a> calls Probabilitic Visibility
 
 <!--truncate-->
 
