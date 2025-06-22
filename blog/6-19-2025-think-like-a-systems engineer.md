@@ -50,5 +50,5 @@ Imagine applying those to LLM visibility:
 These are more than thought experiments, they're prototypes waiting to be built.
 
 ## A New Visibility Layer
-Citation Score won’t replace SEO. But it adds a new lens—focused not on how you perform in search, but on whether you exist in the answer. As AI agents become the default research layer for consumers and professionals alike, that’s a visibility gap too important to ignore.
+Citation Score won’t replace SEO. But it changes the focus, replacing "how you perform in search" with "do you exist in the answer". As AI agents become the default research layer for consumers, that’s a visibility gap too important to ignore.
 
