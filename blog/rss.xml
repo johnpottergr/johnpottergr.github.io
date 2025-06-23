@@ -25,6 +25,37 @@
 <p>The idea seems to be catching on, because it speaks to boundaries. It's helping publishers participate in the AI ecosystem on their own terms. And it's encouraging AI companies to respect those terms. Even if you're not a publisher, the trend is bound to create an environment where our personal data will also have to be respected. The scrapers are on notice.</p>]]></content:encoded>
         </item>
         <item>
+            <title><![CDATA[Brand Visibility in LLMs Requires a New Kind of State]]></title>
+            <link>https://johnpottergr.com/blog/6-22-2025-a-new-kind-of-state</link>
+            <guid>https://johnpottergr.com/blog/6-22-2025-a-new-kind-of-state</guid>
+            <pubDate>Sat, 21 Jun 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[If you’ve ever worked with developers to improve website behavior, like handling pop-ups, forms, or product filters, they were probably using React. It’s a popular tool for building modern websites (to say the least). But when too many pieces of a site need to work together, the process gets chaotic fast.]]></description>
+            <content:encoded><![CDATA[<p>If you’ve ever worked with developers to improve website behavior, like handling pop-ups, forms, or product filters, they were probably using <a href="https://www.builder.io/blog/react-component-library">React</a>. It’s a popular tool for building modern websites (to say the least). But when too many pieces of a site need to work together, the process gets chaotic fast.</p>
+<p>Developers help resolve this by turning to <a href="https://redux.js.org/">Redux</a> - a Javascript tool that pulls scattered data into one place and makes it easier to coordinate. Its not an elegant process but it produces consistency and control, especially when in comes to interactive experiences. It's also why <a href="https://www.linkedin.com/in/mantcz/">
+Michael Antzack</a> believes the <a href="https://www.linkedin.com/posts/mantcz_react-redux-llm-activity-7342829633370775552-ut7i">centralized state wins</a>.</p>
+<p>That same logic is now starting to show up in how brands think about visibility and coordination in the age of LLMs.</p>
+<img src="https://johnpottergr.com/img/redux.png" alt="Select Sheet" width="800">
+<p>Most brands that experiment with LLMs today are thinking in static terms, like a chatbot that answers FAQs or a plugin that pulls from their help docs. Even a one-time prompt injected into a marketing tool. These are isolated efforts useful but a bit shallow. They don’t account for the where the user is in their customer journey, or even the broader goals of the brand.</p>
+<p>LLM visibility for brands is not going to stay still. The focus will shift from just showing up in the LLM to showing up in context. In other words, LLM awareness of the customer’s past behavior, current intent, and what needs to happen next. While speculation is great, what use does this theorizing have for brands today? This is where the Redux analogy gets interesting.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="a-shift-toward-agent-driven-coordination">A Shift Toward Agent-Driven Coordination<a href="https://johnpottergr.com/blog/6-22-2025-a-new-kind-of-state#a-shift-toward-agent-driven-coordination" class="hash-link" aria-label="Direct link to A Shift Toward Agent-Driven Coordination" title="Direct link to A Shift Toward Agent-Driven Coordination">​</a></h2>
+<p>LLMs are moving beyond simple prompt-and-response tools. They’re evolving into agents that operate as autonomous or semi-autonomous systems. That means they can plan, retrieve data, take actions, and even coordinate with other agents. The AI agent won't just answer your question about a return policy, it will initiate the return, updates your order history, and sends a Slack alert to your fulfillment team.</p>
+<p>To enable that kind of behavior, you'll need more than a knowledge base. You'll need to gain centralized, accessible, real-time state of the customer relationship.</p>
+<p>In practical terms, this means building an LLM-ready interface layer that is able to track and feeds dynamic data into the agent. Tools like n8n, which automate workflows across apps, could act as connective tissue here. They would make sure the agent sees updates in CRM, inventory, analytics, and support systems in near real time.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="will-llms-evolve-to-handle-this">Will LLMs Evolve to Handle This?<a href="https://johnpottergr.com/blog/6-22-2025-a-new-kind-of-state#will-llms-evolve-to-handle-this" class="hash-link" aria-label="Direct link to Will LLMs Evolve to Handle This?" title="Direct link to Will LLMs Evolve to Handle This?">​</a></h2>
+<p>Probably. We’re already seeing early moves toward multi-modal inputs, tool use, memory, and planning. n8n's are exploding among early adopters. In a year or two, it may not be unusual for a customer to browse, ask questions, and purchase within a branded agent interface powered by LLMs.</p>
+<p>But that can’t happen unless the brand builds the right data scaffolding. If there’s no visibility into product catalog changes, loyalty status, or campaign eligibility, the AI won’t be able to take meaningful action. It will fall back to generic responses, just like a broken UI reverts to static HTML. So there's a lot of work to be done.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-this-means-right-now">What This Means Right Now<a href="https://johnpottergr.com/blog/6-22-2025-a-new-kind-of-state#what-this-means-right-now" class="hash-link" aria-label="Direct link to What This Means Right Now" title="Direct link to What This Means Right Now">​</a></h2>
+<p>If your brand is just getting into LLMs, don’t limit your thinking to surface-level visibility like prompt optimization or FAQ coverage. I know, it's already asking a lot to move on from SEO to focus on LLM Visibility. But first followers 'get the worm'.
+Start by treating your data layer as the interface. There is no roadmap here but you can begin by asking:</p>
+<ul>
+<li>What does the AI see about this customer?</li>
+<li>What decisions could it make with that context?</li>
+<li>How could automation tools coordinate the next step?</li>
+</ul>
+<p>Yes, it’s a little like replacing email with chat but it's more than that. It’s a shift from fragmented, one-off messaging to stateful, intelligent, AI-driven interactions. And it will require rethinking where your brand’s “state” lives, that is - what data your AI systems can actually see and act on.</p>
+<p>Anticipating these moves can help you stay ahead, especially as others are already laying the groundwork to be more customer-responsive. Because bfore long, AI agents won’t be chatting with your customers, they’ll be acting on their behalf.</p>]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[What It Takes To Build An LLM Visibility Content Audit Tool]]></title>
             <link>https://johnpottergr.com/blog/6-20-2025-llm-visibility-content-audit-tool</link>
             <guid>https://johnpottergr.com/blog/6-20-2025-llm-visibility-content-audit-tool</guid>
@@ -802,28 +833,6 @@ Let's begin.</p>
 <li>Use natural language endings, even a thank you adds clarity</li>
 </ul>
 <p>GPT-4o is a valuable CRO tool you can add to your CRO process. While not a replacement for human insight, it can highlight issues, test ideas, and sharpen the details that matter. For a more in-depth view of its capabilities, check out <a href="https://www.v7labs.com/blog/chatgpt-with-vision-guide" target="_blank" rel="noopener noreferrer">https://www.v7labs.com/blog/chatgpt-with-vision-guide</a></p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Link Building Without Breaking the Bank]]></title>
-            <link>https://johnpottergr.com/blog/6-5-2025-link-building-without-breaking-bank</link>
-            <guid>https://johnpottergr.com/blog/6-5-2025-link-building-without-breaking-bank</guid>
-            <pubDate>Thu, 05 Jun 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Link building is one of those SEO topics many professionals prefer to avoid. It’s less about analysis and insights and more about outreach. And for that, you need leads.]]></description>
-            <content:encoded><![CDATA[<p>Link building is one of those SEO topics many professionals prefer to avoid. It’s less about analysis and insights and more about outreach. And for that, you need leads.</p>
-<p>But buying leads is expensive. Subscribing to tools like Postega or Respona can be even worse, running $99 to $199 per month. So what’s a fledgling SEO pro to do? Connect a few solid tools together, of course.</p>
-<p>The solution starts with <a href="https://hunter.io/" target="_blank" rel="noopener noreferrer">Hunter.io</a>, a lightweight email outreach tool that supplements basic lead info. It also generates niche lead lists through dropdown filters. The next step is to connect it to google sheets and a gmass browser extension.</p>
-<p>Here’s a short video that walks through Hunter.io basics.</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/VkO5y9Zyhd8?si=2GtD1wlw9TlZsNEh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe>
-<p>Once you obtain the leads you want, you can download them as a CSV and upload the data to a Google Sheet.</p>
-<p>I haven’t tried this yet, but you could probably build a lightweight MCP agent to fetch relevant personalization data. Advanced MCP setups can use AI to enrich leads and even generate content or campaign suggestions. For an ambitious example, check out <a href="https://dev.to/bashirk/revolutionizing-outbound-sales-why-i-built-a-natural-language-lead-generation-mcp-server-1i7i" target="_blank" rel="noopener noreferrer">“Revolutionizing Outbound Sales: Why I Built a Natural Language Lead Generation MCP Server”</a>.</p>
-<p>Some setups even use <a href="https://zapier.com/mcp" target="_blank" rel="noopener noreferrer">Zapier MCP agents</a> and <a href="https://apify.com/apify/web-scraper" target="_blank" rel="noopener noreferrer">Apify scrapers</a> to send lead data directly to HubSpot or other CRMs. But I digress.
-Here is <a href="https://www.linkedin.com/posts/joshwhitfieldai_model-context-protocol-mcp-is-the-biggest-activity-7325489572904095744--U-x/" target="_blank" rel="noopener noreferrer">another example</a></p>
-<p>Back to my project: once I’ve cleaned up the data in Google Sheets, I use the <a href="https://www.gmass.co/" target="_blank" rel="noopener noreferrer">GMass browser extension</a> to run a mail merge campaign. It allows me to send personalized emails to everyone on my list, all at once, complete with merge fields for names, companies, and custom introductions. (See images below.).</p>
-<p>Select your Google Sheets leads file using the extension:</p>
-<img src="https://johnpottergr.com/img/gmass.png" alt="Select Sheet" width="350">
-<p>Configure settings before you send off your email. Run tests first.</p>
-<img src="https://johnpottergr.com/img/sendtest.png" alt="Send Test" width="350">
-<p>This setup is still pretty basic, but it saves me a ton of money. Once i start rolling, I’ll probably add in MCP capabilities if they substantially help.</p>]]></content:encoded>
         </item>
     </channel>
 </rss>
