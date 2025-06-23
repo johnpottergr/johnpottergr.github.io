@@ -7,6 +7,8 @@ LLMs are quickly changing how content gets discovered. Publishers and website ow
 ## Its all about signals
 The llms.txt file lets website owners signal how they want their content to be used when responding to LLM queries. For example, a publisher might specify that their content can be crawled, but note that it should not be used for long-term model training. Other publishers may allow only excerpts to be used in responses. Some publishers may even be more script.
 
+<!--truncate-->
+
 The lms.txt is an inspired idea if you believe the legal concerns about data scraping, copyright, and compensation are mounting (they are). As generative AI tools combine and sift through the vast swaths of online info, publishers risk losing traffic and attribution if their original work is displayed without credit (or even a link).
 
 Since their is no standardized opt-out mechanism here, website owners cannot negotiate how their content is handled. AI platforms have not been helpful in this regard, ignoring the issue and reluctant to enforce boundaries consistently.
