@@ -2,11 +2,47 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://johnpottergr.com/blog</id>
     <title>Content That Shows Up In AI Search Blog</title>
-    <updated>2025-06-21T00:00:00.000Z</updated>
+    <updated>2025-06-22T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://johnpottergr.com/blog"/>
     <subtitle>Content That Shows Up In AI Search Blog</subtitle>
     <icon>https://johnpottergr.com/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[The Strategy Shift-From Static Docs to AI-Ready Assets]]></title>
+        <id>https://johnpottergr.com/blog/6-22-2025-the-strategy-shift</id>
+        <link href="https://johnpottergr.com/blog/6-22-2025-the-strategy-shift"/>
+        <updated>2025-06-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Most companies today have documentation but not content. They’ve got pdfs, slide decks, and product manuals. Even case studies buried in download libraries that haven’t seen daylight. It’s not that they don’t have answers; it’s that the answers are locked away, invisible to the LLMs people are now using to ask questions.]]></summary>
+        <content type="html"><![CDATA[<p>Most companies today have documentation but not content. They’ve got pdfs, slide decks, and product manuals. Even case studies buried in download libraries that haven’t seen daylight. It’s not that they don’t have answers; it’s that the answers are locked away, invisible to the LLMs people are now using to ask questions.</p>
+<p>It's a lost opportunity to generate greater brand visibility. Especially when it comes to answering middle-of-funnel questions.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="making-the-mental-shift">Making the Mental Shift<a href="https://johnpottergr.com/blog/6-22-2025-the-strategy-shift#making-the-mental-shift" class="hash-link" aria-label="Direct link to Making the Mental Shift" title="Direct link to Making the Mental Shift">​</a></h2>
+<p>When it comes to client engagement, it might be helpful to stop thinking like SEOs and start thinking like machines. Google’s crawler and an LLM’s transformer are very different beasts. Google might index a PDF. An LLM will ignore it entirely. What to do?</p>
+<p>If you want to get more mileage out of your documentation - think LLM mentions - start here:</p>
+<ul>
+<li>
+<p>Convert PDFs into HTML-based knowledge pages. Static downloads are invisible to most LLMs. Formatting your content as web-native makes it indexable and referenceable.</p>
+</li>
+<li>
+<p>Add structured data to every page. Use schema types like FAQPage, TechArticle, and Product to help machines interpret what your content is and where it fits.</p>
+</li>
+<li>
+<p>Link product pages to supporting documentation. Glossary-based anchor links are a simple way to create relationships that both users and AI systems can follow.</p>
+</li>
+<li>
+<p>Showcase real authors and contact options. Adding bios and CTAs supports E-E-A-T signals (Experience, Expertise, Authoritativeness, Trustworthiness), which influence how search engines and LLMs track your credibility.</p>
+</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="reusing-existing-docs-a-low-cost-win">Reusing Existing Docs: A Low-Cost Win<a href="https://johnpottergr.com/blog/6-22-2025-the-strategy-shift#reusing-existing-docs-a-low-cost-win" class="hash-link" aria-label="Direct link to Reusing Existing Docs: A Low-Cost Win" title="Direct link to Reusing Existing Docs: A Low-Cost Win">​</a></h2>
+<p>If you’ve already invested in whitepapers, manuals, and case studies, you’re sitting on a goldmine for LLM visibility. It just needs to be reformatted. This isn't a call to create more content. It’s a call to reuse what you already have in a format that machines can read.</p>
+<p>One local example stands out. <a href="https://www.psgdover.com/blackmer">Blackmer</a>, a Grand Rapids-based manufacturer, has an <a href="https://www.psgdover.com/blackmer/download-library/compressor-bulletins">extensive download library</a> filled with brochures, case studies, catalogs, and bulletins. It's content that’s ripe for transformation into AI-readable formats.</p>
+<img src="https://johnpottergr.com/img/psg-dover.png" alt="PSG Dover" width="800">
+<p>Even without pursuing external AI exposure, the same assets could be repurposed internally. Using Model Context Protocol (MCP) tooling, their support teams could reveal these answers directly in Slack or Salesforce instead of fumbling through a search bar.</p>
+<p>But here’s the problem: the company has a policy against using AI. Which is a bit like trying to compete in e-commerce while banning websites. It's going to lead to painful, incremental obsolescence. Think edge customers calling it quits because getting answers takes too long. Death by a thousand cuts.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-business-case-will-come-eventually">The Business Case Will Come (Eventually)<a href="https://johnpottergr.com/blog/6-22-2025-the-strategy-shift#the-business-case-will-come-eventually" class="hash-link" aria-label="Direct link to The Business Case Will Come (Eventually)" title="Direct link to The Business Case Will Come (Eventually)">​</a></h2>
+<p>Most companies won’t care about LLM visibility until they have to. Until the bottom line reveals that inbound leads are down, support costs are up, or customers are quoting competitors' AI-powered answers instead of theirs. But those who take the leap early will start seeing it in deflection rates, faster time-to-resolution, and fewer “Where can I find…” questions cluttering internal channels.</p>
+<p>And I'm only talking about restructuring dusty documentation for modern interfaces. The branding benefits that accrue from LLM visibility are multifold.</p>
+<p>I guess it really depends are whether you think LLMs are just another marketing channel or part of a more important transformation. They're a new layer of knowledge access.</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[What is llms.txt and Why Does It Matter]]></title>
         <id>https://johnpottergr.com/blog/6-21-2025-what-is-llms-txt</id>
@@ -785,52 +821,5 @@ So:</p>
 </ul>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="final-thought">Final Thought<a href="https://johnpottergr.com/blog/6-7-2025-when-everyone-has-an-n8n-agent#final-thought" class="hash-link" aria-label="Direct link to Final Thought" title="Direct link to Final Thought">​</a></h2>
 <p>In the near future, your AI agent might not be trying to beat the market.It’ll just be out there working. In other words, researching, writing, messaging, testing, and reporting while you sleep or have coffee. But if you build one right now, you’ll have a serious head start.</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to Use GPT-4o’s Vision Capabilities for CRO]]></title>
-        <id>https://johnpottergr.com/blog/6-6-2025-use-GPT4o-vision-capabilities</id>
-        <link href="https://johnpottergr.com/blog/6-6-2025-use-GPT4o-vision-capabilities"/>
-        <updated>2025-06-06T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[If you're working on conversion rate optimization for a website, there's a new tool you’ll want to start using: OpenAI’s GPT-4o. Beyond interpreting visuals, it's also very sharp at identifying what’s not working on a webpage and how to improve it.]]></summary>
-        <content type="html"><![CDATA[<p>If you're working on conversion rate optimization for a website, there's a new tool you’ll want to start using: OpenAI’s GPT-4o. Beyond interpreting visuals, it's also very sharp at identifying what’s not working on a webpage and how to improve it.</p>
-<p>This article will show you how to leverage this technology for CRO. Using the guide below, you can run several CRO challenges across different B2B SaaS landing pages. It will deliver conversion-focused suggestions that are smart and actionable.
-Let's begin.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="start-with-a-clear-expert-persona">Start with a Clear Expert Persona<a href="https://johnpottergr.com/blog/6-6-2025-use-GPT4o-vision-capabilities#start-with-a-clear-expert-persona" class="hash-link" aria-label="Direct link to Start with a Clear Expert Persona" title="Direct link to Start with a Clear Expert Persona">​</a></h2>
-<p>Before asking 4o to analyze anything, define who it's pretending to be. You’ll get helpful output if you start your prompt by assigning it a role. Stating “conversion expert” won't cut it, you'll need something more detailed.</p>
-<p>For example, you could say:
-“You are a senior CRO specialist with 10+ years of experience improving SaaS landing pages, particularly for startups targeting mid-market buyers. You understand user psychology, design best practices, and messaging frameworks like PAS and AIDA.”</p>
-<p>The more context you give, the more relevant the output will be.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="upload-a-screenshot-not-a-link">Upload a Screenshot, Not a Link<a href="https://johnpottergr.com/blog/6-6-2025-use-GPT4o-vision-capabilities#upload-a-screenshot-not-a-link" class="hash-link" aria-label="Direct link to Upload a Screenshot, Not a Link" title="Direct link to Upload a Screenshot, Not a Link">​</a></h2>
-<p>Don’t paste in a URL and expect a quality output.</p>
-<p>Instead, upload a full-page screenshot. GPT-4o’s Vision model is built to analyze visual layouts directly, and screenshots provide much clearer input than relying on a page fetch or rendering through a link.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="ask-it-to-describe-the-page-first">Ask It to Describe the Page First<a href="https://johnpottergr.com/blog/6-6-2025-use-GPT4o-vision-capabilities#ask-it-to-describe-the-page-first" class="hash-link" aria-label="Direct link to Ask It to Describe the Page First" title="Direct link to Ask It to Describe the Page First">​</a></h2>
-<p>Before jumping into optimization suggestions, ask 4o to describe what it sees. You can include this as the first step of your prompt. This task....</p>
-<ul>
-<li>Allows you to verify that it interprets the page correctly</li>
-<li>Actually improves the quality of its suggestions</li>
-</ul>
-<p>Another smart tip is to ask it to describe everything it sees on the page from top to bottom before it offers suggestions. Sometimes you'll catch weird interpretation issues this way. It also gives the model a stronger starting point.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="give-it-context-like-you-would-a-colleague">Give It Context Like You Would a Colleague<a href="https://johnpottergr.com/blog/6-6-2025-use-GPT4o-vision-capabilities#give-it-context-like-you-would-a-colleague" class="hash-link" aria-label="Direct link to Give It Context Like You Would a Colleague" title="Direct link to Give It Context Like You Would a Colleague">​</a></h2>
-<p>To get genuinely helpful feedback, feed GPT-4o the background a strategist would need. Include:</p>
-<ul>
-<li>What counts as a conversion (demo request? email sign-up?)</li>
-<li>Who the target audience is. Be specific. Are they decision-makers? DIY users?</li>
-<li>How people are landing on the page. Is it from ads, organic search, email?</li>
-<li>Any other context that influences messaging or structure.</li>
-</ul>
-<p>Don't hold back. The more grounded your prompt is in the real-life funnel, the better the suggestions will be.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="guide-the-analysis">Guide the Analysis<a href="https://johnpottergr.com/blog/6-6-2025-use-GPT4o-vision-capabilities#guide-the-analysis" class="hash-link" aria-label="Direct link to Guide the Analysis" title="Direct link to Guide the Analysis">​</a></h2>
-<p>Now you’re ready to ask for a full CRO teardown using its Vision capabilities. Remember to be specific:
-“Use your Vision features to analyze this screenshot and provide conversion-focused suggestions. Don’t use Code Interpreter.”</p>
-<p>You can even direct it to focus on certain areas like CTA placement, headline clarity, hierarchy, or visual flow.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="last-tips-before-prompt">Last Tips Before Prompt<a href="https://johnpottergr.com/blog/6-6-2025-use-GPT4o-vision-capabilities#last-tips-before-prompt" class="hash-link" aria-label="Direct link to Last Tips Before Prompt" title="Direct link to Last Tips Before Prompt">​</a></h2>
-<p>If you want to really get the most from ChatGPT-4o:</p>
-<ul>
-<li>Be precise about what you want from the model.</li>
-<li>Speak to it like you would a collaborator, provide motivation and context.</li>
-<li>Use clear language.</li>
-<li>Use natural language endings, even a thank you adds clarity</li>
-</ul>
-<p>GPT-4o is a valuable CRO tool you can add to your CRO process. While not a replacement for human insight, it can highlight issues, test ideas, and sharpen the details that matter. For a more in-depth view of its capabilities, check out <a href="https://www.v7labs.com/blog/chatgpt-with-vision-guide" target="_blank" rel="noopener noreferrer">https://www.v7labs.com/blog/chatgpt-with-vision-guide</a></p>]]></content>
     </entry>
 </feed>
