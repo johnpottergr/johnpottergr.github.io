@@ -8,7 +8,7 @@
     <subtitle>Content That Shows Up In AI Search Blog</subtitle>
     <icon>https://johnpottergr.com/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[The Strategy Shift-From Static Docs to AI-Ready Assets]]></title>
+        <title type="html"><![CDATA[The Strategy Shift From Static Docs to AI-Ready Assets]]></title>
         <id>https://johnpottergr.com/blog/6-22-2025-the-strategy-shift</id>
         <link href="https://johnpottergr.com/blog/6-22-2025-the-strategy-shift"/>
         <updated>2025-06-22T00:00:00.000Z</updated>
@@ -36,7 +36,7 @@
 <p>If you’ve already invested in whitepapers, manuals, and case studies, you’re sitting on a goldmine for LLM visibility. It just needs to be reformatted. This isn't a call to create more content. It’s a call to reuse what you already have in a format that machines can read.</p>
 <p>One local example stands out. <a href="https://www.psgdover.com/blackmer">Blackmer</a>, a Grand Rapids-based manufacturer, has an <a href="https://www.psgdover.com/blackmer/download-library/compressor-bulletins">extensive download library</a> filled with brochures, case studies, catalogs, and bulletins. It's content that’s ripe for transformation into AI-readable formats.</p>
 <img src="https://johnpottergr.com/img/psg-dover.png" alt="PSG Dover" width="800">
-<p>Even without pursuing external AI exposure, the same assets could be repurposed internally. Using Model Context Protocol (MCP) tooling, their support teams could reveal these answers directly in Slack or Salesforce instead of fumbling through a search bar.</p>
+<p>Even without pursuing external AI exposure, the same assets could be repurposed internally. Using <a href="https://medium.com/@elisowski/mcp-explained-the-new-standard-connecting-ai-to-everything-79c5a1c98288">Model Context Protocol (MCP) tooling</a>, their support teams could reveal these answers directly in Slack or Salesforce instead of fumbling through a search bar.</p>
 <p>But here’s the problem: the company has a policy against using AI. Which is a bit like trying to compete in e-commerce while banning websites. It's going to lead to painful, incremental obsolescence. Think edge customers calling it quits because getting answers takes too long. Death by a thousand cuts.</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-business-case-will-come-eventually">The Business Case Will Come (Eventually)<a href="https://johnpottergr.com/blog/6-22-2025-the-strategy-shift#the-business-case-will-come-eventually" class="hash-link" aria-label="Direct link to The Business Case Will Come (Eventually)" title="Direct link to The Business Case Will Come (Eventually)">​</a></h2>
 <p>Most companies won’t care about LLM visibility until they have to. Until the bottom line reveals that inbound leads are down, support costs are up, or customers are quoting competitors' AI-powered answers instead of theirs. But those who take the leap early will start seeing it in deflection rates, faster time-to-resolution, and fewer “Where can I find…” questions cluttering internal channels.</p>
