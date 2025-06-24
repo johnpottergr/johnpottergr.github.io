@@ -1,5 +1,5 @@
 ---
-title: The Strategy Shift-From Static Docs to AI-Ready Assets
+title: The Strategy Shift From Static Docs to AI-Ready Assets
 date: 2025-06-22
 ---
 Most companies today have documentation but not content. They’ve got pdfs, slide decks, and product manuals. Even case studies buried in download libraries that haven’t seen daylight. It’s not that they don’t have answers; it’s that the answers are locked away, invisible to the LLMs people are now using to ask questions.
@@ -28,7 +28,7 @@ One local example stands out. <a href="https://www.psgdover.com/blackmer">Blackm
 
 <img src="/img/psg-dover.png" alt="PSG Dover" width="800"/>
 
-Even without pursuing external AI exposure, the same assets could be repurposed internally. Using Model Context Protocol (MCP) tooling, their support teams could reveal these answers directly in Slack or Salesforce instead of fumbling through a search bar.
+Even without pursuing external AI exposure, the same assets could be repurposed internally. Using <a href="https://medium.com/@elisowski/mcp-explained-the-new-standard-connecting-ai-to-everything-79c5a1c98288">Model Context Protocol (MCP) tooling</a>, their support teams could reveal these answers directly in Slack or Salesforce instead of fumbling through a search bar.
 
 But here’s the problem: the company has a policy against using AI. Which is a bit like trying to compete in e-commerce while banning websites. It's going to lead to painful, incremental obsolescence. Think edge customers calling it quits because getting answers takes too long. Death by a thousand cuts.
 
