@@ -2,16 +2,16 @@
 title: The Strategy Shift From Static Docs to AI-Ready Assets
 date: 2025-06-22
 ---
-Most companies today have documentation but not content. They’ve got pdfs, slide decks, and product manuals. Even case studies buried in download libraries that haven’t seen daylight. It’s not that they don’t have answers; it’s that the answers are locked away, invisible to the LLMs people are now using to ask questions.
+Most companies today have plenty of documentation but not much content. They have pdfs, slide decks, and product manuals. Even case studies buried in download libraries that have yet to see daylight. It’s not that they don’t have answers; it’s that the answers are locked away, invisible to the LLMs people now use to ask questions.
 
 It's a lost opportunity to generate greater brand visibility. Especially when it comes to answering middle-of-funnel questions.
 
-## Making the Mental Shift
-When it comes to client engagement, it might be helpful to stop thinking like SEOs and start thinking like machines. Google’s crawler and an LLM’s transformer are very different beasts. Google might index a PDF. An LLM will ignore it entirely. What to do?
+## Make the Mental Shift
+It doesn't have to be this way. When it comes to client engagement, it might be helpful to stop thinking like SEOs and start thinking like machines. Google’s crawler and an LLM’s transformer are very different beasts. Google might index a PDF. An LLM will ignore it entirely. What to do?
 
 <!--truncate-->
 
-If you want to get more mileage out of your documentation - think LLM mentions - start here:
+If you want to get more mileage out of your documentation - like LLM mentions - start here:
 
 - Convert PDFs into HTML-based knowledge pages. Static downloads are invisible to most LLMs. Formatting your content as web-native makes it indexable and referenceable.
 
