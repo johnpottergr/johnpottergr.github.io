@@ -1,6 +1,6 @@
 ---
 title: How Agent S2 and n8n Expand What LLMs Can See and Do
-date: 2025-06-2r
+date: 2025-06-24
 ---
 LLMs most impressive capabilities still revolve around generating text. But when it comes to navigating complex software interfaces or handling on-screen workflows, they need help. Here's where Simular's Agent S2 shakes things up/
 
