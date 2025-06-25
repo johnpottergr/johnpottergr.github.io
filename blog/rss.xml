@@ -13,8 +13,8 @@
             <link>https://johnpottergr.com/blog/6-23-2025-Integrating-Agent-S2-with-n8n</link>
             <guid>https://johnpottergr.com/blog/6-23-2025-Integrating-Agent-S2-with-n8n</guid>
             <pubDate>Mon, 23 Jun 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Agent S2 is a new open-source framework that allows AI to interact with software like a human. It can see the screen, click buttons, and type. It also offers state-of-the-art performance in multi-step tasks, edging out OpenAI and Anthropic in benchmarks.]]></description>
-            <content:encoded><![CDATA[<p><a href="https://github.com/simular-ai/Agent-S">Agent S2</a> is a new open-source framework that allows AI to interact with software like a human. It can see the screen, click buttons, and type. It also offers state-of-the-art performance in multi-step tasks, edging out OpenAI and Anthropic in benchmarks.</p>
+            <description><![CDATA[Agent S2 is a new <a href=]]></description>
+            <content:encoded><![CDATA[<p><a href="https://www.simular.ai/articles/agent-s2">Agent S2</a> is a new <a href="https://github.com/simular-ai/Agent-S">open-source framework</a> that allows AI to interact with software like a human. It can see the screen, click buttons, and type. It also offers state-of-the-art performance in multi-step tasks, edging out OpenAI and Anthropic in benchmarks.</p>
 <p>Beyond the stats, what sets it apart is how it learns: by breaking down tasks into sub-tasks handled by specialist modules and remembering what worked or didn’t. This dynamic knowledge base allows the agent to improve over time.</p>
 <p>For marketers, this opens the door to real automation of complex workflows. It's not based on rule-based triggers, but performs adaptive action sequences that evolve.</p>
 <img src="https://johnpottergr.com/img/state-of-art.png" alt="Agent-S2" width="800">
