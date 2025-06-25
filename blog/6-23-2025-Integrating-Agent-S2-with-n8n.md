@@ -2,7 +2,8 @@
 title: Integrating Agent S2 with n8n for Marketing Automation
 date: 2025-06-23
 ---
-<a href="https://github.com/simular-ai/Agent-S">Agent S2</a> is a new open-source framework that allows AI to interact with software like a human. It can see the screen, click buttons, and type. It also offers state-of-the-art performance in multi-step tasks, edging out OpenAI and Anthropic in benchmarks.
+<a href="https://www.simular.ai/articles/agent-s2">Agent S2</a> is a new <a href=
+"https://github.com/simular-ai/Agent-S">open-source framework</a> that allows AI to interact with software like a human. It can see the screen, click buttons, and type. It also offers state-of-the-art performance in multi-step tasks, edging out OpenAI and Anthropic in benchmarks.
 
 Beyond the stats, what sets it apart is how it learns: by breaking down tasks into sub-tasks handled by specialist modules and remembering what worked or didn’t. This dynamic knowledge base allows the agent to improve over time.
 
