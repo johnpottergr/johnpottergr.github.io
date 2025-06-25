@@ -4,10 +4,62 @@
         <title>Content That Shows Up In AI Search Blog</title>
         <link>https://johnpottergr.com/blog</link>
         <description>Content That Shows Up In AI Search Blog</description>
-        <lastBuildDate>Mon, 23 Jun 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 24 Jun 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[How Agent S2 and n8n Expand What LLMs Can See and Do]]></title>
+            <link>https://johnpottergr.com/blog/6-24-2025-agents2-n8n-and-llms</link>
+            <guid>https://johnpottergr.com/blog/6-24-2025-agents2-n8n-and-llms</guid>
+            <pubDate>Tue, 24 Jun 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[LLMs most impressive capabilities still revolve around generating text. But when it comes to navigating complex software interfaces or handling on-screen workflows, they need help. Here's where Simular's Agent S2 shakes things up/]]></description>
+            <content:encoded><![CDATA[<p>LLMs most impressive capabilities still revolve around generating text. But when it comes to navigating complex software interfaces or handling on-screen workflows, they need help. Here's where Simular's Agent S2 shakes things up/</p>
+<p>Agent S2 is an open-source autonomous agent able to visually interpret and interact with user interfaces. Paired with n8n, a flexible open-source automation tool, Agent S2 can be orchestrated in workflows that tie together APIs, apps, and UIs. Obviously, Using this tools in combination can dramatically expand LLM's power and visibility.</p>
+<p>What are the implcations?</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-llm-visibility-gap">The LLM Visibility Gap<a href="https://johnpottergr.com/blog/6-24-2025-agents2-n8n-and-llms#the-llm-visibility-gap" class="hash-link" aria-label="Direct link to The LLM Visibility Gap" title="Direct link to The LLM Visibility Gap">​</a></h2>
+<p>LLMs excel at processing language. They can summarize reports, generate code, and answer customer queries. But they’re blind to real-world interfaces. A model might know how to log into a system in theory, but it can’t see the login button or detect error messages. Recognizing a pop-up blocking its progress isn't even part of the equation.</p>
+<p>Without visibility into what’s actually happening in an interface, LLMs are left guessing. This is one of the key limitations in deploying LLMs for hands-on automation.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="agent-s2-for-eyes-and-hands">Agent S2 for Eyes and Hands<a href="https://johnpottergr.com/blog/6-24-2025-agents2-n8n-and-llms#agent-s2-for-eyes-and-hands" class="hash-link" aria-label="Direct link to Agent S2 for Eyes and Hands" title="Direct link to Agent S2 for Eyes and Hands">​</a></h2>
+<p>Agent S2 fixes this by acting as a virtual user. It can see the screen, understand visual elements, and carry out complex UI interactions. Its generalist-specialist architecture is especially helpful here, as it remembers and learns from past sessions.</p>
+<p>Better yet, pairing Agent S2 with n8n workflows can serve as part of a larger automation pipeline. It might activate in response to an event, for instance (say, an alert trigger). That’s fairly powerful. But what happens when we bring an LLM into the loop?</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="making-llms-aware-of-the-interface">Making LLMs Aware of the Interface<a href="https://johnpottergr.com/blog/6-24-2025-agents2-n8n-and-llms#making-llms-aware-of-the-interface" class="hash-link" aria-label="Direct link to Making LLMs Aware of the Interface" title="Direct link to Making LLMs Aware of the Interface">​</a></h2>
+<p>Real-time UX knowledge is where the possibilities get interesting.</p>
+<p>Agent S2 logs its actions so: where it clicked, what elements were visible, what succeeded or failed. These logs can then be passed to an LLM. This gives the model access to real execution context, which it wouldn't normally have.</p>
+<p>For example:</p>
+<ul>
+<li>Did the Submit button disappear after the first click?</li>
+<li>Was a confirmation message displayed?</li>
+<li>Did the AI agent get stuck in a CAPTCHA loop?</li>
+</ul>
+<p>Knowing these inputs can help an LLM generate more accurate summaries and recommendations for the next run. It could redefine CRO (conversion rate optimization).</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="from-theory-to-reality">From Theory to Reality<a href="https://johnpottergr.com/blog/6-24-2025-agents2-n8n-and-llms#from-theory-to-reality" class="hash-link" aria-label="Direct link to From Theory to Reality" title="Direct link to From Theory to Reality">​</a></h2>
+<p>In traditional setups, LLMs operate on what users say or provide. With Agent S2, they can respond to what actually happened. That creates a new loop of intelligent automation:</p>
+<ul>
+<li>n8n triggers Agent S2 to execute a UI task.</li>
+<li>Agent S2 logs its steps and outcomes.</li>
+<li>The log is passed to an LLM for analysis or decision-making.</li>
+<li>The LLM adapts the next instruction set or flags issues.</li>
+</ul>
+<p>In addition to improving automation accuracy, it also gives marketing teams better info on how automation behaves in real environments.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="rethinking-observability">Rethinking Observability<a href="https://johnpottergr.com/blog/6-24-2025-agents2-n8n-and-llms#rethinking-observability" class="hash-link" aria-label="Direct link to Rethinking Observability" title="Direct link to Rethinking Observability">​</a></h2>
+<p>A longer-term implication is generation of synthetic training data. Being able to accurately simulate customer journeys means Agent S2 can generate rich interaction histories that LLMs can fine-tune and use to inform marketers over time. You’re moving from giving the LLM data to giving it experience.</p>
+<p>With retained learning taking place, you can now take practical steps to eliminate inbound marketing obstacles:</p>
+<ul>
+<li>Customer support help (what workflows cause the most friction?)</li>
+<li>Marketing funnel analysis (where do automated journeys drop off?)</li>
+<li>User interface optimization (where does the agent struggle that a user might too?)</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="llms-will-soon-have-real-world-awareness">LLMs Will Soon Have Real-World Awareness<a href="https://johnpottergr.com/blog/6-24-2025-agents2-n8n-and-llms#llms-will-soon-have-real-world-awareness" class="hash-link" aria-label="Direct link to LLMs Will Soon Have Real-World Awareness" title="Direct link to LLMs Will Soon Have Real-World Awareness">​</a></h2>
+<p>LLMs will likely remain text-first models for awhile. But that doesn’t mean they will stay isolated from the user interfaces where work gets done.</p>
+<p>Pairing an intelligent S2 agent with orchestration tools like n8n, and feeding the outputs into an LLM could create a hybrid system where:</p>
+<ul>
+<li>The agent sees and acts</li>
+<li>The LLM reasons and adapts</li>
+<li>The orchestrator connects and automates</li>
+</ul>
+<p>The result is a more informed automation—system, one that understand context not just from data inputs, but from lived execution.</p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Integrating Agent S2 with n8n for Marketing Automation]]></title>
             <link>https://johnpottergr.com/blog/6-23-2025-Integrating-Agent-S2-with-n8n</link>
@@ -779,27 +831,6 @@ So:</p>
 <li>Write logic or use GPT prompting to group those into "awareness → consideration → decision" stages—or feed it into a visualizer. ughh
 <strong>we'll see.</strong></li>
 </ul>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[MarketMuse is Awesome; I Won't Be Using It]]></title>
-            <link>https://johnpottergr.com/blog/6-8-2025-moving-on-from-marketmuse</link>
-            <guid>https://johnpottergr.com/blog/6-8-2025-moving-on-from-marketmuse</guid>
-            <pubDate>Sun, 08 Jun 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[MarketMuse is great for larger teams that are serious about content planning. I've been enamored of its features. But to get a full picture, I need to review all aspects of this SEO tool.]]></description>
-            <content:encoded><![CDATA[<p><a href="https://marketmuse.com/">MarketMuse</a> is great for larger teams that are serious about content planning. I've been enamored of its features. But to get a full picture, I need to review all aspects of this SEO tool.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="1-content-clustering">+1: Content Clustering<a href="https://johnpottergr.com/blog/6-8-2025-moving-on-from-marketmuse#1-content-clustering" class="hash-link" aria-label="Direct link to +1: Content Clustering" title="Direct link to +1: Content Clustering">​</a></h2>
-<p>MarketMuse reveals which topics are worthwhile to cover and clues people in on keyword ranking difficulty and website's 'content authority level'.</p>
-<p>It also generates intelligent content plans filled with related topics and keywords. So it helps users think in terms of clusters of content rather than just individual posts.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="1-search-intent-comparison">+1: Search Intent Comparison<a href="https://johnpottergr.com/blog/6-8-2025-moving-on-from-marketmuse#1-search-intent-comparison" class="hash-link" aria-label="Direct link to +1: Search Intent Comparison" title="Direct link to +1: Search Intent Comparison">​</a></h2>
-<p>A big draw of MarketMuse is that it evaluates planned content against search intent. Basically, it grades you on how well a future piece of content will serve its potential audience. In other words, it serves as a powerful nudge toward writing truly useful articles that perform well in search engine results.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="1-content-monitoring">+1: Content Monitoring<a href="https://johnpottergr.com/blog/6-8-2025-moving-on-from-marketmuse#1-content-monitoring" class="hash-link" aria-label="Direct link to +1: Content Monitoring" title="Direct link to +1: Content Monitoring">​</a></h2>
-<p>Additionally, MarketMuse monitors how well existing content is performing and alerts users when something needs fixing. While it also integrates with ChatGPT for writing assistance (this should be standard), it also analyzes how topics interrelate throughout your content.</p>
-<p>So MarketMause provides a lot of useful insights. They even hav a MarketMuse Academcy (I LOVE this). But I won't be using it. A big number just jumped out as me. Should of checked first. Change of plans!</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-3-pricing">-3: Pricing<a href="https://johnpottergr.com/blog/6-8-2025-moving-on-from-marketmuse#-3-pricing" class="hash-link" aria-label="Direct link to -3: Pricing" title="Direct link to -3: Pricing">​</a></h2>
-<p>As a solopreneur, its foolhardy to disregard pricing. Even low-cost tools are a danger if you're indiscriminate about how many tools you're paying for. Don't leave yourself open to large bill at the end of the month.</p>
-<p>With MarketMuse, we're talking $199/month to be on their basic plan. For additional features, this number jumps to $499/month. That's not a problem if you're a large corporation. I'm not.</p>
-<p>Even Frase ($114/month to get API) is priced too high for me. Since I'm a writer and not a full-fledged SEO agency, it looks like I might be going for <a href="https://dataforseo.com/">DataForSEO</a>. I'll trade my convenience (its somewhat of a developer tool) for avoiding high monthly bills.</p>
-<p>Sure, MarketMuse would be nice. But its not for me. I appreciate there's something for everyone in this marketplace.</p>]]></content:encoded>
         </item>
     </channel>
 </rss>
