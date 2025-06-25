@@ -4,10 +4,58 @@
         <title>Content That Shows Up In AI Search Blog</title>
         <link>https://johnpottergr.com/blog</link>
         <description>Content That Shows Up In AI Search Blog</description>
-        <lastBuildDate>Sun, 22 Jun 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 23 Jun 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Integrating Agent S2 with n8n for Marketing Automation]]></title>
+            <link>https://johnpottergr.com/blog/6-23-2025-Integrating-Agent-S2-with-n8n</link>
+            <guid>https://johnpottergr.com/blog/6-23-2025-Integrating-Agent-S2-with-n8n</guid>
+            <pubDate>Mon, 23 Jun 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Agent S2 is a new open-source framework that allows AI to interact with software like a human. It can see the screen, click buttons, and type. It also offers state-of-the-art performance in multi-step tasks, edging out OpenAI and Anthropic in benchmarks.]]></description>
+            <content:encoded><![CDATA[<p><a href="https://github.com/simular-ai/Agent-S">Agent S2</a> is a new open-source framework that allows AI to interact with software like a human. It can see the screen, click buttons, and type. It also offers state-of-the-art performance in multi-step tasks, edging out OpenAI and Anthropic in benchmarks.</p>
+<p>Beyond the stats, what sets it apart is how it learns: by breaking down tasks into sub-tasks handled by specialist modules and remembering what worked or didn’t. This dynamic knowledge base allows the agent to improve over time.</p>
+<p>For marketers, this opens the door to real automation of complex workflows. It's not based on rule-based triggers, but performs adaptive action sequences that evolve.</p>
+<img src="https://johnpottergr.com/img/state-of-art.png" alt="Agent-S2" width="800">
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="why-agent-s2-matters-for-marketers">Why Agent S2 Matters for Marketers<a href="https://johnpottergr.com/blog/6-23-2025-Integrating-Agent-S2-with-n8n#why-agent-s2-matters-for-marketers" class="hash-link" aria-label="Direct link to Why Agent S2 Matters for Marketers" title="Direct link to Why Agent S2 Matters for Marketers">​</a></h2>
+<p>Agent S2 highlights the fact you don't need to rely on big-tech for innovation. S2 is open-source, which means smaller teams can use, customize, and build on it. But the key point here is that it can learn from experience.</p>
+<p>Traditional marketing automation doesn’t improve unless someone reprograms it. An agent like S2, on the other hand, might discover that your checkout has a hidden pop-up—and fix its own script to account for it. That kind of autonomy turns a one-off automation into a smarter, evolving assistant.</p>
+<p>It’s also capable of fetching data online while navigating app interfaces, so it can both act in a CRM and pull competitor pricing in real time. Combininng interface manipulation plus live knowledge obviously makes it a pretty powerful tool.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="why-n8n">Why n8n?<a href="https://johnpottergr.com/blog/6-23-2025-Integrating-Agent-S2-with-n8n#why-n8n" class="hash-link" aria-label="Direct link to Why n8n?" title="Direct link to Why n8n?">​</a></h2>
+<p><a href="https://n8n.io/">n8n</a> is a flexible open-source automation tool that lets you build workflows connecting different apps. It’s part no-code and part code, good for teams who want more customization than Zapier offers. When paired with Agent S2, n8n handles the orchestration (when to do something, what to pass along) while the agent does the heavy lifting in apps with no API.</p>
+<p>For example, a workflow could be:</p>
+<ul>
+<li>Trigger: New lead arrives</li>
+<li>n8n gathers context</li>
+<li>Agent S2 logs into a site, pulls a report, updates another platform</li>
+<li>n8n handles follow-up: sends an email or logs success</li>
+</ul>
+<p>S2 does what most automation tools can’t, it interacts with systems that don’t offer integration simply by mimicking a user.</p>
+<img src="https://johnpottergr.com/img/agentS2.png" alt="Agent-S2" width="800">
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="practical-use-cases">Practical Use Cases<a href="https://johnpottergr.com/blog/6-23-2025-Integrating-Agent-S2-with-n8n#practical-use-cases" class="hash-link" aria-label="Direct link to Practical Use Cases" title="Direct link to Practical Use Cases">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="cross-platform-marketing-tasks">Cross-Platform Marketing Tasks<a href="https://johnpottergr.com/blog/6-23-2025-Integrating-Agent-S2-with-n8n#cross-platform-marketing-tasks" class="hash-link" aria-label="Direct link to Cross-Platform Marketing Tasks" title="Direct link to Cross-Platform Marketing Tasks">​</a></h3>
+<p><strong>Reporting:</strong> Agent S2 can open Google Analytics, apply filters, export data, grab lead data from your CRM, merge in Sheets, then draft an email with the results. n8n can schedule it all. Yikes!</p>
+<p><strong>Social Posting:</strong> Posting across LinkedIn, Instagram, and others often involves tedious logins. S2 can handle that manually via UI, even if APIs are lacking or unreliable. So tempting.</p>
+<p><strong>Data Syncing:</strong> From uploading CSVs to verifying data in multiple systems, Agent S2 can automate web forms that would normally be hand-entered.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="customer-journey-testing">Customer Journey Testing<a href="https://johnpottergr.com/blog/6-23-2025-Integrating-Agent-S2-with-n8n#customer-journey-testing" class="hash-link" aria-label="Direct link to Customer Journey Testing" title="Direct link to Customer Journey Testing">​</a></h3>
+<p><strong>User Flow Simulation</strong>: If you want to know where users get stuck, S2 can simulate a customer’s visit—clicking through checkout, hitting roadblocks, and logging what goes wrong. (are just built CRO-focused software stack that does this, this makes it obsolete)</p>
+<p><strong>Multi-Touchpoint Analysis</strong>: By logging into different platforms, S2 can collect user activity across email, support, and site flows. Then you can use an LLM to analyze where friction arises. I foresee the field of competitive intelligence getting a revival.</p>
+<p><strong>Training AI Models with Synthetic Data</strong>
+If you need to train a model but lack user data, S2 can simulate interactions, generating logs that serve as training data for LLMs to learn customer behavior patterns. I suspect this capability is probably more important than it sounds.</p>
+<p><strong>Future: AI Concierge</strong>
+This category is speculative, but realistic. Imagine a chatbot that, instead of just chatting, uses Agent S2 to take real action. Think booking a flight. Combine that with n8n’s logic and you could offer live assistance without needing custom integrations.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="getting-started">Getting Started<a href="https://johnpottergr.com/blog/6-23-2025-Integrating-Agent-S2-with-n8n#getting-started" class="hash-link" aria-label="Direct link to Getting Started" title="Direct link to Getting Started">​</a></h2>
+<p><strong>Explore the tools:</strong> Try setting up n8n and experiment with Agent S2’s GitHub repo. It's easy enough to read about it. Start using it (telling this to myself too).</p>
+<p><strong>Identify pain points</strong>: Look at your manual workflows to remedy. Anything that is multi-step, needs to work across platforms, or involves systems with no APIs is a good candidate.</p>
+<p><strong>Start small:</strong> Have n8n trigger S2 to visit a page or take a screenshot. Once that works, try expanding gradually.</p>
+<p><strong>Monitor + Train</strong>: Early runs might fail, but S2 learns. With repeated use, it improves.</p>
+<p><strong>Stay secure</strong>: Use sandbox accounts and fail-safes until you trust the system.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="final-word">Final Word<a href="https://johnpottergr.com/blog/6-23-2025-Integrating-Agent-S2-with-n8n#final-word" class="hash-link" aria-label="Direct link to Final Word" title="Direct link to Final Word">​</a></h2>
+<p>Agent S2 shows what’s now possible with autonomous agents: they can see, act, and learn. Combine it with n8n and you can orchestrate advanced automations that go beyond what most platforms offer. It’s not all plug-and-play yet, but the pieces are here.</p>
+<p>Marketers who willing to experiment will gain a serious advantages in their industry. Don't wait for the perfect solution, think about what you could build today.</p>
+<p>If you're interested in more details about this (this blog post is a slimmed down version of some research), contact me to receive more info.</p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[The Strategy Shift From Static Docs to AI-Ready Assets]]></title>
             <link>https://johnpottergr.com/blog/6-22-2025-the-strategy-shift</link>
@@ -752,76 +800,6 @@ So:</p>
 <p>With MarketMuse, we're talking $199/month to be on their basic plan. For additional features, this number jumps to $499/month. That's not a problem if you're a large corporation. I'm not.</p>
 <p>Even Frase ($114/month to get API) is priced too high for me. Since I'm a writer and not a full-fledged SEO agency, it looks like I might be going for <a href="https://dataforseo.com/">DataForSEO</a>. I'll trade my convenience (its somewhat of a developer tool) for avoiding high monthly bills.</p>
 <p>Sure, MarketMuse would be nice. But its not for me. I appreciate there's something for everyone in this marketplace.</p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[When Everyone Has An n8n Agent]]></title>
-            <link>https://johnpottergr.com/blog/6-7-2025-when-everyone-has-an-n8n-agent</link>
-            <guid>https://johnpottergr.com/blog/6-7-2025-when-everyone-has-an-n8n-agent</guid>
-            <pubDate>Sat, 07 Jun 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Personal AI agents are small software companions that operate quietly in the background to manage your business. They can manage your schedule and generally optimize your life. They’re also about to go mainstream.]]></description>
-            <content:encoded><![CDATA[<p>Personal AI agents are small software companions that operate quietly in the background to manage your business. They can manage your schedule and generally optimize your life. They’re also about to go mainstream.</p>
-<p>AI tools like <a href="https://n8n.io/" target="_blank" rel="noopener noreferrer">n8n</a> connect APIs and triggers in a drag and drop fashion and work with LLM models like GPT-4o. Which means you can understand just about anything you throw at them. The future is not some far-off vision, it's present reality. The big question is what happens when everyone has one of these little helpers. How will people use them to get ahead?</p>
-<p>Let's review what the present reality looks like and where it might go from here.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="its-not-all-trading-bots">It’s Not All Trading Bots<a href="https://johnpottergr.com/blog/6-7-2025-when-everyone-has-an-n8n-agent#its-not-all-trading-bots" class="hash-link" aria-label="Direct link to It’s Not All Trading Bots" title="Direct link to It’s Not All Trading Bots">​</a></h2>
-<p>Many AI fans view trading bots as the prime use case for GPT-powered agents. One could imagine them scanning Twitter, Reddit, and market signals to auto-execute trades faster than any human could react. Some AI power users are undoubtedly pursuing this path. But it’s not where most people will end up.</p>
-<p>The bulk of AI agents won’t be seeking stock market supremacy, or even crypto like <a href="https://fetch.ai/" target="_blank" rel="noopener noreferrer">$FET</a>. Chances are they'll be focusing on the far less glamorous task of optimizing workflow and output. Think content, outreach, lead generation, and solo entrepreneurship.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-agents-people-will-actually-use">The Agents People Will Actually Use<a href="https://johnpottergr.com/blog/6-7-2025-when-everyone-has-an-n8n-agent#the-agents-people-will-actually-use" class="hash-link" aria-label="Direct link to The Agents People Will Actually Use" title="Direct link to The Agents People Will Actually Use">​</a></h2>
-<p>Here are four categories of AI agents that will likely become common:</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="micro-entrepreneur-agents">Micro-Entrepreneur Agents<a href="https://johnpottergr.com/blog/6-7-2025-when-everyone-has-an-n8n-agent#micro-entrepreneur-agents" class="hash-link" aria-label="Direct link to Micro-Entrepreneur Agents" title="Direct link to Micro-Entrepreneur Agents">​</a></h3>
-<p>These agents autonomously create content and run simple businesses. They'll manage affiliate blogs, auto-publish posts, and even handle basic A/B testing for landing pages. The human "owner" of these operations simply supervises and adjusts as necessary.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="content-creator-agents">Content Creator Agents<a href="https://johnpottergr.com/blog/6-7-2025-when-everyone-has-an-n8n-agent#content-creator-agents" class="hash-link" aria-label="Direct link to Content Creator Agents" title="Direct link to Content Creator Agents">​</a></h3>
-<p>Think next level writing assistants we've been anticipating. They'll generate articles, stories, and even books with minimal input from a human supervisor. They'll perform the basic functions of a newsroom staff for niche publications; they'll ghostwrite for bloggers and thought leaders.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="research-and-personal-efficiency-agents">Research and Personal Efficiency Agents<a href="https://johnpottergr.com/blog/6-7-2025-when-everyone-has-an-n8n-agent#research-and-personal-efficiency-agents" class="hash-link" aria-label="Direct link to Research and Personal Efficiency Agents" title="Direct link to Research and Personal Efficiency Agents">​</a></h3>
-<p>If you need to stay current with legislation, these agents will get the job done. They’ll analyze a large volume of reviews for sentiment or monitor price changes on an Amazon product. They might pull job listings, filter them according to your values, and apply for selet jobs with a personalized cover letter (note: it’s already happening).</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="outbound-and-lead-gen-agents">Outbound and Lead Gen Agents<a href="https://johnpottergr.com/blog/6-7-2025-when-everyone-has-an-n8n-agent#outbound-and-lead-gen-agents" class="hash-link" aria-label="Direct link to Outbound and Lead Gen Agents" title="Direct link to Outbound and Lead Gen Agents">​</a></h3>
-<p>One of the most obvious applications here is running smart, GPT personalized outreach campaigns. These agents will handle lead scraping and enrichment, summarize recent social content for a target, and send custom messages based on real context.</p>
-<p>Today, these tasks are being accomplished by humans in relatively small numbers. They’re not yet happening at scale for two reasons: The first is that we simply don’t have enough of the right people to do these tasks at scale. The second is that we’re still working out some issues with the agents themselves.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="how-people-will-generate-income-from-ai-agents">How People Will Generate Income From AI Agents<a href="https://johnpottergr.com/blog/6-7-2025-when-everyone-has-an-n8n-agent#how-people-will-generate-income-from-ai-agents" class="hash-link" aria-label="Direct link to How People Will Generate Income From AI Agents" title="Direct link to How People Will Generate Income From AI Agents">​</a></h2>
-<p>You won’t be selling the agent, you’ll be selling the results it creates.</p>
-<p>Here’s how this might break down:</p>
-<ul>
-<li>
-<p><strong>Creators</strong> use agents to produce content and monetize through ads, affiliate deals, newsletters, or info products.</p>
-</li>
-<li>
-<p><strong>Freelancers</strong> use agents to increase output, take on more clients, or justify higher rates.</p>
-</li>
-<li>
-<p><strong>Operators</strong> build niche tools or services that are essentially wrappers around agents, such as outreach-as-a-service or SEO-as-a-service.</p>
-</li>
-<li>
-<p><strong>Toolmakers</strong> create reusable workflows, then sell those workflows or host them on marketplaces.</p>
-</li>
-</ul>
-<p>It may be like SaaS, but you don’t need to hire a team or raise capital. You’ll build an agent once and deploy it.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-this-might-look-in-practical-terms">What This Might Look In Practical Terms<a href="https://johnpottergr.com/blog/6-7-2025-when-everyone-has-an-n8n-agent#what-this-might-look-in-practical-terms" class="hash-link" aria-label="Direct link to What This Might Look In Practical Terms" title="Direct link to What This Might Look In Practical Terms">​</a></h2>
-<p>Fast forward six months. You log in, and your n8n dashboard shows:</p>
-<ul>
-<li>
-<p>A content agent that generated three new SEO briefs overnight.</p>
-</li>
-<li>
-<p>A lead gen agent that pulled 25 prospects and sent 12 messages, two of which replied.</p>
-</li>
-<li>
-<p>A report agent that flagged a broken funnel in your analytics dashboard.</p>
-</li>
-<li>
-<p>A distribution agent queued up three tweets, one newsletter introduction, and a cold pitch for a brand collaboration.</p>
-</li>
-</ul>
-<p>You didn’t do any of this manually. You just built the system once. Now you'll be maintaining, prompting, and steering it.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-real-competitive-edge">The Real Competitive Edge<a href="https://johnpottergr.com/blog/6-7-2025-when-everyone-has-an-n8n-agent#the-real-competitive-edge" class="hash-link" aria-label="Direct link to The Real Competitive Edge" title="Direct link to The Real Competitive Edge">​</a></h2>
-<p>When everyone has agents, having one won’t give you an edge anymore. It will just set the bar higher (people seem to forget this truism whenever a new innovation shows up). What matters is how well-trained, precisely scoped, and creatively applied your agent is. There will be differences.</p>
-<p>Anyone can connect OpenAI to a Google Sheet. But not everyone will:</p>
-<ul>
-<li>Prompt in a way that mimics top-tier strategists</li>
-<li>Extract insights that others miss</li>
-<li>Build a feedback loop that adapts to performance</li>
-<li>That’s where the new leverage will be.</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="final-thought">Final Thought<a href="https://johnpottergr.com/blog/6-7-2025-when-everyone-has-an-n8n-agent#final-thought" class="hash-link" aria-label="Direct link to Final Thought" title="Direct link to Final Thought">​</a></h2>
-<p>In the near future, your AI agent might not be trying to beat the market.It’ll just be out there working. In other words, researching, writing, messaging, testing, and reporting while you sleep or have coffee. But if you build one right now, you’ll have a serious head start.</p>]]></content:encoded>
         </item>
     </channel>
 </rss>
