@@ -90,7 +90,7 @@
             { to: '/extras', label: 'Extras', position: 'left', },
             { to: '/portfolio', label: 'Portfolio', position: 'left' }, // Moved to second position
             { to: '/career', label: 'Career', position: 'left', },
-            { href: 'https://johnpottergr.com/resume5.pdf', label: 'Resume', position: 'left', external: true },
+            { href: 'https://johnpottergr.com/resume6a.pdf', label: 'Resume', position: 'left', external: true },
             { to: '/blog', label: 'Blog', position: 'left' },
           ],
         },
