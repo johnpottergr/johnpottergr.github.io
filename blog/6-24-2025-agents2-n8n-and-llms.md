@@ -8,6 +8,8 @@ Agent S2 is an open-source autonomous agent able to visually interpret and inter
 
 What are the implcations?
 
+<!--truncate-->
+
 ## The LLM Visibility Gap
 LLMs excel at processing language. They can summarize reports, generate code, and answer customer queries. But they’re blind to real-world interfaces. A model might know how to log into a system in theory, but it can’t see the login button or detect error messages. Recognizing a pop-up blocking its progress isn't even part of the equation.
 
