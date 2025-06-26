@@ -82,6 +82,10 @@
         // logo: {
         //   alt: 'John Potter's Website',
         // }
+            // ✅ Add this metadata array
+        metadata: [
+            { name: 'canonical', content: 'https://johnpottergr.com' },
+        ],
 
         navbar: {
           title: 'John M Potter:',
