@@ -2,11 +2,49 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://johnpottergr.com/blog</id>
     <title>Content That Shows Up In AI Search Blog</title>
-    <updated>2025-06-24T00:00:00.000Z</updated>
+    <updated>2025-06-25T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://johnpottergr.com/blog"/>
     <subtitle>Content That Shows Up In AI Search Blog</subtitle>
     <icon>https://johnpottergr.com/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[LLM Reverse Engineering with Embeddings]]></title>
+        <id>https://johnpottergr.com/blog/6-25-2025-reverse-engineering-with-embeddings</id>
+        <link href="https://johnpottergr.com/blog/6-25-2025-reverse-engineering-with-embeddings"/>
+        <updated>2025-06-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[If you’ve ever asked ChatGPT a question and found a competitor’s blog quoted back to you, you’re probably wondering how to get YOUR content into that response box.]]></summary>
+        <content type="html"><![CDATA[<p>If you’ve ever asked ChatGPT a question and found a competitor’s blog quoted back to you, you’re probably wondering how to get YOUR content into that response box.</p>
+<p>Traditional SEO might help but is not the full answer. LLMs don’t crawl pages in the way search engines do. They embed them, converting your content into numerical representations. Its how they capture a site's meaning, tone, and topic relationships.</p>
+<p>In other words, LLMs don't index your keywords, they interpret your concepts.</p>
+<p>That’s why embedding analysis can be used to reverse engineer how AI models understand your site. You don't need to guess what they might say about your content, you can look directly at the data they're using to generate those answers.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-are-embeddings">What Are Embeddings<a href="https://johnpottergr.com/blog/6-25-2025-reverse-engineering-with-embeddings#what-are-embeddings" class="hash-link" aria-label="Direct link to What Are Embeddings" title="Direct link to What Are Embeddings">​</a></h2>
+<p>At a high level, embeddings are "vectors—high-dimensional coordinates" that represent your content's meaning. Pages that cover similar themes or serve similar intents tend to cluster closely in this space, even if they use very different words. LLMs use this vector space to locate the next most relevant piece of content.</p>
+<p>When you see AI-generated answers that include links, quotes, or summaries from web content, those outputs are shaped by their semantic proximity, not exact keyword matches. If your content doesn't cluster well around a topic, or if it overlaps too much with other pages on your site, it's hard for your site to display.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="auditing-your-own-embeddings">Auditing Your Own Embeddings<a href="https://johnpottergr.com/blog/6-25-2025-reverse-engineering-with-embeddings#auditing-your-own-embeddings" class="hash-link" aria-label="Direct link to Auditing Your Own Embeddings" title="Direct link to Auditing Your Own Embeddings">​</a></h2>
+<p>Recently, tools like Screaming Frog have made it possible to extract embeddings from your site in short order. If you use an API connection to OpenAI or another LLM provider, you can crawl your site, convert each page into its embedded form, and visualize the results in what’s called a <a href="https://www.screamingfrog.co.uk/seo-spider/tutorials/how-to-identify-semantically-similar-pages-outliers/">Content Cluster Diagram</a>.</p>
+<img src="https://johnpottergr.com/img/cluster.png" alt="Content-Cluster-Diagram" width="800">
+<p>This diagram shows how your content is semantically distributed. It can help you determine if all your topic pages tight and clearly defined, or if some are too similar. You can use the diagram to see if some pages are disconnected from your core focus. A visual map gives you an AI’s-eye view of how your site looks in embedding space.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="why-it-matters">Why It Matters<a href="https://johnpottergr.com/blog/6-25-2025-reverse-engineering-with-embeddings#why-it-matters" class="hash-link" aria-label="Direct link to Why It Matters" title="Direct link to Why It Matters">​</a></h2>
+<p>Embedding-based analysis does a few things that traditional SEO audits miss:</p>
+<ul>
+<li>
+<p>Reveals semantic duplication, even when titles differ</p>
+</li>
+<li>
+<p>Flags outlier pages that don’t align with your topical authority</p>
+</li>
+<li>
+<p>Highlights opportunities for consolidation or internal linking</p>
+</li>
+<li>
+<p>Provides clues into how LLMs might classify your content</p>
+</li>
+</ul>
+<p>It’s especially powerful for marketers who want their content to show up in tools like ChatGPT, Claude, or Perplexity—not just Google.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-comes-next">What Comes Next<a href="https://johnpottergr.com/blog/6-25-2025-reverse-engineering-with-embeddings#what-comes-next" class="hash-link" aria-label="Direct link to What Comes Next" title="Direct link to What Comes Next">​</a></h2>
+<p>LLM Reverse Engineering can be revealing, helping you understand how AI models display content. Next, I'll focus on an entirely different way to reverse engineer LLM output.
+The more your understand how AI sees the web, the better position you're to leverage it.</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[How Agent S2 and n8n Expand What LLMs Can See and Do]]></title>
         <id>https://johnpottergr.com/blog/6-24-2025-agents2-n8n-and-llms</id>
@@ -779,56 +817,5 @@ So:</p>
 </li>
 </ul>
 <p>In the end, this combo helps me move away from simply "here’s a keyword" to "here’s a well-structured brief for the right type of content". And it does so without having to perform manual sorting. Which is a huge timesaver.</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[DataForSeo, The Low-Cost SerpAPI alternative]]></title>
-        <id>https://johnpottergr.com/blog/6-9-2025-data-for-seo</id>
-        <link href="https://johnpottergr.com/blog/6-9-2025-data-for-seo"/>
-        <updated>2025-06-09T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Yesterday, I spent most of the afternoon sorting through API tools for use in my semi-automated SEO system. I need one that can feed select data into the custom Clearscope-style tool I’m building. The goal is to analyze top-ranking pages and generate detailed content briefs.]]></summary>
-        <content type="html"><![CDATA[<p>Yesterday, I spent most of the afternoon sorting through API tools for use in my semi-automated SEO system. I need one that can feed select data into the custom Clearscope-style tool I’m building. The goal is to analyze top-ranking pages and generate detailed content briefs.</p>
-<p>ChatGPT was helpful in narrowing down what factors to consider, but I was still let with plenty of options to pursue. In the end analysis, price was again a  major factor.</p>
-<p>I had my heart set on <a href="https://serpapi.com/">SerpAPI</a>, but their free version isn’t allowed for commercial use. That's fair, but without steady SEO client income, it's also a heavy lift. Trying to find a workaround felt pointless and kind of lame. So I started looking elsewhere.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="my-brief-flirtation-with-zenserp">My brief flirtation with Zenserp<a href="https://johnpottergr.com/blog/6-9-2025-data-for-seo#my-brief-flirtation-with-zenserp" class="hash-link" aria-label="Direct link to My brief flirtation with Zenserp" title="Direct link to My brief flirtation with Zenserp">​</a></h2>
-<p>The next SEO-related API tool I came across was <a href="https://zenserp.com/">Zenserp</a>. Their startup plan runs $23/month for up to 5,000 searches and includes solid NLP-based topic clustering. Not bad. Other tools like Serper, SearchAPI, and ValueSearch also crossed my path. But DataForSEO kept showing up on several recommendation lists, so I decided to take a closer look.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="an-alternative-with-a-big-plus-on-pricing">An Alternative With A Big Plus on Pricing<a href="https://johnpottergr.com/blog/6-9-2025-data-for-seo#an-alternative-with-a-big-plus-on-pricing" class="hash-link" aria-label="Direct link to An Alternative With A Big Plus on Pricing" title="Direct link to An Alternative With A Big Plus on Pricing">​</a></h2>
-<p><a href="https://dataforseo.com/">DataForSEO</a> is even more competitive on price ($0.0006 per SERP page). In an effort to compare with Zenserp, I asked ChatGPT to multiply 5000 x $0.0006 per SERP page result. The answer: $3, quite a discount from $23.</p>
-<p>"What's the catch?" I asked ChatGPT. Apparently, DataForSEO is "for developers" and not quite as user-friendly. But being a newly-minted "vibe-coder", I know I can handle that.</p>
-<p>ChatGPT notes that "Zenserp has a simpler setup and often includes structured extras like local pack and knowledge panel data", whereas "DataForSEO is more customizable, often preferred by developers building at scale—but it may require more setup work, including batch processing and parsing."</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="comprehensive-data">Comprehensive Data!<a href="https://johnpottergr.com/blog/6-9-2025-data-for-seo#comprehensive-data" class="hash-link" aria-label="Direct link to Comprehensive Data!" title="Direct link to Comprehensive Data!">​</a></h2>
-<p>DataForSEO goes full throttle on providing data. Below is a full list of the SERP elements it provides stuctured data for:</p>
-<ul>
-<li><strong>Organic Results</strong>: Standard search listings with titles, URLs, and descriptions.</li>
-<li><strong>Paid Advertisements</strong>: Google Ads data, including ad titles and URLs.</li>
-<li><strong>Featured Snippets</strong>: Highlighted answers appearing at the top of search results.</li>
-<li><strong>Knowledge Panels</strong>: Information boxes summarizing topics.</li>
-<li><strong>Local Packs</strong>: Listings of local businesses with relevant details.</li>
-<li><strong>Image and Video Results</strong>: Multimedia content related to the search query.</li>
-<li><strong>News Results</strong>: Recent articles and headlines.</li>
-<li><strong>Shopping Results</strong>: Product listings with prices and seller information.</li>
-<li><strong>Answer Boxes</strong>: Direct answers to specific queries.</li>
-<li><strong>People Also Ask</strong>: Related questions that users commonly search for.</li>
-<li><strong>Related Searches</strong>: Suggestions for similar searc</li>
-</ul>
-<p>DataForSEO also provides additional APIs for backlinks, keywords, and on-page data.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="api-modules-include">API Modules Include<a href="https://johnpottergr.com/blog/6-9-2025-data-for-seo#api-modules-include" class="hash-link" aria-label="Direct link to API Modules Include" title="Direct link to API Modules Include">​</a></h3>
-<ul>
-<li>Google SERP API (top 100 results for any keyword)</li>
-<li>Keyword Data API (volume, CPC, difficulty)</li>
-<li>On-Page API (crawl and analyze site structure/content)</li>
-<li>Rank Tracking API (track positions over time)</li>
-<li>Labs API (includes NLP-powered features like keyword clustering and content ideas)</li>
-</ul>
-<p>I'm comfortable working with APIs and parsing JSON, and since I'm building my own GPT-based content brief generator, it's a perfect fit.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="not-everything-is-a-box-of-chocolates">Not Everything Is A Box of Chocolates<a href="https://johnpottergr.com/blog/6-9-2025-data-for-seo#not-everything-is-a-box-of-chocolates" class="hash-link" aria-label="Direct link to Not Everything Is A Box of Chocolates" title="Direct link to Not Everything Is A Box of Chocolates">​</a></h2>
-<p>I had planned to use <a href="https://alsoasked.com/">AlsoAsked</a> to provide me with layed search intent. But again, people want to get paid for their products! (SMH).</p>
-<p>I'm going to try approximate this with DataForSEO bur it won't be easy. I'll have to:</p>
-<ul>
-<li>Pull related questions and long-tail keywords</li>
-<li>Use the intent labels and modifiers ("how," "best," "vs," etc.)</li>
-<li>Build my own tree/cluster structure (e.g., using GPT)</li>
-<li>Write logic or use GPT prompting to group those into "awareness → consideration → decision" stages—or feed it into a visualizer. ughh
-<strong>we'll see.</strong></li>
-</ul>]]></content>
     </entry>
 </feed>
