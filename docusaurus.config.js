@@ -84,7 +84,15 @@
         // }
             // ✅ Add this metadata array
         metadata: [
-            { name: 'canonical', content: 'https://johnpottergr.com' },
+          {
+          name: 'canonical',
+          content: 'https://johnpottergr.com',
+          },
+          {
+          name: 'description',
+          content:
+            "John M. Potter writes technical content built to rank in both SEO and AI search tools like ChatGPT, Claude, and Google's AI Overviews. Specialized in AI-friendly writing, prompt-led planning, and LLM citation strategy.",
+          },
         ],
 
         navbar: {
