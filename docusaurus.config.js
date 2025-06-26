@@ -148,5 +148,18 @@
         },
       }),
   };
+  module.exports = {
+  // ... existing config
+
+  plugins: [
+    [
+      '@docusaurus/plugin-google-gtag',
+      {
+        trackingID: 'G-HGP62N5PNG', // replace with your actual ID
+        anonymizeIP: true, // Optional: for GDPR compliance
+      },
+    ],
+  ],
+};
 
   export default config;
