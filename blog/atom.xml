@@ -2,11 +2,41 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://johnpottergr.com/blog</id>
     <title>Content That Shows Up In AI Search Blog</title>
-    <updated>2025-06-26T00:00:00.000Z</updated>
+    <updated>2025-06-27T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://johnpottergr.com/blog"/>
     <subtitle>Content That Shows Up In AI Search Blog</subtitle>
     <icon>https://johnpottergr.com/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Building Online Authority Through Embeddings Intelligence]]></title>
+        <id>https://johnpottergr.com/blog/6-27-2025-building-authority-through-embeddigs</id>
+        <link href="https://johnpottergr.com/blog/6-27-2025-building-authority-through-embeddigs"/>
+        <updated>2025-06-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Building online authority requires chasing backlinks, tweaking keywords, and manually engaging multiple platforms just to stay visible. But that playbook is changing (who has the patience?). I'm putting togther a new system—the Embeddings-Powered Content Intelligence Engine to brings automation, semantic analysis, and smart content distribution together for the sake of LLM brand visibility.]]></summary>
+        <content type="html"><![CDATA[<p>Building online authority requires chasing backlinks, tweaking keywords, and manually engaging multiple platforms just to stay visible. But that playbook is changing (who has the patience?). I'm putting togther a new system—the Embeddings-Powered Content Intelligence Engine to brings automation, semantic analysis, and smart content distribution together for the sake of LLM brand visibility.</p>
+<p>Embeddings is at the heart of this system. These are vector-based representations of language that capture the meaning and context of words, not just their appearance. They help us understand why some content connects and spreads, while other posts fall flat.</p>
+<p>This technology can help you analyze the “semantic fingerprint” of high-performing content, so you can apply these insights to your content strategy.</p>
+<p>I like to think of it akin to correlating content with topical fit. Which goes to the heart of audience attraction. Instead of guessing what might resonate, you're working from a blueprint of what already does.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="making-it-real">Making It Real<a href="https://johnpottergr.com/blog/6-27-2025-building-authority-through-embeddigs#making-it-real" class="hash-link" aria-label="Direct link to Making It Real" title="Direct link to Making It Real">​</a></h2>
+<p>Here’s what that looks like in practice.</p>
+<ul>
+<li>
+<p>An LLM such as <strong>DeepSeek V3</strong> reviews real-time data from social platforms, identifies trends and tone gaps in your current content, and uses embeddings to make precise comparisons.</p>
+</li>
+<li>
+<p><strong>Agent S2</strong>, a web automation tool, collects the content that’s performing well across different platforms. It navigates sites like a human would, learning from each pass to get better at spotting high-engagement material and posting at the right time.</p>
+</li>
+<li>
+<p><strong>n8n</strong> ties these tools together—triggering the LLM to draft a response, deploying Agent S2 to post it, and tracking how people respond.</p>
+</li>
+</ul>
+<p>You could say they work together as a team:</p>
+<img src="https://johnpottergr.com/img/huddle.png" alt="AI Huddle" width="800">
+<p>Combining these tools goes beyond optimization. It creates a system for putting your brand in the right conversations with the right tone on a consistent basis. If someone mentions your company in a podcast transcript or blog comment, the system can surface that mention, craft a thoughtful reply, and publish it. All without manual review.</p>
+<p>The focus isn’t on gaming SEO. It’s on becoming visible through genuine engagement and semantic relevance.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="looking-forward">Looking forward<a href="https://johnpottergr.com/blog/6-27-2025-building-authority-through-embeddigs#looking-forward" class="hash-link" aria-label="Direct link to Looking forward" title="Direct link to Looking forward">​</a></h2>
+<p>As tools like DeepSeek and xAI’s APIs evolve, this kind of content intelligence will become ore accessible. It offers brands a scalable way to build trust, generate visibility, and establish authority without adding a ton more tasks.</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[LLM Reverse Engineering with RAG to Probe AI Search Behavior]]></title>
         <id>https://johnpottergr.com/blog/6-26-2025-embeddings-and-RAG</id>
@@ -772,27 +802,5 @@ So:</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="next-steps-for-forward-thinking-companies">Next steps for forward thinking companies<a href="https://johnpottergr.com/blog/6-12-2025-make-seo-work%20for%20you#next-steps-for-forward-thinking-companies" class="hash-link" aria-label="Direct link to Next steps for forward thinking companies" title="Direct link to Next steps for forward thinking companies">​</a></h2>
 <p>The next step would be to audit every page of your site for readability. One wasy to streamline this is to construct a content architecture that prioritizes direct answer formats. Pretty soon, it won't be how well you rank in Google but how often you're mentioned in AI generated responses.</p>
 <p>Branding become intertwined with AI here, so be sure to act accordingly.</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why Crystal Knows Is a Secret Weapon for Lead Generation]]></title>
-        <id>https://johnpottergr.com/blog/6-11-2025-crystal-knows-for-leads.md</id>
-        <link href="https://johnpottergr.com/blog/6-11-2025-crystal-knows-for-leads.md"/>
-        <updated>2025-06-11T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Reaching out to cold leads can be a shot in the dark, but Crystal Knows makes it a lot less intimidating.]]></summary>
-        <content type="html"><![CDATA[<p>Reaching out to cold leads can be a shot in the dark, but <a href="https://crystalknows.com/">Crystal Knows</a> makes it a lot less intimidating.</p>
-<p>Some clever marketer figured out how to leverage public data, behavioral models, and AI to create a smart leads generation tool. It gives sales and marketing teams a psychological edge by providing them with the <a href="https://www.discprofile.com/what-is-disc">DISC personality assessments</a> of their prospects.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="why-communication-styles-are-so-important">Why communication styles are so important<a href="https://johnpottergr.com/blog/6-11-2025-crystal-knows-for-leads.md#why-communication-styles-are-so-important" class="hash-link" aria-label="Direct link to Why communication styles are so important" title="Direct link to Why communication styles are so important">​</a></h2>
-<p>Crystal Knows is somewhat dependent on the client having taken a DISC assessment. If they have, the software can determine whether a lead prefers bullet points or detailed explanations, formal language or casual tone, quick decisions or thoughtful pacing. It's like getting an inside scoop on someone.</p>
-<p>But this isn’t just a nice-to-have, it's may make the difference between being ignored and being heard.</p>
-<p>It's all based on a simple premise - you should tailor your emails, calls, and outreach strategies to match the communication style of your leads. It's another version of 'matching', a tried and true in-person sales strategy.</p>
-<p>Understanding a potential customer is what  personalization is all about. It turns what might otherwise be a generic pitch into something much more meaningful.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="my-experience-with-using-it-on-linkedin">My experience with using it on LinkedIn<a href="https://johnpottergr.com/blog/6-11-2025-crystal-knows-for-leads.md#my-experience-with-using-it-on-linkedin" class="hash-link" aria-label="Direct link to My experience with using it on LinkedIn" title="Direct link to My experience with using it on LinkedIn">​</a></h2>
-<p>I'm hardly one to get too excited about marketing tools. But this one was actually fun to use.</p>
-<p>To check it out, I used the software's Chrome extension to check out my LinkedIn profile. It gave me a pretty exhaustive about how best to communicate to ...me. And all through a thin side panel on the right side of the LI profile.</p>
-<p>The only thing that kind of shook me was that I took the DISC assessment maybe a decade ago. And here it was being used for marketing purposes. Something tells me all this was in the fine print when I signed off on taking it.</p>
-<p>Here is what the full page view of DISC looks like in Crystal Knows:</p>
-<img src="https://johnpottergr.com/img/disc.png" width="650">
-<p>In addition to LinkedIn, Crystal Knows also integrates with Salesforce and Gmail, making it easy to write personalized messages where you're already working.</p>
-<p>To get a feel for what the Crystal Knows offers, I recommend taking advantage of its free trial.</p>]]></content>
     </entry>
 </feed>
