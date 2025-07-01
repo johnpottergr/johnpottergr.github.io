@@ -1,5 +1,5 @@
 ---
-title: The Blind Spot in Your Attribution: How to Turn ChatGPT Logs into Real Insight
+title: The Blind Spot in Your Attribution, How to Turn ChatGPT Logs into Real Insight
 date: 2025-07-01
 ---
 Most companies are still treating web analytics like it’s 2015. They set up GA4 or Adobe, tag their campaigns, and trust the dashboards to tell them how people discover and engage with what we publish. But LLMs have changed everything in the past year, and it’s quietly rewriting the rules of attribution.
