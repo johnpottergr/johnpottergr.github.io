@@ -6,6 +6,8 @@ You’ve probably noticed that some of your content seems to vanish into the voi
 
 Here, i walk through the biggest issues that will keep your content from being found and understood by AI...and what you can do to fix them.
 
+<!--truncate-->
+
 ## 1. Weak starts leave AI guessing
 **The pain point:** Most writers ease into the topic, thinking they’re building suspense or context. In reality, AI models treat your intro as the signal for what the entire page is about. A slow buildup tells the model nothing and costs you rankings.
 
