@@ -20,43 +20,46 @@ export default function Workflow() {
 
 {/* Heading with underline */}
 
-<h2 style={{
-  color: '#222',
-  fontWeight: 400,
-  paddingBottom: '5px',
-  marginBottom: '10px'
+<div style={{
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'space-between',
+  flexWrap: 'wrap',
+  marginBottom: '1rem',
 }}>
+  <h2 style={{
+    color: '#222',
+    fontWeight: 400,
+    margin: 0,
+  }}>
   At Signals Stack
 </h2>
-
-{/* Logo absolutely positioned under the green line */}
-<img
-  src="/img/signals.png"
-  alt="Signals Logo"
-  style={{
-    position: 'absolute',
-    top: '65px',     // tweak this to adjust vertical placement
-    right: '0px',
-    paddingLeft: '10px',
-    height: '60px'
-  }}
-/>
+ <img
+    src="/img/signals.png"
+    alt="Signals Logo"
+    style={{
+      height: '60px',
+      marginTop: '10px',
+      flex: '0 0 auto',
+    }}
+  />
+  </div>
         <p style={{ maxWidth: '680px'  }}>
        My new venture is at <a href="https://llmvisibility.co">Signals</a>.
         While I still write technical content, my new focus is developing content strategies
-        that highlight brands in AI conversations and prompts. My offerings primarily center around
-        <ul>
+        that highlight brands in AI conversations and prompts. My offerings primarily center around:
+        </p>
+        <ul style={{ maxWidth: '680px', paddingLeft: '20px' }}>
           <li>
-          Content intelligence: Transforming content strategy by analyzing content embeddings
+            <strong>Content intelligence:</strong> Transforming content strategy by analyzing content embeddings
           </li>
           <li>
-          Automated authority: Automating engagement across platforms to build credibility
+            <strong>Automated authority:</strong> Automating engagement across platforms to build credibility
           </li>
           <li>
-          Performance insights Automating measurement of social signals and user behavior,
+          <strong>Performance insights:</strong> Automating measurement of social signals and user behavior,
           </li>
         </ul>
-</p>
 <p>Additional, I employ AI to review historical site data to improve website conversion rate optimization.
   Internally, I can suggest n8n-powered brand workflows across channels to streamline operations and keep your brand consistent.
         </p>
@@ -74,7 +77,7 @@ export default function Workflow() {
 
 {/* Logo absolutely positioned under the green line */}
 <img
-  src="/img/edify.png"
+  src=""
   alt="Edify Logo"
   style={{
     position: 'absolute',
