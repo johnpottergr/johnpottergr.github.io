@@ -164,7 +164,7 @@ extensive hands-on experience with analytics-driven SEO reporting.</p>
   justifyContent: 'space-between',
   flexWrap: 'wrap',
   marginBottom: '1rem',
-}}>
+}}
   <h2 style={{
     color: '#222',
     fontWeight: 400,
