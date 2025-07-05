@@ -85,7 +85,7 @@ export default function Workflow() {
     style={{
       height: '70px',
       marginTop: '10px',
-      marginRight: '250px',
+      marginRight: '150px',
       flex: '0 0 auto',
     }}
   />
