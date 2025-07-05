@@ -38,7 +38,7 @@ export default function Workflow() {
     src="/img/signals.png"
     alt="Signals Logo"
     style={{
-      height: '70px',
+      height: '60px',
       marginTop: '10px',
       marginRight: '40px',
       flex: '0 0 auto',
