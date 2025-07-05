@@ -27,7 +27,7 @@ export default function Home() {
     textAlign: 'center',
   }}
 >
-  AI Search Visibility, Built In
+  AI Search Visibility, Built-In
 </h1>
 
 {/* Flex layout for paragraph + image */}
@@ -89,7 +89,7 @@ export default function Home() {
          {/* SEO Skills */}
 
          <div>
-  
+
 
            <h2 style={{textAlign: 'center', fontWeight: 400 }}>
           Why Work With Me
