@@ -83,7 +83,7 @@ export default function Workflow() {
     src="/img/edify.png"
     alt="Edify Logo"
     style={{
-      height: '70px',
+      height: '65px',
       marginTop: '10px',
       marginRight: '40px',
       flex: '0 0 auto',
