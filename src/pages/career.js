@@ -38,9 +38,9 @@ export default function Workflow() {
     src="/img/signals.png"
     alt="Signals Logo"
     style={{
-      height: '60px',
+      height: '70px',
       marginTop: '10px',
-      marginLeft: '40px', 
+      marginRight: '40px',
       flex: '0 0 auto',
     }}
   />
@@ -85,7 +85,7 @@ export default function Workflow() {
     style={{
       height: '70px',
       marginTop: '10px',
-      marginLeft: '40px',
+      marginRight: '40px',
       flex: '0 0 auto',
     }}
   />
@@ -121,8 +121,9 @@ helped deliver content that matched what users were searching for.
     src="/img/corpconv.png"
     alt="Corporate Conversions Logo"
     style={{
-      height: '60px',
+      height: '70px',
       marginTop: '10px',
+      marginRight: '40px',
       flex: '0 0 auto',
     }}
   />
