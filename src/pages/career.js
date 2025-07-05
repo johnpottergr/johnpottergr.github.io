@@ -85,7 +85,7 @@ export default function Workflow() {
     style={{
       height: '70px',
       marginTop: '10px',
-      marginRight: '140px',
+      marginRight: '40px',
       flex: '0 0 auto',
     }}
   />
@@ -121,7 +121,7 @@ helped deliver content that matched what users were searching for.
     src="/img/corpconv.png"
     alt="Corporate Conversions Logo"
     style={{
-      height: '70px',
+      height: '80px',
       marginTop: '10px',
       marginRight: '40px',
       flex: '0 0 auto',
