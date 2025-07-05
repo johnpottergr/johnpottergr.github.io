@@ -66,27 +66,30 @@ export default function Workflow() {
 
 
 
-<h2 style={{
-  color: '#222',
-  fontWeight: 400,
-  paddingBottom: '5px',
-  marginBottom: '10px'
+<div style={{
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'space-between',
+  flexWrap: 'wrap',
+  marginBottom: '1rem',
 }}>
+  <h2 style={{
+    color: '#222',
+    fontWeight: 400,
+    margin: 0,
+  }}>
   At Edify Content
 </h2>
-
-{/* Logo absolutely positioned under the green line */}
-<img
-  src=""
-  alt="Edify Logo"
-  style={{
-    position: 'absolute',
-    top: '65px',     // tweak this to adjust vertical placement
-    right: '0px',
-    paddingLeft: '10px',
-    height: '60px'
-  }}
-/>
+ <img
+    src="/img/edify.png"
+    alt="Edify Logo"
+    style={{
+      height: '60px',
+      marginTop: '10px',
+      flex: '0 0 auto',
+    }}
+  />
+  </div>
         <p style={{ maxWidth: '680px'  }}>
         At <a href="https://edifycontent.com">Edify Content</a>,
         I produced around 15 long-form technical articles per month,
@@ -100,20 +103,30 @@ helped deliver content that matched what users were searching for.
         </p>
 
 
-        <h2 style={{ color: '#222', fontWeight: 400,  paddingTop: '10px',  marginBottom: '10px' }}>
+<div style={{
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'space-between',
+  flexWrap: 'wrap',
+  marginBottom: '1rem',
+}}>
+  <h2 style={{
+    color: '#222',
+    fontWeight: 400,
+    margin: 0,
+  }}>
           At Corporate Conversions
         </h2>
-        <img
-  src="/img/corpconv.png"
-  alt="Edify Logo"
-  style={{
-    position: 'absolute',
-    top: '365px',     // tweak this to adjust vertical placement
-    right: '0px',
-    paddingLeft: '10px',
-    height: '90px'
-  }}
-/>
+  <img
+    src="/img/corpconv.png"
+    alt="Corporate Conversions Logo"
+    style={{
+      height: '60px',
+      marginTop: '10px',
+      flex: '0 0 auto',
+    }}
+  />
+  </div>
 <p style={{ maxWidth: '680px'  }}>
 As a startup, <a href="https://corpconversions.com">Corporate Conversions</a> required only a few
 highly-skilled contractors to help it get off the ground. At the founder's request, I created
