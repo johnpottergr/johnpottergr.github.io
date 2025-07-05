@@ -52,20 +52,16 @@ export default function Home() {
       worth 4.4x</a> the average traditional organic
       search visitor.
     </p>
-    <div style={{ textAlign: 'center' }}>
-      <a
-      href="mailto:johnpottergr@gmail.com"
-      className="cta-button"
-      style={{
-        display: 'inline-block',
-        width: '615px',
-        align: 'center',
-        textDecoration: 'none'
-      }} >
+     <p style={{ textAlign: 'left',  marginBottom: '35px' }}>
+            I blend writing, strategy, and light automation to
+            create content that resonates with humans and shows up
+            in AI search. My system doesn’t stop at the page,
+            it tracks where your content gets pulled, summarized, and
+            shared by LLMs. Because the next click might not come from
+            Google, it might come from Claude.
 
-      Lets Get Your Brand Quoted
-    </a>
-   </div>
+    </p>
+
   </div>
 
 
@@ -82,27 +78,10 @@ export default function Home() {
       }}
     />
   </div>
-
 </div>
 
-
-         {/* SEO Skills */}
-
+         {/* New Section */}
          <div>
-
-
-           <h2 style={{textAlign: 'center', fontWeight: 400 }}>
-          Why Work With Me
-         </h2>
-           <p style={{ marginBottom: '35px', textAlign: 'left' }}>
-            I blend writing, strategy, and light automation to
-            create content that resonates with humans and shows up
-            in AI search. My system doesn’t stop at the page,
-            it tracks where your content gets pulled, summarized, and
-            shared by LLMs. Because the next click might not come from
-            Google, it might come from Claude.
-           </p>
-
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7DYhiD3IuxE?si=F3y8zcWtsqVwiwPs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
