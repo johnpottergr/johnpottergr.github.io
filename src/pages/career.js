@@ -158,13 +158,13 @@ extensive hands-on experience with analytics-driven SEO reporting.</p>
         </p>
 
 
-  div style={{
+  <div style={{
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'space-between',
   flexWrap: 'wrap',
   marginBottom: '1rem',
-}}
+}}>
   <h2 style={{
     color: '#222',
     fontWeight: 400,
@@ -182,6 +182,7 @@ extensive hands-on experience with analytics-driven SEO reporting.</p>
       flex: '0 0 auto',
     }}
   />
+  </div>
         <p>
         As Executive Director of GRAPE, a business-related nonprofit, I produced email marketing campaigns for lunch-and-learn events and other initiatives, managing a 10,000-member subscriber list. This involved segmenting audiences and running A/B tests to improve engagement and drive attendance. I also produced daily, targeted content optimized around the keyword phrase “business networking,” which helped the nonprofit’s website steadily climb in local search rankings.
         </p>
