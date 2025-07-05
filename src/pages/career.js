@@ -40,11 +40,12 @@ export default function Workflow() {
     style={{
       height: '60px',
       marginTop: '10px',
+      marginLeft: '40px', 
       flex: '0 0 auto',
     }}
   />
   </div>
-        <p style={{ maxWidth: '680px'  }}>
+        <p>
        My new venture is at <a href="https://llmvisibility.co">Signals</a>.
         While I still write technical content, my new focus is developing content strategies
         that highlight brands in AI conversations and prompts. My offerings primarily center around:
@@ -57,14 +58,12 @@ export default function Workflow() {
             <strong>Automated authority:</strong> Automating engagement across platforms to build credibility
           </li>
           <li>
-          <strong>Performance insights:</strong> Automating measurement of social signals and user behavior,
+          <strong>Performance insights:</strong> Automating measurement of social signals and user behavior
           </li>
         </ul>
 <p>Additional, I employ AI to review historical site data to improve website conversion rate optimization.
   Internally, I can suggest n8n-powered brand workflows across channels to streamline operations and keep your brand consistent.
         </p>
-
-
 
 <div style={{
   display: 'flex',
@@ -84,13 +83,14 @@ export default function Workflow() {
     src="/img/edify.png"
     alt="Edify Logo"
     style={{
-      height: '60px',
+      height: '70px',
       marginTop: '10px',
+      marginLeft: '40px',
       flex: '0 0 auto',
     }}
   />
   </div>
-        <p style={{ maxWidth: '680px'  }}>
+        <p>
         At <a href="https://edifycontent.com">Edify Content</a>,
         I produced around 15 long-form technical articles per month,
         typically targeting B2B, software, and data engineering audiences.
@@ -127,7 +127,7 @@ helped deliver content that matched what users were searching for.
     }}
   />
   </div>
-<p style={{ maxWidth: '680px'  }}>
+<p>
 As a startup, <a href="https://corpconversions.com">Corporate Conversions</a> required only a few
 highly-skilled contractors to help it get off the ground. At the founder's request, I created
 Competitive Prospects LLC to participate in this process. My role gave me
