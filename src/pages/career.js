@@ -19,6 +19,50 @@ export default function Workflow() {
        <div style={{ position: 'relative', paddingTop: '10px' }}>
 
 {/* Heading with underline */}
+
+<h2 style={{
+  color: '#222',
+  fontWeight: 400,
+  paddingBottom: '5px',
+  marginBottom: '10px'
+}}>
+  At Signals Stack
+</h2>
+
+{/* Logo absolutely positioned under the green line */}
+<img
+  src="/img/signals.png"
+  alt="Signals Logo"
+  style={{
+    position: 'absolute',
+    top: '65px',     // tweak this to adjust vertical placement
+    right: '0px',
+    paddingLeft: '10px',
+    height: '60px'
+  }}
+/>
+        <p style={{ maxWidth: '680px'  }}>
+       My new venture is at <a href="https://llmvisibility.co">Signals</a>.
+        While I still write technical content, my new focus is developing content strategies
+        that highlight brands in AI conversations and prompts. My offerings primarily center around
+        <ul>
+          <li>
+          Content intelligence: Transforming content strategy by analyzing content embeddings
+          </li>
+          <li>
+          Automated authority: Automating engagement across platforms to build credibility
+          </li>
+          <li>
+          Performance insights Automating measurement of social signals and user behavior,
+          </li>
+        </ul>
+</p>
+<p>Additional, I employ AI to review historical site data to improve website conversion rate optimization.
+  Internally, I can suggest n8n-powered brand workflows across channels to streamline operations and keep your brand consistent.
+        </p>
+
+
+
 <h2 style={{
   color: '#222',
   fontWeight: 400,
