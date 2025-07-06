@@ -61,6 +61,7 @@ export default function Home() {
             Google, it might come from Claude.
 
     </p>
+    <p>For more information, visit my website at <a href="https://llmvisibility.co">llmvisibility.co</a></p>
 
   </div>
 
