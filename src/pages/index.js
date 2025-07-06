@@ -81,21 +81,17 @@ export default function Home() {
 </div>
 
          {/* New Section */}
-         <div>
-  <p
+  <div>
+    <div
   style={{
-    paddingTop: '-16px',
     borderBottom: '2px solid #5ED1A5',
-    paddingBottom: '36px',
-    marginBottom: '1.5rem',
+    margin: '24px 0',
   }}
->
-</p>
+>   </div>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7DYhiD3IuxE?si=F3y8zcWtsqVwiwPs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-
-       </div>
+  </div>
      </main>
    </Layout>
  );
