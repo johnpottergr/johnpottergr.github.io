@@ -84,8 +84,9 @@ export default function Home() {
          <div>
   <p
   style={{
+    paddingTop: '-16px',
     borderBottom: '2px solid #5ED1A5',
-    paddingBottom: '16px',
+    paddingBottom: '36px',
     marginBottom: '1.5rem',
   }}
 >
