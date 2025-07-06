@@ -85,7 +85,7 @@ export default function Home() {
     <div
   style={{
     borderBottom: '2px solid #5ED1A5',
-    margin: '4px 0',
+    margin: '44px 0',
   }}
 >   </div>
 
