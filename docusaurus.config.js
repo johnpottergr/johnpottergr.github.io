@@ -15,7 +15,7 @@
     favicon: 'img/favicon.ico',
 
     // Set the production url of your site here
-    url: 'https://johnpottergr.com', // Update this to your actual domain
+    url: 'https://johnpottergr.github.io', // Update this to your actual domain
     // Set the /<baseUrl>/ pathname under which your site is served
     // For GitHub pages deployment, it is often '/<projectName>/'
     baseUrl: '/',
@@ -86,7 +86,7 @@
         metadata: [
           {
           name: 'canonical',
-          content: 'https://johnpottergr.com',
+          content: 'https://johnpottergr.github.io',
           },
           {
           name: 'description',
@@ -101,7 +101,7 @@
             { to: '/', label: 'Home', position: 'left' }, // Moved to first position
             { to: '/portfolio', label: 'Portfolio', position: 'left' }, // Moved to second position
             { to: '/career', label: 'Career', position: 'left', },
-            { href: 'https://johnpottergr.com/resume6a.pdf', label: 'Resume', position: 'left', external: true },
+            { href: 'https://johnpottergr.github.io/resume6a.pdf', label: 'Resume', position: 'left', external: true },
             { to: '/blog', label: 'Blog', position: 'left' },
           ],
         },
