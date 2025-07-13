@@ -51,14 +51,14 @@ export default function Workflow() {
         that highlight brands in AI conversations and prompts. My offerings primarily center around:
         </p>
         <ul style={{ maxWidth: '680px', paddingLeft: '20px' }}>
-          <li>
-            <strong>Content intelligence:</strong> Transforming content strategy by analyzing content embeddings
+                    <li>
+            <strong>Visibility Audit</strong> Get a clear picture of where your brand stands on LLM platforms.
           </li>
           <li>
-            <strong>Automated authority:</strong> Automating engagement across platforms to build credibility
+            <strong>Content intelligence:</strong> Transform content strategy by analyzing content embeddings
           </li>
           <li>
-          <strong>Performance insights:</strong> Automating measurement of social signals and user behavior
+          <strong>Performance insights:</strong> Automate measurement of social signals and user behavior
           </li>
         </ul>
 <p>Additional, I employ AI to review historical site data to improve website conversion rate optimization.
