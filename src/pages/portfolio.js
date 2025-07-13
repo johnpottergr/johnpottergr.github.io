@@ -23,75 +23,75 @@ export default function Portfolio() {
         </p>
         <ul style={{ lineHeight: '1.6' }}>
           <li>
-            <a href="https://johnpottergr.com/portfolio#ai--machine-learning" style={{ color: '#008000', fontWeight: '400', textDecoration: 'none' }}>
+            <a href="#ai--machine-learning" style={{ color: '#008000', fontWeight: '400', textDecoration: 'none' }}>
               AI/Machine Learning
             </a>
           </li>
           <li>
-            <a href="https://johnpottergr.com/portfolio#blockchain-technology" style={{ color: '#008000', fontWeight: '400',  textDecoration: 'none' }}>
+            <a href="#blockchain-technology" style={{ color: '#008000', fontWeight: '400',  textDecoration: 'none' }}>
               Blockchain Technology
             </a>
           </li>
           <li>
-            <a href="https://johnpottergr.com/portfolio#business-compliance" style={{ color: '#008000', fontWeight: '400',  textDecoration: 'none' }}>
+            <a href="#business-compliance" style={{ color: '#008000', fontWeight: '400',  textDecoration: 'none' }}>
               Business Compliance
             </a>
           </li>
           <li>
-            <a href="https://johnpottergr.com/portfolio#business-operations" style={{ color: '#008000', fontWeight: '400',  textDecoration: 'none' }}>
+            <a href="#business-operations" style={{ color: '#008000', fontWeight: '400',  textDecoration: 'none' }}>
               Business Operations
             </a>
           </li>
 
           <li>
-            <a href="https://johnpottergr.com/portfolio#cryptography" style={{ color: '#008000', fontWeight: '400',  textDecoration: 'none' }}>
+            <a href="#cryptography" style={{ color: '#008000', fontWeight: '400',  textDecoration: 'none' }}>
               Cryptography
             </a>
           </li>
           <li>
-            <a href="https://johnpottergr.com/portfolio#cybersecurity" style={{ color: '#008000', fontWeight: '400',  textDecoration: 'none' }}>
+            <a href="#cybersecurity" style={{ color: '#008000', fontWeight: '400',  textDecoration: 'none' }}>
               Cybersecurity
             </a>
           </li>
           <li>
-            <a href="https://johnpottergr.com/portfolio#data-engineering" style={{ color: '#008000', fontWeight: '400',  textDecoration: 'none' }}>
+            <a href="#data-engineering" style={{ color: '#008000', fontWeight: '400',  textDecoration: 'none' }}>
               Data Engineering
             </a>
           </li>
           <li>
-            <a href="https://johnpottergr.com/portfolio#it-infrastructure" style={{ color: '#008000', fontWeight: '400',  textDecoration: 'none' }}>
+            <a href="#it-infrastructure" style={{ color: '#008000', fontWeight: '400',  textDecoration: 'none' }}>
               IT Infrastructure
             </a>
           </li>
           <li>
-            <a href="https://johnpottergr.com/portfolio#kubernetes" style={{ color: '#008000', fontWeight: '400',  textDecoration: 'none' }}>
+            <a href="#kubernetes" style={{ color: '#008000', fontWeight: '400',  textDecoration: 'none' }}>
               Kubernetes
             </a>
           </li>
           <li>
-            <a href="https://johnpottergr.com/portfolio#marketing" style={{ color: '#008000', fontWeight: '400',  textDecoration: 'none' }}>
+            <a href="##marketing" style={{ color: '#008000', fontWeight: '400',  textDecoration: 'none' }}>
               Marketing
             </a>
           </li>
           <li>
-            <a href="https://johnpottergr.com/portfolio#quantum-computing" style={{ color: '#008000', fontWeight: '400',  textDecoration: 'none' }}>
+            <a href="#quantum-computing" style={{ color: '#008000', fontWeight: '400',  textDecoration: 'none' }}>
               Quantum Computing
             </a>
           </li>
           <li>
-            <a href="https://johnpottergr.com/portfolio#stock-analysis" style={{ color: '#008000', fontWeight: '400',  textDecoration: 'none' }}>
+            <a href="#stock-analysis" style={{ color: '#008000', fontWeight: '400',  textDecoration: 'none' }}>
               Startup Finance
             </a>
           </li>
 
           <li>
-            <a href="https://johnpottergr.com/portfolio#stock-analysis" style={{ color: '#008000', fontWeight: '400',  textDecoration: 'none' }}>
+            <a href="#stock-analysis" style={{ color: '#008000', fontWeight: '400',  textDecoration: 'none' }}>
               Stock Analysis
             </a>
           </li>
 
           <li>
-            <a href="https://johnpottergr.com/portfolio#web-testing" style={{ color: '#008000', fontWeight: '400',  textDecoration: 'none' }}>
+            <a href="#web-testing" style={{ color: '#008000', fontWeight: '400',  textDecoration: 'none' }}>
               Web Testing
             </a>
           </li>
