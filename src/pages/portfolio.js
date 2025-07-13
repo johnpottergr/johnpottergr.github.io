@@ -69,7 +69,7 @@ export default function Portfolio() {
             </a>
           </li>
           <li>
-            <a href="##marketing" style={{ color: '#008000', fontWeight: '400',  textDecoration: 'none' }}>
+            <a href="#marketing" style={{ color: '#008000', fontWeight: '400',  textDecoration: 'none' }}>
               Marketing
             </a>
           </li>
