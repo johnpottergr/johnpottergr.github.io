@@ -1,87 +1,860 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="rss.xsl"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
-        <title>John Potter's Portfolio Blog</title>
+        <title>Content That Shows Up In AI Search Blog</title>
         <link>https://johnpottergr.github.io/blog</link>
-        <description>John Potter's Portfolio Blog</description>
-        <lastBuildDate>Thu, 26 Aug 2021 00:00:00 GMT</lastBuildDate>
+        <description>Content That Shows Up In AI Search Blog</description>
+        <lastBuildDate>Sat, 05 Jul 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[Welcome]]></title>
-            <link>https://johnpottergr.github.io/blog/welcome</link>
-            <guid>https://johnpottergr.github.io/blog/welcome</guid>
-            <pubDate>Thu, 26 Aug 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[Docusaurus blogging features are powered by the blog plugin.]]></description>
-            <content:encoded><![CDATA[<p><a href="https://docusaurus.io/docs/blog" target="_blank" rel="noopener noreferrer">Docusaurus blogging features</a> are powered by the <a href="https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog" target="_blank" rel="noopener noreferrer">blog plugin</a>.</p>
-<p>Here are a few tips you might find useful.</p>
-<p>Simply add Markdown files (or folders) to the <code>blog</code> directory.</p>
-<p>Regular blog authors can be added to <code>authors.yml</code>.</p>
-<p>The blog post date can be extracted from filenames, such as:</p>
+            <title><![CDATA[My Blog Is Moving]]></title>
+            <link>https://johnpottergr.github.io/blog/7-5-2025-blog-moving</link>
+            <guid>https://johnpottergr.github.io/blog/7-5-2025-blog-moving</guid>
+            <pubDate>Sat, 05 Jul 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[My blog is moving to my new venture at LLMvisibility.co. The site is nearly up, just working out some kinks.]]></description>
+            <content:encoded><![CDATA[<p>My blog is moving to my new venture at LLMvisibility.co. The site is nearly up, just working out some kinks.</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[n8n vs. MCP for LLM Workflows]]></title>
+            <link>https://johnpottergr.github.io/blog/7-2-2025-n8n-vs-mcp</link>
+            <guid>https://johnpottergr.github.io/blog/7-2-2025-n8n-vs-mcp</guid>
+            <pubDate>Wed, 02 Jul 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Building AI-powered workflows comes with many options, so it can feel overwhelming. The choice might come down to choosing something like n8n, which offers drag-and-drop automation and easily integrates with other tools, or MCP (Model Context Protocol), a standard for defining how LLMs interact with tools and data.]]></description>
+            <content:encoded><![CDATA[<p>Building AI-powered workflows comes with many options, so it can feel overwhelming. The choice might come down to choosing something like n8n, which offers drag-and-drop automation and easily integrates with other tools, or MCP (Model Context Protocol), a standard for defining how LLMs interact with tools and data.</p>
+<p>Both approaches have their strengths. Depending on what you’re trying to build, one might save you weeks of engineering time.</p>
+<p>To understand this better, I'm breaking down where each one excels and struggles, and how to decide which one is the best fit for your project.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-is-n8n">What is n8n?<a href="https://johnpottergr.github.io/blog/7-2-2025-n8n-vs-mcp#what-is-n8n" class="hash-link" aria-label="Direct link to What is n8n?" title="Direct link to What is n8n?">​</a></h2>
+<p>n8n is an open-source workflow automation platform that helps you connect apps without writing much code. It's similar to <a href="https://make.com/">Make</a>, but is self-hosted and highly customizable.</p>
+<p>Over the past year, n8n has steadily expanded into AI territory. You’ll now find built-in nodes for:</p>
 <ul>
-<li><code>2019-05-30-welcome.md</code></li>
-<li><code>2019-05-30-welcome/index.md</code></li>
+<li>Chat completion with OpenAI or Anthropic</li>
+<li>Embeddings generation</li>
+<li>Summarization pipelines</li>
+<li>Custom function nodes to process LLM output</li>
 </ul>
-<p>A blog post folder can be convenient to co-locate blog post images:</p>
-<p><img decoding="async" loading="lazy" alt="Docusaurus Plushie" src="https://johnpottergr.github.io/assets/images/docusaurus-plushie-banner-a60f7593abca1e3eef26a9afa244e4fb.jpeg" width="1500" height="500" class="img_ev3q"></p>
-<p>The blog supports tags as well!</p>
-<p><strong>And if you don't want a blog</strong>: just delete this directory, and use <code>blog: false</code> in your Docusaurus config.</p>]]></content:encoded>
-            <category>Facebook</category>
-            <category>Hello</category>
-            <category>Docusaurus</category>
+<p>This makes n8n very popular amond developers who want to:</p>
+<ul>
+<li>Prototype AI workflows quickly</li>
+<li>Automate marketing tasks</li>
+<li>Orchestrate LLM calls alongside other SaaS tools like Slack or Airtable</li>
+</ul>
+<p>If you’re building an app that needs to move data between systems and it employs AI along the way, n8n would seem to be the fastest route to getting to proof of concept.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-is-mcp">What is MCP?<a href="https://johnpottergr.github.io/blog/7-2-2025-n8n-vs-mcp#what-is-mcp" class="hash-link" aria-label="Direct link to What is MCP?" title="Direct link to What is MCP?">​</a></h2>
+<p>I was really enamored with Model Context Protocol (MCP) earlier this year. MCP is highly structured approach to defining how an LLM interacts with outside tools. It's not focused on workflows. Instead it sets the rules for:</p>
+<ul>
+<li>The capabilities of a model (“what tools can it call?”)</li>
+<li>The schema of each tool input and output</li>
+<li>How the model can reason about when to use which tool</li>
+</ul>
+<p>MCP sits closer to the agent end of the spectrum. It’s built to help developers build sophisticated AI assistants. You'll see MPC being used when there is a need to:</p>
+<ul>
+<li>Select and invoke tools dynamically</li>
+<li>Handle multi-step reasoning</li>
+<li>Keep track of context across multiple user queries</li>
+</ul>
+<p>MCP gains attention among any team working on LLM orchestration frameworks, such as those inspired by LangChain. If you want to build an AI agent that behaves consistently over time, MCP provides is your tool. It provides what a typical workflow automation tool cannot.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="where-n8n-works-best">Where n8n works best<a href="https://johnpottergr.github.io/blog/7-2-2025-n8n-vs-mcp#where-n8n-works-best" class="hash-link" aria-label="Direct link to Where n8n works best" title="Direct link to Where n8n works best">​</a></h2>
+<p>n8n will meet your needs if you:</p>
+<ul>
+<li>Need to prototype quickly without concerns about infrastructure</li>
+<li>Want something visual (diagrams) for non-developers</li>
+<li>Are focused on practical automation (like notifications) rather than complex reasoning
+-Seek to integrate dozens of APIs out of the box</li>
+</ul>
+<p>For example, if you want to set up an LLM to summarize support tickets from Zendesk and send them to Slack every morning, n8n is yout tool</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="where-mcp-excels">Where MCP excels<a href="https://johnpottergr.github.io/blog/7-2-2025-n8n-vs-mcp#where-mcp-excels" class="hash-link" aria-label="Direct link to Where MCP excels" title="Direct link to Where MCP excels">​</a></h2>
+<p>MCP starts to make more sense when you:</p>
+<ul>
+<li>Are building multi-step, context-aware agents</li>
+<li>Need to enforce strict contracts around tool calls</li>
+<li>Care about making your model outputs more predictable</li>
+<li>Building production-grade workflows that require consistent reasoning</li>
+</ul>
+<p>For instance, if you’re designing a financial assistant that can:</p>
+<ul>
+<li>Retrieve account balances</li>
+<li>Run projections</li>
+<li>Compose a detailed response</li>
+<li>Track all steps in a traceable way</li>
+</ul>
+<p>This is where MCP’s structured definitions can help you avoid bad logic and guarantee your models behave reliably.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="should-you-pick-one-over-the-other">Should You Pick One Over the Other?<a href="https://johnpottergr.github.io/blog/7-2-2025-n8n-vs-mcp#should-you-pick-one-over-the-other" class="hash-link" aria-label="Direct link to Should You Pick One Over the Other?" title="Direct link to Should You Pick One Over the Other?">​</a></h2>
+<p>In practice, these tools serve different audiences.</p>
+<p>If you want LLM-powered automations that can be deployed quickly and <strong>evolve over time</strong> with minimal friction, n8n is compelling. It’s practical and easy to share across your team.</p>
+<p>If you’re thinking about LLM agents that need careful control, tool selection, and traceability, MCP is a better bet.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="lasr-words">Lasr words<a href="https://johnpottergr.github.io/blog/7-2-2025-n8n-vs-mcp#lasr-words" class="hash-link" aria-label="Direct link to Lasr words" title="Direct link to Lasr words">​</a></h2>
+<p>If you’re trying to stand out in the AI space, consider reviewing both. But if you can only go deep on one, n8n is the safer bet for visibility.</p>
+<p>The reason is simple. Companies love practical automations they can adopt immediately, and n8n is able to deliver them.</p>
+<p>MCP is still important, especially for teams that need to build enterprise-grade assistants. But the adoption curve has not hit the same stride.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="bottom-line">Bottom line:<a href="https://johnpottergr.github.io/blog/7-2-2025-n8n-vs-mcp#bottom-line" class="hash-link" aria-label="Direct link to Bottom line:" title="Direct link to Bottom line:">​</a></h2>
+<p>If you want to showcase practical LLM workflows and help others ship them, start with n8n. You can always layer in MCP later as your projects get more complex.</p>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[MDX Blog Post]]></title>
-            <link>https://johnpottergr.github.io/blog/mdx-blog-post</link>
-            <guid>https://johnpottergr.github.io/blog/mdx-blog-post</guid>
-            <pubDate>Sun, 01 Aug 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[Blog posts support Docusaurus Markdown features, such as MDX.]]></description>
-            <content:encoded><![CDATA[<p>Blog posts support <a href="https://docusaurus.io/docs/markdown-features" target="_blank" rel="noopener noreferrer">Docusaurus Markdown features</a>, such as <a href="https://mdxjs.com/" target="_blank" rel="noopener noreferrer">MDX</a>.</p>
-<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>tip</div><div class="admonitionContent_BuS1"><p>Use the power of React to create interactive blog posts.</p></div></div>
-<!-- -->
-<p>For example, use JSX to create an interactive button:</p>
-<div class="language-js codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-js codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token operator" style="color:#393A34">&lt;</span><span class="token plain">button onClick</span><span class="token operator" style="color:#393A34">=</span><span class="token punctuation" style="color:#393A34">{</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token arrow operator" style="color:#393A34">=&gt;</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">alert</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">'button clicked!'</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">}</span><span class="token operator" style="color:#393A34">&gt;</span><span class="token maybe-class-name">Click</span><span class="token plain"> me</span><span class="token operator" style="color:#393A34">!</span><span class="token operator" style="color:#393A34">&lt;</span><span class="token operator" style="color:#393A34">/</span><span class="token plain">button</span><span class="token operator" style="color:#393A34">&gt;</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
-<button>Click me!</button>]]></content:encoded>
-            <category>Docusaurus</category>
+            <title><![CDATA[The Blind Spot in Your Attribution, How to Turn ChatGPT Logs into Real Insight]]></title>
+            <link>https://johnpottergr.github.io/blog/7-1-2025-blind-spot-attribution</link>
+            <guid>https://johnpottergr.github.io/blog/7-1-2025-blind-spot-attribution</guid>
+            <pubDate>Tue, 01 Jul 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Most companies are still treating web analytics like it’s 2015. They set up GA4 or Adobe, tag their campaigns, and trust the dashboards to tell them how people discover and engage with what we publish. But LLMs have changed everything in the past year, and it’s quietly rewriting the rules of attribution.]]></description>
+            <content:encoded><![CDATA[<p>Most companies are still treating web analytics like it’s 2015. They set up GA4 or Adobe, tag their campaigns, and trust the dashboards to tell them how people discover and engage with what we publish. But LLMs have changed everything in the past year, and it’s quietly rewriting the rules of attribution.</p>
+<p>LLMs are the new gateway to your website. Web users are asking questions in chat interfaces that pull in pieces of your content to help form answers. While great for brand visibility, it’s problmeatic for traditional analytics. Since these interactions often don’t fire the JavaScript that standard web analytics depends on, you have a flaw in your reporting.</p>
+<p>Here's an example: Someone asks ChatGPT about the best way to calibrate lab equipment. The model finds an excerpt from your guide and follows up with a link. The user clicks it, skims a section, and leaves. In GA4, you’ll see either nothing at all or a tiny blip of Direct traffic you can’t attribute. Over time, that missing traffic adds up.</p>
+<p>In the end, if you can’t measure LLM behavior, you can’t make informed decisions about what’s driving conversions.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="so-where-does-that-leave-you">So where does that leave you?<a href="https://johnpottergr.github.io/blog/7-1-2025-blind-spot-attribution#so-where-does-that-leave-you" class="hash-link" aria-label="Direct link to So where does that leave you?" title="Direct link to So where does that leave you?">​</a></h2>
+<p>Dan Hinckley of Go Fish Digital <a href="https://www.linkedin.com/feed/update/urn:li:activity:7345428861028851712/">notes there is one place you can turn to</a>. It turns out your server logs already have the story you’re looking for. They see every request, no matter how it was initiated.</p>
+<p>When ChatGPT sends a user to your site, it identifies itself with a special user agent:</p>
+<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">swift</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>This isn’t some hypothetical curiosity. Real companies are seeing a significant volume of traffic in their logs from this user agent. In some cases, those visits convert far better than average. But if you never look at your logs, you’ll never know.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="making-use-of-visitor-logs">Making use of visitor logs<a href="https://johnpottergr.github.io/blog/7-1-2025-blind-spot-attribution#making-use-of-visitor-logs" class="hash-link" aria-label="Direct link to Making use of visitor logs" title="Direct link to Making use of visitor logs">​</a></h2>
+<p>Here’s how to start bridging the gap between your logs and your marketing attribution:</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="1-pull-the-logs-into-a-usable-format">1. Pull the Logs into a Usable Format<a href="https://johnpottergr.github.io/blog/7-1-2025-blind-spot-attribution#1-pull-the-logs-into-a-usable-format" class="hash-link" aria-label="Direct link to 1. Pull the Logs into a Usable Format" title="Direct link to 1. Pull the Logs into a Usable Format">​</a></h3>
+<p>First, get access to your raw server logs. Depending on your hosting environment, you might find them in Apache or Nginx log files, or stored by your CDN. You’ll want at least a few weeks of data to start seeing patterns.</p>
+<p>Tools like Screaming Frog Log File Analyzer (see below) or GoAccess can help you parse and filter the logs without writing a bunch of custom scripts. Look specifically for entries containing ChatGPT-User.</p>
+<img src="https://johnpottergr.github.io/img/logs.png" alt="Screaming Frog" width="800">
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="2-build-a-simple-report">2. Build a Simple Report<a href="https://johnpottergr.github.io/blog/7-1-2025-blind-spot-attribution#2-build-a-simple-report" class="hash-link" aria-label="Direct link to 2. Build a Simple Report" title="Direct link to 2. Build a Simple Report">​</a></h2>
+<p>Once you isolate these records, create a spreadsheet or dashboard that answers a few core questions:
+Which URLs are being accessed?</p>
+<ul>
+<li>How often?</li>
+<li>On what days?</li>
+<li>From which IP addresses or locations (if available)?</li>
+</ul>
+<p>This report becomes your first real view into which pages and topics ChatGPT is using in conversations.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="3-look-for-patterns-in-topic-demand">3. Look for patterns in topic demand<a href="https://johnpottergr.github.io/blog/7-1-2025-blind-spot-attribution#3-look-for-patterns-in-topic-demand" class="hash-link" aria-label="Direct link to 3. Look for patterns in topic demand" title="Direct link to 3. Look for patterns in topic demand">​</a></h3>
+<p>Say you notice that one blog post gets ten times more ChatGPT visits than any other page. That’s a clear signal that your content on that topic is resonating in AI-powered discussions.
+Use this insight to guide decisions:</p>
+<ul>
+<li>Should you create a follow-up article or a deeper resource?</li>
+<li>Can you add a clear call to action to capitalize on this attention?</li>
+<li>Are there related topics you could cover to build authority?</li>
+</ul>
+<p>This is where log data stops being an attribution headache and becomes a competitive advantage.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="4-connect-log-insights-to-outcomes">4. Connect log insights to outcomes<a href="https://johnpottergr.github.io/blog/7-1-2025-blind-spot-attribution#4-connect-log-insights-to-outcomes" class="hash-link" aria-label="Direct link to 4. Connect log insights to outcomes" title="Direct link to 4. Connect log insights to outcomes">​</a></h3>
+<p>If your CRM or e-commerce platform tracks referral data, try to match visits from the ChatGPT user agent to conversions or leads. You may find that AI-referred traffic has a higher intent than other channels.</p>
+<p>Even if you can’t perfectly connect every touchpoint, you’ll start to see that these “invisible” visitors are real prospects worth understanding.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="5-bring-other-teams-into-the-loop">5. Bring other teams into the loop<a href="https://johnpottergr.github.io/blog/7-1-2025-blind-spot-attribution#5-bring-other-teams-into-the-loop" class="hash-link" aria-label="Direct link to 5. Bring other teams into the loop" title="Direct link to 5. Bring other teams into the loop">​</a></h3>
+<p>Have your content team can use these insights to prioritize updates and new articles. Your sales team might reference popular topics in outreach or proposals. Product teams can spot recurring questions that suggest gaps in documentation.
+When everyone can see what ChatGPT is sending traffic to, you’re better equipped to plan strategically.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="final-thoughts">Final Thoughts<a href="https://johnpottergr.github.io/blog/7-1-2025-blind-spot-attribution#final-thoughts" class="hash-link" aria-label="Direct link to Final Thoughts" title="Direct link to Final Thoughts">​</a></h2>
+<p>ChatGPT is already changing how people discover and evaluate information. If you’re relying on standard analytics alone, you’re missing the big picture. Server logs might feel traditional, but they’re the only place where you follow the full trail of these interactions.</p>
+<p>This as an opportunity. The companies that figure out how to measure and act on LLM-driven engagement first will be the ones that get ahead. Everyone else will be wondering why conversions are dropping and dashboards are coming up empty.</p>
+<p>If you haven’t looked at your logs in a while, now’s the time. You might be more influential in the AI era than you think.</p>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Long Blog Post]]></title>
-            <link>https://johnpottergr.github.io/blog/long-blog-post</link>
-            <guid>https://johnpottergr.github.io/blog/long-blog-post</guid>
-            <pubDate>Wed, 29 May 2019 00:00:00 GMT</pubDate>
-            <description><![CDATA[This is the summary of a very long blog post,]]></description>
-            <content:encoded><![CDATA[<p>This is the summary of a very long blog post,</p>
-<p>Use a <code>&lt;!--</code> <code>truncate</code> <code>--&gt;</code> comment to limit blog post size in the list view.</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content:encoded>
-            <category>Hello</category>
-            <category>Docusaurus</category>
+            <title><![CDATA[9 Reasons Why Your Content Falls Flat with AI]]></title>
+            <link>https://johnpottergr.github.io/blog/6-29-2025-why-content-falls-flat</link>
+            <guid>https://johnpottergr.github.io/blog/6-29-2025-why-content-falls-flat</guid>
+            <pubDate>Sun, 29 Jun 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[You’ve probably noticed that some of your content seems to vanish into the void. It never seems to surface in search or meet with enthusiasm from your audience. It’s not bad luck: AI models that rank and retrieve content are particular about how they process what you write. If you don’t pay attention to how they work, your content will end up buried.]]></description>
+            <content:encoded><![CDATA[<p>You’ve probably noticed that some of your content seems to vanish into the void. It never seems to surface in search or meet with enthusiasm from your audience. It’s not bad luck: AI models that rank and retrieve content are particular about how they process what you write. If you don’t pay attention to how they work, your content will end up buried.</p>
+<p>Here, i walk through the biggest issues that will keep your content from being found and understood by AI...and what you can do to fix them.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="1-weak-starts-leave-ai-guessing">1. Weak starts leave AI guessing<a href="https://johnpottergr.github.io/blog/6-29-2025-why-content-falls-flat#1-weak-starts-leave-ai-guessing" class="hash-link" aria-label="Direct link to 1. Weak starts leave AI guessing" title="Direct link to 1. Weak starts leave AI guessing">​</a></h2>
+<p><strong>The pain point:</strong> Most writers ease into the topic, thinking they’re building suspense or context. In reality, AI models treat your intro as the signal for what the entire page is about. A slow buildup tells the model nothing and costs you rankings.</p>
+<p><strong>What to do instead:</strong> Lead with your main insight or answer right up front. Don’t bury it behind anecdotes or a long setup.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="2-a-messy-structure-confuses-an-llm">2. A messy structure confuses an LLM<a href="https://johnpottergr.github.io/blog/6-29-2025-why-content-falls-flat#2-a-messy-structure-confuses-an-llm" class="hash-link" aria-label="Direct link to 2. A messy structure confuses an LLM" title="Direct link to 2. A messy structure confuses an LLM">​</a></h2>
+<p><strong>The pain point:</strong> When content rambles without clear sections, AI struggles to figure out what belongs where. Without headings every few hundred words, your work looks like a wall of text.</p>
+<p><strong>How to fix it:</strong> Use short blocks and clear subheadings every 200–300 words. Oh, and Maintain consistent formatting. Think of your page as a series of labeled bins. You want to make it easy for AI to sort your ideas.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="3-generic-formats-get-ignored">3. Generic formats get ignored<a href="https://johnpottergr.github.io/blog/6-29-2025-why-content-falls-flat#3-generic-formats-get-ignored" class="hash-link" aria-label="Direct link to 3. Generic formats get ignored" title="Direct link to 3. Generic formats get ignored">​</a></h2>
+<p><strong>The pain point:</strong> Vague titles and formats don’t match what AI is trained to recognize. If your page doesn’t look like a guide or how-to, it will gets skipped over in favor of content that does.</p>
+<p><strong>Better approach</strong>: Use familiar formats like “What is [Topic]?”, “How to [Do Something],” or “Best Tools for [Need].” These patterns are instantly understood and prioritized by AI.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="4-one-off-posts-miss-the-bigger-picture">4. One-off posts miss the bigger picture<a href="https://johnpottergr.github.io/blog/6-29-2025-why-content-falls-flat#4-one-off-posts-miss-the-bigger-picture" class="hash-link" aria-label="Direct link to 4. One-off posts miss the bigger picture" title="Direct link to 4. One-off posts miss the bigger picture">​</a></h2>
+<p><strong>The pain point:</strong> Publishing stand-alone articles might feel efficient, but AI values clusters of related content. Provide supporting pieces around your core topic so your work has more context and relevance.</p>
+<p><strong>Solution:</strong> Build 3–5 related posts that connect back to your main idea. It signals authority and reinforces meaning to AI.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="5-complex-language-makes-ai-hallucinate">5. Complex language makes AI hallucinate<a href="https://johnpottergr.github.io/blog/6-29-2025-why-content-falls-flat#5-complex-language-makes-ai-hallucinate" class="hash-link" aria-label="Direct link to 5. Complex language makes AI hallucinate" title="Direct link to 5. Complex language makes AI hallucinate">​</a></h2>
+<p><strong>The pain point:</strong> Long sentences and academic jargon confuse AI. In the end, it can only guess what you mean. Put another way, the more complex your phrasing, the less confident the model feels matching your content to queries.</p>
+<p><strong>How to improve:</strong> Write simply. Use the same words your audience would search for. Clarity always beats cleverness.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="6-inconsistent-keywords-break-the-chain">6. Inconsistent keywords break the chain<a href="https://johnpottergr.github.io/blog/6-29-2025-why-content-falls-flat#6-inconsistent-keywords-break-the-chain" class="hash-link" aria-label="Direct link to 6. Inconsistent keywords break the chain" title="Direct link to 6. Inconsistent keywords break the chain">​</a></h2>
+<p><strong>The pain point:</strong> If you use different terms across your website and social channels, you dilute your signal. AI can’t reliably connect the dots if your keywords keep changing.</p>
+<p><strong>Quick fix:</strong> Pick your core terms and repeat them across all channels, lke your site, social posts, and metadata.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="7-overused-angles-blend-into-the-noise">7. Overused angles blend into the noise<a href="https://johnpottergr.github.io/blog/6-29-2025-why-content-falls-flat#7-overused-angles-blend-into-the-noise" class="hash-link" aria-label="Direct link to 7. Overused angles blend into the noise" title="Direct link to 7. Overused angles blend into the noise">​</a></h2>
+<p><strong>The pain point:</strong> Even familiar topics get stale when you rehash the same angles everyone else uses. AI is tuned to spot unique takes paired with recognizable patterns.</p>
+<p><strong>What to try:</strong> Bring in a timely hook or unexpected viewpoint that reframes your message without losing clarity.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="8-disorganized-ideas-lose-momentum">8. Disorganized ideas lose momentum<a href="https://johnpottergr.github.io/blog/6-29-2025-why-content-falls-flat#8-disorganized-ideas-lose-momentum" class="hash-link" aria-label="Direct link to 8. Disorganized ideas lose momentum" title="Direct link to 8. Disorganized ideas lose momentum">​</a></h3>
+<p><strong>The pain point:</strong> When your ideas jump around, AI can’t figure out the logical thread. It processes one concept at a time. If you scatter them, it loses track.</p>
+<p><strong>What helps:</strong> Outline your content before you draft it. Each idea should flow naturally into the next.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="9-partial-answers-leave-readers-hanging">9. Partial answers leave readers hanging<a href="https://johnpottergr.github.io/blog/6-29-2025-why-content-falls-flat#9-partial-answers-leave-readers-hanging" class="hash-link" aria-label="Direct link to 9. Partial answers leave readers hanging" title="Direct link to 9. Partial answers leave readers hanging">​</a></h2>
+<p><strong>The pain point:</strong> Some content only tackles half the problem. AI prefers pieces that address the full context, because they feel more complete and trustworthy.</p>
+<p><strong>Your move:</strong> Answer the main question thoroughly. Then close the loop by addressing what comes next, so your reader (and the model) feel satisfied.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="final-thoughts">Final thoughts<a href="https://johnpottergr.github.io/blog/6-29-2025-why-content-falls-flat#final-thoughts" class="hash-link" aria-label="Direct link to Final thoughts" title="Direct link to Final thoughts">​</a></h2>
+<p>If your content isn’t performing, it might not be because it’s unhelpful. It’s likely because AI can’t recognize its value. Structure your writing to align with how models process and rank information. Doing so will make it easier for your ideas to surface, stand out, and drive results.</p>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[First Blog Post]]></title>
-            <link>https://johnpottergr.github.io/blog/first-blog-post</link>
-            <guid>https://johnpottergr.github.io/blog/first-blog-post</guid>
-            <pubDate>Tue, 28 May 2019 00:00:00 GMT</pubDate>
-            <description><![CDATA[Lorem ipsum dolor sit amet...]]></description>
-            <content:encoded><![CDATA[<p>Lorem ipsum dolor sit amet...</p>
-<p>...consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content:encoded>
-            <category>Hola</category>
-            <category>Docusaurus</category>
+            <title><![CDATA[Building Online Authority Through Embeddings Intelligence]]></title>
+            <link>https://johnpottergr.github.io/blog/6-27-2025-building-authority-through-embeddigs</link>
+            <guid>https://johnpottergr.github.io/blog/6-27-2025-building-authority-through-embeddigs</guid>
+            <pubDate>Fri, 27 Jun 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Building online authority requires chasing backlinks, tweaking keywords, and manually engaging multiple platforms just to stay visible. But that playbook is changing (who has the patience?). I'm putting togther a new system—the Embeddings-Powered Content Intelligence Engine to brings automation, semantic analysis, and smart content distribution together for the sake of LLM brand visibility.]]></description>
+            <content:encoded><![CDATA[<p>Building online authority requires chasing backlinks, tweaking keywords, and manually engaging multiple platforms just to stay visible. But that playbook is changing (who has the patience?). I'm putting togther a new system—the Embeddings-Powered Content Intelligence Engine to brings automation, semantic analysis, and smart content distribution together for the sake of LLM brand visibility.</p>
+<p>Embeddings is at the heart of this system. These are vector-based representations of language that capture the meaning and context of words, not just their appearance. They help us understand why some content connects and spreads, while other posts fall flat.</p>
+<p>This technology can help you analyze the “semantic fingerprint” of high-performing content, so you can apply these insights to your content strategy.</p>
+<p>I like to think of it akin to correlating content with topical fit. Which goes to the heart of audience attraction. Instead of guessing what might resonate, you're working from a blueprint of what already does.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="making-it-real">Making It Real<a href="https://johnpottergr.github.io/blog/6-27-2025-building-authority-through-embeddigs#making-it-real" class="hash-link" aria-label="Direct link to Making It Real" title="Direct link to Making It Real">​</a></h2>
+<p>Here’s what that looks like in practice.</p>
+<ul>
+<li>
+<p>An LLM such as <strong>DeepSeek V3</strong> reviews real-time data from social platforms, identifies trends and tone gaps in your current content, and uses embeddings to make precise comparisons.</p>
+</li>
+<li>
+<p><strong>Agent S2</strong>, a web automation tool, collects the content that’s performing well across different platforms. It navigates sites like a human would, learning from each pass to get better at spotting high-engagement material and posting at the right time.</p>
+</li>
+<li>
+<p><strong>n8n</strong> ties these tools together—triggering the LLM to draft a response, deploying Agent S2 to post it, and tracking how people respond.</p>
+</li>
+</ul>
+<p>You could say they work together as a team:</p>
+<img src="https://johnpottergr.github.io/img/huddle.png" alt="AI Huddle" width="800">
+<p>Combining these tools goes beyond optimization. It creates a system for putting your brand in the right conversations with the right tone on a consistent basis. If someone mentions your company in a podcast transcript or blog comment, the system can surface that mention, craft a thoughtful reply, and publish it. All without manual review.</p>
+<p>The focus isn’t on gaming SEO. It’s on becoming visible through genuine engagement and semantic relevance.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="looking-forward">Looking forward<a href="https://johnpottergr.github.io/blog/6-27-2025-building-authority-through-embeddigs#looking-forward" class="hash-link" aria-label="Direct link to Looking forward" title="Direct link to Looking forward">​</a></h2>
+<p>As tools like DeepSeek and xAI’s APIs evolve, this kind of content intelligence will become ore accessible. It offers brands a scalable way to build trust, generate visibility, and establish authority without adding a ton more tasks.</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[LLM Reverse Engineering with RAG to Probe AI Search Behavior]]></title>
+            <link>https://johnpottergr.github.io/blog/6-26-2025-embeddings-and-RAG</link>
+            <guid>https://johnpottergr.github.io/blog/6-26-2025-embeddings-and-RAG</guid>
+            <pubDate>Thu, 26 Jun 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Note: RAG is a technique that improves an LLM's capabilities by integrating them with external data sources.]]></description>
+            <content:encoded><![CDATA[<p><em>Note: RAG is a technique that improves an LLM's capabilities by integrating them with external data sources.</em></p>
+<p><strong>RAG (Retrieval-Augmented Generation) systems</strong> can be used to simulate and test how LLMs retrieve content. They don't just probe what a model knows, but what it displays when someone asks a question.</p>
+<img src="https://johnpottergr.github.io/img/rag.png" alt="RAG" width="800">
+<p><em>Image From K21Academy.com</em></p>
+<p><strong>So here's a simple experiment.</strong> Use ChatGPT’s search mode to run a query, copy the full text of the cited sources, and load them into a local RAG pipeline built with n8n. From there, start asking questions against the dataset and watch what the model pulls up. You can make small tweaks like changing headings, rephrasing sections, or adding new pages to see what ripple effects occur.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-you-can-learned-by-rebuilding-the-retrieval-stack">What you can learned by rebuilding the retrieval stack<a href="https://johnpottergr.github.io/blog/6-26-2025-embeddings-and-RAG#what-you-can-learned-by-rebuilding-the-retrieval-stack" class="hash-link" aria-label="Direct link to What you can learned by rebuilding the retrieval stack" title="Direct link to What you can learned by rebuilding the retrieval stack">​</a></h2>
+<p>The first big insight here is that LLMs won’t retrieve entire webpages, they will pull chunks... of paragraphs and sections. If the right terms aren’t in the right block of text, the model won’t select it—even if the broader page is relevant.</p>
+<p>Next, you'll note that the Q&amp;A structures perform really well even if they’re not FAQs. If a page has summaries, question-like subheadings, or bullet-point answers, the model is much more likely to grab and reuse that text.</p>
+<p>But keywords still matter. Not so much across the page but in the chunks. If a keyword or phrase isn’t embedded in the local context, an LLM might skip it entirely. In other words, the idea of keyword density is not the focus here.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="why-rag-matters-for-reverse-engineering">Why RAG Matters for Reverse Engineering<a href="https://johnpottergr.github.io/blog/6-26-2025-embeddings-and-RAG#why-rag-matters-for-reverse-engineering" class="hash-link" aria-label="Direct link to Why RAG Matters for Reverse Engineering" title="Direct link to Why RAG Matters for Reverse Engineering">​</a></h2>
+<p>RAG  gives you a lab environment to test how AI might respond to real-world questions. You control the content and the prompt. You also get to see which chunks rise to the top.</p>
+<p>It’s not a perfect mirror of live LLM behavior, but it’s helpful enough to reveal certain patterns:</p>
+<ul>
+<li>
+<p>Which types of structure improve extractability</p>
+</li>
+<li>
+<p>What phrasing improves retrievability</p>
+</li>
+<li>
+<p>How small edits shift the model’s attention</p>
+</li>
+</ul>
+<p>RAG is a smart way to test your content's influence without having to access the internal workings of a proprietary LLM.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-comes-next">What Comes Next<a href="https://johnpottergr.github.io/blog/6-26-2025-embeddings-and-RAG#what-comes-next" class="hash-link" aria-label="Direct link to What Comes Next" title="Direct link to What Comes Next">​</a></h2>
+<p>Retrievability is just as important as relevance here. You may write brilliant, on-topic content but still be invisible to AI if the structure doesn’t fit with chunk-level extraction.</p>
+<p>Next up in this series, I’ll look at how prompts, citations, and retrieval context shape what LLMs decide to surface—and how that impacts your ability to show up in chat-based interfaces.</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[LLM Reverse Engineering with Embeddings]]></title>
+            <link>https://johnpottergr.github.io/blog/6-25-2025-reverse-engineering-with-embeddings</link>
+            <guid>https://johnpottergr.github.io/blog/6-25-2025-reverse-engineering-with-embeddings</guid>
+            <pubDate>Wed, 25 Jun 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[If you’ve ever asked ChatGPT a question and found a competitor’s blog quoted back to you, you’re probably wondering how to get YOUR content into that response box.]]></description>
+            <content:encoded><![CDATA[<p>If you’ve ever asked ChatGPT a question and found a competitor’s blog quoted back to you, you’re probably wondering how to get YOUR content into that response box.</p>
+<p>Traditional SEO might help but is not the full answer. LLMs don’t crawl pages in the way search engines do. They embed them, converting your content into numerical representations. Its how they capture a site's meaning, tone, and topic relationships.</p>
+<p>In other words, LLMs don't index your keywords, they interpret your concepts.</p>
+<p>That’s why embedding analysis can be used to reverse engineer how AI models understand your site. You don't need to guess what they might say about your content, you can look directly at the data they're using to generate those answers.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-are-embeddings">What Are Embeddings<a href="https://johnpottergr.github.io/blog/6-25-2025-reverse-engineering-with-embeddings#what-are-embeddings" class="hash-link" aria-label="Direct link to What Are Embeddings" title="Direct link to What Are Embeddings">​</a></h2>
+<p>At a high level, embeddings are "vectors—high-dimensional coordinates" that represent your content's meaning. Pages that cover similar themes or serve similar intents tend to cluster closely in this space, even if they use very different words. LLMs use this vector space to locate the next most relevant piece of content.</p>
+<p>When you see AI-generated answers that include links, quotes, or summaries from web content, those outputs are shaped by their semantic proximity, not exact keyword matches. If your content doesn't cluster well around a topic, or if it overlaps too much with other pages on your site, it's hard for your site to display.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="auditing-your-own-embeddings">Auditing Your Own Embeddings<a href="https://johnpottergr.github.io/blog/6-25-2025-reverse-engineering-with-embeddings#auditing-your-own-embeddings" class="hash-link" aria-label="Direct link to Auditing Your Own Embeddings" title="Direct link to Auditing Your Own Embeddings">​</a></h2>
+<p>Recently, tools like Screaming Frog have made it possible to extract embeddings from your site in short order. If you use an API connection to OpenAI or another LLM provider, you can crawl your site, convert each page into its embedded form, and visualize the results in what’s called a <a href="https://www.screamingfrog.co.uk/seo-spider/tutorials/how-to-identify-semantically-similar-pages-outliers/">Content Cluster Diagram</a>.</p>
+<img src="https://johnpottergr.github.io/img/cluster.png" alt="Content-Cluster-Diagram" width="800">
+<p>This diagram shows how your content is semantically distributed. It can help you determine if all your topic pages tight and clearly defined, or if some are too similar. You can use the diagram to see if some pages are disconnected from your core focus. A visual map gives you an AI’s-eye view of how your site looks in embedding space.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="why-it-matters">Why It Matters<a href="https://johnpottergr.github.io/blog/6-25-2025-reverse-engineering-with-embeddings#why-it-matters" class="hash-link" aria-label="Direct link to Why It Matters" title="Direct link to Why It Matters">​</a></h2>
+<p>Embedding-based analysis does a few things that traditional SEO audits miss:</p>
+<ul>
+<li>
+<p>Reveals semantic duplication, even when titles differ</p>
+</li>
+<li>
+<p>Flags outlier pages that don’t align with your topical authority</p>
+</li>
+<li>
+<p>Highlights opportunities for consolidation or internal linking</p>
+</li>
+<li>
+<p>Provides clues into how LLMs might classify your content</p>
+</li>
+</ul>
+<p>It’s especially powerful for marketers who want their content to show up in tools like ChatGPT, Claude, or Perplexity—not just Google.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-comes-next">What Comes Next<a href="https://johnpottergr.github.io/blog/6-25-2025-reverse-engineering-with-embeddings#what-comes-next" class="hash-link" aria-label="Direct link to What Comes Next" title="Direct link to What Comes Next">​</a></h2>
+<p>LLM Reverse Engineering can be revealing, helping you understand how AI models display content. Next, I'll focus on an entirely different way to reverse engineer LLM output.
+The more your understand how AI sees the web, the better position you're to leverage it.</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[How Agent S2 and n8n Expand What LLMs Can See and Do]]></title>
+            <link>https://johnpottergr.github.io/blog/6-24-2025-agents2-n8n-and-llms</link>
+            <guid>https://johnpottergr.github.io/blog/6-24-2025-agents2-n8n-and-llms</guid>
+            <pubDate>Tue, 24 Jun 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[LLMs most impressive capabilities still revolve around generating text. But when it comes to navigating complex software interfaces or handling on-screen workflows, they need help. Here's where Simular's Agent S2 shakes things up/]]></description>
+            <content:encoded><![CDATA[<p>LLMs most impressive capabilities still revolve around generating text. But when it comes to navigating complex software interfaces or handling on-screen workflows, they need help. Here's where Simular's Agent S2 shakes things up/</p>
+<p>Agent S2 is an open-source autonomous agent able to visually interpret and interact with user interfaces. Paired with n8n, a flexible open-source automation tool, Agent S2 can be orchestrated in workflows that tie together APIs, apps, and UIs. Obviously, Using this tools in combination can dramatically expand LLM's power and visibility.</p>
+<p>What are the implcations?</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-llm-visibility-gap">The LLM Visibility Gap<a href="https://johnpottergr.github.io/blog/6-24-2025-agents2-n8n-and-llms#the-llm-visibility-gap" class="hash-link" aria-label="Direct link to The LLM Visibility Gap" title="Direct link to The LLM Visibility Gap">​</a></h2>
+<p>LLMs excel at processing language. They can summarize reports, generate code, and answer customer queries. But they’re blind to real-world interfaces. A model might know how to log into a system in theory, but it can’t see the login button or detect error messages. Recognizing a pop-up blocking its progress isn't even part of the equation.</p>
+<p>Without visibility into what’s actually happening in an interface, LLMs are left guessing. This is one of the key limitations in deploying LLMs for hands-on automation.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="agent-s2-for-eyes-and-hands">Agent S2 for Eyes and Hands<a href="https://johnpottergr.github.io/blog/6-24-2025-agents2-n8n-and-llms#agent-s2-for-eyes-and-hands" class="hash-link" aria-label="Direct link to Agent S2 for Eyes and Hands" title="Direct link to Agent S2 for Eyes and Hands">​</a></h2>
+<p>Agent S2 fixes this by acting as a virtual user. It can see the screen, understand visual elements, and carry out complex UI interactions. Its generalist-specialist architecture is especially helpful here, as it remembers and learns from past sessions.</p>
+<p>Better yet, pairing Agent S2 with n8n workflows can serve as part of a larger automation pipeline. It might activate in response to an event, for instance (say, an alert trigger). That’s fairly powerful. But what happens when we bring an LLM into the loop?</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="making-llms-aware-of-the-interface">Making LLMs Aware of the Interface<a href="https://johnpottergr.github.io/blog/6-24-2025-agents2-n8n-and-llms#making-llms-aware-of-the-interface" class="hash-link" aria-label="Direct link to Making LLMs Aware of the Interface" title="Direct link to Making LLMs Aware of the Interface">​</a></h2>
+<p>Real-time UX knowledge is where the possibilities get interesting.</p>
+<p>Agent S2 logs its actions so: where it clicked, what elements were visible, what succeeded or failed. These logs can then be passed to an LLM. This gives the model access to real execution context, which it wouldn't normally have.</p>
+<p>For example:</p>
+<ul>
+<li>Did the Submit button disappear after the first click?</li>
+<li>Was a confirmation message displayed?</li>
+<li>Did the AI agent get stuck in a CAPTCHA loop?</li>
+</ul>
+<p>Knowing these inputs can help an LLM generate more accurate summaries and recommendations for the next run. It could redefine CRO (conversion rate optimization).</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="from-theory-to-reality">From Theory to Reality<a href="https://johnpottergr.github.io/blog/6-24-2025-agents2-n8n-and-llms#from-theory-to-reality" class="hash-link" aria-label="Direct link to From Theory to Reality" title="Direct link to From Theory to Reality">​</a></h2>
+<p>In traditional setups, LLMs operate on what users say or provide. With Agent S2, they can respond to what actually happened. That creates a new loop of intelligent automation:</p>
+<ul>
+<li>n8n triggers Agent S2 to execute a UI task.</li>
+<li>Agent S2 logs its steps and outcomes.</li>
+<li>The log is passed to an LLM for analysis or decision-making.</li>
+<li>The LLM adapts the next instruction set or flags issues.</li>
+</ul>
+<p>In addition to improving automation accuracy, it also gives marketing teams better info on how automation behaves in real environments.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="rethinking-observability">Rethinking Observability<a href="https://johnpottergr.github.io/blog/6-24-2025-agents2-n8n-and-llms#rethinking-observability" class="hash-link" aria-label="Direct link to Rethinking Observability" title="Direct link to Rethinking Observability">​</a></h2>
+<p>A longer-term implication is generation of synthetic training data. Being able to accurately simulate customer journeys means Agent S2 can generate rich interaction histories that LLMs can fine-tune and use to inform marketers over time. You’re moving from giving the LLM data to giving it experience.</p>
+<p>With retained learning taking place, you can now take practical steps to eliminate inbound marketing obstacles:</p>
+<ul>
+<li>Customer support help (what workflows cause the most friction?)</li>
+<li>Marketing funnel analysis (where do automated journeys drop off?)</li>
+<li>User interface optimization (where does the agent struggle that a user might too?)</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="llms-will-soon-have-real-world-awareness">LLMs Will Soon Have Real-World Awareness<a href="https://johnpottergr.github.io/blog/6-24-2025-agents2-n8n-and-llms#llms-will-soon-have-real-world-awareness" class="hash-link" aria-label="Direct link to LLMs Will Soon Have Real-World Awareness" title="Direct link to LLMs Will Soon Have Real-World Awareness">​</a></h2>
+<p>LLMs will likely remain text-first models for awhile. But that doesn’t mean they will stay isolated from the user interfaces where work gets done.</p>
+<p>Pairing an intelligent S2 agent with orchestration tools like n8n, and feeding the outputs into an LLM could create a hybrid system where:</p>
+<ul>
+<li>The agent sees and acts</li>
+<li>The LLM reasons and adapts</li>
+<li>The orchestrator connects and automates</li>
+</ul>
+<p>The result is a more informed automation—system, one that understand context not just from data inputs, but from lived execution.</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Integrating Agent S2 with n8n for Marketing Automation]]></title>
+            <link>https://johnpottergr.github.io/blog/6-23-2025-Integrating-Agent-S2-with-n8n</link>
+            <guid>https://johnpottergr.github.io/blog/6-23-2025-Integrating-Agent-S2-with-n8n</guid>
+            <pubDate>Mon, 23 Jun 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Agent S2 is a new <a href=]]></description>
+            <content:encoded><![CDATA[<p><a href="https://www.simular.ai/articles/agent-s2">Agent S2</a> is a new <a href="https://github.com/simular-ai/Agent-S">open-source framework</a> that allows AI to interact with software like a human. It can see the screen, click buttons, and type. It also offers state-of-the-art performance in multi-step tasks, edging out OpenAI and Anthropic in benchmarks.</p>
+<p>Beyond the stats, what sets it apart is how it learns: by breaking down tasks into sub-tasks handled by specialist modules and remembering what worked or didn’t. This dynamic knowledge base allows the agent to improve over time.</p>
+<p>For marketers, this opens the door to real automation of complex workflows. It's not based on rule-based triggers, but performs adaptive action sequences that evolve.</p>
+<img src="https://johnpottergr.github.io/img/state-of-art.png" alt="Agent-S2" width="800">
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="why-agent-s2-matters-for-marketers">Why Agent S2 Matters for Marketers<a href="https://johnpottergr.github.io/blog/6-23-2025-Integrating-Agent-S2-with-n8n#why-agent-s2-matters-for-marketers" class="hash-link" aria-label="Direct link to Why Agent S2 Matters for Marketers" title="Direct link to Why Agent S2 Matters for Marketers">​</a></h2>
+<p>Agent S2 highlights the fact you don't need to rely on big-tech for innovation. S2 is open-source, which means smaller teams can use, customize, and build on it. But the key point here is that it can learn from experience.</p>
+<p>Traditional marketing automation doesn’t improve unless someone reprograms it. An agent like S2, on the other hand, might discover that your checkout has a hidden pop-up—and fix its own script to account for it. That kind of autonomy turns a one-off automation into a smarter, evolving assistant.</p>
+<p>It’s also capable of fetching data online while navigating app interfaces, so it can both act in a CRM and pull competitor pricing in real time. Combininng interface manipulation plus live knowledge obviously makes it a pretty powerful tool.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="why-n8n">Why n8n?<a href="https://johnpottergr.github.io/blog/6-23-2025-Integrating-Agent-S2-with-n8n#why-n8n" class="hash-link" aria-label="Direct link to Why n8n?" title="Direct link to Why n8n?">​</a></h2>
+<p><a href="https://n8n.io/">n8n</a> is a flexible open-source automation tool that lets you build workflows connecting different apps. It’s part no-code and part code, good for teams who want more customization than Zapier offers. When paired with Agent S2, n8n handles the orchestration (when to do something, what to pass along) while the agent does the heavy lifting in apps with no API.</p>
+<p>For example, a workflow could be:</p>
+<ul>
+<li>Trigger: New lead arrives</li>
+<li>n8n gathers context</li>
+<li>Agent S2 logs into a site, pulls a report, updates another platform</li>
+<li>n8n handles follow-up: sends an email or logs success</li>
+</ul>
+<p>S2 does what most automation tools can’t, it interacts with systems that don’t offer integration simply by mimicking a user.</p>
+<img src="https://johnpottergr.github.io/img/agentS2.png" alt="Agent-S2" width="800">
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="practical-use-cases">Practical Use Cases<a href="https://johnpottergr.github.io/blog/6-23-2025-Integrating-Agent-S2-with-n8n#practical-use-cases" class="hash-link" aria-label="Direct link to Practical Use Cases" title="Direct link to Practical Use Cases">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="cross-platform-marketing-tasks">Cross-Platform Marketing Tasks<a href="https://johnpottergr.github.io/blog/6-23-2025-Integrating-Agent-S2-with-n8n#cross-platform-marketing-tasks" class="hash-link" aria-label="Direct link to Cross-Platform Marketing Tasks" title="Direct link to Cross-Platform Marketing Tasks">​</a></h3>
+<p><strong>Reporting:</strong> Agent S2 can open Google Analytics, apply filters, export data, grab lead data from your CRM, merge in Sheets, then draft an email with the results. n8n can schedule it all. Yikes!</p>
+<p><strong>Social Posting:</strong> Posting across LinkedIn, Instagram, and others often involves tedious logins. S2 can handle that manually via UI, even if APIs are lacking or unreliable. So tempting.</p>
+<p><strong>Data Syncing:</strong> From uploading CSVs to verifying data in multiple systems, Agent S2 can automate web forms that would normally be hand-entered.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="customer-journey-testing">Customer Journey Testing<a href="https://johnpottergr.github.io/blog/6-23-2025-Integrating-Agent-S2-with-n8n#customer-journey-testing" class="hash-link" aria-label="Direct link to Customer Journey Testing" title="Direct link to Customer Journey Testing">​</a></h3>
+<p><strong>User Flow Simulation</strong>: If you want to know where users get stuck, S2 can simulate a customer’s visit—clicking through checkout, hitting roadblocks, and logging what goes wrong. (are just built CRO-focused software stack that does this, this makes it obsolete)</p>
+<p><strong>Multi-Touchpoint Analysis</strong>: By logging into different platforms, S2 can collect user activity across email, support, and site flows. Then you can use an LLM to analyze where friction arises. I foresee the field of competitive intelligence getting a revival.</p>
+<p><strong>Training AI Models with Synthetic Data</strong>
+If you need to train a model but lack user data, S2 can simulate interactions, generating logs that serve as training data for LLMs to learn customer behavior patterns. I suspect this capability is probably more important than it sounds.</p>
+<p><strong>Future: AI Concierge</strong>
+This category is speculative, but realistic. Imagine a chatbot that, instead of just chatting, uses Agent S2 to take real action. Think booking a flight. Combine that with n8n’s logic and you could offer live assistance without needing custom integrations.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="getting-started">Getting Started<a href="https://johnpottergr.github.io/blog/6-23-2025-Integrating-Agent-S2-with-n8n#getting-started" class="hash-link" aria-label="Direct link to Getting Started" title="Direct link to Getting Started">​</a></h2>
+<p><strong>Explore the tools:</strong> Try setting up n8n and experiment with Agent S2’s GitHub repo. It's easy enough to read about it. Start using it (telling this to myself too).</p>
+<p><strong>Identify pain points</strong>: Look at your manual workflows to remedy. Anything that is multi-step, needs to work across platforms, or involves systems with no APIs is a good candidate.</p>
+<p><strong>Start small:</strong> Have n8n trigger S2 to visit a page or take a screenshot. Once that works, try expanding gradually.</p>
+<p><strong>Monitor + Train</strong>: Early runs might fail, but S2 learns. With repeated use, it improves.</p>
+<p><strong>Stay secure</strong>: Use sandbox accounts and fail-safes until you trust the system.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="final-word">Final Word<a href="https://johnpottergr.github.io/blog/6-23-2025-Integrating-Agent-S2-with-n8n#final-word" class="hash-link" aria-label="Direct link to Final Word" title="Direct link to Final Word">​</a></h2>
+<p>Agent S2 shows what’s now possible with autonomous agents: they can see, act, and learn. Combine it with n8n and you can orchestrate advanced automations that go beyond what most platforms offer. It’s not all plug-and-play yet, but the pieces are here.</p>
+<p>Marketers who willing to experiment will gain a serious advantages in their industry. Don't wait for the perfect solution, think about what you could build today.</p>
+<p>If you're interested in more details about this (this blog post is a slimmed down version of some research), contact me to receive more info.</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[The Strategy Shift From Static Docs to AI-Ready Assets]]></title>
+            <link>https://johnpottergr.github.io/blog/6-22-2025-the-strategy-shift</link>
+            <guid>https://johnpottergr.github.io/blog/6-22-2025-the-strategy-shift</guid>
+            <pubDate>Sun, 22 Jun 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Most companies today have plenty of documentation but not much content. They have pdfs, slide decks, and product manuals. Even case studies buried in download libraries that have yet to see daylight. It’s not that they don’t have answers; it’s that the answers are locked away, invisible to the LLMs people now use to ask questions.]]></description>
+            <content:encoded><![CDATA[<p>Most companies today have plenty of documentation but not much content. They have pdfs, slide decks, and product manuals. Even case studies buried in download libraries that have yet to see daylight. It’s not that they don’t have answers; it’s that the answers are locked away, invisible to the LLMs people now use to ask questions.</p>
+<p>It's a lost opportunity to generate greater brand visibility. Especially when it comes to answering middle-of-funnel questions.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="make-the-mental-shift">Make the Mental Shift<a href="https://johnpottergr.github.io/blog/6-22-2025-the-strategy-shift#make-the-mental-shift" class="hash-link" aria-label="Direct link to Make the Mental Shift" title="Direct link to Make the Mental Shift">​</a></h2>
+<p>It doesn't have to be this way. When it comes to client engagement, it might be helpful to stop thinking like SEOs and start thinking like machines. Google’s crawler and an LLM’s transformer are very different beasts. Google might index a PDF. An LLM will ignore it entirely. What to do?</p>
+<p>If you want to get more mileage out of your documentation - like LLM mentions - start here:</p>
+<ul>
+<li>
+<p>Convert PDFs into HTML-based knowledge pages. Static downloads are invisible to most LLMs. Formatting your content as web-native makes it indexable and referenceable.</p>
+</li>
+<li>
+<p>Add structured data to every page. Use schema types like FAQPage, TechArticle, and Product to help machines interpret what your content is and where it fits.</p>
+</li>
+<li>
+<p>Link product pages to supporting documentation. Glossary-based anchor links are a simple way to create relationships that both users and AI systems can follow.</p>
+</li>
+<li>
+<p>Showcase real authors and contact options. Adding bios and CTAs supports E-E-A-T signals (Experience, Expertise, Authoritativeness, Trustworthiness), which influence how search engines and LLMs track your credibility.</p>
+</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="reusing-existing-docs-a-low-cost-win">Reusing Existing Docs: A Low-Cost Win<a href="https://johnpottergr.github.io/blog/6-22-2025-the-strategy-shift#reusing-existing-docs-a-low-cost-win" class="hash-link" aria-label="Direct link to Reusing Existing Docs: A Low-Cost Win" title="Direct link to Reusing Existing Docs: A Low-Cost Win">​</a></h2>
+<p>If you’ve already invested in whitepapers, manuals, and case studies, you’re sitting on a goldmine for LLM visibility. It just needs to be reformatted. This isn't a call to create more content. It’s a call to reuse what you already have in a format that machines can read.</p>
+<p>One local example stands out. <a href="https://www.psgdover.com/blackmer">Blackmer</a>, a Grand Rapids-based manufacturer, has an <a href="https://www.psgdover.com/blackmer/download-library/compressor-bulletins">extensive download library</a> filled with brochures, case studies, catalogs, and bulletins. It's content that’s ripe for transformation into AI-readable formats.</p>
+<img src="https://johnpottergr.github.io/img/psg-dover.png" alt="PSG Dover" width="800">
+<p>Even without pursuing external AI exposure, the same assets could be repurposed internally. Using <a href="https://medium.com/@elisowski/mcp-explained-the-new-standard-connecting-ai-to-everything-79c5a1c98288">Model Context Protocol (MCP) tooling</a>, their support teams could reveal these answers directly in Slack or Salesforce instead of fumbling through a search bar.</p>
+<p>But here’s the problem: the company has a policy against using AI. Which is a bit like trying to compete in e-commerce while banning websites. It's going to lead to painful, incremental obsolescence. Think edge customers calling it quits because getting answers takes too long. Death by a thousand cuts.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-business-case-will-come-eventually">The Business Case Will Come (Eventually)<a href="https://johnpottergr.github.io/blog/6-22-2025-the-strategy-shift#the-business-case-will-come-eventually" class="hash-link" aria-label="Direct link to The Business Case Will Come (Eventually)" title="Direct link to The Business Case Will Come (Eventually)">​</a></h2>
+<p>Most companies won’t care about LLM visibility until they have to. Until the bottom line reveals that inbound leads are down, support costs are up, or customers are quoting competitors' AI-powered answers instead of theirs. But those who take the leap early will start seeing it in deflection rates, faster time-to-resolution, and fewer “Where can I find…” questions cluttering internal channels.</p>
+<p>And I'm only talking about restructuring dusty documentation for modern interfaces. The branding benefits that accrue from LLM visibility are multifold.</p>
+<p>I guess it really depends are whether you think LLMs are just another marketing channel or part of a more important transformation. They're a new layer of knowledge access.</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[What is llms.txt and Why Does It Matter]]></title>
+            <link>https://johnpottergr.github.io/blog/6-21-2025-what-is-llms-txt</link>
+            <guid>https://johnpottergr.github.io/blog/6-21-2025-what-is-llms-txt</guid>
+            <pubDate>Sat, 21 Jun 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[LLMs are quickly changing how content gets discovered. Publishers and website owners are responding in kind, seeking to control how their content is used. With llms.txt being introduced - a proposed machine-readable file designed to communicate usage preferences to AI crawlers - content control become more feasible. The llm file faciliates AI info, much like how the robots.txt file faciliates traditional web indexing.]]></description>
+            <content:encoded><![CDATA[<p>LLMs are quickly changing how content gets discovered. Publishers and website owners are responding in kind, seeking to control how their content is used. With llms.txt being introduced - a proposed machine-readable file designed to communicate usage preferences to AI crawlers - content control become more feasible. The llm file faciliates AI info, much like how the robots.txt file faciliates traditional web indexing.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="its-all-about-signals">Its all about signals<a href="https://johnpottergr.github.io/blog/6-21-2025-what-is-llms-txt#its-all-about-signals" class="hash-link" aria-label="Direct link to Its all about signals" title="Direct link to Its all about signals">​</a></h2>
+<p>The llms.txt file lets website owners signal how they want their content to be used when responding to LLM queries. For example, a publisher might specify that their content can be crawled, but note that it should not be used for long-term model training. Other publishers may allow only excerpts to be used in responses. Some publishers may even be more script.</p>
+<p>The lms.txt is an inspired idea if you believe the legal concerns about data scraping, copyright, and compensation are mounting (they are). As generative AI tools combine and sift through the vast swaths of online info, publishers risk losing traffic and attribution if their original work is displayed without credit (or even a link).</p>
+<p>Since their is no standardized opt-out mechanism here, website owners cannot negotiate how their content is handled. AI platforms have not been helpful in this regard, ignoring the issue and reluctant to enforce boundaries consistently.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="lets-cheer-for-transparency">Lets cheer for transparency<a href="https://johnpottergr.github.io/blog/6-21-2025-what-is-llms-txt#lets-cheer-for-transparency" class="hash-link" aria-label="Direct link to Lets cheer for transparency" title="Direct link to Lets cheer for transparency">​</a></h2>
+<p>The new llms.text standard is a structured way to help the public define those preferences. The result is more transparency and control in the relationship between content creators and AI platforms. With llms.txt, sites can point to a shared framework that crawlers can check before viewing data. All of which leads to less content misuse and ambiguity.</p>
+<p>The new txt standard is just starting to become known, so adoption is still in its early stages. But the idea represents a key step toward governance in the age of AI. It reflects a growing recognition that web content is not just freely available for the taking. Itt's also valuable. It give's site owners a way to say “yes,” “no,” or “only on these terms”  - setting clearer norms for AI data practices going forward.</p>
+<p>The idea seems to be catching on, because it speaks to boundaries. It's helping publishers participate in the AI ecosystem on their own terms. And it's encouraging AI companies to respect those terms. Even if you're not a publisher, the trend is bound to create an environment where our personal data will also have to be respected. The scrapers are on notice.</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Brand Visibility in LLMs Requires a New Kind of State]]></title>
+            <link>https://johnpottergr.github.io/blog/6-22-2025-a-new-kind-of-state</link>
+            <guid>https://johnpottergr.github.io/blog/6-22-2025-a-new-kind-of-state</guid>
+            <pubDate>Sat, 21 Jun 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[If you’ve ever worked with developers to improve website behavior, like handling pop-ups, forms, or product filters, they were probably using React. It’s a popular tool for building modern websites (to say the least). But when too many pieces of a site need to work together, the process gets chaotic fast.]]></description>
+            <content:encoded><![CDATA[<p>If you’ve ever worked with developers to improve website behavior, like handling pop-ups, forms, or product filters, they were probably using <a href="https://www.builder.io/blog/react-component-library">React</a>. It’s a popular tool for building modern websites (to say the least). But when too many pieces of a site need to work together, the process gets chaotic fast.</p>
+<p>Developers help resolve this by turning to <a href="https://redux.js.org/">Redux</a> - a Javascript tool that pulls scattered data into one place and makes it easier to coordinate. Its not an elegant process but it produces consistency and control, especially when in comes to interactive experiences. It's also why <a href="https://www.linkedin.com/in/mantcz/">
+Michael Antzack</a> believes the <a href="https://www.linkedin.com/posts/mantcz_react-redux-llm-activity-7342829633370775552-ut7i">centralized state wins</a>.</p>
+<p>That same logic is now starting to show up in how brands think about visibility and coordination in the age of LLMs.</p>
+<img src="https://johnpottergr.github.io/img/redux.png" alt="Select Sheet" width="800">
+<p>Most brands that experiment with LLMs today are thinking in static terms, like a chatbot that answers FAQs or a plugin that pulls from their help docs. Even a one-time prompt injected into a marketing tool. These are isolated efforts useful but a bit shallow. They don’t account for the where the user is in their customer journey, or even the broader goals of the brand.</p>
+<p>LLM visibility for brands is not going to stay still. The focus will shift from just showing up in the LLM to showing up in context. In other words, LLM awareness of the customer’s past behavior, current intent, and what needs to happen next. While speculation is great, what use does this theorizing have for brands today? This is where the Redux analogy gets interesting.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="a-shift-toward-agent-driven-coordination">A Shift Toward Agent-Driven Coordination<a href="https://johnpottergr.github.io/blog/6-22-2025-a-new-kind-of-state#a-shift-toward-agent-driven-coordination" class="hash-link" aria-label="Direct link to A Shift Toward Agent-Driven Coordination" title="Direct link to A Shift Toward Agent-Driven Coordination">​</a></h2>
+<p>LLMs are moving beyond simple prompt-and-response tools. They’re evolving into agents that operate as autonomous or semi-autonomous systems. That means they can plan, retrieve data, take actions, and even coordinate with other agents. The AI agent won't just answer your question about a return policy, it will initiate the return, updates your order history, and sends a Slack alert to your fulfillment team.</p>
+<p>To enable that kind of behavior, you'll need more than a knowledge base. You'll need to gain centralized, accessible, real-time state of the customer relationship.</p>
+<p>In practical terms, this means building an LLM-ready interface layer that is able to track and feeds dynamic data into the agent. Tools like n8n, which automate workflows across apps, could act as connective tissue here. They would make sure the agent sees updates in CRM, inventory, analytics, and support systems in near real time.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="will-llms-evolve-to-handle-this">Will LLMs Evolve to Handle This?<a href="https://johnpottergr.github.io/blog/6-22-2025-a-new-kind-of-state#will-llms-evolve-to-handle-this" class="hash-link" aria-label="Direct link to Will LLMs Evolve to Handle This?" title="Direct link to Will LLMs Evolve to Handle This?">​</a></h2>
+<p>Probably. We’re already seeing early moves toward multi-modal inputs, tool use, memory, and planning. n8n's are exploding among early adopters. In a year or two, it may not be unusual for a customer to browse, ask questions, and purchase within a branded agent interface powered by LLMs.</p>
+<p>But that can’t happen unless the brand builds the right data scaffolding. If there’s no visibility into product catalog changes, loyalty status, or campaign eligibility, the AI won’t be able to take meaningful action. It will fall back to generic responses, just like a broken UI reverts to static HTML. So there's a lot of work to be done.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-this-means-right-now">What This Means Right Now<a href="https://johnpottergr.github.io/blog/6-22-2025-a-new-kind-of-state#what-this-means-right-now" class="hash-link" aria-label="Direct link to What This Means Right Now" title="Direct link to What This Means Right Now">​</a></h2>
+<p>If your brand is just getting into LLMs, don’t limit your thinking to surface-level visibility like prompt optimization or FAQ coverage. I know, it's already asking a lot to move on from SEO to focus on LLM Visibility. But first followers 'get the worm'.
+Start by treating your data layer as the interface. There is no roadmap here but you can begin by asking:</p>
+<ul>
+<li>What does the AI see about this customer?</li>
+<li>What decisions could it make with that context?</li>
+<li>How could automation tools coordinate the next step?</li>
+</ul>
+<p>Yes, it’s a little like replacing email with chat but it's more than that. It’s a shift from fragmented, one-off messaging to stateful, intelligent, AI-driven interactions. And it will require rethinking where your brand’s “state” lives, that is - what data your AI systems can actually see and act on.</p>
+<p>Anticipating these moves can help you stay ahead, especially as others are already laying the groundwork to be more customer-responsive. Because bfore long, AI agents won’t be chatting with your customers, they’ll be acting on their behalf.</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[What It Takes To Build An LLM Visibility Content Audit Tool]]></title>
+            <link>https://johnpottergr.github.io/blog/6-20-2025-llm-visibility-content-audit-tool</link>
+            <guid>https://johnpottergr.github.io/blog/6-20-2025-llm-visibility-content-audit-tool</guid>
+            <pubDate>Fri, 20 Jun 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[The Goal]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-goal-build-a-stack-that-performs">The Goal: Build a Stack That Performs:<a href="https://johnpottergr.github.io/blog/6-20-2025-llm-visibility-content-audit-tool#the-goal-build-a-stack-that-performs" class="hash-link" aria-label="Direct link to The Goal: Build a Stack That Performs:" title="Direct link to The Goal: Build a Stack That Performs:">​</a></h2>
+<ul>
+<li><strong>LLM citation scans:</strong> to identify where your brand is being referenced in AI-generated answers across LLM tools, and how often it appears.</li>
+<li><strong>Prompt recall tests:</strong> to evaluate how well your content shows up in response to common AI prompts, and whether that content is accurate.</li>
+<li><strong>Linkless mention tracking:</strong> to spot brand mentions that appear in forums, summaries, and AI outputs even when there’s no backlink.</li>
+<li><strong>Crawlability for AI bots:</strong> to check if your content is accessible to AI-oriented crawlers and isn’t blocked by rendering issues or robots.txt settings.</li>
+<li><strong>Pull in</strong>: search-generated citations and prompt-level results using browser automations and n8n scripts.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-recipe">The Recipe<a href="https://johnpottergr.github.io/blog/6-20-2025-llm-visibility-content-audit-tool#the-recipe" class="hash-link" aria-label="Direct link to The Recipe" title="Direct link to The Recipe">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-1-prompt-recall-tests">🧪 1. Prompt Recall Tests<a href="https://johnpottergr.github.io/blog/6-20-2025-llm-visibility-content-audit-tool#-1-prompt-recall-tests" class="hash-link" aria-label="Direct link to 🧪 1. Prompt Recall Tests" title="Direct link to 🧪 1. Prompt Recall Tests">​</a></h3>
+<p>Test whether your content appears in response to relevant prompts.</p>
+<p><strong>Manual Testing:</strong></p>
+<ul>
+<li>ChatGPT Plus ($20/mo) – GPT-4o for manual recall tests</li>
+</ul>
+<p><strong>Automation (optional):</strong></p>
+<ul>
+<li>Playwright or Puppeteer – Browser automation for simulating prompt entry across tools</li>
+<li>n8n – For scheduling and orchestrating prompt runs</li>
+<li>Claude API or OpenAI API – To score results for accuracy and brand inclusion</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-2-llm-citation-scans">📎 2. LLM Citation Scans<a href="https://johnpottergr.github.io/blog/6-20-2025-llm-visibility-content-audit-tool#-2-llm-citation-scans" class="hash-link" aria-label="Direct link to 📎 2. LLM Citation Scans" title="Direct link to 📎 2. LLM Citation Scans">​</a></h3>
+<p>Check if your brand is cited in LLM answers and where it’s sourced from.</p>
+<p><strong>Citation-exposing LLMs:</strong></p>
+<ul>
+<li>Perplexity Pro – Shows citations and sources</li>
+<li>You.com – Another citation-enabled tool</li>
+<li>Bing Copilot – Sometimes includes sources</li>
+</ul>
+<p><strong>Scraping tools (for non-API access):</strong></p>
+<ul>
+<li>Playwright/Puppeteer (same as above) – To extract citations from UI</li>
+<li>n8n or Zapier – To automate scraping and logging</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-3-linkless-mention-tracking">🔍 3. Linkless Mention Tracking<a href="https://johnpottergr.github.io/blog/6-20-2025-llm-visibility-content-audit-tool#-3-linkless-mention-tracking" class="hash-link" aria-label="Direct link to 🔍 3. Linkless Mention Tracking" title="Direct link to 🔍 3. Linkless Mention Tracking">​</a></h3>
+<p>Monitor forums, summaries, and AI outputs for brand mentions without backlinks.</p>
+<p><strong>Tools:</strong></p>
+<ul>
+<li>Mention.com, Brand24, or Talkwalker Alerts – Track unlinked mentions online</li>
+<li>Google Alerts – Free mention tracking</li>
+<li>Reddit API or Pushshift – To pull brand mentions in forums</li>
+<li>Twitter/X API (if needed) – Paid tiers</li>
+<li>Optionally, GPT-4 or Claude – To detect “implied” brand mentions from raw text</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-4-ai-bot-crawlability-checks">🤖 4. AI Bot Crawlability Checks<a href="https://johnpottergr.github.io/blog/6-20-2025-llm-visibility-content-audit-tool#-4-ai-bot-crawlability-checks" class="hash-link" aria-label="Direct link to 🤖 4. AI Bot Crawlability Checks" title="Direct link to 🤖 4. AI Bot Crawlability Checks">​</a></h3>
+<p>Verify if AI crawlers can access your content and see it rendered correctly.</p>
+<p><strong>Tools:</strong></p>
+<ul>
+<li>Screaming Frog SEO Spider or Sitebulb – Crawlability + render testing</li>
+<li>Manual robots.txt review – Look for blocks on GPTBot, Google-Extended, ClaudeBot, etc.</li>
+<li>Playwright– For rendering and testing dynamic content (JS-heavy pages)</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-5-workflow-automation--logging">🔁 5. Workflow Automation &amp; Logging<a href="https://johnpottergr.github.io/blog/6-20-2025-llm-visibility-content-audit-tool#-5-workflow-automation--logging" class="hash-link" aria-label="Direct link to 🔁 5. Workflow Automation &amp; Logging" title="Direct link to 🔁 5. Workflow Automation &amp; Logging">​</a></h3>
+<p>Stitch everything together and log results.</p>
+<ul>
+<li>n8n (cloud or desktop) – Workflow automation</li>
+<li>Airtable, Supabase, or [Google Sheets] – Store test results and citations</li>
+<li>Retool or Streamlit – Optional dashboards</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-6-reporting--output-optional">📄 6. Reporting &amp; Output (Optional)<a href="https://johnpottergr.github.io/blog/6-20-2025-llm-visibility-content-audit-tool#-6-reporting--output-optional" class="hash-link" aria-label="Direct link to 📄 6. Reporting &amp; Output (Optional)" title="Direct link to 📄 6. Reporting &amp; Output (Optional)">​</a></h3>
+<p>Generate audit reports for stakeholders or clients.</p>
+<p><strong>Tools:</strong></p>
+<ul>
+<li>Jinja2 (templating engine for HTML/PDF)</li>
+<li>Pandas – For data processing and report formatting</li>
+<li>WeasyPrint or PDFKit – Turn HTML into PDFs</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="side-note-on-linkless-mentions-per-chatgpt">Side note on Linkless Mentions per ChatGPT<a href="https://johnpottergr.github.io/blog/6-20-2025-llm-visibility-content-audit-tool#side-note-on-linkless-mentions-per-chatgpt" class="hash-link" aria-label="Direct link to Side note on Linkless Mentions per ChatGPT" title="Direct link to Side note on Linkless Mentions per ChatGPT">​</a></h2>
+<p>Linkless mention tracking is important for LLM visibility because modern language models are trained not just on pages with backlinks but on the full context of language, including brand names mentioned without links. In short: if your brand shows up in the training or inference data—even without a link, it can influence whether you're surfaced in answers.</p>
+<p>Here’s why that matters, in practical terms:</p>
+<p>🧠 1. LLMs Learn from Language Context, Not Just Links
+Unlike Google’s PageRank, LLMs aren’t built on link graphs. They "understand" brands through:</p>
+<ul>
+<li>Raw mentions in text (even without a URL)</li>
+<li>Surrounding context (how people describe you)</li>
+<li>Frequency and tone of mentions</li>
+</ul>
+<p>So a brand mentioned often in AI-generated articles, Reddit comments, or summaries, even without backlinks, gets semantically associated with direct mail, marketing automation, etc. This raises its chances of showing up in relevant LLM responses.</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Why Probabilistic Visibility Is the New Page One]]></title>
+            <link>https://johnpottergr.github.io/blog/6-20-2025-probabilitic-visibility</link>
+            <guid>https://johnpottergr.github.io/blog/6-20-2025-probabilitic-visibility</guid>
+            <pubDate>Fri, 20 Jun 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[The era of static rankings is coming to an end. If your SEO strategy is still focused on capturing the number one position for a specific keyword, you’re preparing for a bygone era. AI driven search using LLMs is reshaping the landscape.]]></description>
+            <content:encoded><![CDATA[<p>The era of static rankings is coming to an end. If your SEO strategy is still focused on capturing the number one position for a specific keyword, you’re preparing for a bygone era. AI driven search using LLMs is reshaping the landscape.</p>
+<p>Now, brand visibility in LLMs isn’t a straightforward outcome; it’s a probabilistic one.</p>
+<p>When someone requests a product recommendation from an LLM, the response hinges on much more than just the text of the query.</p>
+<p>User intent, context, and even minor phrasing differences can drastically influence which brands get recommended. This is because there’s no one size fits all answer for something like “What’s the best mattress?” or “What’s the top marketing tool?” Hundreds of different recommendations could come forth based on who is doing the asking, as well as how and when they ask.</p>
+<p>Welcome to what <a href="https://www.linkedin.com/in/garrettsussman/">Garrett Sussman</a> calls Probabilitic Visibility</p>
+<p>The new reality requires a different content and brand strategy. Rather than trying to funnel everything through a single point of entry, you'll need to build resilience across many potential pathways.</p>
+<p>Instead of thinking about optimizing for a keyword here or a page there, think about creating networks of content that interact to lead someone to your desired end point. Being cited means more than just one place and one source. It involves content that can speak to various buyer personas, not just the primary target.</p>
+<p>Personas are all about context - how your brand appears to someone researching for the first time versus someone on the brink of making a purchase.</p>
+<p>So.... each content piece should be considered part of a larger visibility strategy. You should always ask yourself if the page you are creating could serve as a reference for someone down the line. In other words, your content should affirm:</p>
+<ul>
+<li>Can it accommodate various depths of detail?</li>
+<li>Is it straightforward to cite?</li>
+<li>Does it align with the different ways people might ask about the same thing?</li>
+</ul>
+<p>Being visible on multiple sites, in different formats, and through varying tones and entry points gives you a better shot at appearing in LLM generated responses.</p>
+<p>You are not trying to control one narrow channel; you are expanding your presence across the whole field.We are moving into a phase where making content discoverable is fluid and adaptable. To achieve this, we need to think not just like search engine optimizers but more so like systems designers.</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[GSR - A New Metric for Measuring Brand Visibility in AI-Generated Results]]></title>
+            <link>https://johnpottergr.github.io/blog/6-19-2025-GSR-a-new-metric</link>
+            <guid>https://johnpottergr.github.io/blog/6-19-2025-GSR-a-new-metric</guid>
+            <pubDate>Thu, 19 Jun 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[The Generative Search Ratio (GSR) is a new metric that developer Todd Gray has proposed to assess how discoverable a brand is within environments driven by large language models (LLMs).]]></description>
+            <content:encoded><![CDATA[<p>The Generative Search Ratio (GSR) is a new metric that <a href="https://www.linkedin.com/in/toddegray/">developer Todd Gray</a> has proposed to assess how discoverable a brand is within environments driven by large language models (LLMs).</p>
+<p>As businesses contend with the shift from traditional search methods to those powered by generative AI, they must now ensure visibility not just in Google rankings but also in the synthesized responses provided by LLM tools like ChatGPT and others.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-is-gsr">What is GSR?<a href="https://johnpottergr.github.io/blog/6-19-2025-GSR-a-new-metric#what-is-gsr" class="hash-link" aria-label="Direct link to What is GSR?" title="Direct link to What is GSR?">​</a></h2>
+<p>The GSR serves as a way to quantify this new kind of digital presence, helping brands understand their positioning in this emerging search landscape. It basically assesses the relationship between your visibility in large language model (LLM) responses and your performance in traditional SEO.</p>
+<p>The basic formula is: GSR = (GEO Score × Visibility Weight) / SEO Score</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="heres-how-the-components-break-down">Here's how the components break down:<a href="https://johnpottergr.github.io/blog/6-19-2025-GSR-a-new-metric#heres-how-the-components-break-down" class="hash-link" aria-label="Direct link to Here's how the components break down:" title="Direct link to Here's how the components break down:">​</a></h3>
+<ul>
+<li>
+<p><strong>GEO Score:</strong> The percentage of key prompts where your brand appears in an AI generated response.</p>
+</li>
+<li>
+<p><strong>Visibility Weight:</strong> A modifier that adjusts for how prominent the mention is, based on prompt type.Core prompts (e.g., "best CRM for startups") receive more weight than niche ones (e.g.,"top CRM that works with an internal Postgres database").</p>
+</li>
+<li>
+<p><strong>SEO Score:</strong> How well your brand performs in the keyword rankings you care about—usually pulled from search analytics or third party tools. These two metrics combined give a rough sense of whether your brand is keeping up, falling behind, or pulling ahead in this new era of AI driven search results</p>
+</li>
+</ul>
+<p>Together, these factors produce a single number that helps assess whether your brand’s AI presence is keeping up with—or surpassing—your SEO presence.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="interpreting-gsr">Interpreting GSR<a href="https://johnpottergr.github.io/blog/6-19-2025-GSR-a-new-metric#interpreting-gsr" class="hash-link" aria-label="Direct link to Interpreting GSR" title="Direct link to Interpreting GSR">​</a></h2>
+<ul>
+<li>
+<p><strong>GSR ≥ 1.0</strong> → Your brand has a strong presence in AI generated content. It appears as though your brand ranks higher in AI answers than it does in traditional organic search results.</p>
+</li>
+<li>
+<p><strong>GSR 0.5 – 1.0</strong> → You are moderately visible to LLMs. Your content is discoverable, but it is not prominent enough in AI responses to ensure that you are being "seen" by these models.</p>
+</li>
+<li>
+<p><strong>GSR &lt; 0.5</strong> → You have good SEO and poor visibility to LLMs. You are not being picked up by the LLMs that generate AI responses, which may necessitate changes in your content structure, clarity, or authoritative signals. (most brands are here?)</p>
+</li>
+<li>
+<p><strong>GSR &gt; 1.0 with low SEO</strong> → You are doing well in AI generated responses but underperforming in traditional search results. It is time to delve into the basics of SEO.</p>
+</li>
+</ul>
+<p><strong>Low GSR and low SEO</strong> → You're essentially invisible on both fronts. It is time for a comprehensive strategy reset to ensure full visibility.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="not-all-prompts-are-equal">Not All Prompts Are Equal<a href="https://johnpottergr.github.io/blog/6-19-2025-GSR-a-new-metric#not-all-prompts-are-equal" class="hash-link" aria-label="Direct link to Not All Prompts Are Equal" title="Direct link to Not All Prompts Are Equal">​</a></h2>
+<p>One of the most insightful aspects of the GSR metric is how it differentiates between types of prompts. As Todd Gray points out, not all citations generated by LLMs are equally valuable:</p>
+<ul>
+<li>
+<p>Core Prompts (broad, high-intent questions) acarry the most weight.</p>
+</li>
+<li>
+<p>Conditional Prompts (requiring specific parameters) provide real value and are worth tracking, but they are not as impactful as the more general prompts. They're context-dependent.</p>
+</li>
+<li>
+<p>Niche/Web Prompts are less impactful but still worth tracking for completeness.</p>
+</li>
+</ul>
+<p>This granularity helps the GSR account for meaningful discoverability in the real world, not just raw mention counts.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="limitations-and-next-steps">Limitations and Next Steps<a href="https://johnpottergr.github.io/blog/6-19-2025-GSR-a-new-metric#limitations-and-next-steps" class="hash-link" aria-label="Direct link to Limitations and Next Steps" title="Direct link to Limitations and Next Steps">​</a></h2>
+<p>GSR is still an emerging concept. It requires:</p>
+<ul>
+<li>
+<p>A reliable prompt library across core/niche/conditional types</p>
+</li>
+<li>
+<p>Access to AI-generated responses, from APIs or scraping)</p>
+</li>
+<li>
+<p>Standardized SEO performance benchmarks</p>
+</li>
+</ul>
+<p>LLM Visibility methodology is still being refined, but as we move from links to language, we'll need new metrics that follow. So GSR might be the first of many.</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Citation Score, A New Metric for Brand Visibility in the Age of AI]]></title>
+            <link>https://johnpottergr.github.io/blog/6-19-2025-think-like-a-systems engineer</link>
+            <guid>https://johnpottergr.github.io/blog/6-19-2025-think-like-a-systems engineer</guid>
+            <pubDate>Thu, 19 Jun 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[When someone asks ChatGPT, Perplexity, or Claude a question, where does the answer come from and how often does it come from you?]]></description>
+            <content:encoded><![CDATA[<p>When someone asks ChatGPT, Perplexity, or Claude a question, where does the answer come from and how often does it come from you?</p>
+<p>As LLMs replace search engines for top-of-funnel research and product discovery, a new visibility layer is emerging: citations. AI-generated answers increasingly include footnotes, source links, or inline references to websites, articles, and documentation. These citations form a kind of modern backlink but with different mechanics and consequences.</p>
+<p>And that brings us to a new idea: Citation Score.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-is-citation-score">What Is Citation Score?<a href="https://johnpottergr.github.io/blog/6-19-2025-think-like-a-systems%20engineer#what-is-citation-score" class="hash-link" aria-label="Direct link to What Is Citation Score?" title="Direct link to What Is Citation Score?">​</a></h2>
+<p>Citation Score is a way to measure how frequently and how prominently your brand, product, or content is cited by LLMs across a set of relevant queries. Think of it like domain authority, but instead of measuring how many other sites link to you, it measures how often LLMs mention or reference your content as part of their synthesized answers.</p>
+<p>A basic version might include:</p>
+<ul>
+<li>
+<p><strong>Citation Frequency:</strong> How many times your content appears across 100 high-intent questions?</p>
+</li>
+<li>
+<p><strong>Citation Position:</strong> Are you the first link? Buried in footnotes? Cited inline?</p>
+</li>
+<li>
+<p><strong>Citation Context:</strong> Are you cited for facts, how-to instructions, product comparisons, or definitions?</p>
+</li>
+</ul>
+<p>Over time, these could be modeled into a visibility index that SEO teams and brand strategists can track.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="why-this-matters">Why This Matters<a href="https://johnpottergr.github.io/blog/6-19-2025-think-like-a-systems%20engineer#why-this-matters" class="hash-link" aria-label="Direct link to Why This Matters" title="Direct link to Why This Matters">​</a></h2>
+<p>Ranking #1 in search doesn’t mean much if ChatGPT answers the question directly and never cites you. Similarly, showing up in SGE (Google’s Search Generative Experience) summaries or Perplexity citations could drive more indirect influence, even without clicks.</p>
+<p>Citation Score gives marketers a way to quantify this influence. It can also help content teams reverse-engineer what types of assets are likely to be surfaced by LLMs: well-structured docs, clear product explanations, or high-authority third-party coverage.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="lessons-from-academia-and-publishing">Lessons from Academia and Publishing<a href="https://johnpottergr.github.io/blog/6-19-2025-think-like-a-systems%20engineer#lessons-from-academia-and-publishing" class="hash-link" aria-label="Direct link to Lessons from Academia and Publishing" title="Direct link to Lessons from Academia and Publishing">​</a></h2>
+<p>Interestingly, this kind of modeling has already taken off in other domains. Academic publishing has spent years refining metrics like:</p>
+<ul>
+<li>
+<p>h-index (how often a researcher is cited and how widely their work is distributed)</p>
+</li>
+<li>
+<p>co-citation networks (who gets cited alongside whom)</p>
+</li>
+<li>
+<p>altmetrics (social and public engagement around citations)</p>
+</li>
+</ul>
+<img src="https://johnpottergr.github.io/img/citation.png" alt="Citation Map" width="800">
+<p>Imagine applying those to LLM visibility:</p>
+<ul>
+<li>
+<p><strong>Co-citation Score:</strong> What brands are consistently cited next to yours? Are you always mentioned alongside competitors or in a league of your own?</p>
+</li>
+<li>
+<p><strong>Contextual Trust Graphs:</strong> If multiple LLMs cite your docs for a given topic, does that amplify downstream visibility in future model updates?</p>
+</li>
+<li>
+<p><strong>Temporal Citation Maps:</strong> Are you gaining or losing answer share across product categories or technical terms?</p>
+</li>
+</ul>
+<p>These are more than thought experiments, they're prototypes waiting to be built.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="a-new-visibility-layer">A New Visibility Layer<a href="https://johnpottergr.github.io/blog/6-19-2025-think-like-a-systems%20engineer#a-new-visibility-layer" class="hash-link" aria-label="Direct link to A New Visibility Layer" title="Direct link to A New Visibility Layer">​</a></h2>
+<p>Citation Score won’t replace SEO. But it changes the focus, replacing "how you perform in search" with "do you exist in the answer". As AI agents become the default research layer for consumers, that’s a visibility gap too important to ignore.</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[A New App Makes It Easier to Spot Content Opportunities]]></title>
+            <link>https://johnpottergr.github.io/blog/6-18-2025-deyan-georgiev</link>
+            <guid>https://johnpottergr.github.io/blog/6-18-2025-deyan-georgiev</guid>
+            <pubDate>Wed, 18 Jun 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[As AI tools become more acccessible, app development has become easier. SEO professionals are starting to apply their expertise to build practical applications. One such professional is Deyan Georgiev from Toro Rank. I recently asked him to discuss an innovative app he built.]]></description>
+            <content:encoded><![CDATA[<p>As AI tools become more acccessible, app development has become easier. SEO professionals are starting to apply their expertise to build practical applications. One such professional is <a href="https://www.linkedin.com/in/dgeorgiev87/">Deyan Georgiev</a> from <a href="https://tororank.com/">Toro Rank</a>. I recently asked him to discuss an innovative app he built.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-does-your-tool-do-and-why-should-we-care-spoiler-we-should">What does your tool do, and why should we care? (spoiler: we should)<a href="https://johnpottergr.github.io/blog/6-18-2025-deyan-georgiev#what-does-your-tool-do-and-why-should-we-care-spoiler-we-should" class="hash-link" aria-label="Direct link to What does your tool do, and why should we care? (spoiler: we should)" title="Direct link to What does your tool do, and why should we care? (spoiler: we should)">​</a></h2>
+<p><a href="https://toro-rank-content-gap.streamlit.app/">The tool I built</a> addresses two problems I see often while working with clients. Businesses are missing content opportunities and accidentally hurting their SEO with off-topic content just to get more traffic, or their SEO guy/agency can validate their invoice. <em>Interviewer's note:</em> Use <a href="https://serper.dev/">Serper API</a> with app.</p>
+<p>Instead of guessing what to write about, it shows you exactly what real people are asking that competitors aren't answering well. It scrapes Reddit for actual user questions (with upvote counts), grabs Google's autocomplete suggestions, and analyzes how thin competitor content is. Then it maps everything visually so you can clearly see the gaps and opportunities.</p>
+<p>The second part audits your entire website to find pages that don't match your main topic, which sounds boring can be a huge problem. I've found sites where 40% of their content was completely off-topic, basically telling Google they don't know what their business is about.</p>
+<img src="https://johnpottergr.github.io/img/toro.png" alt="Select Sheet" width="800">
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="why-did-you-create-it">Why did you create it?<a href="https://johnpottergr.github.io/blog/6-18-2025-deyan-georgiev#why-did-you-create-it" class="hash-link" aria-label="Direct link to Why did you create it?" title="Direct link to Why did you create it?">​</a></h2>
+<p>I had the idea of building something similar for a long time, but I didn’t quite have the time to sit down and do it properly. That was until I started working with a client who had a massive website, but their blog content was completely messed up topic-wise.</p>
+<p>Their blog posts were all over the place, and there was no connection to each other or to their main business. The site was too big to manually review every article, so I needed a way to quickly identify which content was actually hurting them.</p>
+<p>That's how the website audit feature came about. I built it because I needed to solve that problem ASAP.</p>
+<p>Once I could see their content landscape clearly, the next challenge was helping them target better topics that actually made sense for their niche. That's when I added the 3D vector analysis and content gap discovery to find opportunities within their actual expertise area instead of random topics, or tools’ KW suggestions with high traffic potential and low difficulty.</p>
+<p>Especially with AI mode and AIO in other countries, we should stop believing in keyword estimates given by the big SEO tools. Because that’s what they are - estimates, not hard data. Google Keyword Planner gives some insights on keyword volume and such, but I think it’s a bit bloated, to say the least. Therefore, most content strategies are built on assumptions.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="yes-toro-rank-meets-a-real-need">Yes, Toro Rank Meets A Real Need<a href="https://johnpottergr.github.io/blog/6-18-2025-deyan-georgiev#yes-toro-rank-meets-a-real-need" class="hash-link" aria-label="Direct link to Yes, Toro Rank Meets A Real Need" title="Direct link to Yes, Toro Rank Meets A Real Need">​</a></h3>
+<p>The tool I built isn’t a game-changer, but at least it uses real data - actual questions from Reddit users, real searches from Google autocomplete, and actual competitor analysis. No guessing, no estimates, no assumptions.</p>
+<p>The Reddit piece is especially powerful because upvotes tell you which problems people actually care about. If 200 people upvoted a question about "my smart TV OS is slow" but no competitor has a decent guide on it, that's free traffic sitting there.</p>
+<p>I’m giving the tool away for free because good content strategy shouldn't only be available to people who can afford the expensive tools. This is in fact the sixth free tool I built and shared for free, and there will be more to come, so stay tuned.</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[The Emergence of the LLM Visibility Specialist]]></title>
+            <link>https://johnpottergr.github.io/blog/6-17-2025-The LLM-visibility-expert</link>
+            <guid>https://johnpottergr.github.io/blog/6-17-2025-The LLM-visibility-expert</guid>
+            <pubDate>Tue, 17 Jun 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[What Is an LLM Visibility Specialist?]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-is-an-llm-visibility-specialist">What Is an LLM Visibility Specialist?<a href="https://johnpottergr.github.io/blog/6-17-2025-The%20LLM-visibility-expert#what-is-an-llm-visibility-specialist" class="hash-link" aria-label="Direct link to What Is an LLM Visibility Specialist?" title="Direct link to What Is an LLM Visibility Specialist?">​</a></h2>
+<p>An LLM Visibility Specialist is someone who helps content get recognized by large language models (LLMs), such as ChatGPT, Claude, and Google AI Overviews. They combine writing, strategy, and lightweight technical tools to improve how frequently a brand is mentioned in AI-generated answers.</p>
+<p>This new role is gradually emerging as search behavior shifts toward LLM platforms. It builds on traditional content writing and SEO but goes a step further by focusing on how to structure content so that AI tools select it as a reliable source.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="why-it-matters-for-content-writers">Why It Matters for Content Writers<a href="https://johnpottergr.github.io/blog/6-17-2025-The%20LLM-visibility-expert#why-it-matters-for-content-writers" class="hash-link" aria-label="Direct link to Why It Matters for Content Writers" title="Direct link to Why It Matters for Content Writers">​</a></h2>
+<p>For content writers, this shift means your job doesn’t end at publishing what’s useful. The real opportunity lies in learning how LLMs interpret your content. From there, you’ll have to change how you write, structure, and track performance to fit that behavior. If someone asks ChatGPT about a problem your content solves, your goal is to make sure it’s your content that gets cited.</p>
+<p>Top-of-funnel and middle-of-funnel content is the primary focus here, but bottom-of-funnel content may not be far behind. This blog post is the first one I’ve written with this focus in mind. And it probably won’t be the last.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="let-me-be-clear">Let Me Be Clear<a href="https://johnpottergr.github.io/blog/6-17-2025-The%20LLM-visibility-expert#let-me-be-clear" class="hash-link" aria-label="Direct link to Let Me Be Clear" title="Direct link to Let Me Be Clear">​</a></h3>
+<p>The average LLM visitor is worth 4.4x the average traditional organic search visitor. Not only that, but ChatGPT results only overlap with 12% with Google SERP results (<a href="https://speakerdeck.com/joshbly/josh-blyskal-profound-we-analyed-10000-000-ai-search-results-dot-dot-dot">Josh Blyskal, Profound</a>). So LLM visibility isn’t just another SEO trend. It’s a big change in how information flows and who receives credit when someone asks an LLM a question.</p>
+<img src="https://johnpottergr.github.io/img/overlap.png" alt="Select Sheet" width="800">
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="content-is-still-king">Content Is Still King<a href="https://johnpottergr.github.io/blog/6-17-2025-The%20LLM-visibility-expert#content-is-still-king" class="hash-link" aria-label="Direct link to Content Is Still King" title="Direct link to Content Is Still King">​</a></h2>
+<p>Sure, the articles, guides, product pages, and snippets you publish are what LLMs are trained to reference. If the goal is to show up in an LLM answer feed, someone still has to write the source material.</p>
+<p>But it’s not about writing more content. It’s primarily about structuring content so LLMs can quote it, interpret it, and trust it.</p>
+<p>This means:</p>
+<ul>
+<li>Writing in “quotable chunks” with clear headers and bullet points</li>
+<li>Anticipating the types of prompts users will enter into AI tools</li>
+<li>Using consistent phrasing and NLP-friendly structures</li>
+<li>Ensuring crawlability not just for a Google bot but for any LLM crawlers</li>
+<li>Creating content that answers real questions</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="where-the-job-starts-to-expand">Where the Job Starts to Expand<a href="https://johnpottergr.github.io/blog/6-17-2025-The%20LLM-visibility-expert#where-the-job-starts-to-expand" class="hash-link" aria-label="Direct link to Where the Job Starts to Expand" title="Direct link to Where the Job Starts to Expand">​</a></h2>
+<p>If you stop at publishing helpful content, that’s ok. You’re still in the game, but you’re playing defense. Visibility specialist take the oppositie track by focusing on how to  track, guide, and shape how that content appears in LLM outputs.</p>
+<p>This includes:</p>
+<ul>
+<li><strong>Prompt testing:</strong> Determining whether your content appears when AI is asked key questions</li>
+<li><strong>Citation analysis:</strong> Monitoring which articles get mentioned, and in what context</li>
+<li><strong>Linkless mention tracking:</strong> Surfacing brand or product references that LLMs pull without linking</li>
+<li><strong>Competitive prompt mapping:</strong> Understanding where your content sits next to competitors inside AI outputs</li>
+</ul>
+<p>Your job doesn’t stop with analysis, however. Many visibility specialists are starting to use automation tools, such as n8n, to simulate prompts. They also scrape LLM-generated results and run citation reports across tools like ChatGPT.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="a-role-built-on-writing-but-not-limited-by-it">A Role Built on Writing, But Not Limited by It<a href="https://johnpottergr.github.io/blog/6-17-2025-The%20LLM-visibility-expert#a-role-built-on-writing-but-not-limited-by-it" class="hash-link" aria-label="Direct link to A Role Built on Writing, But Not Limited by It" title="Direct link to A Role Built on Writing, But Not Limited by It">​</a></h2>
+<p>Make no mistake, you must still focus on content writing. But it’s writing with a system design behind it. It’s built on a mix of skills: part strategist, part writer, part light technologist. Beyond trying to rank on Google, you’re also trying to be the answer inside an LLM.</p>
+<p>In reality, no one’s hiring explicitly for “LLM Visibility Specialists” yet. But if you understand how content gets cited by AI tools, and you know how to structure, test, and refine what you publish, you’re already doing the job.</p>
+<p>If you’re a writer who likes understanding how to track content performance and build repeatable frameworks, this role might be for you.</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[ChatGPT evaluates my Clearscope-style tool]]></title>
+            <link>https://johnpottergr.github.io/blog/6-17-2025-clearscope-tool-progress</link>
+            <guid>https://johnpottergr.github.io/blog/6-17-2025-clearscope-tool-progress</guid>
+            <pubDate>Tue, 17 Jun 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[So my Clearscope-style tool is workable. I almost had a meltdown from coding frustration but pulled myself together and got it done. Still, its time to compare my original goals with how well it performs now. So I compared my main.py code page with goals and asked ChatGPT for an evaluation.]]></description>
+            <content:encoded><![CDATA[<p>So my Clearscope-style tool is workable. I almost had a meltdown from coding frustration but pulled myself together and got it done. Still, its time to compare my original goals with how well it performs now. So I compared my main.py code page with goals and asked ChatGPT for an evaluation.</p>
+<img src="https://johnpottergr.github.io/img/recap.png" alt="Select Sheet" width="800">
+<p>The primary features are satisfied, but I can still add more:</p>
+<img src="https://johnpottergr.github.io/img/enhance.png" alt="Select Sheet" width="800">
+<p>Some of these features are just nice to have. I asked ChatGPT "Which of the missing features would be most valuable to a content writer?" and why</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="my-top-missing-feature">My Top Missing Feature<a href="https://johnpottergr.github.io/blog/6-17-2025-clearscope-tool-progress#my-top-missing-feature" class="hash-link" aria-label="Direct link to My Top Missing Feature" title="Direct link to My Top Missing Feature">​</a></h2>
+<p>ChatGPT asserts I should include "Cross-Article Theme and Subtopic Aggregation" within the app. The reasoning is that....</p>
+<p>"Writers don’t just want to know what each individual article says, they want a synthesized overview that answers":</p>
+<ul>
+<li>“What are the recurring angles everyone’s covering?”</li>
+<li>“What terms or entities are showing up the most?”</li>
+<li>“Which subtopics or FAQs should I definitely include to stay competitive?”
+it's true, answering these questions would help make my article more comprehensive but differentiated.</li>
+</ul>
+<p>In short order, it would...</p>
+<ul>
+<li>Automatically extract all subtopics and questions from the summaries.</li>
+<li>Count frequency and group similar terms.</li>
+<li>Display a ranked list of the most mentioned themes, subtopics, and questions across all top-ranking articles.</li>
+</ul>
+<p>For now, I'm only requesting 10 summaries at a time. I could easily increase that number, but costs are involved.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="stating-the-benefits-explicitly">Stating the benefits explicitly<a href="https://johnpottergr.github.io/blog/6-17-2025-clearscope-tool-progress#stating-the-benefits-explicitly" class="hash-link" aria-label="Direct link to Stating the benefits explicitly" title="Direct link to Stating the benefits explicitly">​</a></h3>
+<p>ChatGPT notes that, rather than having to read through each summary and manually deduce trends, this feature would basically produce a prioritized content map instead.</p>
+<p>And that would save me time, help avoid content gaps, and increase my chances of outperforming competitors in terms of search page results.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="bonus-features-i-should-consider">Bonus features I should consider<a href="https://johnpottergr.github.io/blog/6-17-2025-clearscope-tool-progress#bonus-features-i-should-consider" class="hash-link" aria-label="Direct link to Bonus features I should consider" title="Direct link to Bonus features I should consider">​</a></h3>
+<p>Additionally, I could highlight frequently mentioned topics (core expectations) and rarely mentioned but important (opportunities to stand out)</p>
+<p>This would help a writer decide what to match and where to differentiate, the same kind of information that Clearscope and MarketMuse sell for a premium.</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[How to Optimize Your SEO Funnel]]></title>
+            <link>https://johnpottergr.github.io/blog/6-16-2025-optimize-your-seo-funnel</link>
+            <guid>https://johnpottergr.github.io/blog/6-16-2025-optimize-your-seo-funnel</guid>
+            <pubDate>Mon, 16 Jun 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Turn your SEO strategy into a growth engine]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="turn-your-seo-strategy-into-a-growth-engine">Turn your SEO strategy into a growth engine<a href="https://johnpottergr.github.io/blog/6-16-2025-optimize-your-seo-funnel#turn-your-seo-strategy-into-a-growth-engine" class="hash-link" aria-label="Direct link to Turn your SEO strategy into a growth engine" title="Direct link to Turn your SEO strategy into a growth engine">​</a></h2>
+<p>You want to be strategic when it comes to planning content. If you're serious about promoting growth, here's a smart framework to use:</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="begin-with-bofu">Begin with BOFU<a href="https://johnpottergr.github.io/blog/6-16-2025-optimize-your-seo-funnel#begin-with-bofu" class="hash-link" aria-label="Direct link to Begin with BOFU" title="Direct link to Begin with BOFU">​</a></h3>
+<p>Do not divert your attention from bottom of funnel pages until they rank and convert. They are the ones that directly drive sales.</p>
+<p>WIth BOFU content, make sure you:</p>
+<ul>
+<li>Target the most high intent keywords</li>
+<li>Check that your site has fast load times</li>
+<li>Your site is fully functional on all devices</li>
+<li>Optimize your headers and meta descriptions</li>
+<li>Present compelling calls to action</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="populate-the-funnel-with-mofu-content">Populate the Funnel with MOFU Content<a href="https://johnpottergr.github.io/blog/6-16-2025-optimize-your-seo-funnel#populate-the-funnel-with-mofu-content" class="hash-link" aria-label="Direct link to Populate the Funnel with MOFU Content" title="Direct link to Populate the Funnel with MOFU Content">​</a></h3>
+<p>With your BOFU content set up, it’s time to work on the middle of the funnel.</p>
+<p>Your prospective customers still have questions, and they need to know more before they’re ready to buy. So the onus is on you to answer those questions.</p>
+<p>High converting blog posts and comparison pages are the best way to achieve this.</p>
+<p>To fill your funnel with MOFU content, focus on these key areas:</p>
+<ul>
+<li>Make sure your internal links are easy to follow and your site data is well-organized</li>
+<li>Employ keyword groups that reflect purchase research</li>
+<li>Publish six new pieces of mid-funnel content each month</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="long-term-authority-content">Long Term Authority Content<a href="https://johnpottergr.github.io/blog/6-16-2025-optimize-your-seo-funnel#long-term-authority-content" class="hash-link" aria-label="Direct link to Long Term Authority Content" title="Direct link to Long Term Authority Content">​</a></h3>
+<p>If you aren’t an enterprise brand or working to build topical authority over a long period, there’s no need to invest heavily in TOFU (top of funnel) content. Its not worth your time.</p>
+<p>Instead, focuse on educational content that is helpful and not filler.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="technical-seo-still-matters">Technical SEO Still Matters<a href="https://johnpottergr.github.io/blog/6-16-2025-optimize-your-seo-funnel#technical-seo-still-matters" class="hash-link" aria-label="Direct link to Technical SEO Still Matters" title="Direct link to Technical SEO Still Matters">​</a></h2>
+<p>If your site’s technical foundation is weak, great content won’t perform.</p>
+<p>Direct to consumer brands should be careful to:</p>
+<ul>
+<li>Fix broken links and indexation issues</li>
+<li>Audit site speed and mobile performance</li>
+<li>Review headers and meta tags</li>
+<li>Clean up orphan pages and crawl waste</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="the-right-ways-to-build-links">The Right Ways to Build Links<a href="https://johnpottergr.github.io/blog/6-16-2025-optimize-your-seo-funnel#the-right-ways-to-build-links" class="hash-link" aria-label="Direct link to The Right Ways to Build Links" title="Direct link to The Right Ways to Build Links">​</a></h3>
+<p>Once your funnel content is in place, amplify it with real backlinks by:</p>
+<ul>
+<li>Manual outreach, not link farms</li>
+<li>Relationship building with relevant publishers</li>
+<li>Earning links to your BOFU and MOFU pages</li>
+</ul>
+<p>Backlinks not only improve authority, they signal relevance to Google and push your funnel content higher in the rankings.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="last-words">Last Words<a href="https://johnpottergr.github.io/blog/6-16-2025-optimize-your-seo-funnel#last-words" class="hash-link" aria-label="Direct link to Last Words" title="Direct link to Last Words">​</a></h2>
+<p>Don’t overcomplicate your SEO strategy. You won't be able to cover all your bases. But you can be ready when a prospective customer is ready to buy.
+So:</p>
+<ul>
+<li>Build BOFU pages first</li>
+<li>Use MOFU content to feed demand</li>
+<li>Let bigger brands play with TOFU</li>
+<li>Optimize your site’s technical health</li>
+<li>Earn links that matter</li>
+</ul>
+<p>Follows the points to turn your SEO funnel into a sales funnel.</p>]]></content:encoded>
         </item>
     </channel>
 </rss>

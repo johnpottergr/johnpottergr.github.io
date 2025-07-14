@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="blog-wrapper blog-post-page plugin-blog plugin-id-default" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.7.0">
+<title data-rh="true">What It Takes To Build An LLM Visibility Content Audit Tool | Content That Shows Up In AI Search</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://johnpottergr.github.io/blog/6-20-2025-llm-visibility-content-audit-tool"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docusaurus_tag" content="default"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docsearch:docusaurus_tag" content="default"><meta data-rh="true" name="canonical" content="https://johnpottergr.github.io"><meta data-rh="true" property="og:title" content="What It Takes To Build An LLM Visibility Content Audit Tool | Content That Shows Up In AI Search"><meta data-rh="true" name="description" content="The Goal"><meta data-rh="true" property="og:description" content="The Goal"><meta data-rh="true" property="og:type" content="article"><meta data-rh="true" property="article:published_time" content="2025-06-20T00:00:00.000Z"><link data-rh="true" rel="icon" href="/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://johnpottergr.github.io/blog/6-20-2025-llm-visibility-content-audit-tool"><link data-rh="true" rel="alternate" href="https://johnpottergr.github.io/blog/6-20-2025-llm-visibility-content-audit-tool" hreflang="en"><link data-rh="true" rel="alternate" href="https://johnpottergr.github.io/blog/6-20-2025-llm-visibility-content-audit-tool" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","@id":"https://johnpottergr.github.io/blog/6-20-2025-llm-visibility-content-audit-tool","mainEntityOfPage":"https://johnpottergr.github.io/blog/6-20-2025-llm-visibility-content-audit-tool","url":"https://johnpottergr.github.io/blog/6-20-2025-llm-visibility-content-audit-tool","headline":"What It Takes To Build An LLM Visibility Content Audit Tool","name":"What It Takes To Build An LLM Visibility Content Audit Tool","description":"The Goal","datePublished":"2025-06-20T00:00:00.000Z","author":[],"keywords":[],"isPartOf":{"@type":"Blog","@id":"https://johnpottergr.github.io/blog","name":"Blog"}}</script><link rel="alternate" type="application/rss+xml" href="/blog/rss.xml" title="Content That Shows Up In AI Search RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/blog/atom.xml" title="Content That Shows Up In AI Search Atom Feed">
+
+
+
+
+<link rel="preconnect" href="https://www.google-analytics.com">
+<link rel="preconnect" href="https://www.googletagmanager.com">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-HGP62N5PNG"></script>
+<script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","G-HGP62N5PNG",{anonymize_ip:!0})</script><link rel="stylesheet" href="/assets/css/styles.b1acdeec.css">
+<script src="/assets/js/runtime~main.39447737.js" defer="defer"></script>
+<script src="/assets/js/main.68afff2d.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();t(null!==e?e:"light")}(),function(){try{const n=new URLSearchParams(window.location.search).entries();for(var[t,e]of n)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="navbar navbar--fixed-top"><div class="navbar__inner"><div class="navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/"><b class="navbar__title text--truncate">John M Potter:</b></a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/">Home</a><a class="navbar__item navbar__link" href="/portfolio">Portfolio</a><a class="navbar__item navbar__link" href="/career">Career</a><a href="https://johnpottergr.github.io/resume6a.pdf" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">Resume<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/blog">Blog</a></div><div class="navbar__items navbar__items--right"><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="main-wrapper mainWrapper_z2l0"><div class="container margin-vert--lg"><div class="row"><aside class="col col--3"><nav class="sidebar_re4s thin-scrollbar" aria-label="Blog recent posts navigation"><div class="sidebarItemTitle_pO2u margin-bottom--md">Recent posts</div><div role="group"><h3 class="yearGroupHeading_rMGB">2025</h3><ul class="sidebarItemList_Yudw clean-list"><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/blog/7-5-2025-blog-moving">My Blog Is Moving</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/blog/7-2-2025-n8n-vs-mcp">n8n vs. MCP for LLM Workflows</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/blog/7-1-2025-blind-spot-attribution">The Blind Spot in Your Attribution, How to Turn ChatGPT Logs into Real Insight</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/blog/6-29-2025-why-content-falls-flat">9 Reasons Why Your Content Falls Flat with AI</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/blog/6-27-2025-building-authority-through-embeddigs">Building Online Authority Through Embeddings Intelligence</a></li></ul></div></nav></aside><main class="col col--7"><article class=""><header><h1 class="title_f1Hy">What It Takes To Build An LLM Visibility Content Audit Tool</h1><div class="container_mt6G margin-vert--md"><time datetime="2025-06-20T00:00:00.000Z">June 20, 2025</time> · <!-- -->4 min read</div></header><div id="__blog-post-container" class="markdown"><h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-goal-build-a-stack-that-performs">The Goal: Build a Stack That Performs:<a href="#the-goal-build-a-stack-that-performs" class="hash-link" aria-label="Direct link to The Goal: Build a Stack That Performs:" title="Direct link to The Goal: Build a Stack That Performs:">​</a></h2>
+<ul>
+<li><strong>LLM citation scans:</strong> to identify where your brand is being referenced in AI-generated answers across LLM tools, and how often it appears.</li>
+<li><strong>Prompt recall tests:</strong> to evaluate how well your content shows up in response to common AI prompts, and whether that content is accurate.</li>
+<li><strong>Linkless mention tracking:</strong> to spot brand mentions that appear in forums, summaries, and AI outputs even when there’s no backlink.</li>
+<li><strong>Crawlability for AI bots:</strong> to check if your content is accessible to AI-oriented crawlers and isn’t blocked by rendering issues or robots.txt settings.</li>
+<li><strong>Pull in</strong>: search-generated citations and prompt-level results using browser automations and n8n scripts.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-recipe">The Recipe<a href="#the-recipe" class="hash-link" aria-label="Direct link to The Recipe" title="Direct link to The Recipe">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-1-prompt-recall-tests">🧪 1. Prompt Recall Tests<a href="#-1-prompt-recall-tests" class="hash-link" aria-label="Direct link to 🧪 1. Prompt Recall Tests" title="Direct link to 🧪 1. Prompt Recall Tests">​</a></h3>
+<p>Test whether your content appears in response to relevant prompts.</p>
+<p><strong>Manual Testing:</strong></p>
+<ul>
+<li>ChatGPT Plus ($20/mo) – GPT-4o for manual recall tests</li>
+</ul>
+<p><strong>Automation (optional):</strong></p>
+<ul>
+<li>Playwright or Puppeteer – Browser automation for simulating prompt entry across tools</li>
+<li>n8n – For scheduling and orchestrating prompt runs</li>
+<li>Claude API or OpenAI API – To score results for accuracy and brand inclusion</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-2-llm-citation-scans">📎 2. LLM Citation Scans<a href="#-2-llm-citation-scans" class="hash-link" aria-label="Direct link to 📎 2. LLM Citation Scans" title="Direct link to 📎 2. LLM Citation Scans">​</a></h3>
+<p>Check if your brand is cited in LLM answers and where it’s sourced from.</p>
+<p><strong>Citation-exposing LLMs:</strong></p>
+<ul>
+<li>Perplexity Pro – Shows citations and sources</li>
+<li>You.com – Another citation-enabled tool</li>
+<li>Bing Copilot – Sometimes includes sources</li>
+</ul>
+<p><strong>Scraping tools (for non-API access):</strong></p>
+<ul>
+<li>Playwright/Puppeteer (same as above) – To extract citations from UI</li>
+<li>n8n or Zapier – To automate scraping and logging</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-3-linkless-mention-tracking">🔍 3. Linkless Mention Tracking<a href="#-3-linkless-mention-tracking" class="hash-link" aria-label="Direct link to 🔍 3. Linkless Mention Tracking" title="Direct link to 🔍 3. Linkless Mention Tracking">​</a></h3>
+<p>Monitor forums, summaries, and AI outputs for brand mentions without backlinks.</p>
+<p><strong>Tools:</strong></p>
+<ul>
+<li>Mention.com, Brand24, or Talkwalker Alerts – Track unlinked mentions online</li>
+<li>Google Alerts – Free mention tracking</li>
+<li>Reddit API or Pushshift – To pull brand mentions in forums</li>
+<li>Twitter/X API (if needed) – Paid tiers</li>
+<li>Optionally, GPT-4 or Claude – To detect “implied” brand mentions from raw text</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-4-ai-bot-crawlability-checks">🤖 4. AI Bot Crawlability Checks<a href="#-4-ai-bot-crawlability-checks" class="hash-link" aria-label="Direct link to 🤖 4. AI Bot Crawlability Checks" title="Direct link to 🤖 4. AI Bot Crawlability Checks">​</a></h3>
+<p>Verify if AI crawlers can access your content and see it rendered correctly.</p>
+<p><strong>Tools:</strong></p>
+<ul>
+<li>Screaming Frog SEO Spider or Sitebulb – Crawlability + render testing</li>
+<li>Manual robots.txt review – Look for blocks on GPTBot, Google-Extended, ClaudeBot, etc.</li>
+<li>Playwright– For rendering and testing dynamic content (JS-heavy pages)</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-5-workflow-automation--logging">🔁 5. Workflow Automation &amp; Logging<a href="#-5-workflow-automation--logging" class="hash-link" aria-label="Direct link to 🔁 5. Workflow Automation &amp; Logging" title="Direct link to 🔁 5. Workflow Automation &amp; Logging">​</a></h3>
+<p>Stitch everything together and log results.</p>
+<ul>
+<li>n8n (cloud or desktop) – Workflow automation</li>
+<li>Airtable, Supabase, or [Google Sheets] – Store test results and citations</li>
+<li>Retool or Streamlit – Optional dashboards</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-6-reporting--output-optional">📄 6. Reporting &amp; Output (Optional)<a href="#-6-reporting--output-optional" class="hash-link" aria-label="Direct link to 📄 6. Reporting &amp; Output (Optional)" title="Direct link to 📄 6. Reporting &amp; Output (Optional)">​</a></h3>
+<p>Generate audit reports for stakeholders or clients.</p>
+<p><strong>Tools:</strong></p>
+<ul>
+<li>Jinja2 (templating engine for HTML/PDF)</li>
+<li>Pandas – For data processing and report formatting</li>
+<li>WeasyPrint or PDFKit – Turn HTML into PDFs</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="side-note-on-linkless-mentions-per-chatgpt">Side note on Linkless Mentions per ChatGPT<a href="#side-note-on-linkless-mentions-per-chatgpt" class="hash-link" aria-label="Direct link to Side note on Linkless Mentions per ChatGPT" title="Direct link to Side note on Linkless Mentions per ChatGPT">​</a></h2>
+<p>Linkless mention tracking is important for LLM visibility because modern language models are trained not just on pages with backlinks but on the full context of language, including brand names mentioned without links. In short: if your brand shows up in the training or inference data—even without a link, it can influence whether you&#x27;re surfaced in answers.</p>
+<p>Here’s why that matters, in practical terms:</p>
+<p>🧠 1. LLMs Learn from Language Context, Not Just Links
+Unlike Google’s PageRank, LLMs aren’t built on link graphs. They &quot;understand&quot; brands through:</p>
+<ul>
+<li>Raw mentions in text (even without a URL)</li>
+<li>Surrounding context (how people describe you)</li>
+<li>Frequency and tone of mentions</li>
+</ul>
+<p>So a brand mentioned often in AI-generated articles, Reddit comments, or summaries, even without backlinks, gets semantically associated with direct mail, marketing automation, etc. This raises its chances of showing up in relevant LLM responses.</p></div><footer class="docusaurus-mt-lg"><div class="row margin-top--sm theme-blog-footer-edit-meta-row"><div class="col"><a href="https://github.com/johnpottergr/johnpottergr.github.io/blog/6-20-2025-llm-visibility-content-audit-tool.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="col lastUpdated_JAkA"></div></div></footer></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Blog post page navigation"><a class="pagination-nav__link pagination-nav__link--prev" href="/blog/6-22-2025-a-new-kind-of-state"><div class="pagination-nav__sublabel">Newer post</div><div class="pagination-nav__label">Brand Visibility in LLMs Requires a New Kind of State</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/blog/6-20-2025-probabilitic-visibility"><div class="pagination-nav__sublabel">Older post</div><div class="pagination-nav__label">Why Probabilistic Visibility Is the New Page One</div></a></nav></main><div class="col col--2"><div class="tableOfContents_bqdL thin-scrollbar"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#the-goal-build-a-stack-that-performs" class="table-of-contents__link toc-highlight">The Goal: Build a Stack That Performs:</a></li><li><a href="#the-recipe" class="table-of-contents__link toc-highlight">The Recipe</a><ul><li><a href="#-1-prompt-recall-tests" class="table-of-contents__link toc-highlight">🧪 1. Prompt Recall Tests</a></li><li><a href="#-2-llm-citation-scans" class="table-of-contents__link toc-highlight">📎 2. LLM Citation Scans</a></li><li><a href="#-3-linkless-mention-tracking" class="table-of-contents__link toc-highlight">🔍 3. Linkless Mention Tracking</a></li><li><a href="#-4-ai-bot-crawlability-checks" class="table-of-contents__link toc-highlight">🤖 4. AI Bot Crawlability Checks</a></li><li><a href="#-5-workflow-automation--logging" class="table-of-contents__link toc-highlight">🔁 5. Workflow Automation &amp; Logging</a></li><li><a href="#-6-reporting--output-optional" class="table-of-contents__link toc-highlight">📄 6. Reporting &amp; Output (Optional)</a></li></ul></li><li><a href="#side-note-on-linkless-mentions-per-chatgpt" class="table-of-contents__link toc-highlight">Side note on Linkless Mentions per ChatGPT</a></li></ul></div></div></div></div></div><footer class="footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="col footer__col"><div class="footer__title">Pages</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/">Welcome</a></li><li class="footer__item"><a class="footer__link-item" href="/portfolio">Services</a></li><li class="footer__item"><a class="footer__link-item" href="/blog">Blog</a></li></ul></div><div class="col footer__col"><div class="footer__title">Community</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://x.com/johnpottergr" target="_blank" rel="noopener noreferrer" class="footer__link-item">X<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div><div class="col footer__col"><div class="footer__title">More</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/blog">Blog</a></li><li class="footer__item"><a href="https://github.com/johnpottergr" target="_blank" rel="noopener noreferrer" class="footer__link-item">Stress Test<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2025 John Potter. Built with Docusaurus.</div></div></div></footer></div>
+</body>
+</html>
