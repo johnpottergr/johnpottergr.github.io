@@ -55,6 +55,9 @@ Founders OnChain Capital</p>, my daily newsletter,
             content strategy and execution, helping them reach niche audiences
             more effectively. My focus is to create clear content that helps teams achieve their goals.
 
+    </p>
+   
+
   </div>
 
 
