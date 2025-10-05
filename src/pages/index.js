@@ -44,24 +44,16 @@ export default function Home() {
   <div style={{ flex: '1 1 60%' }}>
     <p style={{ textAlign: 'left' }}>
       I'm a technical content writer with 7+ years of experience translating complex technical
-      topics into actionable content. As search evolves, so has my
-      focus: I now specialize in content that performs in both
-      traditional SEO and AI-driven search experiences like ChatGPT,
-      Claude, and Google’s AI Overviews. The reason is simple: The
-      average LLM visitor is <a href="https://www.semrush.com/blog/ai-search-seo-traffic-study/">
-      worth 4.4x</a> the average traditional organic
-      search visitor.
+      topics into actionable content. But I’m also branching out, using my background in crypto
+      to help founders fundraise for their startups. My goal with <p style={{ fontStyle: 'italic' }}>
+Founders OnChain Capital</p>, my daily newsletter,
+      is less about organic search and more about providing practical, actionable advice. It’s aimed at founders
+      navigating the Web3 space.
     </p>
      <p style={{ textAlign: 'left',  marginBottom: '35px' }}>
-            I blend writing, strategy, and light automation to
-            create content that resonates with humans and shows up
-            in AI search. My system doesn’t stop at the page,
-            it tracks where your content gets pulled, summarized, and
-            shared by LLMs. Because the next click might not come from
-            Google, it might come from Claude.
-
-    </p>
-    <p>For more information, visit my website at <a href="https://llmvisibility.co">llmvisibility.co</a></p>
+            In the meantime, I’m working with the team at Omniscient Digital to improve their clients’
+            content strategy and execution, helping them reach niche audiences
+            more effectively. My focus is to create clear content that helps teams achieve their goals.
 
   </div>
 
