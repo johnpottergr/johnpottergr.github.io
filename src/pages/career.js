@@ -46,23 +46,11 @@ export default function Workflow() {
   />
   </div>
         <p>
-       My new venture is at <a href="https://llmvisibility.co">Signals</a>.
-        While I still write technical content, my new focus is developing content strategies
-        that highlight brands in AI conversations and prompts. My offerings primarily center around:
-        </p>
-        <ul style={{ maxWidth: '680px', paddingLeft: '20px' }}>
-                    <li>
-            <strong>Visibility Audit</strong> Get a clear picture of where your brand stands on LLM platforms.
-          </li>
-          <li>
-            <strong>Content intelligence:</strong> Transform content strategy by analyzing content embeddings
-          </li>
-          <li>
-          <strong>Performance insights:</strong> Automate measurement of social signals and user behavior
-          </li>
-        </ul>
-<p>Additional, I employ AI to review historical site data to improve website conversion rate optimization.
-  Internally, I can suggest n8n-powered brand workflows across channels to streamline operations and keep your brand consistent.
+       My new venture is called Signals Stack.
+        While I still write technical content, this new venture remains a work in progress. It may
+        evolve into a consulting practice or even a specialized marketing outfit. Regardless,
+        I enjoy writing about the innovation occuring within the Web3 world.
+
         </p>
 
 <div style={{
