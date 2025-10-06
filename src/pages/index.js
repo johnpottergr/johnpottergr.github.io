@@ -58,7 +58,7 @@ Omniscient Digital</a> to improve their clients’
 
     </p>
 
-    <p>My newsletter can be found <a href="https://www.linkedin.com/newsletters/founders-onchain-capital-6976225311034138624/">on LinkedIn</a></p>
+    <p>My newsletter can be found on <a href="https://www.linkedin.com/newsletters/founders-onchain-capital-6976225311034138624/">on LinkedIn</a></p>
 
 
   </div>
@@ -79,7 +79,7 @@ Omniscient Digital</a> to improve their clients’
   </div>
 </div>
 
-         {/* New Section */}
+  {/* New Section */}
   <div>
     <div
   style={{
