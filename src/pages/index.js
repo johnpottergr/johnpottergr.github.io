@@ -27,7 +27,7 @@ export default function Home() {
     textAlign: 'center',
   }}
 >
-  AI Search Visibility, Built-In
+  Bridging Writing, Marketing, and Web3
 </h1>
 
 {/* Flex layout for paragraph + image */}
