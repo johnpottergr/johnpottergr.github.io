@@ -46,8 +46,7 @@ export default function Home() {
       I'm a technical content writer with 7+ years of experience translating complex technical
       topics into actionable content. But I’m also branching out, using my background in crypto
       to help founders fundraise for their startups. My daily newsletter <em>Founders OnChain Capital </em>
-      focuses on providing practical, actionable advice. It’s aimed at founders
-      navigating the Web3 space.
+      focuses on providing practical, actionable advice. It covers on-chain capital strategies, automated DeFi tools for startups, and hybrid models blending crypto, VC, and traditional finance.
     </p>
      <p style={{ textAlign: 'left',  marginBottom: '35px' }}>
             In the meantime, I’m working with the team at <a href="https://beomniscient.com/" target="_blank" rel="noopener noreferrer">
