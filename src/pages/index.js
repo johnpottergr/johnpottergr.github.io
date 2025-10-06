@@ -51,12 +51,15 @@ Founders OnChain Capital</p>, my daily newsletter,
       navigating the Web3 space.
     </p>
      <p style={{ textAlign: 'left',  marginBottom: '35px' }}>
-            In the meantime, I’m working with the team at Omniscient Digital to improve their clients’
+            In the meantime, I’m working with the team at <a href="https://beomniscient.com/" target="_blank" rel="noopener noreferrer">
+Omniscient Digital</a> to improve their clients’
             content strategy and execution, helping them reach niche audiences
             more effectively. My focus is to create clear content that helps teams achieve their goals.
 
     </p>
-   
+
+    <p>My newsletter can be found on <a href="https://www.linkedin.com/newsletters/founders-onchain-capital-6976225311034138624/">on LinkedIn</a></p>
+
 
   </div>
 
