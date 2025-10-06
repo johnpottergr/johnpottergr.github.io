@@ -45,9 +45,8 @@ export default function Home() {
     <p style={{ textAlign: 'left' }}>
       I'm a technical content writer with 7+ years of experience translating complex technical
       topics into actionable content. But I’m also branching out, using my background in crypto
-      to help founders fundraise for their startups. My goal with <p style={{ fontStyle: 'italic' }}>
-Founders OnChain Capital</p>, my daily newsletter,
-      is less about organic search and more about providing practical, actionable advice. It’s aimed at founders
+      to help founders fundraise for their startups. My daily newsletter <em>Founders OnChain Capital </em>
+      focuses on providing practical, actionable advice. It’s aimed at founders
       navigating the Web3 space.
     </p>
      <p style={{ textAlign: 'left',  marginBottom: '35px' }}>
