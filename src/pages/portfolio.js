@@ -78,11 +78,7 @@ export default function Portfolio() {
               Quantum Computing
             </a>
           </li>
-          <li>
-            <a href="#stock-analysis" style={{ color: '#008000', fontWeight: '400',  textDecoration: 'none' }}>
-              Startup Finance
-            </a>
-          </li>
+     
 
           <li>
             <a href="#stock-analysis" style={{ color: '#008000', fontWeight: '400',  textDecoration: 'none' }}>
