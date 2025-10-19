@@ -59,6 +59,11 @@ export default function Portfolio() {
             </a>
           </li>
           <li>
+            <a href="#fintech" style={{ color: '#008000', fontWeight: '400',  textDecoration: 'none' }}>
+              Fintech
+            </a>
+          </li>
+          <li>
             <a href="#it-infrastructure" style={{ color: '#008000', fontWeight: '400',  textDecoration: 'none' }}>
               IT Infrastructure
             </a>
@@ -78,7 +83,7 @@ export default function Portfolio() {
               Quantum Computing
             </a>
           </li>
-     
+
 
           <li>
             <a href="#stock-analysis" style={{ color: '#008000', fontWeight: '400',  textDecoration: 'none' }}>
@@ -308,6 +313,36 @@ export default function Portfolio() {
             </a>
           </li>
         </ul>
+
+{/* Fintech Section */}
+        <h3 id="fintech" style={{ color: '#222', marginTop: '40px', scrollMarginTop: '100px' }}>Fintech</h3>
+        <ul style={{ lineHeight: '1.6' }}>
+          <li>
+            <a href="https://pulley.com/blog-posts/what-matters-409-valuation" style={{ color: '#008000', textDecoration: 'none' }}>
+              Sample 409A Valuation Report for Startups
+            </a>
+          </li>
+           <li>
+            <a href="https://pulley.com/blog-posts/scenario-modeling-software" style={{ color: '#008000', textDecoration: 'none' }}>
+              Top Scenario Modeling Software for Startups
+            </a>
+          </li>
+           <li>
+            <a href="https://pulley.com/blog-posts/carta-409a-valuation" style={{ color: '#008000', textDecoration: 'none' }}>
+              How Pulley Solves Carta’s 409A Valuation Risks
+            </a>
+          </li>
+           <li>
+            <a href="https://pulley.com/blog-posts/7-cap-table-mistakes-and-how-to-avoid-them" style={{ color: '#008000', textDecoration: 'none' }}>
+              7 cap table mistakes (and how to avoid them)
+            </a>
+          </li>
+           <li>
+            <a href="https://llmvisibility.co/portfolio.html#:~:text=Pulley%20Integrations%20for%20Startup%20Finance%20and%20Hiring%20Flows" style={{ color: '#008000', textDecoration: 'none' }}>
+              Pulley Integrations for Startup Finance and Hiring Flows
+            </a>
+          </li>
+                 </ul>
 
  {/* IT Infrastructure Section */}
  <h3 style={{ color: '#222', marginTop: '40px', scrollMarginTop: '100px' }}>IT Infrastructure</h3>
